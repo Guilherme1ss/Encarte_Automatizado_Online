@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time
 import numpy as np
-import json
 import os
 import string
 import warnings
@@ -14,10 +13,6 @@ import re
 # Suprime avisos específicos do openpyxl
 warnings.filterwarnings("ignore", category=UserWarning, module='openpyxl')
 
-# --- Configurações para persistência de datas ---
-DATE_FILE = 'last_encarte_dates.json'
-DATE_FORMAT_SAVE = "%Y-%m-%d"  # Formato ISO para salvar datas
-
 def get_unique_filename(path):
     """Recebe um caminho de arquivo e retorna um nome único no mesmo diretório."""
     base, ext = os.path.splitext(path)
@@ -27,37 +22,6 @@ def get_unique_filename(path):
         new_path = f"{base} ({counter}){ext}"
         counter += 1
     return new_path
-
-# --- Funções de persistência de datas ---
-def load_last_encarte_dates(temp_dir):
-    """Carrega as últimas datas do encarte do arquivo JSON, se existir."""
-    date_file_path = os.path.join(temp_dir, DATE_FILE)
-    if os.path.exists(date_file_path):
-        try:
-            with open(date_file_path, 'r') as f:
-                data = json.load(f)
-            start_str = data.get('start_encarte')
-            end_str = data.get('end_encarte')
-            if start_str and end_str:
-                return datetime.strptime(start_str, DATE_FORMAT_SAVE), \
-                       datetime.strptime(end_str, DATE_FORMAT_SAVE)
-        except (json.JSONDecodeError, ValueError, KeyError) as e:
-            st.warning(f"Erro ao ler arquivo de datas '{DATE_FILE}': {e}. Ignorando.")
-    return None, None
-
-def save_encarte_dates(start_date, end_date, temp_dir):
-    """Salva as datas do encarte no arquivo JSON para uso futuro."""
-    data_to_save = {
-        'start_encarte': start_date.strftime(DATE_FORMAT_SAVE),
-        'end_encarte': end_date.strftime(DATE_FORMAT_SAVE)
-    }
-    date_file_path = os.path.join(temp_dir, DATE_FILE)
-    try:
-        with open(date_file_path, 'w') as f:
-            json.dump(data_to_save, f, indent=4)
-        st.success(f"Datas '{start_date.strftime('%d/%m/%Y')}' a '{end_date.strftime('%d/%m/%Y')}' salvas.")
-    except IOError as e:
-        st.error(f"Erro: não foi possível salvar datas em '{DATE_FILE}': {e}")
 
 # --- Função para limpar e converter preços ---
 def clean_price_value(value):
@@ -123,23 +87,46 @@ def correct_product_name(name):
         corrected_name = re.sub(pattern, replacement, corrected_name, flags=re.IGNORECASE)
     return corrected_name.upper()
 
-# --- Funções para determinar unidade e tipo de código ---
-def get_unit(ean):
-    if pd.isna(ean) or not str(ean).strip():
-        return 'Unidade'
-    eans = [e.strip() for e in str(ean).split(';') if e.strip()]
+# Função única para classificar EAN
+def classify_ean(ean_str):
+    """
+    Classifica o EAN retornando uma tupla (tipo_codigo, unidade).
+    Regras:
+      - Se tinha "/" originalmente → Interno, Quilograma
+      - Se todos os códigos < 13 dígitos → Interno, Quilograma
+      - Caso contrário → EAN, Unidade
+    """
+    if not ean_str or pd.isna(ean_str) or not str(ean_str).strip():
+        return ("EAN", "Unidade")
+
+    ean_str = str(ean_str)
+
+    # Flag para saber se originalmente havia barra
+    had_slash = "/" in ean_str
+
+    # Normalizar: trocar "/" por ";"
+    ean_str = ean_str.replace("/", ";")
+
+    # Agora separar em lista
+    eans = [e.strip() for e in ean_str.split(';') if e.strip()]
     if not eans:
-        return 'Unidade'
+        return ("EAN", "Unidade")
+
     lens = [len(e) for e in eans]
-    if all(l < 13 for l in lens):
-        return 'Quilograma'
+
+    if had_slash or all(l < 13 for l in lens):
+        return ("Interno", "Quilograma")
     else:
-        return 'Unidade'
+        return ("EAN", "Unidade")
 
 def get_code_type(ean):
     if pd.isna(ean) or not str(ean).strip():
         return 'EAN'
-    eans = [e.strip() for e in str(ean).split(';') if e.strip()]
+    ean_str = str(ean)
+    # Regra nova: se tinha barra, é Interno
+    if "/" in ean_str:
+        return 'Interno'
+    eans = [e.strip() for e in ean_str.split(';') if e.strip()]
     if not eans:
         return 'EAN'
     lens = [len(e) for e in eans]
@@ -148,24 +135,37 @@ def get_code_type(ean):
     else:
         return 'EAN'
 
-# --- Função para montar o DataFrame final ---
+# Função principal de montagem do DataFrame
 def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map, apply_name_correction):
     df_copy = filtered_df.copy()
+
     # Aplicar correção de nomes de produtos se habilitado
     if apply_name_correction:
         df_copy['descrição do item'] = df_copy['descrição do item'].apply(correct_product_name)
     else:
-        df_copy['descrição do item'] = df_copy['descrição do item'].apply(lambda x: str(x).strip().upper() if not pd.isna(x) else "")
-    # Aplicar funções para unidade e tipo de código
-    df_copy['final_unit'] = df_copy['ean'].apply(get_unit)
-    df_copy['final_code_type'] = df_copy['ean'].apply(get_code_type)
+        df_copy['descrição do item'] = df_copy['descrição do item'].apply(
+            lambda x: str(x).strip().upper() if not pd.isna(x) else ""
+        )
+
+    # Substituir "/" por ";" na coluna ean
+    df_copy['ean'] = df_copy['ean'].astype(str).str.replace("/", ";", regex=False)
+
+    # Aplicar função única para tipo de código e unidade
+    df_copy[['final_code_type', 'final_unit']] = df_copy['ean'].apply(
+        lambda x: pd.Series(classify_ean(x))
+    )
+
     # Normalizar a coluna 'comprador' para mapear o carrossel
     if 'comprador' in df_copy.columns:
         df_copy['comprador_normalized'] = df_copy['comprador'].apply(normalize_text)
     else:
         df_copy['comprador_normalized'] = ''
         st.warning("Coluna 'comprador' não encontrada. 'Carrossel' ficará vazia.")
-    df_copy['final_carrossel'] = df_copy['comprador_normalized'].apply(lambda x: get_carrossel_value(x, buyer_carrossel_map))
+
+    df_copy['final_carrossel'] = df_copy['comprador_normalized'].apply(
+        lambda x: get_carrossel_value(x, buyer_carrossel_map)
+    )
+
     # Monta DataFrame com as colunas esperadas
     return pd.DataFrame({
         "Nome": df_copy["descrição do item"],
@@ -289,10 +289,9 @@ st.write("Faça upload da planilha de promoções (xlsx, xls ou csv) e, opcional
 # Criar diretório temporário
 temp_dir = tempfile.mkdtemp()
 
-# Carregar últimas datas
-last_start, last_end = load_last_encarte_dates(temp_dir)
-default_start = last_start if last_start else datetime.today()
-default_end = last_end if last_end else datetime.today() + timedelta(days=7)
+# Definir datas padrão
+default_start = datetime.today()
+default_end = datetime.today() + timedelta(days=7)
 
 # Inputs de data
 col1, col2 = st.columns(2)
@@ -305,15 +304,6 @@ with col2:
 if end_date < start_date:
     st.error("A data de fim não pode ser anterior à data de início.")
 else:
-    # Opção para usar últimas datas
-    if last_start and last_end:
-        use_last = st.checkbox(
-            f"Usar período anterior: {last_start.strftime('%d/%m/%Y')} até {last_end.strftime('%d/%m/%Y')}"
-        )
-        if use_last:
-            start_date = last_start
-            end_date = last_end
-
     # Checkbox para correção de nomes
     apply_name_correction = st.checkbox("Aplicar correção de nomes de produtos", value=False)
 
@@ -332,10 +322,8 @@ else:
         if st.button("Processar Promoções"):
             with st.spinner("Processando..."):
                 # Converter datas para datetime
-                start_date = datetime.combine(start_date, datetime.min.time())
-                end_date = datetime.combine(end_date, datetime.min.time())
-                # Salvar datas
-                save_encarte_dates(start_date, end_date, temp_dir)
+                start_date = datetime.combine(start_date, time(0, 0))
+                end_date = datetime.combine(end_date, time(23, 59))
                 # Processar
                 output_files = process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction)
                 # Oferecer download dos arquivos gerados

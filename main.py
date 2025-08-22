@@ -74,7 +74,32 @@ def get_carrossel_value(normalized_buyer, mapping):
 # --- Dicionário de correção de nomes de produtos ---
 product_name_corrections = {
     r'\bcafe\b': 'CAFÉ',
+    r'\bpo\b': 'PÓ',
+    r'\bpao\b': 'PÃO',
     r'\bleite ferm\b': 'LEITE FERMENTADO',
+    r'\bdesinf\b': 'DESINFETANTE',
+    r'\bsabao\b': 'SABÃO',
+    r'\bsab barra\b': 'SABONETE EM BARRA',
+    r'\bcrm pent\b': "CREME DE PENTEAR",
+    r'\bsta clara\b': 'SANTA CLARA',
+    r'\bvinho tto\b': 'VINHO TINTO',
+    r'\bacucar\b': 'AÇÚCAR',
+    r'\bqjo\b': 'QUEIJO',
+    r'\bparmesão\b': 'PARMESÃO',
+    r'\bfile\b': 'FILÉ',
+    r'\bhamb\b': 'HAMBÚRGER',
+    r'\bfgo\b': 'FRANGO',
+    r'\bespag\b': 'ESPAGUETE',
+    r'\blacteo\b': 'LÁCTEO',
+    r'\bhig\b': 'HIGIÊNICO',
+    r'\bracao\b': 'RAÇÃO',
+    r'\bhidrat corp\b': 'HIDRATANTE CORPORAL',
+    r'\bprot diario\b': 'PROTETOR DIÁRIO',
+    r'\bmarata\b': 'MARATÁ',
+    r'\balgodao\b': 'ALGODÃO',
+    r'\bype\b': 'YPÊ',
+    r'\brefrig\b': 'REFRIGERANTE',
+
     # Adicione mais correções conforme necessário
 }
 
@@ -86,6 +111,16 @@ def correct_product_name(name):
     for pattern, replacement in product_name_corrections.items():
         corrected_name = re.sub(pattern, replacement, corrected_name, flags=re.IGNORECASE)
     return corrected_name.upper()
+
+def remove_suffix(text):
+    """Remove sufixos como _sell out, _faturamento e tudo que vier depois."""
+    if pd.isna(text):
+        return ""
+    # Lista de palavras-chave que indicam sufixos a remover
+    keywords = ['sell out', 'faturamento', 'sell in']
+    pattern = r'_(' + '|'.join(keywords) + r').*$'
+    return re.sub(pattern, '', str(text), flags=re.IGNORECASE).strip()
+
 
 # Função única para classificar EAN
 def classify_ean(ean_str):
@@ -123,7 +158,7 @@ def get_code_type(ean):
     if pd.isna(ean) or not str(ean).strip():
         return 'EAN'
     ean_str = str(ean)
-    # Regra nova: se tinha barra, é Interno
+
     if "/" in ean_str:
         return 'Interno'
     eans = [e.strip() for e in ean_str.split(';') if e.strip()]
@@ -138,6 +173,9 @@ def get_code_type(ean):
 # Função principal de montagem do DataFrame
 def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map, apply_name_correction):
     df_copy = filtered_df.copy()
+
+      # Primeiro remove sufixos indesejados
+    df_copy['descrição do item'] = df_copy['descrição do item'].apply(remove_suffix)
 
     # Aplicar correção de nomes de produtos se habilitado
     if apply_name_correction:
@@ -222,8 +260,27 @@ def merge_ean_data(df_base, ean_file):
         st.error(f"Erro ao mesclar dados de EAN: {e}")
         return df_base
 
+# --- Função para listar planilhas disponíveis ---
+def list_sheets(uploaded_file):
+    """Retorna a lista de planilhas disponíveis no arquivo ou None para CSV."""
+    file_extension = os.path.splitext(uploaded_file.name)[1].lower()
+    try:
+        if file_extension in ['.xlsx', '.xls']:
+            # Ler o arquivo Excel sem carregar os dados imediatamente
+            xl = pd.ExcelFile(uploaded_file)
+            return xl.sheet_names
+        elif file_extension == '.csv':
+            # CSV não tem planilhas, retornar nome genérico
+            return ["Planilha CSV"]
+        else:
+            st.error("Formato de arquivo não suportado. Use xlsx, xls ou csv.")
+            return []
+    except Exception as e:
+        st.error(f"Erro ao listar planilhas: {e}")
+        return []
+
 # --- Função principal para processar a planilha ---
-def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction):
+def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction, sheet_name):
     profiles = ["GERAL/PREMIUM", "GERAL", "PREMIUM"]
     store_mapping = {
         "GERAL": "4368-4363-4362-4357-4360-4356-4370-4359-4372-4353-4371-4365-4369-4361-4366-4354-4355-4364",
@@ -235,9 +292,9 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
     file_extension = os.path.splitext(uploaded_file.name)[1].lower()
     try:
         if file_extension in ['.xlsx', '.xls']:
-            df_base = pd.read_excel(uploaded_file, sheet_name="Aniversário 2025", header=4)
+            df_base = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=4)
         elif file_extension == '.csv':
-            df_base = pd.read_csv(uploaded_file, header=4)
+            df_base = pd.read_csv(uploaded_file, sep=';', header=4)
         else:
             st.error("Formato de arquivo base não suportado. Use xlsx, xls ou csv.")
             return []
@@ -284,7 +341,7 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
 
 # --- Interface Streamlit ---
 st.title("Processador de Promoções CRM")
-st.write("Faça upload da planilha de promoções (xlsx, xls ou csv) e, opcionalmente, um arquivo com EANs (xlsx, xls ou csv). Selecione as datas do encarte.")
+st.write("Faça upload da planilha de promoções (xlsx, xls ou csv) e, opcionalmente, um arquivo com EANs (xlsx, xls ou csv). Selecione as datas do encarte e a planilha desejada.")
 
 # Criar diretório temporário
 temp_dir = tempfile.mkdtemp()
@@ -311,21 +368,31 @@ else:
     use_ean_file = st.checkbox("Usar arquivo de EANs", value=False)
 
     # Upload da planilha base
-    uploaded_file = st.file_uploader("Selecione a planilha de promoções", type=["xlsx", "xls", "csv"])
+    uploaded_file = st.file_uploader("Selecione o arquivo de ENCARTE CONSOLIDADO", type=["xlsx", "xls", "csv"])
+    
+    # Seleção de planilha
+    selected_sheet = None
+    if uploaded_file:
+        sheet_names = list_sheets(uploaded_file)
+        if sheet_names:
+            st.write("Selecione a planilha para processar:")
+            selected_sheet = st.selectbox("Planilhas disponíveis", sheet_names)
+        else:
+            st.error("Nenhuma planilha encontrada no arquivo.")
     
     # Upload opcional do arquivo de EANs, mostrado apenas se o checkbox estiver marcado
     ean_file = None
     if use_ean_file:
         ean_file = st.file_uploader("Selecione o arquivo de EANs (opcional)", type=["xlsx", "xls", "csv"])
 
-    if uploaded_file:
+    if uploaded_file and selected_sheet:
         if st.button("Processar Promoções"):
             with st.spinner("Processando..."):
                 # Converter datas para datetime
                 start_date = datetime.combine(start_date, time(0, 0))
                 end_date = datetime.combine(end_date, time(23, 59))
                 # Processar
-                output_files = process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction)
+                output_files = process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction, selected_sheet)
                 # Oferecer download dos arquivos gerados
                 for filename, filepath in output_files:
                     with open(filepath, "rb") as f:

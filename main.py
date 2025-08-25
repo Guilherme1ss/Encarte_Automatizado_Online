@@ -9,6 +9,8 @@ import unicodedata
 import tempfile
 from pathlib import Path
 import re
+import openpyxl
+from openpyxl.styles import PatternFill
 
 # Suprime avisos específicos do openpyxl
 warnings.filterwarnings("ignore", category=UserWarning, module='openpyxl')
@@ -121,7 +123,6 @@ def remove_suffix(text):
     pattern = r'_(' + '|'.join(keywords) + r').*$'
     return re.sub(pattern, '', str(text), flags=re.IGNORECASE).strip()
 
-
 # Função única para classificar EAN
 def classify_ean(ean_str):
     """
@@ -174,7 +175,7 @@ def get_code_type(ean):
 def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map, apply_name_correction):
     df_copy = filtered_df.copy()
 
-      # Primeiro remove sufixos indesejados
+    # Primeiro remove sufixos indesejados
     df_copy['descrição do item'] = df_copy['descrição do item'].apply(remove_suffix)
 
     # Aplicar correção de nomes de produtos se habilitado
@@ -305,6 +306,30 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
     # Limpar colunas
     df_base.columns = df_base.columns.str.strip().str.replace(r'\s+', ' ', regex=True).str.lower()
     
+    # Inicializar colunas de preços limpos e marcadores de cópia
+    df_base["preço de:"] = df_base["preço de:"].apply(clean_price_value)
+    df_base["preço por:"] = df_base["preço por:"].apply(clean_price_value)
+    df_base["copied_preço_de"] = False
+    df_base["copied_preço_por"] = False
+
+    # Processar preços vazios com base nos 7 primeiros dígitos do EAN
+    for i in range(len(df_base)):
+        if pd.isna(df_base.iloc[i]["preço de:"]) and i > 0:
+            # Obter EANs da linha atual e anterior
+            current_ean = str(df_base.iloc[i]["ean"]) if not pd.isna(df_base.iloc[i]["ean"]) else ""
+            prev_ean = str(df_base.iloc[i-1]["ean"]) if not pd.isna(df_base.iloc[i-1]["ean"]) else ""
+            # Comparar os 7 primeiros dígitos
+            if current_ean[:7] == prev_ean[:7] and not pd.isna(df_base.iloc[i-1]["preço de:"]):
+                df_base.iloc[i, df_base.columns.get_loc("preço de:")] = df_base.iloc[i-1]["preço de:"]
+                df_base.iloc[i, df_base.columns.get_loc("copied_preço_de")] = True
+        
+        if pd.isna(df_base.iloc[i]["preço por:"]) and i > 0:
+            current_ean = str(df_base.iloc[i]["ean"]) if not pd.isna(df_base.iloc[i]["ean"]) else ""
+            prev_ean = str(df_base.iloc[i-1]["ean"]) if not pd.isna(df_base.iloc[i-1]["ean"]) else ""
+            if current_ean[:7] == prev_ean[:7] and not pd.isna(df_base.iloc[i-1]["preço por:"]):
+                df_base.iloc[i, df_base.columns.get_loc("preço por:")] = df_base.iloc[i-1]["preço por:"]
+                df_base.iloc[i, df_base.columns.get_loc("copied_preço_por")] = True
+
     # Mesclar com arquivo de EANs, se fornecido e habilitado
     if use_ean_file and ean_file:
         df_base = merge_ean_data(df_base, ean_file)
@@ -321,16 +346,57 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
 
     for profile in profiles:
         df_profile = df_filtered[df_filtered["perfil de loja"] == profile].copy()
-        # Limpar preços sem preencher valores mesclados
-        df_profile["preço de:"] = df_profile["preço de:"].apply(clean_price_value)
-        df_profile["preço por:"] = df_profile["preço por:"].apply(clean_price_value)
+        
         # Montar DataFrame final
         df_final = build_final_dataframe(df_profile, profile, start_date, end_date, store_mapping, apply_name_correction)
-        # Salvar arquivo Excel
+        
+        # Salvar arquivo Excel com formatação condicional
         filename = f"promo_{profile.replace('/', '_')}_CRM.xlsx"
         filepath = os.path.join(temp_dir, filename)
         filepath = get_unique_filename(filepath)
-        df_final.to_excel(filepath, index=False)
+        
+        # Salvar o DataFrame como Excel usando pandas
+        df_final.to_excel(filepath, index=False, engine='openpyxl')
+        
+               # Carregar o arquivo Excel com openpyxl para aplicar formatação
+        wb = openpyxl.load_workbook(filepath)
+        ws = wb.active
+
+        # Definir preenchimentos
+        yellow_fill = PatternFill(start_color='FFFF00', end_color='FFFF00', fill_type='solid')
+        red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
+
+        # Identificar índices das colunas usando cabeçalhos
+        header_values = [cell.value for cell in ws[1]]
+        preco_col = header_values.index("Preço") + 1
+        preco_promo_col = header_values.index("Preço promocional") + 1
+        unidade_col = header_values.index("Unidade") + 1
+        tipo_codigo_col = header_values.index("Tipo do código") + 1
+
+        # Iterar nas linhas de dados
+        for row_idx in range(2, ws.max_row + 1):
+            preco_cell = ws.cell(row=row_idx, column=preco_col)
+            preco_promo_cell = ws.cell(row=row_idx, column=preco_promo_col)
+            unidade_cell = ws.cell(row=row_idx, column=unidade_col)
+            tipo_codigo_cell = ws.cell(row=row_idx, column=tipo_codigo_col)
+
+            # 1) Se preço ou preço promocional está vazio -> vermelho
+            if preco_cell.value in (None, "", "nan"):
+                preco_cell.fill = red_fill
+            if preco_promo_cell.value in (None, "", "nan"):
+                preco_promo_cell.fill = red_fill
+
+            # 2) Se unidade = QUILOGRAMA -> amarelo
+            if str(unidade_cell.value).strip().upper() == "QUILOGRAMA":
+                unidade_cell.fill = yellow_fill
+
+            # 3) Se tipo código = INTERNO -> amarelo
+            if str(tipo_codigo_cell.value).strip().upper() == "INTERNO":
+                tipo_codigo_cell.fill = yellow_fill
+
+        # Salvar o arquivo com a nova formatação
+        wb.save(filepath)
+        
         output_files.append((filename, filepath))
         st.success(f"✅ Arquivo gerado: {filename}")
 

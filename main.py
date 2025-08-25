@@ -11,6 +11,8 @@ from pathlib import Path
 import re
 import openpyxl
 from openpyxl.styles import PatternFill
+import math
+from io import BytesIO
 
 # Suprime avisos específicos do openpyxl
 warnings.filterwarnings("ignore", category=UserWarning, module='openpyxl')
@@ -355,18 +357,20 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
         filepath = os.path.join(temp_dir, filename)
         filepath = get_unique_filename(filepath)
         
-        # Salvar o DataFrame como Excel usando pandas
-        df_final.to_excel(filepath, index=False, engine='openpyxl')
-        
-               # Carregar o arquivo Excel com openpyxl para aplicar formatação
-        wb = openpyxl.load_workbook(filepath)
+        # Criar buffer em memória
+        output = BytesIO()
+        df_final.to_excel(output, index=False, engine="openpyxl")
+        output.seek(0)
+
+        # Carregar o arquivo Excel com openpyxl para aplicar formatação
+        wb = openpyxl.load_workbook(output)
         ws = wb.active
 
         # Definir preenchimentos
         yellow_fill = PatternFill(start_color='FFFF00', end_color='FFFF00', fill_type='solid')
         red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')
 
-        # Identificar índices das colunas usando cabeçalhos
+        # Identificar índices das colunas
         header_values = [cell.value for cell in ws[1]]
         preco_col = header_values.index("Preço") + 1
         preco_promo_col = header_values.index("Preço promocional") + 1
@@ -374,6 +378,7 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
         tipo_codigo_col = header_values.index("Tipo do código") + 1
 
         # Iterar nas linhas de dados
+        import math
         for row_idx in range(2, ws.max_row + 1):
             preco_cell = ws.cell(row=row_idx, column=preco_col)
             preco_promo_cell = ws.cell(row=row_idx, column=preco_promo_col)
@@ -381,9 +386,14 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
             tipo_codigo_cell = ws.cell(row=row_idx, column=tipo_codigo_col)
 
             # 1) Se preço ou preço promocional está vazio -> vermelho
-            if preco_cell.value in (None, "", "nan"):
+            if preco_cell.value is None or str(preco_cell.value).strip() in ("", "nan") or (
+                isinstance(preco_cell.value, float) and math.isnan(preco_cell.value)
+            ):
                 preco_cell.fill = red_fill
-            if preco_promo_cell.value in (None, "", "nan"):
+
+            if preco_promo_cell.value is None or str(preco_promo_cell.value).strip() in ("", "nan") or (
+                isinstance(preco_promo_cell.value, float) and math.isnan(preco_promo_cell.value)
+            ):
                 preco_promo_cell.fill = red_fill
 
             # 2) Se unidade = QUILOGRAMA -> amarelo
@@ -394,10 +404,13 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
             if str(tipo_codigo_cell.value).strip().upper() == "INTERNO":
                 tipo_codigo_cell.fill = yellow_fill
 
-        # Salvar o arquivo com a nova formatação
-        wb.save(filepath)
-        
-        output_files.append((filename, filepath))
+        # Salvar no mesmo buffer
+        output = BytesIO()
+        wb.save(output)
+        output.seek(0)
+
+        # Guardar na lista de saída
+        output_files.append((filename, output))
         st.success(f"✅ Arquivo gerado: {filename}")
 
     return output_files
@@ -457,11 +470,10 @@ else:
                 # Processar
                 output_files = process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction, selected_sheet)
                 # Oferecer download dos arquivos gerados
-                for filename, filepath in output_files:
-                    with open(filepath, "rb") as f:
-                        st.download_button(
-                            label=f"Baixar {filename}",
-                            data=f,
-                            file_name=filename,
-                            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                        )
+                for filename, output in output_files:
+                    st.download_button(
+                        label=f"Baixar {filename}",
+                        data=output,
+                        file_name=filename,
+                        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                    )

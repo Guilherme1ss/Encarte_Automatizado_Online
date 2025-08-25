@@ -309,7 +309,7 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
     if use_ean_file and ean_file:
         df_base = merge_ean_data(df_base, ean_file)
 
-    # Preencher valores mesclados
+    # Preencher valores mesclados (exceto preços)
     df_base['perfil de loja'] = df_base['perfil de loja'].ffill()
     df_base['tipo ação'] = df_base['tipo ação'].ffill()
     # Filtrar linhas com "CRM" no 'tipo ação'
@@ -321,10 +321,7 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
 
     for profile in profiles:
         df_profile = df_filtered[df_filtered["perfil de loja"] == profile].copy()
-        # Preencher preços mesclados
-        df_profile["preço de:"] = df_profile["preço de:"].ffill()
-        df_profile["preço por:"] = df_profile["preço por:"].ffill()
-        # Limpar preços
+        # Limpar preços sem preencher valores mesclados
         df_profile["preço de:"] = df_profile["preço de:"].apply(clean_price_value)
         df_profile["preço por:"] = df_profile["preço por:"].apply(clean_price_value)
         # Montar DataFrame final

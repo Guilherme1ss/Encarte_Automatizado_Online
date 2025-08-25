@@ -356,14 +356,12 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
         filename = f"promo_{profile.replace('/', '_')}_CRM.xlsx"
         filepath = os.path.join(temp_dir, filename)
         filepath = get_unique_filename(filepath)
-        
-        # Criar buffer em memória
-        output = BytesIO()
-        df_final.to_excel(output, index=False, engine="openpyxl")
-        output.seek(0)
+
+        # Salvar o DataFrame diretamente no arquivo
+        df_final.to_excel(filepath, index=False, engine="openpyxl")
 
         # Carregar o arquivo Excel com openpyxl para aplicar formatação
-        wb = openpyxl.load_workbook(output)
+        wb = openpyxl.load_workbook(filepath)
         ws = wb.active
 
         # Definir preenchimentos
@@ -378,7 +376,6 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
         tipo_codigo_col = header_values.index("Tipo do código") + 1
 
         # Iterar nas linhas de dados
-        import math
         for row_idx in range(2, ws.max_row + 1):
             preco_cell = ws.cell(row=row_idx, column=preco_col)
             preco_promo_cell = ws.cell(row=row_idx, column=preco_promo_col)
@@ -404,10 +401,12 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
             if str(tipo_codigo_cell.value).strip().upper() == "INTERNO":
                 tipo_codigo_cell.fill = yellow_fill
 
-        # Salvar no mesmo buffer
-        output = BytesIO()
-        wb.save(output)
-        output.seek(0)
+        # Salvar o arquivo formatado
+        wb.save(filepath)
+
+        # Ler o arquivo para o buffer de download
+        with open(filepath, "rb") as f:
+            output = BytesIO(f.read())
 
         # Guardar na lista de saída
         output_files.append((filename, output))

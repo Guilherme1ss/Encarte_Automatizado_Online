@@ -17,6 +17,16 @@ from io import BytesIO
 # Suprime avisos específicos do openpyxl
 warnings.filterwarnings("ignore", category=UserWarning, module='openpyxl')
 
+# Função para corrigir códigos interpretados como datas
+def fix_if_date(value):
+    if pd.isna(value):
+        return value
+    if isinstance(value, (datetime, pd.Timestamp)):
+        # Converte data para 'ano-mês' (ex: 2050-8, sem zero à esquerda no mês)
+        return f"{value.year}-{value.month}"
+    else:
+        return str(value)
+
 def get_unique_filename(path):
     """Recebe um caminho de arquivo e retorna um nome único no mesmo diretório."""
     base, ext = os.path.splitext(path)
@@ -207,6 +217,21 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
         lambda x: get_carrossel_value(x, buyer_carrossel_map)
     )
 
+    # Filtrar linhas com informações obrigatórias ausentes
+    df_copy = df_copy[
+        (df_copy['descrição do item'].notna()) & 
+        (df_copy['descrição do item'].str.strip() != '') &
+        (df_copy['preço de:'].notna()) &
+        (~df_copy['preço de:'].isna()) &
+        (df_copy['preço por:'].notna()) &
+        (~df_copy['preço por:'].isna())
+    ]
+
+    # Verificar se há linhas válidas após o filtro
+    if df_copy.empty:
+        st.warning(f"Nenhuma linha válida encontrada para o perfil {profile}. O arquivo não será gerado.")
+        return None
+
     # Monta DataFrame com as colunas esperadas
     return pd.DataFrame({
         "Nome": df_copy["descrição do item"],
@@ -241,11 +266,21 @@ def merge_ean_data(df_base, ean_file):
         else:
             st.error("Formato de arquivo de EANs não suportado. Use xlsx, xls ou csv.")
             return df_base
+        
         # Renomear colunas para consistência
         df_ean = df_ean.rename(columns={'CÓDIGO PRODUTO': 'código', 'CÓDIGO EAN': 'ean'})
+        
+        # Aplicar correção para códigos interpretados como datas
+        if 'código' in df_ean.columns:
+            df_ean['código'] = df_ean['código'].apply(fix_if_date)
+        if 'ean' in df_ean.columns:
+            df_ean['ean'] = df_ean['ean'].apply(fix_if_date)
+        
         # Normalizar a coluna 'código' em ambos os DataFrames, removendo hífens
         df_base['código'] = df_base['código'].astype(str).str.strip().str.replace('-', '')
         df_ean['código'] = df_ean['código'].astype(str).str.strip().str.replace('-', '')
+        
+        # ... (o resto do código de mesclagem permanece igual)
         # Criar uma lista para armazenar as novas linhas
         expanded_rows = []
         for _, row in df_base.iterrows():
@@ -308,6 +343,12 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
     # Limpar colunas
     df_base.columns = df_base.columns.str.strip().str.replace(r'\s+', ' ', regex=True).str.lower()
     
+    # Aplicar correção para códigos interpretados como datas (após normalizar colunas)
+    if 'código' in df_base.columns:
+        df_base['código'] = df_base['código'].apply(fix_if_date)
+    if 'ean' in df_base.columns:
+        df_base['ean'] = df_base['ean'].apply(fix_if_date)
+        
     # Inicializar colunas de preços limpos e marcadores de cópia
     df_base["preço de:"] = df_base["preço de:"].apply(clean_price_value)
     df_base["preço por:"] = df_base["preço por:"].apply(clean_price_value)

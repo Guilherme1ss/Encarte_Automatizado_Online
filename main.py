@@ -152,7 +152,7 @@ def classify_ean(ean_str):
 
     lens = [len(e) for e in eans]
 
-    if had_slash or all(l < 13 for l in lens):
+    if had_slash or all(l < 12 for l in lens):
         return ("Interno", "Quilograma")
     else:
         return ("EAN", "Unidade")
@@ -407,6 +407,7 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
         # Ler o arquivo para o buffer de download
         with open(filepath, "rb") as f:
             output = BytesIO(f.read())
+            output.seek(0)  # 🔴 importante
 
         # Guardar na lista de saída
         output_files.append((filename, output))

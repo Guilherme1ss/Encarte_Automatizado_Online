@@ -217,17 +217,7 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
         lambda x: get_carrossel_value(x, buyer_carrossel_map)
     )
 
-    # Filtrar linhas com informações obrigatórias ausentes
-    df_copy = df_copy[
-        (df_copy['descrição do item'].notna()) & 
-        (df_copy['descrição do item'].str.strip() != '') &
-        (df_copy['preço de:'].notna()) &
-        (~df_copy['preço de:'].isna()) &
-        (df_copy['preço por:'].notna()) &
-        (~df_copy['preço por:'].isna())
-    ]
-
-    # Verificar se há linhas válidas após o filtro
+    # Verificar se há linhas válidas após o processamento
     if df_copy.empty:
         st.warning(f"Nenhuma linha válida encontrada para o perfil {profile}. O arquivo não será gerado.")
         return None

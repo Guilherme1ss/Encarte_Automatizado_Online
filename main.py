@@ -113,8 +113,6 @@ product_name_corrections = {
     r'\balgodao\b': 'ALGODÃO',
     r'\bype\b': 'YPÊ',
     r'\brefrig\b': 'REFRIGERANTE',
-
-    # Adicione mais correções conforme necessário
 }
 
 def correct_product_name(name):
@@ -135,7 +133,6 @@ def remove_suffix(text):
     pattern = r'_(' + '|'.join(keywords) + r').*$'
     return re.sub(pattern, '', str(text), flags=re.IGNORECASE).strip()
 
-# Função única para classificar EAN
 def classify_ean(ean_str):
     """
     Classifica o EAN retornando uma tupla (tipo_codigo, unidade).
@@ -245,7 +242,7 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
 
 # --- Função para mesclar EANs do arquivo ---
 def merge_ean_data(df_base, ean_file):
-    """Mescla os EANs do arquivo com a tabela base usando a coluna CÓDIGO."""
+    """Mescla os EANs do arquivo com a tabela base usando a coluna CÓDIGO, combinando EANs do encarte e do arquivo."""
     try:
         # Determinar o tipo de arquivo pela extensão
         file_extension = os.path.splitext(ean_file.name)[1].lower()
@@ -270,17 +267,39 @@ def merge_ean_data(df_base, ean_file):
         df_base['código'] = df_base['código'].astype(str).str.strip().str.replace('-', '')
         df_ean['código'] = df_ean['código'].astype(str).str.strip().str.replace('-', '')
         
-        # ... (o resto do código de mesclagem permanece igual)
         # Criar uma lista para armazenar as novas linhas
         expanded_rows = []
         for _, row in df_base.iterrows():
-            # Encontrar EANs correspondentes
-            matching_eans = df_ean[df_ean['código'] == row['código']]['ean']
             new_row = row.copy()
+            # Obter o EAN do encarte consolidado
+            encarte_ean = str(new_row['ean']).strip() if not pd.isna(new_row['ean']) else ""
+            # Normalizar EAN do encarte, substituindo '/' por ';'
+            encarte_ean = encarte_ean.replace('/', ';')
+            # Converter EAN do encarte em lista
+            encarte_ean_list = [e.strip() for e in encarte_ean.split(';') if e.strip() and e != 'nan']
+            
+            # Encontrar EANs correspondentes no arquivo de EANs
+            matching_eans = df_ean[df_ean['código'] == new_row['código']]['ean']
+            
             if not matching_eans.empty:
-                # Usar a string concatenada completa
-                new_row['ean'] = matching_eans.iloc[0].strip()
+                # Converter EANs do arquivo para uma lista, removendo valores inválidos
+                ean_list = []
+                for ean in matching_eans:
+                    if not pd.isna(ean) and str(ean).strip() and str(ean).strip() != 'nan':
+                        # Dividir EANs do arquivo por ';' ou '/' e normalizar
+                        eans = str(ean).strip().replace('/', ';').split(';')
+                        ean_list.extend([e.strip() for e in eans if e.strip()])
+                # Adicionar EANs do encarte à lista
+                ean_list.extend(encarte_ean_list)
+                # Remover duplicatas e concatenar com ';'
+                ean_list = list(dict.fromkeys(ean_list))  # Remove duplicatas mantendo a ordem
+                new_row['ean'] = ';'.join(ean_list) if ean_list else encarte_ean
+            else:
+                # Se não houver EANs no arquivo, manter o EAN do encarte (já normalizado)
+                new_row['ean'] = ';'.join(encarte_ean_list) if encarte_ean_list else encarte_ean
+            
             expanded_rows.append(new_row)
+        
         # Criar novo DataFrame com as linhas atualizadas
         df_updated = pd.DataFrame(expanded_rows)
         return df_updated

@@ -90,12 +90,14 @@ product_name_corrections = {
     r'\bcafe\b': 'CAFÉ',
     r'\bpo\b': 'PÓ',
     r'\bpao\b': 'PÃO',
+    r'\bfeijao\b': 'FEIJÃO',
     r'\bleite ferm\b': 'LEITE FERMENTADO',
     r'\bdesinf\b': 'DESINFETANTE',
     r'\bsabao\b': 'SABÃO',
     r'\bsab barra\b': 'SABONETE EM BARRA',
     r'\bcrm pent\b': "CREME DE PENTEAR",
     r'\bsta clara\b': 'SANTA CLARA',
+    r'\bvinho bco\b': 'VINHO BRANCO',
     r'\bvinho tto\b': 'VINHO TINTO',
     r'\bacucar\b': 'AÇÚCAR',
     r'\bqjo\b': 'QUEIJO',
@@ -113,6 +115,8 @@ product_name_corrections = {
     r'\balgodao\b': 'ALGODÃO',
     r'\bype\b': 'YPÊ',
     r'\brefrig\b': 'REFRIGERANTE',
+    r'\bamac roupa\b': 'AMACIANTE DE ROUPA',
+    r'\bdesod aer\b': 'DESODORANTE AER',
 }
 
 def correct_product_name(name):
@@ -138,7 +142,7 @@ def classify_ean(ean_str):
     Classifica o EAN retornando uma tupla (tipo_codigo, unidade).
     Regras:
       - Se tinha "/" originalmente → Interno, Quilograma
-      - Se todos os códigos < 13 dígitos → Interno, Quilograma
+      - Se todos os códigos < 12 dígitos → Interno, Quilograma
       - Caso contrário → EAN, Unidade
     """
     if not ean_str or pd.isna(ean_str) or not str(ean_str).strip():
@@ -175,7 +179,7 @@ def get_code_type(ean):
     if not eans:
         return 'EAN'
     lens = [len(e) for e in eans]
-    if all(l < 13 for l in lens):
+    if all(l < 12 for l in lens):
         return 'Interno'
     else:
         return 'EAN'
@@ -203,12 +207,17 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
         lambda x: pd.Series(classify_ean(x))
     )
 
-    # Normalizar a coluna 'comprador' para mapear o carrossel
-    if 'comprador' in df_copy.columns:
-        df_copy['comprador_normalized'] = df_copy['comprador'].apply(normalize_text)
+    # Lista de possíveis nomes de coluna
+    possible_buyer_names = ['comprador', 'compradora', 'compradores', 'compradoras']
+
+    # Verifica qual delas existe no DataFrame
+    col_name = next((col for col in possible_buyer_names if col in df_copy.columns), None)
+
+    if col_name:
+        df_copy['comprador_normalized'] = df_copy[col_name].apply(normalize_text)
     else:
         df_copy['comprador_normalized'] = ''
-        st.warning("Coluna 'comprador' não encontrada. 'Carrossel' ficará vazia.")
+        st.warning("Nenhuma coluna de comprador encontrada. 'Carrossel' ficará vazio.")
 
     df_copy['final_carrossel'] = df_copy['comprador_normalized'].apply(
         lambda x: get_carrossel_value(x, buyer_carrossel_map)

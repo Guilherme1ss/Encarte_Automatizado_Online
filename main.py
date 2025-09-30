@@ -199,6 +199,11 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
             lambda x: str(x).strip().upper() if not pd.isna(x) else ""
         )
 
+    # Verificar se há linhas válidas após o processamento
+    if df_copy.empty:
+        st.warning(f"Nenhuma linha válida encontrada para o perfil {profile}. O arquivo não será gerado.")
+        return None
+
     # Substituir "/" por ";" na coluna ean
     df_copy['ean'] = df_copy['ean'].astype(str).str.replace("/", ";", regex=False)
 
@@ -222,11 +227,6 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
     df_copy['final_carrossel'] = df_copy['comprador_normalized'].apply(
         lambda x: get_carrossel_value(x, buyer_carrossel_map)
     )
-
-    # Verificar se há linhas válidas após o processamento
-    if df_copy.empty:
-        st.warning(f"Nenhuma linha válida encontrada para o perfil {profile}. O arquivo não será gerado.")
-        return None
 
     # Monta DataFrame com as colunas esperadas
     return pd.DataFrame({
@@ -407,10 +407,20 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
 
     for profile in profiles:
         df_profile = df_filtered[df_filtered["perfil de loja"] == profile].copy()
+
+         # ⚠️ se não tem dados desse perfil, pula
+        if df_profile.empty:
+            st.warning(f"Nenhuma linha encontrada para o perfil {profile}. Pulando geração.")
+            continue
         
         # Montar DataFrame final
         df_final = build_final_dataframe(df_profile, profile, start_date, end_date, store_mapping, apply_name_correction)
         
+         # ⚠️ se não voltou nada ou ficou vazio, pula
+        if df_final is None or df_final.empty:
+            st.warning(f"O DataFrame final do perfil {profile} está vazio. Pulando exportação.")
+            continue
+
         # Salvar arquivo Excel com formatação condicional
         filename = f"promo_{profile.replace('/', '_')}_CRM.xlsx"
         filepath = os.path.join(temp_dir, filename)

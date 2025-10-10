@@ -1,13 +1,11 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta, time
-import numpy as np
 import os
 import string
 import warnings
 import unicodedata
 import tempfile
-from pathlib import Path
 import re
 import openpyxl
 from openpyxl.styles import PatternFill
@@ -45,6 +43,49 @@ def clean_price_value(value):
         return float(text)
     except:
         return None
+
+required_columns = [
+    "perfil de loja",
+    "código",
+    "ean",
+    "descrição do item",
+    "preço de:",
+    "preço por:",
+    "comprador"
+]
+
+def detect_header_with_scoring(df):
+    """
+    Retorna a linha que será usada como header e lista de erros caso alguma coluna obrigatória não seja encontrada.
+    """
+    max_score = -1
+    header_row = None
+    errors = []
+
+    for idx, row in df.iterrows():
+        score = 0
+        normalized_row = [normalize_text(str(cell)) for cell in row]
+
+        for col in required_columns:
+            if normalize_text(col) in normalized_row:
+                score += 1
+
+        if score > max_score:
+            max_score = score
+            header_row = idx
+            row_found = normalized_row
+
+    # Verificar se todas as obrigatórias estão presentes
+    missing_cols = [col for col in required_columns if normalize_text(col) not in row_found]
+    if missing_cols:
+        for col in missing_cols:
+            errors.append(
+                f"❌ Coluna obrigatória '{col}' não encontrada na linha {header_row + 1}. "
+                "Verifique a digitação do título da coluna."
+            )
+        return None, errors
+
+    return header_row, []
 
 # --- Função para normalização de texto para matching ---
 translator = str.maketrans('', '', string.punctuation)
@@ -168,22 +209,6 @@ def classify_ean(ean_str):
         return ("Interno", "Quilograma")
     else:
         return ("EAN", "Unidade")
-
-def get_code_type(ean):
-    if pd.isna(ean) or not str(ean).strip():
-        return 'EAN'
-    ean_str = str(ean)
-
-    if "/" in ean_str:
-        return 'Interno'
-    eans = [e.strip() for e in ean_str.split(';') if e.strip()]
-    if not eans:
-        return 'EAN'
-    lens = [len(e) for e in eans]
-    if all(l < 12 for l in lens):
-        return 'Interno'
-    else:
-        return 'EAN'
 
 # Função principal de montagem do DataFrame
 def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map, apply_name_correction):
@@ -349,12 +374,26 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
     file_extension = os.path.splitext(uploaded_file.name)[1].lower()
     try:
         if file_extension in ['.xlsx', '.xls']:
-            df_base = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=4)
+          temp_df = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=None)
         elif file_extension == '.csv':
-            df_base = pd.read_csv(uploaded_file, sep=';', header=4)
+            temp_df = pd.read_csv(uploaded_file, sep=';', header=None)
         else:
             st.error("Formato de arquivo base não suportado. Use xlsx, xls ou csv.")
             return []
+
+        # Detectar header automaticamente
+        header_row, errors = detect_header_with_scoring(temp_df)
+        if errors:
+            for msg in errors:
+                st.error(msg)
+            st.stop()  # ⚠️ interrompe execução se faltar coluna obrigatória
+
+        # Ler o arquivo usando a linha detectada como header
+        if file_extension in ['.xlsx', '.xls']:
+            df_base = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=header_row)
+        else:
+            df_base = pd.read_csv(uploaded_file, sep=';', header=header_row)
+
     except Exception as e:
         st.error(f"Erro ao ler o arquivo base: {e}")
         return []

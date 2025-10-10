@@ -156,14 +156,15 @@ def classify_ean(ean_str):
     # Normalizar: trocar "/" por ";"
     ean_str = ean_str.replace("/", ";")
 
-    # Agora separar em lista
+    # Separar em lista e PEGAR APENAS O PRIMEIRO válido
     eans = [e.strip() for e in ean_str.split(';') if e.strip()]
     if not eans:
         return ("EAN", "Unidade")
+    
+    first_ean = eans[0]  # ### MUDANÇA: Pegar só o primeiro
+    first_len = len(first_ean)
 
-    lens = [len(e) for e in eans]
-
-    if had_slash or all(l < 12 for l in lens):
+    if had_slash or first_len < 12:  # ### MUDANÇA: Verificar só o primeiro
         return ("Interno", "Quilograma")
     else:
         return ("EAN", "Unidade")
@@ -207,8 +208,8 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
     # Substituir "/" por ";" na coluna ean
     df_copy['ean'] = df_copy['ean'].astype(str).str.replace("/", ";", regex=False)
 
-    # Aplicar função única para tipo de código e unidade
-    df_copy[['final_code_type', 'final_unit']] = df_copy['ean'].apply(
+    # Aplicar função única para tipo de código e unidade (usando o original)
+    df_copy[['final_code_type', 'final_unit']] = df_copy['ean_original_encarte'].apply(
         lambda x: pd.Series(classify_ean(x))
     )
 
@@ -365,8 +366,10 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
     if 'código' in df_base.columns:
         df_base['código'] = df_base['código'].apply(fix_if_date)
     if 'ean' in df_base.columns:
-        df_base['ean'] = df_base['ean'].apply(fix_if_date)
-        
+        df_base['ean'] = df_base['ean'].apply(fix_if_date)  
+
+    df_base['ean_original_encarte'] = df_base['ean']
+
     # Inicializar colunas de preços limpos e marcadores de cópia
     df_base["preço de:"] = df_base["preço de:"].apply(clean_price_value)
     df_base["preço por:"] = df_base["preço por:"].apply(clean_price_value)

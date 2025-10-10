@@ -1,13 +1,11 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta, time
-import numpy as np
 import os
 import string
 import warnings
 import unicodedata
 import tempfile
-from pathlib import Path
 import re
 import openpyxl
 from openpyxl.styles import PatternFill
@@ -104,7 +102,7 @@ def detect_header_with_scoring(df):
     missing_cols = [col for col in required_columns if normalize_text(col) not in row_found]
     if missing_cols:
         errors = [
-            f"❌ Coluna obrigatória '{col}' não encontrada na linha {header_row + 1}. Verifique a digitação do título da coluna."
+            f"❌ Coluna obrigatória '{col}' não encontrada na linha {header_row + 1} do arquivo do Encarte Consolidado. Verifique a digitação do título da coluna."
             for col in missing_cols
         ]
         return None, errors

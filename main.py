@@ -44,6 +44,7 @@ def clean_price_value(value):
     except:
         return None
 
+# Colunas necessárias no encarte consolidado para o código funcionar
 required_columns = [
     "perfil de loja",
     "código",
@@ -56,13 +57,16 @@ required_columns = [
 
 def detect_header_with_scoring(df):
     """
+    Sistema de pontuação para descobrir qual linha é o verdadeiro header.
     Retorna a linha que será usada como header e lista de erros caso alguma coluna obrigatória não seja encontrada.
     """
     max_score = -1
     header_row = None
     errors = []
+    # Limitar a busca às primeiras 20 linhas
+    limited_df = df.head(20)
 
-    for idx, row in df.iterrows():
+    for idx, row in limited_df.iterrows():
         score = 0
         normalized_row = [normalize_text(str(cell)) for cell in row]
 
@@ -75,12 +79,17 @@ def detect_header_with_scoring(df):
             header_row = idx
             row_found = normalized_row
 
+    # Verificar se nenhuma linha válida foi encontrada
+    if header_row is None or not row_found:
+        errors = ["❌ Nenhuma linha válida encontrada com colunas obrigatórias nas primeiras 20 linhas. Verifique o arquivo."]
+        return None, errors
+
     # Verificar se todas as obrigatórias estão presentes
     missing_cols = [col for col in required_columns if normalize_text(col) not in row_found]
     if missing_cols:
         for col in missing_cols:
             errors.append(
-                f"❌ Coluna obrigatória '{col}' não encontrada na linha {header_row + 1}. "
+                f"❌ Coluna obrigatória '{col}' não encontrada na linha {header_row + 1} do arquvio de Encarte Consolidado. "
                 "Verifique a digitação do título da coluna."
             )
         return None, errors

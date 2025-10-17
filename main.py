@@ -346,8 +346,8 @@ def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date,
     profiles = ["GERAL/PREMIUM", "GERAL", "PREMIUM"]
     store_mapping = {
         "GERAL": "4368-4363-4362-4357-4360-4356-4370-4359-4372-4353-4371-4365-4369-4361-4366-4354-4355-4364",
-        "PREMIUM": "4373-4358-4367",
-        "GERAL/PREMIUM": "4368-4363-4362-4357-4360-4356-4370-4359-4372-4353-4371-4365-4369-4361-4366-4354-4355-4364-4373-4358-4367"
+        "PREMIUM": "4373-4358-4367-5839",
+        "GERAL/PREMIUM": "4368-4363-4362-4357-4360-4356-4370-4359-4372-4353-4371-4365-4369-4361-4366-4354-4355-4364-4373-4358-4367-5839"
     }
 
     file_extension = os.path.splitext(uploaded_file.name)[1].lower()

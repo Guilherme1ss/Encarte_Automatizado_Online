@@ -186,9 +186,28 @@ def get_code_type(ean):
         return 'Interno'
     else:
         return 'EAN'
+    
+def load_links_json(file):
+    """Carrega um arquivo JSON com links e retorna um dicionário {EAN: URL}"""
+    if not file:
+        return {}
+
+    try:
+        data = json.load(file)
+        ean_to_url = {}
+        for item in data:
+            url = item.get("url", "").strip()
+            if not url:
+                continue
+            for ean in item.get("eans", []):
+                ean_to_url[str(ean).strip()] = url
+        return ean_to_url
+    except Exception as e:
+        st.error(f"Erro ao ler arquivo de links: {e}")
+        return {}
 
 # Função principal de montagem do DataFrame
-def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map, apply_name_correction):
+def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map, apply_name_correction, link_map):
     df_copy = filtered_df.copy()
     df_copy['descrição do item'] = df_copy['descrição do item'].apply(remove_suffix)
 
@@ -221,7 +240,7 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
         lambda x: get_carrossel_value(x, buyer_carrossel_map)
     )
 
-    return pd.DataFrame({
+    result_df = pd.DataFrame({
         "Nome": df_copy["descrição do item"],
         "Carrossel": df_copy["final_carrossel"],
         "Check-In": "Não",
@@ -240,6 +259,21 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
         "Sobrescrever lojas": "Sim",
         "Lojas": store_map[profile]
     })
+
+    # --- Preencher URLs automaticamente com base no JSON de links ---
+    urls = []
+    for ean_field in df_copy["ean"]:
+        link = ""
+        if pd.notna(ean_field):
+            for e in str(ean_field).replace("/", ";").split(";"):
+                e = e.strip()
+                if e and e in link_map:
+                    link = link_map[e]
+                    break
+        urls.append(link)
+    result_df["URL da imagem"] = urls
+
+    return result_df
 
 # --- Função para mesclar EANs do arquivo ---
 def merge_ean_data(df_base, ean_file):
@@ -308,7 +342,7 @@ def list_sheets(uploaded_file):
         return []
 
 # --- Função principal para processar a planilha ---
-def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction, sheet_name):
+def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date, temp_dir, use_ean_file, use_link_file, apply_name_correction, sheet_name):
     profiles = ["GERAL/PREMIUM", "GERAL", "PREMIUM"]
     store_mapping = {
         "GERAL": "4368-4363-4362-4357-4360-4356-4370-4359-4372-4353-4371-4365-4369-4361-4366-4354-4355-4364",
@@ -382,13 +416,18 @@ def process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, 
     os.makedirs(temp_dir, exist_ok=True)
     output_files = []
 
+    link_map = {}
+    if use_link_file and link_file:
+        link_map = load_links_json(link_file)
+
+
     for profile in profiles:
         df_profile = df_filtered[df_filtered["perfil de loja"] == profile].copy()
         if df_profile.empty:
             st.warning(f"Nenhuma linha encontrada para o perfil {profile}. Pulando geração.")
             continue
         
-        df_final = build_final_dataframe(df_profile, profile, start_date, end_date, store_mapping, apply_name_correction)
+        df_final = build_final_dataframe(df_profile, profile, start_date, end_date, store_mapping, apply_name_correction, link_map)
         if df_final is None or df_final.empty:
             st.warning(f"O DataFrame final do perfil {profile} está vazio. Pulando exportação.")
             continue
@@ -462,6 +501,7 @@ if end_date < start_date:
 else:
     apply_name_correction = st.checkbox("Aplicar correção de nomes de produtos", value=False)
     use_ean_file = st.checkbox("Usar arquivo de EANs", value=False)
+    use_link_file = st.checkbox("Usar arquivo JSON de Links", value=False)
     uploaded_file = st.file_uploader("Selecione o arquivo de ENCARTE CONSOLIDADO", type=["xlsx", "xls", "csv"])
     
     selected_sheet = None
@@ -477,23 +517,31 @@ else:
     if use_ean_file:
         ean_file = st.file_uploader("Selecione o arquivo de EANs (opcional)", type=["xlsx", "xls", "csv"])
 
-    if uploaded_file and selected_sheet:
-        if st.button("Processar Promoções"):
-            output_files = []
-            try:
-                with st.spinner("Processando..."):
-                    start_date = datetime.combine(start_date, time(0, 0))
-                    end_date = datetime.combine(end_date, time(23, 59))
-                    output_files = process_promotions(uploaded_file, ean_file, start_date, end_date, temp_dir, use_ean_file, apply_name_correction, selected_sheet)
-            except Exception as e:
-                st.error(f"Erro durante o processamento: {e}")
-            if output_files:
-                for filename, output in output_files:
-                    st.download_button(
-                        label=f"Baixar {filename}",
-                        data=output,
-                        file_name=filename,
-                        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                    )
-            else:
-                st.warning("Nenhum arquivo foi gerado. Verifique os dados de entrada.")
+    link_file = None
+    if use_link_file:
+        link_file = st.file_uploader("Selecione o arquivo JSON de Links", type=["json"])
+
+    if st.button("Processar Promoções"):
+        output_files = []
+        try:
+            with st.spinner("Processando..."):
+                start_dt = datetime.combine(start_date, time(0, 0))
+                end_dt = datetime.combine(end_date, time(23, 59))
+                output_files = process_promotions(
+                    uploaded_file, ean_file, link_file,
+                    start_dt, end_dt, temp_dir,
+                    use_ean_file, use_link_file, apply_name_correction, selected_sheet
+                )
+        except Exception as e:
+            st.error(f"Erro durante o processamento: {e}")
+
+        if output_files:
+            for filename, output in output_files:
+                st.download_button(
+                    label=f"Baixar {filename}",
+                    data=output,
+                    file_name=filename,
+                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                )
+        else:
+            st.warning("Nenhum arquivo foi gerado. Verifique os dados de entrada.")

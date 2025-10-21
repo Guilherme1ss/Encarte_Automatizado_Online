@@ -197,7 +197,11 @@ def load_links_json(file):
         return {}
 
     try:
-        data = json.load(file)
+        if isinstance(file, str):  # Caso seja o arquivo padrão
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        else:  # Caso seja um arquivo enviado
+            data = json.load(file)
         ean_to_url = {}
         for item in data:
             url = item.get("url", "").strip()
@@ -346,7 +350,7 @@ def list_sheets(uploaded_file):
         return []
 
 # --- Função principal para processar a planilha ---
-def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date, temp_dir, use_ean_file, use_link_file, apply_name_correction, sheet_name):
+def process_promotions(uploaded_file, ean_file, link_file, use_default_url, start_date, end_date, temp_dir, use_ean_file, use_link_file, apply_name_correction, sheet_name):
     profiles = ["GERAL/PREMIUM", "GERAL", "PREMIUM"]
     store_mapping = {
         "GERAL": "4368-4363-4362-4357-4360-4356-4370-4359-4372-4353-4371-4365-4369-4361-4366-4354-4355-4364",
@@ -421,8 +425,14 @@ def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date,
     output_files = []
 
     link_map = {}
-    if use_link_file and link_file:
-        link_map = load_links_json(link_file)
+    if use_link_file:
+        if use_default_url:
+            try:
+                link_map = load_links_json("default_url.json")
+            except FileNotFoundError:
+                st.error("Repositório de links não encontrado no diretório do projeto.")
+        elif link_file:
+            link_map = load_links_json(link_file)
 
     for profile in profiles:
         df_profile = df_filtered[df_filtered["perfil de loja"] == profile].copy()
@@ -511,6 +521,16 @@ else:
     apply_name_correction = st.checkbox("Aplicar correção de nomes de produtos", value=False)
     use_ean_file = st.checkbox("Usar arquivo de EANs", value=False)
     use_link_file = st.checkbox("Usar arquivo JSON de Links", value=False)
+    use_default_url = False
+    link_file = None
+    if use_link_file:
+        st.write("Escolha a fonte do arquivo de links:")
+        link_source = st.radio("Fonte do arquivo JSON", ["Usar repositório de links padrão", "Fazer upload de um arquivo JSON"])
+        if link_source == "Usar repositório de links padrão":
+            use_default_url = True
+        else:
+            link_file = st.file_uploader("Selecione o arquivo JSON de Links", type=["json"])
+
     uploaded_file = st.file_uploader("Selecione o arquivo de ENCARTE CONSOLIDADO", type=["xlsx", "xls", "csv"])
     
     selected_sheet = None
@@ -526,10 +546,6 @@ else:
     if use_ean_file:
         ean_file = st.file_uploader("Selecione o arquivo de EANs (opcional)", type=["xlsx", "xls", "csv"])
 
-    link_file = None
-    if use_link_file:
-        link_file = st.file_uploader("Selecione o arquivo JSON de Links", type=["json"])
-
     if st.button("Processar Promoções"):
         output_files = []
         try:
@@ -537,7 +553,7 @@ else:
                 start_dt = datetime.combine(start_date, time(0, 0))
                 end_dt = datetime.combine(end_date, time(23, 59))
                 output_files = process_promotions(
-                    uploaded_file, ean_file, link_file,
+                    uploaded_file, ean_file, link_file, use_default_url,
                     start_dt, end_dt, temp_dir,
                     use_ean_file, use_link_file, apply_name_correction, selected_sheet
                 )

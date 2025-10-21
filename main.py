@@ -47,7 +47,11 @@ def fix_if_date(value):
     if isinstance(value, (datetime, pd.Timestamp)):
         return f"{value.year}-{value.month}"
     else:
-        return str(value)
+        str_value = str(value)
+        # Remove ".0" se presente e se o valor for numérico
+        if str_value.endswith(".0") and str_value.replace(".", "").isdigit():
+            return str_value[:-2]
+        return str_value
 
 def get_unique_filename(path):
     """Recebe um caminho de arquivo e retorna um nome único no mesmo diretório."""
@@ -280,9 +284,9 @@ def merge_ean_data(df_base, ean_file):
     try:
         file_extension = os.path.splitext(ean_file.name)[1].lower()
         if file_extension in ['.xlsx', '.xls']:
-            df_ean = pd.read_excel(ean_file)
+            df_ean = pd.read_excel(ean_file, dtype={'ean': str})
         elif file_extension == '.csv':
-            df_ean = pd.read_csv(ean_file, sep=';')
+            df_ean = pd.read_csv(ean_file, sep=';', dtype={'ean': str})
         else:
             st.error("Formato de arquivo de EANs não suportado. Use xlsx, xls ou csv.")
             return df_base
@@ -353,9 +357,9 @@ def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date,
     file_extension = os.path.splitext(uploaded_file.name)[1].lower()
     try:
         if file_extension in ['.xlsx', '.xls']:
-            temp_df = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=None)
+            temp_df = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=None, dtype={'ean': str})
         elif file_extension == '.csv':
-            temp_df = pd.read_csv(uploaded_file, sep=';', header=None)
+            temp_df = pd.read_csv(uploaded_file, sep=';', header=None, dtype={'ean': str})
         else:
             st.error("Formato de arquivo base não suportado. Use xlsx, xls ou csv.")
             return []
@@ -371,9 +375,9 @@ def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date,
 
     try:
         if file_extension in ['.xlsx', '.xls']:
-            df_base = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=header_row)
+            df_base = pd.read_excel(uploaded_file, sheet_name=sheet_name, header=header_row, dtype={'ean': str})
         else:
-            df_base = pd.read_csv(uploaded_file, sep=';', header=header_row)
+            df_base = pd.read_csv(uploaded_file, sep=';', header=header_row, dtype={'ean': str})
     except Exception as e:
         st.error(f"Erro ao ler o arquivo com o cabeçalho detectado: {e}")
         return []
@@ -420,7 +424,6 @@ def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date,
     if use_link_file and link_file:
         link_map = load_links_json(link_file)
 
-
     for profile in profiles:
         df_profile = df_filtered[df_filtered["perfil de loja"] == profile].copy()
         if df_profile.empty:
@@ -439,6 +442,12 @@ def process_promotions(uploaded_file, ean_file, link_file, start_date, end_date,
         df_final.to_excel(filepath, index=False, engine="openpyxl")
         wb = openpyxl.load_workbook(filepath)
         ws = wb.active
+
+        # Aplicar formato de texto à coluna "Códigos dos produtos"
+        header_values = [cell.value for cell in ws[1]]
+        ean_col = header_values.index("Códigos dos produtos") + 1
+        for row_idx in range(2, ws.max_row + 1):
+            ws.cell(row=row_idx, column=ean_col).number_format = '@'
 
         yellow_fill = PatternFill(start_color='FFFF00', end_color='FFFF00', fill_type='solid')
         red_fill = PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid')

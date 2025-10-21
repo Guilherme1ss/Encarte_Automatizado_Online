@@ -239,13 +239,15 @@ def build_final_dataframe(filtered_df, profile, start_date, end_date, store_map,
     col_name = next((col for col in possible_buyer_names if col in df_copy.columns), None)
 
     if col_name:
-        df_copy['comprador_normalized'] = df_copy[col_name].apply(normalize_text)
+        df_copy['comprador_normalized'] = df_copy['comprador_normalized'] = df_copy[col_name].apply(normalize_text)
     else:
         df_copy['comprador_normalized'] = ''
         st.warning("Nenhuma coluna de comprador encontrada. 'Carrossel' ficará vazio.")
 
-    df_copy['final_carrossel'] = df_copy['comprador_normalized'].apply(
-        lambda x: get_carrossel_value(x, buyer_carrossel_map)
+    # Aplica "8142 - Especial" para produtos com "DESTAQUE CRM" em "tipo ação"
+    df_copy['final_carrossel'] = df_copy.apply(
+        lambda row: "8142 - Especial" if "DESTAQUE CRM" in str(row['tipo ação']).upper() else get_carrossel_value(row['comprador_normalized'], buyer_carrossel_map),
+        axis=1
     )
 
     result_df = pd.DataFrame({

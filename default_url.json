@@ -24,6 +24,22 @@
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfMgaHYlNPJ1Lm068AL_ZmK_lvNfldX_lh9g&s"
     },
     {
+        "codigo": "1001205",
+        "eans": [
+            "7891025121251"
+        ],
+        "nome": "IOGURTE DANONE LARANJA/CENOURA/MEL 160G",
+        "url": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/55792/medium/iogurte-natural-danone-laranja-cenoura-e-mel-160g_103685.png"
+    },
+    {
+        "codigo": "100123",
+        "eans": [
+            "7891025121244"
+        ],
+        "nome": "IOGURTE DANONE MEL 160G",
+        "url": "https://cdn.awsli.com.br/600x450/2475/2475280/produto/170006065/danone-natural-160g-1001011000401-mel-7spr8qr13t.png"
+    },
+    {
         "codigo": "1002821",
         "eans": [
             "7891150079212"
@@ -94,6 +110,14 @@
         ],
         "nome": "LAVA ROUPA LIQ BRILUX RFL 700ML COCO",
         "url": "https://redemix.vteximg.com.br/arquivos/ids/212137-1000-1000/7896013108917.jpg?v=638350616760930000"
+    },
+    {
+        "codigo": "1004948",
+        "eans": [
+            "7891242420137"
+        ],
+        "nome": "LAVA ROUPA LIQ UAU 3L ROSAS/SEDUÇÃO",
+        "url": "https://nordildistribuidora.agilecdn.com.br/189670_1.jpg"
     },
     {
         "codigo": "1005588",
@@ -409,6 +433,14 @@
         "url": "https://drogariasp.vteximg.com.br/arquivos/ids/1188649-1000-1000/766879---Condicionador-Pantene-Colageno-150ml_0005_7500435196994_1.png.png?v=638701257928070000"
     },
     {
+        "codigo": "1025791",
+        "eans": [
+            "7500435197014"
+        ],
+        "nome": "CRM TRAT PANTENE 550ML COLAGENO",
+        "url": ""
+    },
+    {
         "codigo": "1025805",
         "eans": [
             "7500435196970"
@@ -468,8 +500,8 @@
     {
         "codigo": "10294",
         "eans": [
-            "7893000444232",
-            "1029"
+            "1029",
+            "7893000444232"
         ],
         "nome": "LINGUIÇA CALABRESA SADIA KG",
         "url": "https://superprix.vteximg.com.br/arquivos/ids/210924/Linguica_Calabresa_Sadia_Kg.jpg?v=638096414770900000"
@@ -493,8 +525,8 @@
     {
         "codigo": "1032135",
         "eans": [
-            "7897015211810",
-            "7897015211612"
+            "7897015211612",
+            "7897015211810"
         ],
         "nome": "VINHO BCO DEL GRANO FRISANTE SVE 750ML",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7897015211612"
@@ -502,8 +534,8 @@
     {
         "codigo": "1032143",
         "eans": [
-            "7897015211827",
-            "7897015211629"
+            "7897015211629",
+            "7897015211827"
         ],
         "nome": "VINHO ROSE DEL GRANO FRISANTE SVE 750ML",
         "url": "https://images-americanas.b2w.io/produtos/7236907979/imagens/frisante-suave-doce-rose-del-grano-750-ml/7236907979_1_large.jpg"
@@ -872,8 +904,8 @@
     {
         "codigo": "10529",
         "eans": [
-            "6123",
-            "1052"
+            "1052",
+            "6123"
         ],
         "nome": "MORTADELA SUÍNA PERDIGÃO KG _ Inteiro, Pedaço e Fatiado",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/1052"
@@ -897,10 +929,10 @@
     {
         "codigo": "10545",
         "eans": [
-            "7891515555245",
             "1054",
             "7891042091391",
-            "7891080151354"
+            "7891080151354",
+            "7891515555245"
         ],
         "nome": "MARGARINA BECEL COM SAL 250G",
         "url": "https://brf.file.force.com/servlet/servlet.ImageServer?id=0154w000024mL8U&oid=00D410000012TJa&lastMod=1693578944000"
@@ -997,8 +1029,8 @@
     {
         "codigo": "1059971",
         "eans": [
-            "7891025124122",
-            "7891025123453"
+            "7891025123453",
+            "7891025124122"
         ],
         "nome": "LEITE FERMENTADO ACTIVIA AMEIXA 800G",
         "url": "https://redemix.vteximg.com.br/arquivos/ids/207663-1000-1000/7891025123453.png?v=638350594901600000"
@@ -1235,6 +1267,14 @@
         ],
         "nome": "CAFE SOLUVEL NESCAFE SCH 40G ORIG E FORT",
         "url": "https://superprix.vteximg.com.br/arquivos/ids/215427/7891000307045---NESCAFE-Matinal-Suave-Sachet-40g.jpg?v=638248647197430000"
+    },
+    {
+        "codigo": "106835",
+        "eans": [
+            "7896025804609"
+        ],
+        "nome": "MAIONESE CEPERA 320G ORIGINAL",
+        "url": ""
     },
     {
         "codigo": "1069047",
@@ -1736,8 +1776,8 @@
     {
         "codigo": "108715",
         "eans": [
-            "7894321211329",
-            "7892840822965"
+            "7892840822965",
+            "7894321211329"
         ],
         "nome": "BATATA ELMA CH RUFFLES 33G CHURRASCO",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7892840822965"
@@ -2593,6 +2633,30 @@
         "url": "https://ikesaki.vteximg.com.br/arquivos/ids/356545/Condicionador-Pantene-Biotinamina-B3-150ml---7500435248174---img01.jpg"
     },
     {
+        "codigo": "1104446",
+        "eans": [
+            "7500435248181"
+        ],
+        "nome": "CRM PENT PANTENE 240G BIOTINAMINA",
+        "url": "data:image/webp;base64,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"
+    },
+    {
+        "codigo": "1104454",
+        "eans": [
+            "7500435251976"
+        ],
+        "nome": "CRM PENT PANTENE 240G COLAGENO",
+        "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQG88eTmIJmvKp4x0bXRd-N4V4MboNqCgl85bvCPefaMdT6pHY0OKUBzv4fEWd_jgP0M8Kdqf2tskzj6iHTDjVtE2qPtb3sDAtwhk32t3oE73HWfW-pbK3NUWMYbFBivdZ2v0c6nO8&usqp=CAc"
+    },
+    {
+        "codigo": "1104462",
+        "eans": [
+            "7500435251969"
+        ],
+        "nome": "CRM PENT PANTENE 240G QUERATINA",
+        "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRawkZKJut8VSa6RagH_eAHlpzHVXz5nsidu_yBJUtr9rsd04HpPHlJ-MUvJ3tfb04QbfsHN96dOJxkDUd_o6-5Xhose-81HJrir2rg6Or518NNiZFuW8MMGn7s2XMov3k54iw3-Q&usqp=CAc"
+    },
+    {
         "codigo": "1104489",
         "eans": [
             "7500435248136"
@@ -3252,6 +3316,14 @@
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiMXPjZ0FymO-L3toLx-guYCrq8jFX7b7nvA&s"
     },
     {
+        "codigo": "1116878",
+        "eans": [
+            "7896007553303"
+        ],
+        "nome": "ABS C/ABAS POISE ESCAPE URINA 8UN DISC",
+        "url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTYQFECx6JG8FClsPPsO-oWFfLXX-NdxGOWsaBuSW5GzFeJ90KlNDLnnNfZfcLw0M7NERll-B9_0JYRUbLtjCPsbVge98LRq1Gw0zDpy__NCshIUZjpEWH0MLmGJOcx9pvXXovh69s&usqp=CAc"
+    },
+    {
         "codigo": "111736",
         "eans": [
             "7894904605002"
@@ -3294,11 +3366,19 @@
     {
         "codigo": "1117874",
         "eans": [
-            "7894904272396",
-            "7891025125372"
+            "7891025125372",
+            "7894904272396"
         ],
         "nome": "IOGURTE LÍQUIDO DANONE MORANGO ZERO 1,200G",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904272396"
+    },
+    {
+        "codigo": "1117882",
+        "eans": [
+            "7891025125365"
+        ],
+        "nome": "IOGURTE LÍQUIDO DANONE BATIDO ZERO 1,200G",
+        "url": "https://covabra.vtexassets.com/arquivos/ids/568330/113075.jpg?v=638949600047070000"
     },
     {
         "codigo": "1117904",
@@ -3309,10 +3389,56 @@
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7891025125167"
     },
     {
+        "codigo": "1121006",
+        "eans": [],
+        "nome": "COXA COM SOBRECOXA SEM DORSO CONGELADO KG",
+        "url": ""
+    },
+    {
+        "codigo": "112148",
+        "eans": [
+            "7896004011660"
+        ],
+        "nome": "BATATA PRINGLES 100G NETFLIX BACON",
+        "url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTeljOuJSr7bLzP7FLKN0sF7dg8F9YyFz-1eFtn0owYIdDsodA45yYXuZit-FuDuSVMFM8JPcLOYgq8xcZwz3IvsKBOoBNYdFIhLPc141PL4X_wLEFHkw161uNzOO_7ogBcfqW1U4Y&usqp=CAc"
+    },
+    {
+        "codigo": "1121499",
+        "eans": [
+            "7896004011653"
+        ],
+        "nome": "BATATA PRINGLES 100G NETFLIX STEAK",
+        "url": "data:image/webp;base64,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"
+    },
+    {
+        "codigo": "112151",
+        "eans": [
+            "7896004011431"
+        ],
+        "nome": "BATATA PRINGLES 100G GALINHA CAIPIRA",
+        "url": "data:image/webp;base64,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"
+    },
+    {
+        "codigo": "1121529",
+        "eans": [
+            "7896004011448"
+        ],
+        "nome": "BATATA PRINGLES 100G PIMENTA BIQUINHO",
+        "url": "data:image/webp;base64,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"
+    },
+    {
+        "codigo": "1121545",
+        "eans": [
+            "7898996445942"
+        ],
+        "nome": "MANTEIGA LAC GLÓRIA COM SAL 500G",
+        "url": "https://phygital-files.mercafacil.com/comercial-nunes-peixoto/uploads/produto/manteiga_lacgloria_c_sal_500g_17968a23-65bc-4455-92e8-72ba7e460a26.png"
+    },
+    {
         "codigo": "113425",
         "eans": [
-            "7791969016029",
-            "57791969016024"
+            "57791969016024",
+            "7791969016029"
         ],
         "nome": "DESOD AER NIVEA 150ML MEN DRY IMPACT",
         "url": "https://tdc0tj.vtexassets.com/arquivos/ids/165301/7791969016029-desodorante-masculino-nivea-men-dry-impact-aerosol-150ml-1.jpg?v=637732723075900000"
@@ -3373,6 +3499,14 @@
         ],
         "nome": "GRANOLA TIA SONIA  200G CAST PARA",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7898115750636"
+    },
+    {
+        "codigo": "114081",
+        "eans": [
+            "7891095100729"
+        ],
+        "nome": "PIPOCA MICRO YOKI 100G BACON",
+        "url": "https://prodcontent.yoki.com.br/wp-content/uploads/2024/09/Yoki_PDP_Pipoca-Micro-ondas-Bacon-100g-min_460x460.png"
     },
     {
         "codigo": "114154",
@@ -3464,6 +3598,14 @@
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoAhHLpa6Z-43MwWhA96pQavJ0YfuW8auxhw&s"
     },
     {
+        "codigo": "1184",
+        "eans": [
+            "7891095100125"
+        ],
+        "nome": "PIPOCA MICRO YOKI 100G NATURAL S/SAL",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIP3rM4zO6wsY34jFdm_Udffxd-drJiCGtQg&s"
+    },
+    {
         "codigo": "11958",
         "eans": [
             "7891095023264"
@@ -3486,6 +3628,14 @@
         ],
         "nome": "FILÉ DE PEITO SEARA BANDEJA 1KG",
         "url": "https://www.bernardaoemcasa.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/5/15105_file_de_peito_500x500.png"
+    },
+    {
+        "codigo": "12048",
+        "eans": [
+            "7891095002207"
+        ],
+        "nome": "PIPOCA MICRO YOKI 100G NATURAL C/SAL",
+        "url": "https://superprix.vteximg.com.br/arquivos/ids/174439/Milho-de-Pipoca-para-Micro-ondas-Yoki-Natural-com-sal-100g.png?v=636209324829800000"
     },
     {
         "codigo": "120804",
@@ -3515,8 +3665,8 @@
     {
         "codigo": "123676",
         "eans": [
-            "7896014450091",
-            "7896014400737"
+            "7896014400737",
+            "7896014450091"
         ],
         "nome": "POLPA BRASFRUT 100G MANGA",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLz-6o_qrC2l2lDMWMadSLZxjTFsQ6JAoKrA&s"
@@ -3524,8 +3674,8 @@
     {
         "codigo": "123706",
         "eans": [
-            "7896014418008",
-            "7896014401079"
+            "7896014401079",
+            "7896014418008"
         ],
         "nome": "POLPA DE FRUTA GRAVIOLA 100G",
         "url": "https://redemix.vteximg.com.br/arquivos/ids/218904-1000-1000/7896014401079.png?v=638521810449030000"
@@ -3539,10 +3689,18 @@
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7891055003589"
     },
     {
+        "codigo": "12406",
+        "eans": [
+            "7891055111604"
+        ],
+        "nome": "ESCOVA MADEIRA CONDOR MULTIUSO",
+        "url": "https://condortatix2.vtexassets.com/arquivos/ids/157866/85175_1.jpg?v=638512098328030000"
+    },
+    {
         "codigo": "124214",
         "eans": [
-            "7896014412006",
-            "7896014400287"
+            "7896014400287",
+            "7896014412006"
         ],
         "nome": "POLPA DE FRUTAS BRASFRUT ACEROLA 100G",
         "url": "https://mercantilnovaera.vtexassets.com/arquivos/ids/157443/Polpa-de-Fruta-BRASFRUT-Acerola-Pacote-100g.jpg?v=637377057484900000"
@@ -3575,8 +3733,8 @@
     {
         "codigo": "124583",
         "eans": [
-            "7898136975414",
-            "7893000005976"
+            "7893000005976",
+            "7898136975414"
         ],
         "nome": "SOBRECOXA DE FRANGO SADIA PACOTE 1KG",
         "url": "https://brf.file.force.com/servlet/servlet.ImageServer?id=0154w000024mK2B&oid=00D410000012TJa&lastMod=1692798239000"
@@ -3680,10 +3838,18 @@
         "url": "https://phygital-files.mercafacil.com/primo/uploads/produto/peixe_sardinha_congelada_inteira_pioneira_1kg_c83052b3-fe88-4169-976c-256308dcad7e.png"
     },
     {
+        "codigo": "131679",
+        "eans": [
+            "7506309841823"
+        ],
+        "nome": "CRM PENT PANTENE 240G RESTAUR PROFUNDA",
+        "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRP5l_MBK6pcBSv-kIlVNVcqo68sRoBPOAZVwM3xt61so1nENkyv2o3NDUmvFEboqRIXpLCH8IXXv7AXuOS26SD02oDeVYGWVnVxLG2R0TT_dK5IWKt4t2d4YTFaZoONnCx4yXJPw&usqp=CAc"
+    },
+    {
         "codigo": "1317",
         "eans": [
-            "1317",
             "131",
+            "1317",
             "5931"
         ],
         "nome": "CARRÉ SUÍNO CONGELADO KG",
@@ -3701,8 +3867,8 @@
         "codigo": "13323",
         "eans": [
             "1332",
-            "7896877300731",
-            "7501001133627"
+            "7501001133627",
+            "7896877300731"
         ],
         "nome": "SHAMP H&S 200ML MENTHOL",
         "url": "https://images.tcdn.com.br/img/img_prod/763758/shampoo_head_shoulders_anticaspa_menthol_refrescante_masculino_200ml_313_1_20200325165105.jpeg"
@@ -3756,6 +3922,14 @@
         "url": "https://lojamelitta.vteximg.com.br/arquivos/ids/160505-1000-1000/Mkp_Cappuccino_Tradicional_2023.jpg?v=638267508315030000"
     },
     {
+        "codigo": "137855",
+        "eans": [
+            "7506195167281"
+        ],
+        "nome": "CRM PENT PANTENE 240G LISO EXTREMO",
+        "url": "data:image/webp;base64,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"
+    },
+    {
         "codigo": "13791",
         "eans": [
             "7891025699880"
@@ -3780,6 +3954,14 @@
         "url": "https://redemix.vteximg.com.br/arquivos/ids/206548-500-500/6799.jpg?v=638350591141530000"
     },
     {
+        "codigo": "138991",
+        "eans": [
+            "7894900530001"
+        ],
+        "nome": "AGUA MINERAL CRYSTAL PET 500ML S/GAS",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-PYuxFcqyA0fw8i3O8CO0UnH2juDLgy2ZA&s"
+    },
+    {
         "codigo": "139041",
         "eans": [
             "7894904678679"
@@ -3790,8 +3972,8 @@
     {
         "codigo": "13919",
         "eans": [
-            "47400179240",
-            "1391"
+            "1391",
+            "47400179240"
         ],
         "nome": "CARGA GILLETTE MACH3 2UN",
         "url": "https://redemix.vteximg.com.br/arquivos/ids/217553-1000-1000/47400179240.jpg?v=638502480307100000"
@@ -3832,9 +4014,9 @@
     {
         "codigo": "19526",
         "eans": [
+            "1952",
             "6600",
-            "7897318535408",
-            "1952"
+            "7897318535408"
         ],
         "nome": "QUEIJO MUSSARELA DAVACA KG _Inteiro ou Pedaço",
         "url": "https://phygital-files.mercafacil.com/bontempo/uploads/produto/queijo_mussarela_davaca_kg_09cf837d-1f05-4973-b42b-ac35f8a6e103.jpg"
@@ -3842,9 +4024,9 @@
     {
         "codigo": "19798",
         "eans": [
-            "7894904006229",
+            "1979",
             "3695",
-            "1979"
+            "7894904006229"
         ],
         "nome": "LOMBO CANADENSE SEARA DEFUMADA KG _Inteiro, Pedaço ou Fatiado",
         "url": "https://covabra.vtexassets.com/arquivos/ids/238354-800-450?v=638615696757070000&width=800&height=450&aspect=true"
@@ -3861,8 +4043,8 @@
     {
         "codigo": "19968",
         "eans": [
-            "3533",
-            "1996"
+            "1996",
+            "3533"
         ],
         "nome": "MORTADELA CONFIANÇA SUÍNA KG",
         "url": "https://http2.mlstatic.com/D_NQ_NP_949271-MLB77838712366_072024-O-mortadela-especial-de-porco-confianca-peca-35kg.webp"
@@ -3914,6 +4096,14 @@
         ],
         "nome": "AZEITE OL GALLO VD 250ML EXT VIRGEM",
         "url": "https://d21wiczbqxib04.cloudfront.net/XeCS0T7Kh3FZIepP9JOinWhsfuM=/1600x0/smart/https://produtos-osuper.s3.sa-east-1.amazonaws.com/934f78e66b9c78d2ec8d178b5dde19e55d36f806/488710-998a475c.png"
+    },
+    {
+        "codigo": "20375",
+        "eans": [
+            "7896036094815"
+        ],
+        "nome": "MAIONESE LIZA SCH 196G TRAD",
+        "url": ""
     },
     {
         "codigo": "20508",
@@ -4045,6 +4235,38 @@
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnnvB8iP_DMGi5V9QD-_bGZjzo9rK2osa4ZA&s"
     },
     {
+        "codigo": "215538",
+        "eans": [
+            "7896055510068"
+        ],
+        "nome": "DETERG ATOL LIQ 500ML COCO",
+        "url": "https://gbarbosa.vtexassets.com/arquivos/ids/261981/67dd7261097d3fd5c043b2a0.jpg?v=638781627922230000"
+    },
+    {
+        "codigo": "215554",
+        "eans": [
+            "7896055503206"
+        ],
+        "nome": "DETERG ATOL LIQ 500ML LIMAO",
+        "url": "https://deskontao.agilecdn.com.br/8937_1.jpg"
+    },
+    {
+        "codigo": "215562",
+        "eans": [
+            "7896055503008"
+        ],
+        "nome": "DETERG ATOL LIQ 500ML MACA",
+        "url": "https://casanorte.agilecdn.com.br/28948_1.jpg?v=387-1986731348"
+    },
+    {
+        "codigo": "21557",
+        "eans": [
+            "7896055503107"
+        ],
+        "nome": "DETERG ATOL LIQ 500ML NEUTRO",
+        "url": "https://casanorte.agilecdn.com.br/92813_1.jpg?v=387-1986731348"
+    },
+    {
         "codigo": "216607",
         "eans": [
             "7896013142065"
@@ -4063,8 +4285,8 @@
     {
         "codigo": "21695",
         "eans": [
-            "7896013104438",
-            "2169"
+            "2169",
+            "7896013104438"
         ],
         "nome": "VINAGRE ALCOOL MINHOTO 500ML ALHO",
         "url": "https://hiperideal.vtexassets.com/arquivos/ids/174574/322490.jpg?v=637000009369330000"
@@ -4177,10 +4399,18 @@
         "url": "https://samsclub.vtexassets.com/arquivos/ids/156654/Feijao-Carioca-Tipo-1-Kicaldo-1Kg.jpg?v=637430325357630000"
     },
     {
+        "codigo": "22225",
+        "eans": [
+            "2222"
+        ],
+        "nome": "MOCOTÓ INTEIRO KG",
+        "url": ""
+    },
+    {
         "codigo": "22535",
         "eans": [
-            "3566",
-            "2253"
+            "2253",
+            "3566"
         ],
         "nome": "PRESUNTO PEPERI KG_inteiro, pedaço ou fatiado",
         "url": "https://d21wiczbqxib04.cloudfront.net/0XVQfaFtDQGEvhy7OEKMnOnab9Y=/1600x0/smart/https://osuper-ecommerce-badotti.s3.sa-east-1.amazonaws.com/af6fa181-presunto-cozido-peperi-fatsc-kg.png"
@@ -4197,8 +4427,8 @@
     {
         "codigo": "22721",
         "eans": [
-            "2272",
             "17894904578150",
+            "2272",
             "4380"
         ],
         "nome": "PRESUNTO REZENDE KG _ Inteiro, Pedaço ou fatiado",
@@ -4207,8 +4437,8 @@
     {
         "codigo": "227676",
         "eans": [
-            "7898903301255",
-            "7898903301033"
+            "7898903301033",
+            "7898903301255"
         ],
         "nome": "AZEITE DENDE KIDENDE 200ML",
         "url": "https://hiperideal.vtexassets.com/arquivos/ids/174038/2029189.jpg?v=636989792092870000"
@@ -4305,8 +4535,8 @@
     {
         "codigo": "232467",
         "eans": [
-            "7894904271535",
-            "7894904271528"
+            "7894904271528",
+            "7894904271535"
         ],
         "nome": "MARGARINA DELÍCIA COM SAL 500G",
         "url": "https://mambodelivery.vtexassets.com/arquivos/ids/225375/7894904271528.jpg?v=638709194707570000"
@@ -4500,8 +4730,8 @@
     {
         "codigo": "242411",
         "eans": [
-            "7896005272008",
-            "7896005217023"
+            "7896005217023",
+            "7896005272008"
         ],
         "nome": "MIST BOLO D BENTA 450G CHOCO",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngzvHW7JbL8fQ7hjkC9tQUYpiQhYWwKOXIg&s"
@@ -4525,8 +4755,8 @@
     {
         "codigo": "245607",
         "eans": [
-            "7893000012509",
-            "3000002456079"
+            "3000002456079",
+            "7893000012509"
         ],
         "nome": "TORTA SADIA FRANGO COM REQUEIJÃO 500G",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7893000012509"
@@ -4605,6 +4835,22 @@
         "url": "https://mercantilnovaera.vtexassets.com/arquivos/ids/168671/Pizza-Congelada-SADIA-Portuguesa-Caixa-460g.jpg?v=637398504508770000"
     },
     {
+        "codigo": "248649",
+        "eans": [
+            "7894904072439"
+        ],
+        "nome": "LASANHA SEARA PRESUNTO/QUEIJO 600G",
+        "url": "https://www.seara.com.br/wp-content/uploads/2022/10/Lasanha-de-Presunto-e-Queijo-Seara-600g.webp"
+    },
+    {
+        "codigo": "248657",
+        "eans": [
+            "7894904070602"
+        ],
+        "nome": "LASANHA SEARA CALABRESA 600G",
+        "url": "https://www.seara.com.br/wp-content/uploads/2022/10/Lasanha-de-Calabresa-Seara-600g.webp"
+    },
+    {
         "codigo": "2488",
         "eans": [
             "248",
@@ -4680,8 +4926,8 @@
     {
         "codigo": "252514",
         "eans": [
-            "7898403782394",
-            "7898403780147"
+            "7898403780147",
+            "7898403782394"
         ],
         "nome": "LEITE LIQ BETANIA 1L DESN",
         "url": "https://redemix.vteximg.com.br/arquivos/ids/213937-1000-1000/7898403782394.jpg?v=638350624515570000"
@@ -4697,11 +4943,27 @@
     {
         "codigo": "252581",
         "eans": [
-            "7894904535972",
-            "7894904002450"
+            "7894904002450",
+            "7894904535972"
         ],
         "nome": "HAMBÚRGUER BOVINO SEARA TEXAS 672G",
         "url": "https://superprix.vteximg.com.br/arquivos/ids/226560/VF4qT-qqCUAAAAAAAAQikw.webp.webp?v=638775633409070000"
+    },
+    {
+        "codigo": "25259",
+        "eans": [
+            "7894904082728"
+        ],
+        "nome": "LASANHA SEARA QUATRO QUEIJOS 600G",
+        "url": "https://www.seara.com.br/wp-content/uploads/2022/06/Lasanha-4-Queijos-Seara-600g.webp"
+    },
+    {
+        "codigo": "25262",
+        "eans": [
+            "7894904070596"
+        ],
+        "nome": "LASANHA SEARA FRANGO 600G",
+        "url": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/24429/medium/lasanha-seara-frango-600g_90018.jpg"
     },
     {
         "codigo": "2527",
@@ -4866,8 +5128,8 @@
     {
         "codigo": "262501",
         "eans": [
-            "7897395031664",
-            "7897395031657"
+            "7897395031657",
+            "7897395031664"
         ],
         "nome": "ENERG TNT LT 269ML ZR",
         "url": "https://phygital-files.mercafacil.com/catalogo/uploads/produto/energet_tnt_tangerina_269ml_8ffd3ee6-c38b-4e19-a298-594bf216ea34.jpeg"
@@ -4889,6 +5151,14 @@
         "url": "https://americanas.vtexassets.com/arquivos/ids/471212/1821142401_1SZ.jpg?v=638750826858730000"
     },
     {
+        "codigo": "262684",
+        "eans": [
+            "7891097101465"
+        ],
+        "nome": "BEBIDA LÁCTEA ELEGÊ BOB ESPONJA MORANGO 540G",
+        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gbarbosa.com.br%2Fbebida-lactea-elege-bob-esponja-morango-540g%2Fp%3Fsrsltid%3DAfmBOorrbSLi4X3wl8nRTRJUu6kaBaJZ8XrnCa2M8i_3W53DJuSCVlCG&psig=AOvVaw2CzcWGajCKguSVbO3I-WxC&ust=1761661970316000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCW1PHNxJADFQAAAAAdAAAAABAE"
+    },
+    {
         "codigo": "262692",
         "eans": [
             "7891097089527"
@@ -4903,6 +5173,14 @@
         ],
         "nome": "REQUEIJÃO CREMOSO ELEGÊ TRADICIONAL 200G",
         "url": "https://dompedrito.supernicolini.com.br/wp-content/uploads/2020/04/7896079588548.jpg"
+    },
+    {
+        "codigo": "262994",
+        "eans": [
+            "7896079588531"
+        ],
+        "nome": "REQUEIJÃO CREMOSO ELEGÊ LIGHT 200G",
+        "url": ""
     },
     {
         "codigo": "264008",
@@ -4931,11 +5209,19 @@
     {
         "codigo": "26735",
         "eans": [
-            "26735",
-            "2673"
+            "2673",
+            "26735"
         ],
         "nome": "LINGUIÇA DE FRANGO SADIA KG",
         "url": "https://phygital-files.mercafacil.com/princesa/uploads/produto/linguica_de_frango_sadia_kg_19085458-37a0-4c2d-aa59-42fffd5de627.png"
+    },
+    {
+        "codigo": "267422",
+        "eans": [
+            "7893000079311"
+        ],
+        "nome": "MARGARINA DELINE COM SAL 1KG",
+        "url": "https://carrefourbrfood.vtexassets.com/arquivos/ids/31741850/margarina-cremosa-com-sal-deline-pote-1-kg-1.jpg?v=637777745852300000"
     },
     {
         "codigo": "267465",
@@ -4944,6 +5230,14 @@
         ],
         "nome": "AZEITONA VDE MARATA SCH 210G",
         "url": "https://marata.com.br/wp-content/uploads/2020/09/azeitona-inteira_800x800px.png"
+    },
+    {
+        "codigo": "26931",
+        "eans": [
+            "7894904072453"
+        ],
+        "nome": "LASANHA SEARA PARISIENSE 600G",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNuMjLiMUa_36QLdY1NOzD9TrC5IJW2wS5PQ&s"
     },
     {
         "codigo": "269328",
@@ -4996,9 +5290,9 @@
     {
         "codigo": "271748",
         "eans": [
-            "7893218001500",
             "5000267013602",
-            "5000267013626"
+            "5000267013626",
+            "7893218001500"
         ],
         "nome": "WHISKY J WALKER RED LABEL 1L",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/5000267013626"
@@ -5022,8 +5316,8 @@
     {
         "codigo": "274453",
         "eans": [
-            "7896094906778",
-            "7891350034622"
+            "7891350034622",
+            "7896094906778"
         ],
         "nome": "DESOD AER MONANGE 150ML FLOR LAVANDA",
         "url": "https://a-static.mlcdn.com.br/1500x1500/desodorante-monange-aerosol-150ml-flor-de-lavanda-7891350034622-coty-savoy-industria-de-cosmeticos/pcfarma/15692009990/b10e28be19d0d187249509e24bd6b5ac.jpeg"
@@ -5031,8 +5325,8 @@
     {
         "codigo": "274666",
         "eans": [
-            "7896094906785",
-            "7891350034639"
+            "7891350034639",
+            "7896094906785"
         ],
         "nome": "DESOD AER MONANGE 150ML FRUTAS VERMELHAS",
         "url": "https://ikesaki.vtexassets.com/arquivos/ids/241134/Desodorante-Monange-Aerosol-Frutas-Vermelhas-7891350034639.png?v=637181690811070000"
@@ -5040,10 +5334,10 @@
     {
         "codigo": "27472",
         "eans": [
-            "7898229380859",
             "2742",
+            "2747",
             "7891350034615",
-            "2747"
+            "7898229380859"
         ],
         "nome": "DESOD AER MONANGE 150ML PELE SENSIVEL",
         "url": "https://saudali.com.br/wp-content/uploads/2018/02/Alcatra-Resfriada-Apreciatta-Frente-e-Verso.png"
@@ -5067,8 +5361,8 @@
     {
         "codigo": "275018",
         "eans": [
-            "7898950516138",
-            "7898403780499"
+            "7898403780499",
+            "7898950516138"
         ],
         "nome": "BEB LACTEA BETANIA KIDS 200ML CHOCO",
         "url": "https://m.media-amazon.com/images/I/81oFUBjsqEL._UF894,1000_QL80_.jpg"
@@ -5132,8 +5426,8 @@
     {
         "codigo": "279269",
         "eans": [
-            "7891150033702",
-            "7791293022598"
+            "7791293022598",
+            "7891150033702"
         ],
         "nome": "DESOD AER REXONA 150ML MEN AP ACTIVE",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkg-6yHBEO2ui7ecAgTohiAhwO8wzvnyUTjQ&s"
@@ -5141,8 +5435,8 @@
     {
         "codigo": "279285",
         "eans": [
-            "7891150045750",
-            "7791293022635"
+            "7791293022635",
+            "7891150045750"
         ],
         "nome": "DESOD AER REXONA 150ML MEN AP INVISIBLE",
         "url": "https://comper.vteximg.com.br/arquivos/ids/210205-1000-1000/7791293022635.jpg?v=637834878566100000"
@@ -5184,8 +5478,8 @@
     {
         "codigo": "280631",
         "eans": [
-            "7891150019560",
-            "3000002806317"
+            "3000002806317",
+            "7891150019560"
         ],
         "nome": "SAB BARRA DOVE 90G KARITE BAUNILHA",
         "url": "https://i.ibb.co/pvHk5Pzh/280631-7891150019560-png.png"
@@ -5218,8 +5512,8 @@
         "codigo": "283479",
         "eans": [
             "7891000061190",
-            "7891000379585",
-            "7891000241752"
+            "7891000241752",
+            "7891000379585"
         ],
         "nome": "ACHOC PO NESCAU LT 200G",
         "url": "https://www.arenaatacado.com.br/on/demandware.static/-/Sites-storefront-catalog-sv/default/dwdaa38cbf/Produtos/989363-7891000379585-achocolatado%20em%20po%20nescau%20lata%20200g-nescau-1.jpg"
@@ -5305,6 +5599,14 @@
         ],
         "nome": "LASANHA REZENDE BOLONHESA 600G",
         "url": "https://i.ibb.co/B5dgZYxw/287067-7894904678556-png.png"
+    },
+    {
+        "codigo": "28792",
+        "eans": [
+            "7891095100934"
+        ],
+        "nome": "PIPOCA MICRO YOKI 100G MANTEIGA",
+        "url": "https://prodcontent.yoki.com.br/wp-content/uploads/2024/09/Yoki_PDP_Pipoca-Micro-ondas-Manteiga-100g-min_460x460.png"
     },
     {
         "codigo": "289159",
@@ -5405,8 +5707,8 @@
     {
         "codigo": "29556",
         "eans": [
-            "7898229381771",
-            "2955"
+            "2955",
+            "7898229381771"
         ],
         "nome": "COSTELINHA SUINA SAUDALI TEMP CG KG",
         "url": "https://gbarbosa.vtexassets.com/arquivos/ids/211165-800-auto?v=638354957428800000&width=800&height=auto&aspect=true"
@@ -5423,8 +5725,8 @@
     {
         "codigo": "29602",
         "eans": [
-            "7898229380903",
-            "2960"
+            "2960",
+            "7898229380903"
         ],
         "nome": "ALCATRA SUÍNA SAUDALI CONGELADA KG",
         "url": "https://tdc0wy.vteximg.com.br/arquivos/ids/164758-1000-1000/ALCATRA-SUINA-SAUDALI-APRECIATTA-TEMPERADA-KG.png?v=638615665914330000"
@@ -5476,6 +5778,14 @@
         ],
         "nome": "FEIJAO CARIOCA PEG PAG 1KG",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ31K5nambWCIwXJPXN7sgry5SnUVNZI3B0cA&s"
+    },
+    {
+        "codigo": "301205",
+        "eans": [
+            "7891095008452"
+        ],
+        "nome": "PIPOCA MICRO YOKI 100G MANTEIGA CINEMA",
+        "url": "https://prodcontent.yoki.com.br/wp-content/uploads/2024/09/Yoki_PDP_Pipoca-Micro-ondas-Manteiga-de-Cinema-100g-min_460x460.png"
     },
     {
         "codigo": "304743",
@@ -5560,8 +5870,8 @@
     {
         "codigo": "32387",
         "eans": [
-            "7896000705952",
-            "3238"
+            "3238",
+            "7896000705952"
         ],
         "nome": "TINT COR TON 2.0 PRETO",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7896000705952"
@@ -5597,6 +5907,14 @@
         ],
         "nome": "TINT COR TON 5.0 CASTANHO CLARO",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7896000705983"
+    },
+    {
+        "codigo": "328715",
+        "eans": [
+            "7894904015061"
+        ],
+        "nome": "ASA DE FRANGO SEARA BANDEJA 1KG",
+        "url": "https://www.seara.com.br/wp-content/uploads/2024/08/Asa-Inteira-Bandeja-Congelada-Seara-1kg.webp"
     },
     {
         "codigo": "32879",
@@ -5681,8 +5999,8 @@
     {
         "codigo": "357936",
         "eans": [
-            "7506309865393",
-            "7506295355069"
+            "7506295355069",
+            "7506309865393"
         ],
         "nome": "SHAMP H&S 200ML 3EM1",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnEFwhZ2SE0j9AopvO4kb7h4rnm4ALbqLYFA&s"
@@ -5690,8 +6008,8 @@
     {
         "codigo": "36021",
         "eans": [
-            "7896213300050",
-            "3602"
+            "3602",
+            "7896213300050"
         ],
         "nome": "AGUA OXIGENADA BEIRA ALTA 90ML 20 VOL",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7896213300050"
@@ -5741,9 +6059,9 @@
     {
         "codigo": "37559",
         "eans": [
-            "7898136973953",
+            "1944",
             "3755",
-            "1944"
+            "7898136973953"
         ],
         "nome": "PEITO DE FRANGO MAURICÉA ENVELOPADO KG",
         "url": "https://mauriceaalimentos.agilecdn.com.br/002460_1.jpg"
@@ -5801,8 +6119,8 @@
     {
         "codigo": "400394",
         "eans": [
-            "7898712960339",
-            "7898313153116"
+            "7898313153116",
+            "7898712960339"
         ],
         "nome": "GEL COLA MAXLAY 240G EXT FORTE INCOL",
         "url": ""
@@ -5810,8 +6128,8 @@
     {
         "codigo": "400491",
         "eans": [
-            "7898313150757",
-            "7890724155499"
+            "7890724155499",
+            "7898313150757"
         ],
         "nome": "GEL FIXADOR LAYS 240G INCOLOR",
         "url": ""
@@ -5891,8 +6209,8 @@
     {
         "codigo": "432857",
         "eans": [
-            "7891164026646",
-            "7891164026547"
+            "7891164026547",
+            "7891164026646"
         ],
         "nome": "LASANHA AURORA 600G QUATRO QJOS",
         "url": "https://deskontao.agilecdn.com.br/11728_1.jpg"
@@ -5940,11 +6258,11 @@
     {
         "codigo": "45217",
         "eans": [
-            "4821",
-            "7891515391034",
-            "4521",
             "3396",
-            "5817"
+            "4521",
+            "4821",
+            "5817",
+            "7891515391034"
         ],
         "nome": "LINGUIÇA CALABRESA PERDIGÃO KG",
         "url": "https://ibassets.com.br/ib.item.image.big/b-fd78d2a5b89e48eeb0d6b36f05e81961.png"
@@ -5960,8 +6278,8 @@
     {
         "codigo": "459852",
         "eans": [
-            "7894904271719",
-            "7891080806469"
+            "7891080806469",
+            "7894904271719"
         ],
         "nome": "MARGARINA PRIMOR COM SAL 1KG",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMRzxYDo6QIs29GX9Eyc3qC8FBKFAk3puqg&s"
@@ -6129,6 +6447,14 @@
         "url": "https://redemix.vteximg.com.br/arquivos/ids/214262-1000-1000/9002490229160.jpg?v=638350625048470000"
     },
     {
+        "codigo": "553115",
+        "eans": [
+            "7896272004203"
+        ],
+        "nome": "AZEITONA VD VALE FERTIL S/C D PACK 120G",
+        "url": ""
+    },
+    {
         "codigo": "56172",
         "eans": [
             "7896000722522"
@@ -6147,8 +6473,8 @@
     {
         "codigo": "568139",
         "eans": [
-            "7896213004569",
-            "7896213003517"
+            "7896213003517",
+            "7896213004569"
         ],
         "nome": "BOLINHO VITARELLA TRELOSO 40G BAUN CHOC",
         "url": "https://vitarella.com.br/wp-content/uploads/2020/11/bolinhobaunilhacchocolate.png"
@@ -6156,8 +6482,8 @@
     {
         "codigo": "568147",
         "eans": [
-            "7896213004576",
-            "7896213003531"
+            "7896213003531",
+            "7896213004576"
         ],
         "nome": "BOLINHO VITARELLA TRELOSO 40G BAUN MGO",
         "url": "https://vitarella.com.br/wp-content/uploads/2020/11/bolinhobaunilhacmorango.png"
@@ -6165,8 +6491,8 @@
     {
         "codigo": "568155",
         "eans": [
-            "7896213004590",
-            "7896213003722"
+            "7896213003722",
+            "7896213004590"
         ],
         "nome": "BOLINHO VITARELLA TRELOSO 40G BRIG CHOC",
         "url": "https://vitarella.com.br/wp-content/uploads/2020/11/bolinhodebrigadeirocchocolate.png"
@@ -6186,6 +6512,14 @@
         ],
         "nome": "SHAMP275+COND175ML NIELY G NUT MAGICA",
         "url": "https://bemol.vtexassets.com/arquivos/ids/266806-800-800?v=638540164568300000&width=800&height=800&aspect=true"
+    },
+    {
+        "codigo": "574988",
+        "eans": [
+            "70330729872"
+        ],
+        "nome": "APAR BARB BIC ACQUA 3 C/2UN",
+        "url": ""
     },
     {
         "codigo": "575011",
@@ -6230,8 +6564,8 @@
     {
         "codigo": "588156",
         "eans": [
-            "7898945131193",
-            "744607003391"
+            "744607003391",
+            "7898945131193"
         ],
         "nome": "TEQUILA EL JIMADOR REPOUSADO 750ML",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/744607003414"
@@ -6239,8 +6573,8 @@
     {
         "codigo": "588318",
         "eans": [
-            "7897318500710",
-            "7897318500130"
+            "7897318500130",
+            "7897318500710"
         ],
         "nome": "REQUEIJÃO CREMOSO DAVACA LIGHT 200G",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3WCpK0V07-bE4TXvsFNyOTXNcaTV0W84I4A&s"
@@ -6252,6 +6586,14 @@
         ],
         "nome": "REQUEIJÃO CREMOSO DAVACA TRADICIONAL 200G",
         "url": "https://hiperideal.vtexassets.com/arquivos/ids/185370-800-450?v=637351676264400000&width=800&height=450&aspect=true"
+    },
+    {
+        "codigo": "591408",
+        "eans": [
+            "70330729858"
+        ],
+        "nome": "APAR BARB BIC INTENSITY 3 C/2UN",
+        "url": ""
     },
     {
         "codigo": "593788",
@@ -6272,8 +6614,8 @@
     {
         "codigo": "60267",
         "eans": [
-            "7898229383713",
-            "6026"
+            "6026",
+            "7898229383713"
         ],
         "nome": "FRALDINHA SUÍNA SAUDALI RESFRIADA KG",
         "url": "https://bretas.vtexassets.com/arquivos/ids/194437-800-auto?v=638375523777630000&width=800&height=auto&aspect=true"
@@ -6285,6 +6627,14 @@
         ],
         "nome": "LIMP PERF UAU 500ML NATUREZA E HARMONIA",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ctle8sjgxTn0teeBUpK1fAV8QHun7UgzoQ&s"
+    },
+    {
+        "codigo": "60739",
+        "eans": [
+            "6073"
+        ],
+        "nome": "LINGUIÇA TOSCANA AURORA KG",
+        "url": "https://www.davo.com.br/ccstore/v1/images/?source=/file/v8282994920862033500/products/24406.png&height=940&width=940"
     },
     {
         "codigo": "61002",
@@ -6323,8 +6673,8 @@
     {
         "codigo": "614262",
         "eans": [
-            "7896025802360",
-            "27896025802364"
+            "27896025802364",
+            "7896025802360"
         ],
         "nome": "CATCHUP CEPERA PET 210G TRADICIONAL",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFdpOLqRaRwa5C4zGh3s3oNf78ue9wyaPXAg&s"
@@ -6356,8 +6706,8 @@
     {
         "codigo": "63061",
         "eans": [
-            "6360",
-            "6306"
+            "6306",
+            "6360"
         ],
         "nome": "COSTELA SUÍNA SUÍNCO COZINHA PREMIADA TEMPERADA KG",
         "url": ""
@@ -6397,8 +6747,8 @@
     {
         "codigo": "637467",
         "eans": [
-            "70330731813",
-            "70330731806"
+            "70330731806",
+            "70330731813"
         ],
         "nome": "APAR BARB BIC SOLEIL UN",
         "url": "https://tfchgi.vteximg.com.br/arquivos/ids/163342-1000-1000/70330731806.jpg?v=637775344515400000"
@@ -6496,12 +6846,20 @@
     {
         "codigo": "67938",
         "eans": [
-            "7891515767600",
             "1215",
-            "6793"
+            "6793",
+            "7891515767600"
         ],
         "nome": "BACON PERDIGÃO KG",
         "url": "https://fortali.agilecdn.com.br/19868_1.jpg"
+    },
+    {
+        "codigo": "683868",
+        "eans": [
+            "7891242420113"
+        ],
+        "nome": "LAVA ROUPA LIQ UAU 3L ACTIVE",
+        "url": "https://redemix.vteximg.com.br/arquivos/ids/223825-1000-1000/LAVA-ROUPAS-ACTIVE-3-L.png?v=638918306831870000"
     },
     {
         "codigo": "687189",
@@ -6643,6 +7001,22 @@
         "url": "https://i.ibb.co/2Y30TLbB/711616-7896074600559-png.png"
     },
     {
+        "codigo": "712663",
+        "eans": [
+            "7891025109396"
+        ],
+        "nome": "LEITE FERMENTADO ACTIVIA MORANGO 170G",
+        "url": "https://meufestval.vtexassets.com/arquivos/ids/205259/leite-fermentado-activia-sabor-morango-170g-festval-7891025104315.jpg?v=638415156579230000"
+    },
+    {
+        "codigo": "712671",
+        "eans": [
+            "7891025109419"
+        ],
+        "nome": "LEITE FERMENTADO ACTIVIA AMEIXA 170",
+        "url": "https://bretas.vtexassets.com/arquivos/ids/197598/6571caae558925a4e889b4a2.jpg?v=638375530736430000"
+    },
+    {
         "codigo": "713139",
         "eans": [
             "7898136975407"
@@ -6683,10 +7057,18 @@
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7891962050065"
     },
     {
+        "codigo": "718769",
+        "eans": [
+            "7894904793099"
+        ],
+        "nome": "FÍGADO DE FRANGO SEARA BANDEJA 1KG",
+        "url": "https://www.seara.com.br/wp-content/uploads/2024/08/Figado-de-Frango-Bandeja-Congelada-Seara-1kg.webp"
+    },
+    {
         "codigo": "724114",
         "eans": [
-            "7891152305913",
-            "77891152305912"
+            "77891152305912",
+            "7891152305913"
         ],
         "nome": "BISC COOKIES RICHESTER 40G CHOCO",
         "url": "https://richester.b-cdn.net/wp-content/uploads/2020/11/Cookies-Chocolate-40g-1.png"
@@ -6727,8 +7109,8 @@
     {
         "codigo": "726079",
         "eans": [
-            "7891095028351",
-            "3000007260794"
+            "3000007260794",
+            "7891095028351"
         ],
         "nome": "FARINHA AVEIA YOKI 170G",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_Y-7ykt3NlA3389kEw4tDOQ-uwLanYv-BQ&s"
@@ -6907,9 +7289,9 @@
     {
         "codigo": "76031",
         "eans": [
-            "7898996445904",
             "602883977488",
-            "7603"
+            "7603",
+            "7898996445904"
         ],
         "nome": "QUEIJO MUSSARELA LAC GLÓRIA KG _ Inteiro ou Pedaço",
         "url": "https://phygital-files.mercafacil.com/comercial-nunes-peixoto/uploads/produto/queijo_mussarela_lacgloria_kg_adbce5ce-1974-40a8-ae3c-c2f11ee5b731.PNG"
@@ -6917,8 +7299,8 @@
     {
         "codigo": "76198",
         "eans": [
-            "7694",
             "7619",
+            "7694",
             "7891515611125"
         ],
         "nome": "FILÉ MIGNONETO SUÍNO SADIA KG _Inteiro, Pedaço ou fatiado",
@@ -6973,6 +7355,22 @@
         ],
         "nome": "LAVA ROUPA LIQ ARIEL 1,2L CONC TQ DOW",
         "url": "https://comper.vteximg.com.br/arquivos/ids/199997-500-500/7500435115827.jpg?v=637699350369800000"
+    },
+    {
+        "codigo": "775568",
+        "eans": [
+            "7896733303630"
+        ],
+        "nome": "COXA DE FRANGO FRIATO PACOTE 1KG",
+        "url": ""
+    },
+    {
+        "codigo": "775827",
+        "eans": [
+            "7898136974547"
+        ],
+        "nome": "BATATA PRÉ FRITA MAURICÉA 2KG",
+        "url": ""
     },
     {
         "codigo": "777552",
@@ -7225,8 +7623,8 @@
     {
         "codigo": "829412",
         "eans": [
-            "7898967859020",
             "7898917726198",
+            "7898967859020",
             "7898994818229"
         ],
         "nome": "FARINHA MAND ESPECIAL 1KG AMARELA",
@@ -7281,6 +7679,22 @@
         "url": "https://img.dpcnet.com.br/catalogo/54861/54861_sab-albany-suave-85g_250x250_sm.png"
     },
     {
+        "codigo": "836427",
+        "eans": [
+            "7500435125413"
+        ],
+        "nome": "COND PANTENE 175ML LISO EXTREM",
+        "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQwo_WggIQ5aFz8kBzzRurFTZlplw9OMAXSiAMhlE1r2o2X7Ct4TmUS_Ceh8cjrcZkgaDX1M5nVwYxBdVOGZsz2KW27t9iTWhhRv2PsO-EUgSK0fH3S3yVgQgC2vPlKG50ltMHZlg&usqp=CAc"
+    },
+    {
+        "codigo": "836435",
+        "eans": [
+            "7500435125451"
+        ],
+        "nome": "COND PANTENE 175ML RESTAURACAO",
+        "url": "data:image/webp;base64,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"
+    },
+    {
         "codigo": "836583",
         "eans": [
             "7500435125383"
@@ -7303,6 +7717,22 @@
         ],
         "nome": "SHAMP PANTENE 175ML RESTAURACAO",
         "url": "https://drogariasp.vtexassets.com/arquivos/ids/569807/635758---shampoo-pantene-restauracao-175ml.jpg?v=637829697739330000"
+    },
+    {
+        "codigo": "83887",
+        "eans": [
+            "7898075642941"
+        ],
+        "nome": "OLEO COMP SANTA ISABEL VD 500ML",
+        "url": ""
+    },
+    {
+        "codigo": "840211",
+        "eans": [
+            "7500435118583"
+        ],
+        "nome": "CRM PENT PANTENE 240G HIDRATACAO",
+        "url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRIQH4CLWF57Y1V-PkiU6158CaWhgckccsBuc_-Ys_YGZOfSEl-2lOSUMZeAqzRwYrhuOc7qKtYK62BeN_IH3H3RpxmsaUrlKsPQvXw_KhRTMWuIYzg6L47FsYQZUmtvjTvTnR7Wg&usqp=CAc"
     },
     {
         "codigo": "840548",
@@ -7331,8 +7761,8 @@
     {
         "codigo": "846171",
         "eans": [
-            "7896013107552",
-            "7896013106951"
+            "7896013106951",
+            "7896013107552"
         ],
         "nome": "CRM DENT EVEN 70G JUA HORTELA",
         "url": "https://hiperideal.vtexassets.com/arquivos/ids/180311/2034107.jpg?v=637240277374430000"
@@ -7384,6 +7814,22 @@
         ],
         "nome": "AGUA MINERAL INDAIA PET 1,5L C/GAS",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7896445472174"
+    },
+    {
+        "codigo": "851922",
+        "eans": [
+            "7500435127233"
+        ],
+        "nome": "ABS C/ABAS ALWAYS BASIC 16UN L+P- SCA",
+        "url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQSP-P2hPyAWmJEVXsw9XUDiU8WMewXlHgpJ6EoSVP2roMIhl1xmaNup_pE76ZOYo-Euw7QGffr-pJ5mGQq0-IncKgB2aCre2k9DvnavvcjCmN69L7-Q366fSBhffPgauBdltVrQw&usqp=CAc"
+    },
+    {
+        "codigo": "851949",
+        "eans": [
+            "7500435127257"
+        ],
+        "nome": "ABS C/ABAS ALWAYS BASIC 16UN L+P- SVE",
+        "url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTpWmY9hEJdc9aOPIbMQ-14q038JmRo-17gKCNs-5QNHMKG2UGQUub8_qDqRqArp-CYMO6rPinBePw5ItYuKJN9ngkJ6IJGmS7Ysx1-enA7OiKX2XE3TeeXzmtl-0uSapiWf9jYFA&usqp=CAc"
     },
     {
         "codigo": "852228",
@@ -7448,6 +7894,14 @@
         ],
         "nome": "CEREAL MAT CRUNCH SCH 120G",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7891000255445"
+    },
+    {
+        "codigo": "857157",
+        "eans": [
+            "7891150058903"
+        ],
+        "nome": "MILHO VERDE KNORR LT 170G",
+        "url": ""
     },
     {
         "codigo": "85873",
@@ -7658,6 +8112,14 @@
         "url": "https://www.nescafe-dolcegusto.com.br/media/catalog/product/cache/d22af66f75f51f60e100631e2c10a99a/m/o/mobile-hero.png"
     },
     {
+        "codigo": "891339",
+        "eans": [
+            "7896034680126"
+        ],
+        "nome": "QUEIJO PARMESÃO RALADO PRESIDENT 50G",
+        "url": "https://prezunic.vtexassets.com/arquivos/ids/192953/6568d76ee1d9f5b4beb95f08.jpg?v=638369665148200000"
+    },
+    {
         "codigo": "893188",
         "eans": [
             "7891035325595"
@@ -7684,8 +8146,8 @@
     {
         "codigo": "895067",
         "eans": [
-            "7898136977104",
-            "7898136975810"
+            "7898136975810",
+            "7898136977104"
         ],
         "nome": "FRANGO PASSARINHO MAURICÉA TEMPERADO 500G",
         "url": "https://mauriceaalimentos.agilecdn.com.br/002702_1.jpg"
@@ -7709,8 +8171,8 @@
     {
         "codigo": "901377",
         "eans": [
-            "7896013107873",
-            "7896013107729"
+            "7896013107729",
+            "7896013107873"
         ],
         "nome": "SAB BARRA EVEN SUAVE 85G ERV DC ALECRIM",
         "url": "https://m.media-amazon.com/images/I/51BJ3vsWMqL._AC_UF1000,1000_QL80_.jpg"
@@ -8204,6 +8666,14 @@
         "url": "https://promofarma.vtexassets.com/arquivos/ids/160021/7500435154260.jpg?v=637950554903370000"
     },
     {
+        "codigo": "965928",
+        "eans": [
+            "7500435154307"
+        ],
+        "nome": "CRM PENT PANTENE 240G BAMBU",
+        "url": "data:image/webp;base64,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"
+    },
+    {
         "codigo": "96825",
         "eans": [
             "7891515547974"
@@ -8442,6 +8912,22 @@
         ],
         "nome": "REFRIG COCA COLA PET 2,5L",
         "url": "https://redemix.vteximg.com.br/arquivos/ids/211929-1000-1000/7894900027020.jpg?v=638350616284230000"
+    },
+    {
+        "codigo": "989355",
+        "eans": [
+            "7891025120223"
+        ],
+        "nome": "IOGURTE DANONE NATURAL 160G",
+        "url": "https://cdn.awsli.com.br/2500x2500/2475/2475280/produto/170006061/danone-natural-160g-1001011000101-integral-33023kn0m9.png"
+    },
+    {
+        "codigo": "989363",
+        "eans": [
+            "7891025120230"
+        ],
+        "nome": "IOGURTE DANONE DESNATADO 160G",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa2lZ58lD1NMpejGAc5RfjHr4ozOH6HCb8AA&s"
     },
     {
         "codigo": "991392",

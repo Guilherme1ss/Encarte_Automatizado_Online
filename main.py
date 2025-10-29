@@ -155,7 +155,7 @@ def classify_ean(ean_str):
     Classifica o EAN retornando uma tupla (tipo_codigo, unidade).
     Regras:
       - Se tinha "/" originalmente → Interno, Quilograma
-      - Se todos os códigos < 12 dígitos → Interno, Quilograma
+      - Se todos os códigos < 10 dígitos → Interno, Quilograma
       - Caso contrário → EAN, Unidade
     """
     if not ean_str or pd.isna(ean_str) or not str(ean_str).strip():
@@ -171,7 +171,7 @@ def classify_ean(ean_str):
     first_ean = eans[0]
     first_len = len(first_ean)
 
-    if had_slash or first_len < 12:
+    if had_slash or first_len < 10:
         return ("Interno", "Quilograma")
     else:
         return ("EAN", "Unidade")
@@ -186,7 +186,7 @@ def get_code_type(ean):
     if not eans:
         return 'EAN'
     lens = [len(e) for e in eans]
-    if all(l < 12 for l in lens):
+    if all(l < 10 for l in lens):
         return 'Interno'
     else:
         return 'EAN'

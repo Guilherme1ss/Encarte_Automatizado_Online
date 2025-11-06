@@ -61,16 +61,7 @@
     },
     {
         "codigo": [
-            "10014"
-        ],
-        "eans": [
-            "7896007551316"
-        ],
-        "nome": "FRALDA DESC HUGGIES XTRA TP PROT M42UN",
-        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896007551316"
-    },
-    {
-        "codigo": [
+            "10014",
             "1001400"
         ],
         "eans": [
@@ -141,6 +132,16 @@
     },
     {
         "codigo": [
+            "1003607"
+        ],
+        "eans": [
+            "7896076001644"
+        ],
+        "nome": "PAPEL TOALHA FD PICCOLA DONNA 100FLS 2UN",
+        "url": ""
+    },
+    {
+        "codigo": [
             "100366"
         ],
         "eans": [
@@ -208,6 +209,26 @@
         ],
         "nome": "LAVA ROUPA LIQ UAU 3L ROSAS/SEDUÇÃO",
         "url": "https://nordildistribuidora.agilecdn.com.br/189670_1.jpg"
+    },
+    {
+        "codigo": [
+            "1005006"
+        ],
+        "eans": [
+            "7896253401564"
+        ],
+        "nome": "BISC WAFER RANCHEIRO 78G CHOC",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "100503"
+        ],
+        "eans": [
+            "7896253401557"
+        ],
+        "nome": "BISC WAFER RANCHEIRO 78G MGO",
+        "url": ""
     },
     {
         "codigo": [
@@ -784,6 +805,46 @@
     },
     {
         "codigo": [
+            "1032089"
+        ],
+        "eans": [
+            "7897015211131"
+        ],
+        "nome": "VINHO TTO DEL GRANO GOLD SCO 750ML",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1032097"
+        ],
+        "eans": [
+            "7897015211148"
+        ],
+        "nome": "VINHO TTO DEL GRANO GOLD SVE 750ML",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "10321"
+        ],
+        "eans": [
+            "7897015211155"
+        ],
+        "nome": "VINHO TTO DEL GRANO GOLD DEMI SCO 750ML",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1032127"
+        ],
+        "eans": [
+            "7897015209992"
+        ],
+        "nome": "VINHO TTO DEL GRANO GOLD BORDO SVE 750ML",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1032135"
         ],
         "eans": [
@@ -1109,8 +1170,7 @@
             "1047809"
         ],
         "eans": [
-            "7894904270071",
-            "7894904546282"
+            "7894904270071"
         ],
         "nome": "PÃO DE QUEIJO SEARA GOURMET 300G",
         "url": "https://www.searafoodsolutions.com.br/wp-content/uploads/2023/08/998295-pao-de-queijo-seara-gourmet-300g-min-1024x1024.png"
@@ -1412,6 +1472,26 @@
     },
     {
         "codigo": [
+            "1057324"
+        ],
+        "eans": [
+            "7898286191412"
+        ],
+        "nome": "MOLHO TOM MARATA SCH 300G MANJERICAO",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1057332"
+        ],
+        "eans": [
+            "7898286191450"
+        ],
+        "nome": "MOLHO TOM MARATA SCH 300G DOGAO",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1057421"
         ],
         "eans": [
@@ -1429,6 +1509,46 @@
         ],
         "nome": "DESOD AER NIVEA 150ML BLACK&PEARL",
         "url": "https://tdc0tj.vtexassets.com/arquivos/ids/179230/4005900937520-Desodorante-Aerosol-Nivea-Feminino-Pearl-Beauty-Fragrancia-Premium-150ml.jpg?v=638134439568200000"
+    },
+    {
+        "codigo": [
+            "1058584"
+        ],
+        "eans": [
+            "7898286191405"
+        ],
+        "nome": "MOLHO TOM MARATA SCH 300G PIZZA",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1058592"
+        ],
+        "eans": [
+            "7898286191436"
+        ],
+        "nome": "MOLHO TOM MARATA SCH 300G MARGUERITA",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1058606"
+        ],
+        "eans": [
+            "7898286191443"
+        ],
+        "nome": "MOLHO TOM MARATA SCH 300G NAPOLITANO",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1058614"
+        ],
+        "eans": [
+            "7898286191429"
+        ],
+        "nome": "MOLHO TOM MARATA SCH 300G BOLONHESA",
+        "url": ""
     },
     {
         "codigo": [
@@ -1459,6 +1579,36 @@
         ],
         "nome": "SAB BARRA ALBANY 85G FRUTAS VERMELHAS",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsDw1bD37Twdk80ztNkih06e3uhTXk9Hqi5w&s"
+    },
+    {
+        "codigo": [
+            "105919"
+        ],
+        "eans": [
+            "7896045104550"
+        ],
+        "nome": "CAFE CAPS AL 3CORACOES 10UN 5G INTENSO",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1059203"
+        ],
+        "eans": [
+            "7896045104567"
+        ],
+        "nome": "CAFE CAPS AL 3CORACOES 10UN 5G C MINEIRO",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1059246"
+        ],
+        "eans": [
+            "7898994026914"
+        ],
+        "nome": "CREME CULINARIO DAMARE TP 200G",
+        "url": ""
     },
     {
         "codigo": [
@@ -1795,6 +1945,17 @@
     },
     {
         "codigo": [
+            "1068911",
+            "30635"
+        ],
+        "eans": [
+            "3063"
+        ],
+        "nome": "JERKED BEEF PONTA DE AGULHA KG",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1069047"
         ],
         "eans": [
@@ -2086,6 +2247,16 @@
     },
     {
         "codigo": [
+            "1076655"
+        ],
+        "eans": [
+            "82184004364"
+        ],
+        "nome": "WHISKY JACK DANIELS APPLE 1L",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1078682"
         ],
         "eans": [
@@ -2273,6 +2444,16 @@
         ],
         "nome": "SAB LIQ PROTECTSOAP 500ML BANHO LAVANDA",
         "url": "https://cdn.awsli.com.br/2390/2390749/produto/325946693/7898719041208-1-sw7uypy9d1.jpg"
+    },
+    {
+        "codigo": [
+            "1083473"
+        ],
+        "eans": [
+            "7897015212305"
+        ],
+        "nome": "VINHO TTO DEL GRANO LEV1L PG 750ML SUAV",
+        "url": ""
     },
     {
         "codigo": [
@@ -2988,6 +3169,96 @@
     },
     {
         "codigo": [
+            "1097636"
+        ],
+        "eans": [
+            "7908785412496"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 1.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097652"
+        ],
+        "eans": [
+            "7908785412526"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 2.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097679"
+        ],
+        "eans": [
+            "7908785412557"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 3.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097695"
+        ],
+        "eans": [
+            "7908785412588"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 4.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097709"
+        ],
+        "eans": [
+            "7908785412618"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 5.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097717"
+        ],
+        "eans": [
+            "7908785412649"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 6.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097725"
+        ],
+        "eans": [
+            "7908785412670"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 7.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097733"
+        ],
+        "eans": [
+            "7908785412700"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 8.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1097741"
+        ],
+        "eans": [
+            "7908785412731"
+        ],
+        "nome": "ESMALTE CRM COLORAMA 8ML BL 9.0 NUDE",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1098217"
         ],
         "eans": [
@@ -3178,13 +3449,64 @@
     },
     {
         "codigo": [
+            "110103"
+        ],
+        "eans": [
+            "7894904296316"
+        ],
+        "nome": "ESCONDIDINHO CARNE MOÍDA SEARA 300G",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1101048"
+        ],
+        "eans": [
+            "7894904296309"
+        ],
+        "nome": "ARROZ CARRETEIRO SEARA 300G",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1101056"
+        ],
+        "eans": [
+            "7894904296323"
+        ],
+        "nome": "FEIJOADA COM CALABRESA SEARA 300G",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1101072"
+        ],
+        "eans": [
+            "7894904296286"
+        ],
+        "nome": "CALDO VERDE COM CALABRESA 300G",
+        "url": ""
+    },
+    {
+        "codigo": [
             "110108"
         ],
         "eans": [
-            "4005808335435"
+            "4005808335435",
+            "7894904296279"
         ],
         "nome": "HIDRAT CORP NIVEA 200ML SOFT MILK",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSvkxDwKrPGO9u8WiJwD3e4HkrAsWZy4UTg&s"
+    },
+    {
+        "codigo": [
+            "1101099"
+        ],
+        "eans": [
+            "7894904296262"
+        ],
+        "nome": "CALDO DE MANDOQUINHA C/FRANGO 300G",
+        "url": ""
     },
     {
         "codigo": [
@@ -3436,6 +3758,16 @@
         ],
         "nome": "AZEITONA VDE GALLO S/CAROCO SCH 150G",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bfsLj7HN-l6AGd3fNYudP_3DpuN9keZsAA&s"
+    },
+    {
+        "codigo": [
+            "110352"
+        ],
+        "eans": [
+            "7896253402356"
+        ],
+        "nome": "BISC COOKIES RANCHEIRO 60G CHOC GT CHOC",
+        "url": ""
     },
     {
         "codigo": [
@@ -3780,6 +4112,56 @@
     },
     {
         "codigo": [
+            "110772"
+        ],
+        "eans": [
+            "7898378181079"
+        ],
+        "nome": "REFRESCO D+ 200ML UVA",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1107739"
+        ],
+        "eans": [
+            "7898378181062"
+        ],
+        "nome": "REFRESCO D+ 200ML LARANJA",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1107747"
+        ],
+        "eans": [
+            "7898378181086"
+        ],
+        "nome": "REFRESCO D+ 200ML MARACUJA",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1107755"
+        ],
+        "eans": [
+            "7898378181093"
+        ],
+        "nome": "REFRESCO D+ 200ML MANGA",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1107763"
+        ],
+        "eans": [
+            "7898378181109"
+        ],
+        "nome": "REFRESCO D+ 200ML GOIABA",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1108786"
         ],
         "eans": [
@@ -4071,6 +4453,16 @@
     },
     {
         "codigo": [
+            "111309"
+        ],
+        "eans": [
+            "7800005082222"
+        ],
+        "nome": "FIO DENTAL ORAL B 50M MENTA",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1113127"
         ],
         "eans": [
@@ -4312,6 +4704,56 @@
     },
     {
         "codigo": [
+            "111632"
+        ],
+        "eans": [
+            "7500435200271"
+        ],
+        "nome": "FRALDA DESC PAMPERS SUPERSEC G 16UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1116339"
+        ],
+        "eans": [
+            "7500435200257"
+        ],
+        "nome": "FRALDA DESC PAMPERS SUPERSEC P 20UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1116347"
+        ],
+        "eans": [
+            "7500435200288"
+        ],
+        "nome": "FRALDA DESC PAMPERS SUPERSEC XG 14UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1116355"
+        ],
+        "eans": [
+            "7500435200295"
+        ],
+        "nome": "FRALDA DESC PAMPERS SUPERSEC XXG 14UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1116363"
+        ],
+        "eans": [
+            "7500435200264"
+        ],
+        "nome": "FRALDA DESC PAMPERS SUPERSEC M 18UN",
+        "url": ""
+    },
+    {
+        "codigo": [
             "1116509"
         ],
         "eans": [
@@ -4510,6 +4952,36 @@
     },
     {
         "codigo": [
+            "1121251"
+        ],
+        "eans": [
+            "7896045112890"
+        ],
+        "nome": "CAFE CAPS AL STA CLARA 10UN 5G CH DIAM",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "112126"
+        ],
+        "eans": [
+            "7896045112913"
+        ],
+        "nome": "CAFE CAPS AL STA CLARA 10UN 5G DARK ROAS",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "1121278"
+        ],
+        "eans": [
+            "7896045112906"
+        ],
+        "nome": "CAFE CAPS AL STA CLARA 10UN 5G MAT MINAS",
+        "url": ""
+    },
+    {
+        "codigo": [
             "112148"
         ],
         "eans": [
@@ -4527,6 +4999,16 @@
         ],
         "nome": "BATATA PRINGLES 100G NETFLIX STEAK",
         "url": "https://americanas.vtexassets.com/arquivos/ids/35854799/BATATAPRINGLESNETFLIXSTEAK100G.png?v=638913204114830000"
+    },
+    {
+        "codigo": [
+            "1121502"
+        ],
+        "eans": [
+            "7896004011424"
+        ],
+        "nome": "BATATA PRINGLES 100G MAIONESE PICANTE",
+        "url": ""
     },
     {
         "codigo": [
@@ -4824,14 +5306,19 @@
     {
         "codigo": [
             "12157",
-            "1566"
+            "1566",
+            "67938",
+            "7691"
         ],
         "eans": [
             "1215",
-            "1317"
+            "1273",
+            "1566",
+            "7691",
+            "7891515767600"
         ],
         "nome": "BACON SEARA KG",
-        "url": ""
+        "url": "https://fortali.agilecdn.com.br/19868_1.jpg"
     },
     {
         "codigo": [
@@ -4944,11 +5431,20 @@
             "124583"
         ],
         "eans": [
-            "7893000005976",
-            "7898136975414"
+            "7893000005976"
         ],
         "nome": "SOBRECOXA DE FRANGO SADIA PACOTE 1KG",
         "url": "https://brf.file.force.com/servlet/servlet.ImageServer?id=0154w000024mK2B&oid=00D410000012TJa&lastMod=1692798239000"
+    },
+    {
+        "codigo": [
+            "125822"
+        ],
+        "eans": [
+            "7896013101055"
+        ],
+        "nome": "VINAGRE ALCOOL MINHOTO 500ML MACA",
+        "url": ""
     },
     {
         "codigo": [
@@ -5094,18 +5590,6 @@
     },
     {
         "codigo": [
-            "1317"
-        ],
-        "eans": [
-            "131",
-            "1317",
-            "5931"
-        ],
-        "nome": "CARRÉ SUÍNO CONGELADO KG",
-        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxCtBv-8ZFFnaH8oihMy3lxT74nuuVnP1EsQ&s"
-    },
-    {
-        "codigo": [
             "1317",
             "59315"
         ],
@@ -5114,7 +5598,7 @@
             "5931"
         ],
         "nome": "CARRÉ SUÍNO CONGELADO KG",
-        "url": ""
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxCtBv-8ZFFnaH8oihMy3lxT74nuuVnP1EsQ&s"
     },
     {
         "codigo": [
@@ -5291,17 +5775,6 @@
     },
     {
         "codigo": [
-            "1566"
-        ],
-        "eans": [
-            "1215",
-            "1566"
-        ],
-        "nome": "BACON SEARA KG",
-        "url": "https://fortali.agilecdn.com.br/19868_1.jpg"
-    },
-    {
-        "codigo": [
             "15733"
         ],
         "eans": [
@@ -5322,37 +5795,16 @@
     },
     {
         "codigo": [
-            "19445"
-        ],
-        "eans": [
-            "1944"
-        ],
-        "nome": "PEITO DE FRANGO ENVELOPADO CONGELADO KG",
-        "url": "https://mauriceaalimentos.agilecdn.com.br/002460_1.jpg"
-    },
-    {
-        "codigo": [
-            "19526"
+            "19526",
+            "66001"
         ],
         "eans": [
             "1952",
             "6600",
             "7897318535408"
         ],
-        "nome": "QUEIJO MUSSARELA DA VACA KG _ Inteiro ou Pedaço",
+        "nome": "QUEIJO MUSSARELA DAVACA KG _ Inteiro ou Pedaço",
         "url": "https://phygital-files.mercafacil.com/bontempo/uploads/produto/queijo_mussarela_davaca_kg_09cf837d-1f05-4973-b42b-ac35f8a6e103.jpg"
-    },
-    {
-        "codigo": [
-            "19526",
-            "66001"
-        ],
-        "eans": [
-            "1952",
-            "6600"
-        ],
-        "nome": "QUEIJO MUSSARELA DAVACA KG_ Inteiro ou Pedaço",
-        "url": ""
     },
     {
         "codigo": [
@@ -5360,7 +5812,6 @@
         ],
         "eans": [
             "1979",
-            "3695",
             "7894904006229"
         ],
         "nome": "LOMBO CANADENSE SEARA DEFUMADA KG _Inteiro, Pedaço ou Fatiado",
@@ -5368,7 +5819,8 @@
     },
     {
         "codigo": [
-            "1995"
+            "1995",
+            "2936"
         ],
         "eans": [
             "1995",
@@ -5376,18 +5828,6 @@
         ],
         "nome": "MORTADELA SEARA DEFUMADA KG _ Inteiro, Pedaço ou Fatiado",
         "url": "https://superprix.vteximg.com.br/arquivos/ids/226462/12016686.jpg?v=638774913136900000"
-    },
-    {
-        "codigo": [
-            "1995",
-            "2936"
-        ],
-        "eans": [
-            "1995",
-            "2936"
-        ],
-        "nome": "MORTADELA SEARA DEFUMADA KG _ Inteira, Pedaço ou Fatiado",
-        "url": ""
     },
     {
         "codigo": [
@@ -5532,6 +5972,16 @@
     },
     {
         "codigo": [
+            "207799"
+        ],
+        "eans": [
+            "7896031203359"
+        ],
+        "nome": "FIAMBRE KITUT LT 320G BOV/FRANGO",
+        "url": ""
+    },
+    {
+        "codigo": [
             "208272"
         ],
         "eans": [
@@ -5600,6 +6050,16 @@
         ],
         "nome": "ACHOC PO MARATA SCH 200G",
         "url": "https://marata.com.br/wp-content/uploads/2020/09/Achocolatado-200g-bx.png"
+    },
+    {
+        "codigo": [
+            "214965"
+        ],
+        "eans": [
+            "7898286200978"
+        ],
+        "nome": "ACHOC PO MARATA SCH 400G",
+        "url": ""
     },
     {
         "codigo": [
@@ -5847,6 +6307,17 @@
     },
     {
         "codigo": [
+            "22195"
+        ],
+        "eans": [
+            "2219",
+            "5259"
+        ],
+        "nome": "FÍGADO BOVINO CONGELADO KG",
+        "url": ""
+    },
+    {
+        "codigo": [
             "22225"
         ],
         "eans": [
@@ -6066,8 +6537,7 @@
             "232467"
         ],
         "eans": [
-            "7894904271528",
-            "7894904271535"
+            "7894904271528"
         ],
         "nome": "MARGARINA DELÍCIA COM SAL 500G",
         "url": "https://mambodelivery.vtexassets.com/arquivos/ids/225375/7894904271528.jpg?v=638709194707570000"
@@ -6124,6 +6594,16 @@
     },
     {
         "codigo": [
+            "2344"
+        ],
+        "eans": [
+            "7898133620560"
+        ],
+        "nome": "MANTEIGA TOURINHO COM SAL 500G",
+        "url": ""
+    },
+    {
+        "codigo": [
             "235075"
         ],
         "eans": [
@@ -6172,6 +6652,16 @@
         ],
         "nome": "LEITE LIQ LEITISSIMO 1L INTEG",
         "url": "https://hortifruti.com.br/media/catalog/product/cache/90a67334732b2408839e146d4f241496/1/1/110434---7898939247015---leite-uht-integral-leitissimo-1lt.jpg"
+    },
+    {
+        "codigo": [
+            "235776"
+        ],
+        "eans": [
+            "7898908698022"
+        ],
+        "nome": "ENERG MAD DOG PET 2L",
+        "url": ""
     },
     {
         "codigo": [
@@ -6273,6 +6763,16 @@
         ],
         "nome": "FRANGO INTEIRO MAURICÉA CONGELADO KG",
         "url": "https://mauriceaalimentos.agilecdn.com.br/002629_1.jpg"
+    },
+    {
+        "codigo": [
+            "238767"
+        ],
+        "eans": [
+            "7893000394209"
+        ],
+        "nome": "MARGARINA QUALY COM SAL 500G",
+        "url": ""
     },
     {
         "codigo": [
@@ -6722,6 +7222,16 @@
     },
     {
         "codigo": [
+            "256382"
+        ],
+        "eans": [
+            "7896224803106"
+        ],
+        "nome": "ACHOC PO CHOCOLATTO SCH 200G",
+        "url": ""
+    },
+    {
+        "codigo": [
             "256609"
         ],
         "eans": [
@@ -6994,6 +7504,16 @@
     },
     {
         "codigo": [
+            "269344"
+        ],
+        "eans": [
+            "7894904577897"
+        ],
+        "nome": "TEKITOS SEARA QUEIJO 300G",
+        "url": ""
+    },
+    {
+        "codigo": [
             "269387"
         ],
         "eans": [
@@ -7011,6 +7531,16 @@
         ],
         "nome": "MARGARINA PRIMOR COM SAL 500G",
         "url": "https://mercantilnovaera.vtexassets.com/arquivos/ids/222698/Margarina-Primor-Com-Sal-500g.jpg?v=638859852832170000"
+    },
+    {
+        "codigo": [
+            "271004"
+        ],
+        "eans": [
+            "7312040017034"
+        ],
+        "nome": "VODKA ABSOLUT 1L",
+        "url": ""
     },
     {
         "codigo": [
@@ -7451,6 +7981,16 @@
     },
     {
         "codigo": [
+            "288896"
+        ],
+        "eans": [
+            "82184090442"
+        ],
+        "nome": "WHISKY JACK DANIELS 1L",
+        "url": ""
+    },
+    {
+        "codigo": [
             "289159"
         ],
         "eans": [
@@ -7714,16 +8254,6 @@
     },
     {
         "codigo": [
-            "30635"
-        ],
-        "eans": [
-            "3063"
-        ],
-        "nome": "JERKED BEEF PONTA DE AGULHA KG",
-        "url": ""
-    },
-    {
-        "codigo": [
             "310522"
         ],
         "eans": [
@@ -7868,10 +8398,10 @@
             "32879"
         ],
         "eans": [
-            "7891515472771"
+            "7894904766833"
         ],
         "nome": "SOBRECOXA DE FRANGO SUCULENTÍSSIMO SEARA 1KG",
-        "url": "https://redemix.vteximg.com.br/arquivos/ids/211507-1000-1000/7891515472771.jpg?v=638350613692130000"
+        "url": "https://tse2.mm.bing.net/th/id/OIP.8h8lJlOhpgGiC5rvCf_BVAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
     },
     {
         "codigo": [
@@ -8039,7 +8569,8 @@
     },
     {
         "codigo": [
-            "37559"
+            "37559",
+            "19445"
         ],
         "eans": [
             "1944",
@@ -8064,7 +8595,6 @@
             "385336"
         ],
         "eans": [
-            "7894904271535",
             "7894904578658"
         ],
         "nome": "LASANHA SEARA BOLONHESA MEU MENU  350G",
@@ -8090,6 +8620,16 @@
         ],
         "nome": "PRESUNTO AURORA KG_inteiro, pedaço ou fatiado",
         "url": "https://gbarbosa.vtexassets.com/arquivos/ids/249850/65b8044687d636080de5d9d0.jpg?v=638421553354200000"
+    },
+    {
+        "codigo": [
+            "399825"
+        ],
+        "eans": [
+            "7506339337525"
+        ],
+        "nome": "APAR BARB GILLETTE PREST3 2UN SENSITIVE",
+        "url": ""
     },
     {
         "codigo": [
@@ -8132,6 +8672,26 @@
         ],
         "nome": "GEL FIXADOR LAYS 240G INCOLOR",
         "url": "https://armazemdoscosmeticos.agilecdn.com.br/15549_thumb_1.jpg?v=461-2021283784"
+    },
+    {
+        "codigo": [
+            "403229"
+        ],
+        "eans": [
+            "7506339326031"
+        ],
+        "nome": "ABS C/ABAS ALWAYS NOITE TR 16UN L+P- SVE",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "407275"
+        ],
+        "eans": [
+            "7506339325249"
+        ],
+        "nome": "ABS C/ABAS ALWAYS NOITE TR 16UN L+P- SCA",
+        "url": ""
     },
     {
         "codigo": [
@@ -8391,6 +8951,16 @@
     },
     {
         "codigo": [
+            "50136"
+        ],
+        "eans": [
+            "7891021002103"
+        ],
+        "nome": "FILTRO PAPEL BRIGITTA 102 30UN",
+        "url": ""
+    },
+    {
+        "codigo": [
             "51691"
         ],
         "eans": [
@@ -8435,7 +9005,6 @@
             "5262"
         ],
         "eans": [
-            "2379",
             "5262"
         ],
         "nome": "COXA COM SOBRECOXA COM DORSO AVIVIP KG",
@@ -8460,6 +9029,16 @@
         ],
         "nome": "CHICKEN SEARA TRADICIONAL 300G",
         "url": "https://www.redesuperbom.com.br/uploads/produtos/24263_barcelos_empanados_chikenitos-seara-300g-tradicional.jpg"
+    },
+    {
+        "codigo": [
+            "543195"
+        ],
+        "eans": [
+            "7894904727490"
+        ],
+        "nome": "FILÉ DE PEITO SEARA TEMPERADO PACOTE 800G",
+        "url": ""
     },
     {
         "codigo": [
@@ -9004,6 +9583,16 @@
     },
     {
         "codigo": [
+            "652466"
+        ],
+        "eans": [
+            "4015400763697"
+        ],
+        "nome": "TOALHA UMED PAMPERS 48UN REGULAR",
+        "url": ""
+    },
+    {
+        "codigo": [
             "6587"
         ],
         "eans": [
@@ -9063,18 +9652,6 @@
         ],
         "nome": "LINGUIÇA TOSCANA SUÍNA SUÍNCO COZINHA PREMIADA KG",
         "url": "https://ibassets.com.br/ib.item.image.big/b-a6a95ee4b6984790bed780c91ec4dc66.png"
-    },
-    {
-        "codigo": [
-            "67938"
-        ],
-        "eans": [
-            "1215",
-            "6793",
-            "7891515767600"
-        ],
-        "nome": "BACON PERDIGÃO KG",
-        "url": "https://fortali.agilecdn.com.br/19868_1.jpg"
     },
     {
         "codigo": [
@@ -9328,6 +9905,16 @@
         ],
         "nome": "BISC RECHEADINHO BAUDUCCO 112G GOIABA",
         "url": "http://www.eanpictures.com.br:9000/api/gtin/7891962050065"
+    },
+    {
+        "codigo": [
+            "71805"
+        ],
+        "eans": [
+            "82184000328"
+        ],
+        "nome": "WHISKY JACK DANIELS HONEY 1L",
+        "url": ""
     },
     {
         "codigo": [
@@ -9661,18 +10248,6 @@
     },
     {
         "codigo": [
-            "7691"
-        ],
-        "eans": [
-            "1215",
-            "1273",
-            "7691"
-        ],
-        "nome": "BACON PERDIGÃO KG",
-        "url": "https://fortali.agilecdn.com.br/19868_1.jpg"
-    },
-    {
-        "codigo": [
             "771961"
         ],
         "eans": [
@@ -9903,6 +10478,16 @@
     },
     {
         "codigo": [
+            "812277"
+        ],
+        "eans": [
+            "7896076001118"
+        ],
+        "nome": "GUARDANAPO FD QUICK DRINK 19,5X19,5 50F",
+        "url": ""
+    },
+    {
+        "codigo": [
             "813494"
         ],
         "eans": [
@@ -10062,6 +10647,16 @@
         ],
         "nome": "FARINHA MAND ESPECIAL 1KG AMARELA",
         "url": "https://superprix.vteximg.com.br/arquivos/ids/168863-600-600/Farinha-de-Mandioca-Alemao-Amarela-1kg.jpg?v=636094481459870000"
+    },
+    {
+        "codigo": [
+            "830542"
+        ],
+        "eans": [
+            "7891021002127"
+        ],
+        "nome": "FILTRO PAPEL BRIGITTA 103 30UN",
+        "url": ""
     },
     {
         "codigo": [
@@ -10496,6 +11091,16 @@
     },
     {
         "codigo": [
+            "873772"
+        ],
+        "eans": [
+            "7896253401267"
+        ],
+        "nome": "BISC COOKIES RANCHEIRO 60G TRED GT CHOC",
+        "url": ""
+    },
+    {
+        "codigo": [
             "875287"
         ],
         "eans": [
@@ -10898,6 +11503,16 @@
     },
     {
         "codigo": [
+            "911461"
+        ],
+        "eans": [
+            "7891150062153"
+        ],
+        "nome": "LIMP CIF LV450PG360ML CREMOSO",
+        "url": ""
+    },
+    {
+        "codigo": [
             "914312"
         ],
         "eans": [
@@ -11005,6 +11620,56 @@
         ],
         "nome": "CEREAL MUCILON Z/A SCH 180G AVEIA AMEIX",
         "url": "https://drogariavenancio.vtexassets.com/arquivos/ids/1259005/71234_1.jpg?v=638791852656830000"
+    },
+    {
+        "codigo": [
+            "923354"
+        ],
+        "eans": [
+            "7500435146135"
+        ],
+        "nome": "FRALDA DESC PAMPERS PANTS PAC P 26UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "923362"
+        ],
+        "eans": [
+            "7500435146142"
+        ],
+        "nome": "FRALDA DESC PAMPERS PANTS PAC M 20UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "92337"
+        ],
+        "eans": [
+            "7500435146159"
+        ],
+        "nome": "FRALDA DESC PAMPERS PANTS PAC G 16UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "923389"
+        ],
+        "eans": [
+            "7500435146166"
+        ],
+        "nome": "FRALDA DESC PAMPERS PANTS PAC XG 14UN",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "923397"
+        ],
+        "eans": [
+            "7500435146173"
+        ],
+        "nome": "FRALDA DESC PAMPERS PANTS PAC XXG 12UN",
+        "url": ""
     },
     {
         "codigo": [
@@ -11135,6 +11800,16 @@
         ],
         "nome": "CAFE PO MELITTA 250G REG BR CERRADO",
         "url": "https://carrefourbrfood.vtexassets.com/arquivos/ids/207426/8923221_1.jpg?v=637272505125930000"
+    },
+    {
+        "codigo": [
+            "932906"
+        ],
+        "eans": [
+            "5099873006368"
+        ],
+        "nome": "WHISKY JACK DANIElS TENNESSEE FIRE 1L",
+        "url": ""
     },
     {
         "codigo": [
@@ -11468,6 +12143,16 @@
     },
     {
         "codigo": [
+            "97028"
+        ],
+        "eans": [
+            "7500435153164"
+        ],
+        "nome": "CRM DENT ORAL B 100% 70G MENTA REFRES",
+        "url": ""
+    },
+    {
+        "codigo": [
             "970433"
         ],
         "eans": [
@@ -11475,6 +12160,26 @@
         ],
         "nome": "SHAMP PANTENE 200ML BAMBU",
         "url": "https://product-data.raiadrogasil.io/images/3558071.webp"
+    },
+    {
+        "codigo": [
+            "971227"
+        ],
+        "eans": [
+            "7500435148436"
+        ],
+        "nome": "TOALHA UMED PAMPERS 48UN LAVANDA",
+        "url": ""
+    },
+    {
+        "codigo": [
+            "971235"
+        ],
+        "eans": [
+            "7500435145244"
+        ],
+        "nome": "TOALHA UMED PAMPERS 48UN ALOE VERA",
+        "url": ""
     },
     {
         "codigo": [

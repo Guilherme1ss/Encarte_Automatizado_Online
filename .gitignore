@@ -1,18 +1,85 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# ======================
+# Arquivos de sistema
+# ======================
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Other files and folders
-.settings/
+# ======================
+# Ambientes virtuais
+# ======================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# ======================
+# Logs e caches
+# ======================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.sqlite3
+*.db
+*.cache/
+.cache/
+*.pkl
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# ======================
+# Arquivos de build e distribuição
+# ======================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# ======================
+# Configurações de IDEs
+# ======================
+.vscode/
+.idea/
+*.code-workspace
+
+# ======================
+# Arquivos temporários e exportações
+# ======================
+*.xlsx
+*.xlsm
+*.csv
+*.zip
+*.rar
+*.tar
+*.gz
+*.pdf
+*.tmp
+*.bak
+*.old
+*.orig
+*.tmp.json
+
+# ======================
+# Arquivos do Streamlit
+# ======================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ======================
+# Notebooks e checkpoints
+# ======================
+.ipynb_checkpoints/
+*.ipynb~
+
+# ======================
+# Arquivos de testes temporários
+# ======================
+.coverage
+htmlcov/
+.pytest_cache/

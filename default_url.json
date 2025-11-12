@@ -166,7 +166,7 @@
             "7896076001644"
         ],
         "nome": "PAPEL TOALHA FD PICCOLA DONNA 100FLS 2UN",
-        "url": ""
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrEQ3DTDtgFwkpc7D7k1R6sf6aqAI6ShGAVA&s"
     },
     {
         "id": "36dbe6c9-272b-4b39-9cd3-23608c8ffedc",
@@ -1632,7 +1632,6 @@
             "1049631"
         ],
         "eans": [
-            "7898080665010",
             "9002490258825"
         ],
         "nome": "ENERG RED BULL LT 250ML MGO/PESSEGO",
@@ -2333,7 +2332,8 @@
         "id": "2adc32f4-fa23-41bd-b4a6-38ee33fcc6cd",
         "posição": 194,
         "codigo": [
-            "1068911"
+            "1068911",
+            "30635"
         ],
         "eans": [
             "3063"
@@ -4154,7 +4154,7 @@
             "7894904296309"
         ],
         "nome": "ARROZ CARRETEIRO SEARA 300G",
-        "url": ""
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNBCgRTTzajWLpsEjBQmInK3PWh0MTFMtdpA&s"
     },
     {
         "id": "fec60bce-e416-40ae-8c63-a29327440946",
@@ -4178,7 +4178,7 @@
             "7894904296286"
         ],
         "nome": "CALDO VERDE COM CALABRESA 300G",
-        "url": ""
+        "url": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/63305/medium/caldo-verde-seara-com-calabresa-na-panelinha-300g_112258.jpg"
     },
     {
         "id": "0ebab7b6-b96f-404a-8091-5f1341a7a38c",
@@ -4203,7 +4203,7 @@
             "7894904296262"
         ],
         "nome": "CALDO DE MANDOQUINHA C/FRANGO 300G",
-        "url": ""
+        "url": "https://d21wiczbqxib04.cloudfront.net/nFYYCTZPwALGduFoz_ztaiSZEC8=/1600x0/smart/https://produtos-osuper.s3.sa-east-1.amazonaws.com/934f78e66b9c78d0e284128058d81aec5930fd07/537356-1ce19898.png"
     },
     {
         "id": "2dd6a293-6570-4cbb-894c-a2dbac1000f6",
@@ -6005,7 +6005,7 @@
             "7896004011424"
         ],
         "nome": "BATATA PRINGLES 100G MAIONESE PICANTE",
-        "url": ""
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGMI7db8AIhdDlmbxaUbVg99rvravoT07uTg&s"
     },
     {
         "id": "32017e81-8c05-4748-bfdf-491f334d3857",
@@ -6706,7 +6706,8 @@
         ],
         "eans": [
             "1317",
-            "5931"
+            "5931",
+            "27893000018772"
         ],
         "nome": "CARRÉ SUÍNO CONGELADO KG",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxCtBv-8ZFFnaH8oihMy3lxT74nuuVnP1EsQ&s"
@@ -8970,7 +8971,8 @@
             "26931"
         ],
         "eans": [
-            "7894904072453"
+            "7894904072453",
+            "1789490407245"
         ],
         "nome": "LASANHA SEARA PARISIENSE 600G",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNuMjLiMUa_36QLdY1NOzD9TrC5IJW2wS5PQ&s"
@@ -9885,18 +9887,6 @@
         "url": "https://mercantilnovaera.vtexassets.com/arquivos/ids/164044-800-450?v=637397662673130000&width=800&height=450&aspect=true"
     },
     {
-        "id": "2556f931-06b2-4f88-b5b2-a832705ba66e",
-        "posição": 817,
-        "codigo": [
-            "30635"
-        ],
-        "eans": [
-            "3063"
-        ],
-        "nome": "JERKED BEEF PONTA DE AGULHA KG",
-        "url": ""
-    },
-    {
         "id": "bb192e8e-abf7-4879-bb07-198fe2614f98",
         "posição": 818,
         "codigo": [
@@ -10739,7 +10729,7 @@
             "7891021002103"
         ],
         "nome": "FILTRO PAPEL BRIGITTA 102 30UN",
-        "url": ""
+        "url": "https://dfxe7ekqtze9q.cloudfront.net/produtos/produtos/90105.webp"
     },
     {
         "id": "70878d13-5470-4c09-b0d6-9202fe843905",
@@ -12566,7 +12556,7 @@
             "7896076001118"
         ],
         "nome": "GUARDANAPO FD QUICK DRINK 19,5X19,5 50F",
-        "url": ""
+        "url": "https://cdn.awsli.com.br/2500x2500/2313/2313450/produto/344394755/guardanapo-quick-folha-dupla-19-5x19-5-cm---10-pacotes-c-50-un-cada-4ewyyv2pfv.jpg"
     },
     {
         "id": "a1ca110a-c48d-49c1-b446-215204d46a68",
@@ -12772,7 +12762,7 @@
             "7891021002127"
         ],
         "nome": "FILTRO PAPEL BRIGITTA 103 30UN",
-        "url": ""
+        "url": "https://dfxe7ekqtze9q.cloudfront.net/produtos/produtos/90106.webp"
     },
     {
         "id": "6b7d74c7-f48b-4784-830a-41f320065f20",

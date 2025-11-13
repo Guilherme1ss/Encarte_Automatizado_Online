@@ -262,7 +262,7 @@
             "7896253401564"
         ],
         "nome": "BISC WAFER RANCHEIRO 78G CHOC",
-        "url": ""
+        "url": "https://caferancheiro.vtexassets.com/arquivos/ids/155596/MOCKUP_WAFER-CHOCOLATE_78G_1000X1000.png?v=638635737850930000"
     },
     {
         "id": "a4e53153-5715-4796-acbf-d22d640226d7",
@@ -274,7 +274,7 @@
             "7896253401557"
         ],
         "nome": "BISC WAFER RANCHEIRO 78G MGO",
-        "url": ""
+        "url": "https://caferancheiro.vtexassets.com/arquivos/ids/155593/MOCKUP_WAFER-MORANGO_78G_1000X1000.png?v=638635733577070000"
     },
     {
         "id": "d914912d-3ca9-493b-9a60-91fa5ba57b31",
@@ -973,7 +973,7 @@
             "7897015211131"
         ],
         "nome": "VINHO TTO DEL GRANO GOLD SCO 750ML",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897015211131"
     },
     {
         "id": "8d5d0932-bcea-4981-9a6a-510b034c7ba6",
@@ -985,7 +985,7 @@
             "7897015211148"
         ],
         "nome": "VINHO TTO DEL GRANO GOLD SVE 750ML",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897015211148"
     },
     {
         "id": "bda262d1-2032-4132-a412-817c3fee8191",
@@ -1009,7 +1009,7 @@
             "7897015209992"
         ],
         "nome": "VINHO TTO DEL GRANO GOLD BORDO SVE 750ML",
-        "url": ""
+        "url": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/81061-vinho-del-grano-gold-bordo-suave-750ml.jpg"
     },
     {
         "id": "31e2bb80-2524-4732-b029-b050ada1a7a6",
@@ -1900,10 +1900,11 @@
             "105919"
         ],
         "eans": [
-            "7896045104550"
+            "7896045104550",
+            "7896045111312"
         ],
         "nome": "CAFE CAPS AL 3CORACOES 10UN 5G INTENSO",
-        "url": ""
+        "url": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/49469/medium/capsula-3-coracoes-cafe-intenso-5g-com-10-unidades_95668.jpg"
     },
     {
         "id": "ced952ab-011d-435a-9b8a-da1fcb84766f",
@@ -1912,10 +1913,11 @@
             "1059203"
         ],
         "eans": [
-            "7896045104567"
+            "7896045104567",
+            "7896045111299"
         ],
         "nome": "CAFE CAPS AL 3CORACOES 10UN 5G C MINEIRO",
-        "url": ""
+        "url": "https://destro.fbitsstatic.net/img/p/capsula-de-cafe-3-coracoes-cerrado-mineiro-10un-5g-88241/275239.jpg?w=500&h=500&v=202501231555&qs=ignore"
     },
     {
         "id": "b763dac0-f96a-41a2-9ff6-5207e66cccf1",
@@ -2700,7 +2702,7 @@
             "82184004364"
         ],
         "nome": "WHISKY JACK DANIELS APPLE 1L",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/82184004364"
     },
     {
         "id": "896016a6-13ec-4cf5-9f64-c524b8406d8c",
@@ -3298,7 +3300,8 @@
             "1089633"
         ],
         "eans": [
-            "7891025124627"
+            "7891025124627",
+            "7891025125150"
         ],
         "nome": "BEBIDA LACTEA YOPRO 250ML BAUNILHA",
         "url": "https://paguemenos.vtexassets.com/arquivos/ids/926980/7891025124627.jpg?v=638612248592800000"
@@ -4142,7 +4145,7 @@
             "7894904296316"
         ],
         "nome": "ESCONDIDINHO CARNE MOÍDA SEARA 300G",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904296316"
     },
     {
         "id": "c2a50f47-aae4-43e5-b04c-eb982f2455ba",
@@ -4166,7 +4169,7 @@
             "7894904296323"
         ],
         "nome": "FEIJOADA COM CALABRESA SEARA 300G",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904296323"
     },
     {
         "id": "9bcc4ace-30d2-4de5-bef6-eea1e3ce29e6",
@@ -4516,7 +4519,7 @@
             "7896253402356"
         ],
         "nome": "BISC COOKIES RANCHEIRO 60G CHOC GT CHOC",
-        "url": ""
+        "url": "https://ibassets.com.br/ib.item.image.large/l-4cec85da164444e39b0a10c6fe4504c1.jpeg"
     },
     {
         "id": "91bf2c23-26e7-4552-8fe9-9fa59529c303",
@@ -4937,7 +4940,7 @@
             "7898378181079"
         ],
         "nome": "REFRESCO D+ 200ML UVA",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378181079"
     },
     {
         "id": "1ca50967-fa9c-4655-83f5-3e9e7c0abf8a",
@@ -4949,7 +4952,7 @@
             "7898378181062"
         ],
         "nome": "REFRESCO D+ 200ML LARANJA",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378181062"
     },
     {
         "id": "416c9b1c-df43-4488-afc6-c49d4b3c4480",
@@ -5346,7 +5349,7 @@
             "7800005082222"
         ],
         "nome": "FIO DENTAL ORAL B 50M MENTA",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7800005082222"
     },
     {
         "id": "5d4dbc53-cfe7-41fc-8219-f4a74441272b",
@@ -5911,7 +5914,7 @@
             "7891025125167"
         ],
         "nome": "BEBIDA LÁCTEA YOPRO 23G DE PROTEÍNA CHOCOLATE 250ML",
-        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891025125167"
+        "url": "https://images.ctfassets.net/ea2tosc1qg3k/BR-HIIGoLn7EW7SS2wZEZZoG/7790664abfd643afe92d077da73fbc3e/YoPro_UHT_MKP_Pique_Chocolate_15g_TampaBranco-AF_1540x1540.png?w=1540&q=80"
     },
     {
         "id": "fea67726-e22f-4e66-bf40-7d7e021b7d96",
@@ -5945,7 +5948,7 @@
             "7896045112890"
         ],
         "nome": "CAFE CAPS AL STA CLARA 10UN 5G CH DIAM",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896045112890"
     },
     {
         "id": "8eac47b8-c7dd-4e78-b4b1-08e4b0ea5a33",
@@ -5969,7 +5972,7 @@
             "7896045112906"
         ],
         "nome": "CAFE CAPS AL STA CLARA 10UN 5G MAT MINAS",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896045112906"
     },
     {
         "id": "a4366455-f043-4596-99e9-9be49a367759",
@@ -6525,7 +6528,7 @@
             "7896013101055"
         ],
         "nome": "VINAGRE ALCOOL MINHOTO 500ML MACA",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896013101055"
     },
     {
         "id": "cf2d6175-96c7-4be1-936f-375affa809be",
@@ -6706,8 +6709,8 @@
         ],
         "eans": [
             "1317",
-            "5931",
-            "27893000018772"
+            "27893000018772",
+            "5931"
         ],
         "nome": "CARRÉ SUÍNO CONGELADO KG",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxCtBv-8ZFFnaH8oihMy3lxT74nuuVnP1EsQ&s"
@@ -7161,10 +7164,11 @@
             "207799"
         ],
         "eans": [
-            "7896031203359"
+            "7896031203359",
+            "7896433641025"
         ],
         "nome": "FIAMBRE KITUT LT 320G BOV/FRANGO",
-        "url": ""
+        "url": "https://m.magazineluiza.com.br/a-static/420x420/kitut-fiambre-bovino-320g-enlatado/slssuprimentos/sc005501/b8461b50eb8ef38c0443a200725c6748.jpeg"
     },
     {
         "id": "345b41dd-9618-4826-81b6-257e37f1b56c",
@@ -7261,7 +7265,7 @@
             "7898286200978"
         ],
         "nome": "ACHOC PO MARATA SCH 400G",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898286200978"
     },
     {
         "id": "94398c6d-0b07-4aa7-8728-947e7153275c",
@@ -7908,7 +7912,7 @@
             "7898133620560"
         ],
         "nome": "MANTEIGA TOURINHO COM SAL 500G",
-        "url": ""
+        "url": "https://d3gdr9n5lqb5z7.cloudfront.net/fotos/994696.jpg"
     },
     {
         "id": "e018dbd4-6ecd-4c93-8680-f2870cbeade9",
@@ -8114,7 +8118,7 @@
             "7893000394209"
         ],
         "nome": "MARGARINA QUALY COM SAL 500G",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7893000394209"
     },
     {
         "id": "b7ff3034-a23e-44cd-a42c-1a028f7b69ea",
@@ -8660,7 +8664,7 @@
             "7896224803106"
         ],
         "nome": "ACHOC PO CHOCOLATTO SCH 200G",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896224803106"
     },
     {
         "id": "e2cfc273-4fc5-4ded-adb4-f1ea4efb9068",
@@ -8971,8 +8975,8 @@
             "26931"
         ],
         "eans": [
-            "7894904072453",
-            "1789490407245"
+            "1789490407245",
+            "7894904072453"
         ],
         "nome": "LASANHA SEARA PARISIENSE 600G",
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNuMjLiMUa_36QLdY1NOzD9TrC5IJW2wS5PQ&s"
@@ -8999,7 +9003,7 @@
             "7894904577897"
         ],
         "nome": "TEKITOS SEARA QUEIJO 300G",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904577897"
     },
     {
         "id": "7fcfc23c-b80f-4c45-b935-fb1139b14c9e",
@@ -9035,7 +9039,7 @@
             "7312040017034"
         ],
         "nome": "VODKA ABSOLUT 1L",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7312040017034"
     },
     {
         "id": "20c0448f-e8e3-4285-b3ff-97a84180b0ff",
@@ -9147,8 +9151,8 @@
             "2742",
             "2747",
             "7891350034615",
-            "7898229380859",
-            "7896094981010"
+            "7896094981010",
+            "7898229380859"
         ],
         "nome": "DESOD AER MONANGE 150ML PELE SENSIVEL",
         "url": "https://tse2.mm.bing.net/th/id/OIP.BTQBjNpVJ1Co9U_r_HrvXQHaHa?cb=ucfimgc2&rs=1&pid=ImgDetMain&o=7&rm=3"
@@ -9569,7 +9573,7 @@
             "82184090442"
         ],
         "nome": "WHISKY JACK DANIELS 1L",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/82184090442"
     },
     {
         "id": "e21618df-07e1-431a-b1ce-026d8a9c0392",
@@ -9888,7 +9892,7 @@
     },
     {
         "id": "bb192e8e-abf7-4879-bb07-198fe2614f98",
-        "posição": 818,
+        "posição": 817,
         "codigo": [
             "310522"
         ],
@@ -9900,7 +9904,7 @@
     },
     {
         "id": "e0170b86-791e-4095-b000-f3d0cc3716e9",
-        "posição": 819,
+        "posição": 818,
         "codigo": [
             "314315"
         ],
@@ -9912,7 +9916,7 @@
     },
     {
         "id": "0323c0e2-7029-4ec4-ba2f-92057b44625b",
-        "posição": 820,
+        "posição": 819,
         "codigo": [
             "314323"
         ],
@@ -9924,7 +9928,7 @@
     },
     {
         "id": "ec31a4be-6d1f-4434-9271-783e842151b7",
-        "posição": 821,
+        "posição": 820,
         "codigo": [
             "315397"
         ],
@@ -9936,7 +9940,7 @@
     },
     {
         "id": "b999ed18-0773-47d9-b960-4eac4a8bac47",
-        "posição": 822,
+        "posição": 821,
         "codigo": [
             "31554"
         ],
@@ -9948,7 +9952,7 @@
     },
     {
         "id": "b799d0d0-d32b-47ab-ae1e-a144401d0871",
-        "posição": 823,
+        "posição": 822,
         "codigo": [
             "317314"
         ],
@@ -9960,7 +9964,7 @@
     },
     {
         "id": "23b1fe3e-402d-41d6-806a-b3c11a737cf1",
-        "posição": 824,
+        "posição": 823,
         "codigo": [
             "323012"
         ],
@@ -9972,7 +9976,7 @@
     },
     {
         "id": "cb060b90-6bee-4ed4-982c-b9fdd98b366e",
-        "posição": 825,
+        "posição": 824,
         "codigo": [
             "323802"
         ],
@@ -9984,7 +9988,7 @@
     },
     {
         "id": "079d701f-4e95-436b-8780-ce97a9fb84a0",
-        "posição": 826,
+        "posição": 825,
         "codigo": [
             "32387"
         ],
@@ -9997,7 +10001,7 @@
     },
     {
         "id": "78f32542-6577-4165-8dfe-a6a6aba168ed",
-        "posição": 827,
+        "posição": 826,
         "codigo": [
             "323896"
         ],
@@ -10009,7 +10013,7 @@
     },
     {
         "id": "45af982b-33fe-41a8-9282-a63d6f60802d",
-        "posição": 828,
+        "posição": 827,
         "codigo": [
             "325694"
         ],
@@ -10021,7 +10025,7 @@
     },
     {
         "id": "a12019f7-9703-4870-9db3-111761501bf6",
-        "posição": 829,
+        "posição": 828,
         "codigo": [
             "325716"
         ],
@@ -10033,7 +10037,7 @@
     },
     {
         "id": "ee497a93-7d29-42bb-9da3-f8eb6444d517",
-        "posição": 830,
+        "posição": 829,
         "codigo": [
             "325732"
         ],
@@ -10045,7 +10049,7 @@
     },
     {
         "id": "0ec487a8-9831-49c5-8797-4b2a44c3ec8a",
-        "posição": 831,
+        "posição": 830,
         "codigo": [
             "328715"
         ],
@@ -10057,7 +10061,7 @@
     },
     {
         "id": "64fd8ddd-522e-436c-be0a-d860d2ce0cae",
-        "posição": 832,
+        "posição": 831,
         "codigo": [
             "32879"
         ],
@@ -10069,7 +10073,7 @@
     },
     {
         "id": "d6f78a21-62e7-478d-9907-6b4f8a0ea52e",
-        "posição": 833,
+        "posição": 832,
         "codigo": [
             "336793"
         ],
@@ -10081,7 +10085,7 @@
     },
     {
         "id": "6dd376fc-93d2-4323-aca7-8de1a09ebbc8",
-        "posição": 834,
+        "posição": 833,
         "codigo": [
             "342084"
         ],
@@ -10093,7 +10097,7 @@
     },
     {
         "id": "2ab3c5f6-358f-4875-a224-f40ef33481d8",
-        "posição": 835,
+        "posição": 834,
         "codigo": [
             "342793"
         ],
@@ -10105,7 +10109,7 @@
     },
     {
         "id": "71bbe80d-0221-427a-8b48-0b71ee5a41f4",
-        "posição": 836,
+        "posição": 835,
         "codigo": [
             "347663"
         ],
@@ -10117,7 +10121,7 @@
     },
     {
         "id": "54aa2981-3ca6-4084-bcf1-cd38995990ac",
-        "posição": 837,
+        "posição": 836,
         "codigo": [
             "349062"
         ],
@@ -10129,7 +10133,7 @@
     },
     {
         "id": "4aa425fd-28be-4e57-8c60-0a78222d4579",
-        "posição": 838,
+        "posição": 837,
         "codigo": [
             "35449"
         ],
@@ -10141,7 +10145,7 @@
     },
     {
         "id": "2284c360-e7be-4241-9438-bdad6d353d8c",
-        "posição": 839,
+        "posição": 838,
         "codigo": [
             "355801"
         ],
@@ -10153,7 +10157,7 @@
     },
     {
         "id": "76c20fb2-ea41-476f-9505-c802415e7026",
-        "posição": 840,
+        "posição": 839,
         "codigo": [
             "35581"
         ],
@@ -10165,7 +10169,7 @@
     },
     {
         "id": "675ca31a-342b-4b6f-bcf1-db53161b0556",
-        "posição": 841,
+        "posição": 840,
         "codigo": [
             "356514"
         ],
@@ -10177,7 +10181,7 @@
     },
     {
         "id": "1325779f-c965-42e0-863c-46ca7b3c8baf",
-        "posição": 842,
+        "posição": 841,
         "codigo": [
             "357936"
         ],
@@ -10190,7 +10194,7 @@
     },
     {
         "id": "8ca4b7ce-4299-4be3-8a6b-89dc1fe62b2e",
-        "posição": 843,
+        "posição": 842,
         "codigo": [
             "36021"
         ],
@@ -10203,7 +10207,7 @@
     },
     {
         "id": "84d49321-a930-4b2b-a7e3-93c8be13f659",
-        "posição": 844,
+        "posição": 843,
         "codigo": [
             "361291"
         ],
@@ -10216,7 +10220,7 @@
     },
     {
         "id": "cdf07ff2-0140-41a2-8b4f-288dea2ff848",
-        "posição": 845,
+        "posição": 844,
         "codigo": [
             "361402"
         ],
@@ -10228,7 +10232,7 @@
     },
     {
         "id": "0c6ebff3-bce5-4ecd-a82e-1430ae4ce913",
-        "posição": 846,
+        "posição": 845,
         "codigo": [
             "36561"
         ],
@@ -10240,7 +10244,7 @@
     },
     {
         "id": "5a9b98ee-86d3-4200-9c98-f674a7b5ce6f",
-        "posição": 847,
+        "posição": 846,
         "codigo": [
             "37338"
         ],
@@ -10252,7 +10256,7 @@
     },
     {
         "id": "72ea56ae-0e13-4365-b91f-4b564c617781",
-        "posição": 848,
+        "posição": 847,
         "codigo": [
             "374"
         ],
@@ -10265,10 +10269,10 @@
     },
     {
         "id": "ae1700e3-c80c-46ab-add6-5e360b97c4cc",
-        "posição": 849,
+        "posição": 848,
         "codigo": [
-            "37559",
-            "19445"
+            "19445",
+            "37559"
         ],
         "eans": [
             "1944",
@@ -10280,7 +10284,7 @@
     },
     {
         "id": "2a8b95a7-54ea-4f44-ade5-f3ca53b397e5",
-        "posição": 850,
+        "posição": 849,
         "codigo": [
             "38441"
         ],
@@ -10292,7 +10296,7 @@
     },
     {
         "id": "90c6ee61-ffa6-44b5-9001-66ce1ac8ae6a",
-        "posição": 851,
+        "posição": 850,
         "codigo": [
             "385336"
         ],
@@ -10304,7 +10308,7 @@
     },
     {
         "id": "05ddf4a1-bce1-4428-8369-2fc09a263948",
-        "posição": 852,
+        "posição": 851,
         "codigo": [
             "385646"
         ],
@@ -10316,7 +10320,7 @@
     },
     {
         "id": "ac42f105-fd53-4451-b8ce-68110218f31d",
-        "posição": 853,
+        "posição": 852,
         "codigo": [
             "39918"
         ],
@@ -10329,7 +10333,7 @@
     },
     {
         "id": "de9fe382-1160-4933-aad0-e530789bff91",
-        "posição": 854,
+        "posição": 853,
         "codigo": [
             "399825"
         ],
@@ -10337,11 +10341,11 @@
             "7506339337525"
         ],
         "nome": "APAR BARB GILLETTE PREST3 2UN SENSITIVE",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7506339337525"
     },
     {
         "id": "c400d1e0-6cc6-460f-913d-20e7599a3eb6",
-        "posição": 855,
+        "posição": 854,
         "codigo": [
             "40036"
         ],
@@ -10353,7 +10357,7 @@
     },
     {
         "id": "c97f2524-1280-457b-a56e-592129793d98",
-        "posição": 856,
+        "posição": 855,
         "codigo": [
             "400386"
         ],
@@ -10365,7 +10369,7 @@
     },
     {
         "id": "f0b3a30b-8f6d-4139-9d3e-00df0ba3a43f",
-        "posição": 857,
+        "posição": 856,
         "codigo": [
             "400394"
         ],
@@ -10378,7 +10382,7 @@
     },
     {
         "id": "2a4dd7d8-b8dc-4572-b735-30c492719414",
-        "posição": 858,
+        "posição": 857,
         "codigo": [
             "400491"
         ],
@@ -10391,7 +10395,7 @@
     },
     {
         "id": "005bd42f-4071-493e-9b2a-1248eca6c475",
-        "posição": 859,
+        "posição": 858,
         "codigo": [
             "403229"
         ],
@@ -10399,11 +10403,11 @@
             "7506339326031"
         ],
         "nome": "ABS C/ABAS ALWAYS NOITE TR 16UN L+P- SVE",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7506339326031"
     },
     {
         "id": "03898e11-c5dd-4dba-b010-5c54bef80130",
-        "posição": 860,
+        "posição": 859,
         "codigo": [
             "407275"
         ],
@@ -10411,11 +10415,11 @@
             "7506339325249"
         ],
         "nome": "ABS C/ABAS ALWAYS NOITE TR 16UN L+P- SCA",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7506339325249"
     },
     {
         "id": "a9cbe8a3-f610-4d6b-b6e2-94782509a264",
-        "posição": 861,
+        "posição": 860,
         "codigo": [
             "409308"
         ],
@@ -10427,7 +10431,7 @@
     },
     {
         "id": "d2779fd0-4a05-4340-b1f0-d6590fdc4bf1",
-        "posição": 862,
+        "posição": 861,
         "codigo": [
             "410586"
         ],
@@ -10439,7 +10443,7 @@
     },
     {
         "id": "a887dec3-623d-4935-a56f-51fc26d1d9ae",
-        "posição": 863,
+        "posição": 862,
         "codigo": [
             "41249"
         ],
@@ -10451,7 +10455,7 @@
     },
     {
         "id": "f928ea5e-c6b5-4b0b-8394-2e098fbf313d",
-        "posição": 864,
+        "posição": 863,
         "codigo": [
             "416169"
         ],
@@ -10463,7 +10467,7 @@
     },
     {
         "id": "1f955e03-d0ab-4a0c-ad12-e68bbb9d5001",
-        "posição": 865,
+        "posição": 864,
         "codigo": [
             "426024"
         ],
@@ -10475,7 +10479,7 @@
     },
     {
         "id": "34bfbdc8-612f-47e0-8bb8-e256f3c4e629",
-        "posição": 866,
+        "posição": 865,
         "codigo": [
             "427055"
         ],
@@ -10487,7 +10491,7 @@
     },
     {
         "id": "b5798e15-fca1-4f55-b51b-a035ffd136bb",
-        "posição": 867,
+        "posição": 866,
         "codigo": [
             "428558"
         ],
@@ -10499,7 +10503,7 @@
     },
     {
         "id": "c392ff2f-64d0-4b19-836b-0eb6e84c6872",
-        "posição": 868,
+        "posição": 867,
         "codigo": [
             "42871"
         ],
@@ -10511,7 +10515,7 @@
     },
     {
         "id": "a5c659a5-b2e0-4508-907f-84274058eace",
-        "posição": 869,
+        "posição": 868,
         "codigo": [
             "43042"
         ],
@@ -10523,7 +10527,7 @@
     },
     {
         "id": "a170ddf3-0f71-46b4-97f5-7a612dc00f0f",
-        "posição": 870,
+        "posição": 869,
         "codigo": [
             "43244"
         ],
@@ -10535,7 +10539,7 @@
     },
     {
         "id": "aff5683a-c714-4e05-ae38-c341889a8afa",
-        "posição": 871,
+        "posição": 870,
         "codigo": [
             "432857"
         ],
@@ -10548,7 +10552,7 @@
     },
     {
         "id": "a7944361-5351-4ed4-b19d-a65199d7814b",
-        "posição": 872,
+        "posição": 871,
         "codigo": [
             "434183"
         ],
@@ -10560,7 +10564,7 @@
     },
     {
         "id": "9ab6cda2-6811-4844-bb4b-acc602381cf4",
-        "posição": 873,
+        "posição": 872,
         "codigo": [
             "434345"
         ],
@@ -10572,7 +10576,7 @@
     },
     {
         "id": "0dd170b6-b836-4084-9210-8917a0d620ad",
-        "posição": 874,
+        "posição": 873,
         "codigo": [
             "441112"
         ],
@@ -10584,7 +10588,7 @@
     },
     {
         "id": "ab86c46b-59d3-45e1-9e1b-763a17e937e9",
-        "posição": 875,
+        "posição": 874,
         "codigo": [
             "443875"
         ],
@@ -10596,7 +10600,7 @@
     },
     {
         "id": "214f3112-af5d-4d1c-ab9d-0e21d76fcc1c",
-        "posição": 876,
+        "posição": 875,
         "codigo": [
             "450928"
         ],
@@ -10608,7 +10612,7 @@
     },
     {
         "id": "9abf32af-e795-459f-8795-a1d87dc6b3d6",
-        "posição": 877,
+        "posição": 876,
         "codigo": [
             "45217"
         ],
@@ -10624,7 +10628,7 @@
     },
     {
         "id": "6d99c342-64a3-43e5-abd1-41da96eb8573",
-        "posição": 878,
+        "posição": 877,
         "codigo": [
             "453919"
         ],
@@ -10636,7 +10640,7 @@
     },
     {
         "id": "30c5d40d-7bcd-4482-b3ed-50e41e56afbf",
-        "posição": 879,
+        "posição": 878,
         "codigo": [
             "459852"
         ],
@@ -10649,7 +10653,7 @@
     },
     {
         "id": "38ac4787-7fc0-4528-b365-e6cddcb7abca",
-        "posição": 880,
+        "posição": 879,
         "codigo": [
             "469874"
         ],
@@ -10661,7 +10665,7 @@
     },
     {
         "id": "f2100dc1-9172-48f3-b047-8ba4310e4be9",
-        "posição": 881,
+        "posição": 880,
         "codigo": [
             "476811"
         ],
@@ -10673,7 +10677,7 @@
     },
     {
         "id": "b6809772-0688-419b-a491-264d35227b8a",
-        "posição": 882,
+        "posição": 881,
         "codigo": [
             "48497"
         ],
@@ -10685,7 +10689,7 @@
     },
     {
         "id": "2f52e3ee-2922-4228-8efe-86863ff15219",
-        "posição": 883,
+        "posição": 882,
         "codigo": [
             "486"
         ],
@@ -10697,7 +10701,7 @@
     },
     {
         "id": "5844462d-8b85-40b7-a2b2-b4aeaabb8ca1",
-        "posição": 884,
+        "posição": 883,
         "codigo": [
             "488836"
         ],
@@ -10709,7 +10713,7 @@
     },
     {
         "id": "3277016e-475a-477b-9423-53af1710089b",
-        "posição": 885,
+        "posição": 884,
         "codigo": [
             "49044"
         ],
@@ -10721,7 +10725,7 @@
     },
     {
         "id": "9c79a88e-cbcf-40c8-8d2e-28755143d584",
-        "posição": 886,
+        "posição": 885,
         "codigo": [
             "50136"
         ],
@@ -10733,7 +10737,7 @@
     },
     {
         "id": "70878d13-5470-4c09-b0d6-9202fe843905",
-        "posição": 887,
+        "posição": 886,
         "codigo": [
             "51691"
         ],
@@ -10745,7 +10749,7 @@
     },
     {
         "id": "0c35e12a-3b18-47c3-bea6-e4677696ab83",
-        "posição": 888,
+        "posição": 887,
         "codigo": [
             "517968"
         ],
@@ -10757,7 +10761,7 @@
     },
     {
         "id": "e754dc6d-8b3e-43f5-8aa8-88195f009cd2",
-        "posição": 889,
+        "posição": 888,
         "codigo": [
             "52159"
         ],
@@ -10770,7 +10774,7 @@
     },
     {
         "id": "beb3f514-1790-4412-a798-f37c385c062d",
-        "posição": 890,
+        "posição": 889,
         "codigo": [
             "523771"
         ],
@@ -10782,7 +10786,7 @@
     },
     {
         "id": "42342e32-d1f8-4bc2-9c69-2c527064308d",
-        "posição": 891,
+        "posição": 890,
         "codigo": [
             "5262"
         ],
@@ -10794,7 +10798,7 @@
     },
     {
         "id": "2faa810f-b8e0-477e-8087-7b3217b45262",
-        "posição": 892,
+        "posição": 891,
         "codigo": [
             "52669"
         ],
@@ -10806,7 +10810,7 @@
     },
     {
         "id": "9f1639ff-4347-43d5-9ef3-33afbaf9abe3",
-        "posição": 893,
+        "posição": 892,
         "codigo": [
             "530476"
         ],
@@ -10818,7 +10822,7 @@
     },
     {
         "id": "74795c0f-67aa-4e54-9f48-acccb65044a7",
-        "posição": 894,
+        "posição": 893,
         "codigo": [
             "543195"
         ],
@@ -10826,11 +10830,11 @@
             "7894904727490"
         ],
         "nome": "FILÉ DE PEITO SEARA TEMPERADO PACOTE 800G",
-        "url": ""
+        "url": "https://www.svicente.com.br/on/demandware.static/-/Sites-storefront-catalog-sv/default/dw225466fe/Produtos/621498-7894904727490-file%20de%20peito%20temperado%20seara%20assa%20facil%20800g-seara-2.jpg"
     },
     {
         "id": "3c444de8-af63-48fd-b166-0334d749936f",
-        "posição": 895,
+        "posição": 894,
         "codigo": [
             "543217"
         ],
@@ -10842,7 +10846,7 @@
     },
     {
         "id": "a3ea504c-28b7-418b-a76c-c8851224e68b",
-        "posição": 896,
+        "posição": 895,
         "codigo": [
             "543225"
         ],
@@ -10854,7 +10858,7 @@
     },
     {
         "id": "ab476278-d067-40f3-a3a7-4e260c0ef2b9",
-        "posição": 897,
+        "posição": 896,
         "codigo": [
             "54801"
         ],
@@ -10866,7 +10870,7 @@
     },
     {
         "id": "5492066e-a554-4c86-9539-dc3a7703f4dd",
-        "posição": 898,
+        "posição": 897,
         "codigo": [
             "54888"
         ],
@@ -10878,7 +10882,7 @@
     },
     {
         "id": "93129050-3f0f-49c9-b72b-372a4ee73044",
-        "posição": 899,
+        "posição": 898,
         "codigo": [
             "548936"
         ],
@@ -10890,7 +10894,7 @@
     },
     {
         "id": "1fb3daa5-d578-4a59-a2d1-09128636fe57",
-        "posição": 900,
+        "posição": 899,
         "codigo": [
             "548944"
         ],
@@ -10902,7 +10906,7 @@
     },
     {
         "id": "4cc4dbda-d104-4b25-a858-c959b7114ad5",
-        "posição": 901,
+        "posição": 900,
         "codigo": [
             "551295"
         ],
@@ -10914,7 +10918,7 @@
     },
     {
         "id": "6e2741de-b4f9-4086-9c6e-12cad3a3a936",
-        "posição": 902,
+        "posição": 901,
         "codigo": [
             "553115"
         ],
@@ -10926,7 +10930,7 @@
     },
     {
         "id": "bf53873e-2fbb-4a89-9b02-86b0e7603757",
-        "posição": 903,
+        "posição": 902,
         "codigo": [
             "555797"
         ],
@@ -10938,7 +10942,7 @@
     },
     {
         "id": "3e607dde-967c-4c5d-aa2c-fa7d8898ee8f",
-        "posição": 904,
+        "posição": 903,
         "codigo": [
             "556319"
         ],
@@ -10950,7 +10954,7 @@
     },
     {
         "id": "b53cc82b-41fb-437c-a704-fb0c308c1cb9",
-        "posição": 905,
+        "posição": 904,
         "codigo": [
             "56172"
         ],
@@ -10962,7 +10966,7 @@
     },
     {
         "id": "08897cd1-11d7-4f39-b029-26c41288fb9c",
-        "posição": 906,
+        "posição": 905,
         "codigo": [
             "564036"
         ],
@@ -10974,7 +10978,7 @@
     },
     {
         "id": "e183b16e-3152-448c-9b64-995c96d49c2e",
-        "posição": 907,
+        "posição": 906,
         "codigo": [
             "568139"
         ],
@@ -10987,7 +10991,7 @@
     },
     {
         "id": "87ef5876-bd5f-4c23-8df5-c6f6d98a1322",
-        "posição": 908,
+        "posição": 907,
         "codigo": [
             "568147"
         ],
@@ -11000,7 +11004,7 @@
     },
     {
         "id": "d9c3f22f-3435-457a-a82a-92ad9377d033",
-        "posição": 909,
+        "posição": 908,
         "codigo": [
             "568155"
         ],
@@ -11013,7 +11017,7 @@
     },
     {
         "id": "63f64f7f-1b71-4c18-9e6b-b6978ea9a35d",
-        "posição": 910,
+        "posição": 909,
         "codigo": [
             "569062"
         ],
@@ -11025,7 +11029,7 @@
     },
     {
         "id": "6bcb017c-be1c-409f-aeb4-385113c3ff90",
-        "posição": 911,
+        "posição": 910,
         "codigo": [
             "573477"
         ],
@@ -11037,7 +11041,7 @@
     },
     {
         "id": "7e6b1060-4287-4f38-9276-539ff8202aa7",
-        "posição": 912,
+        "posição": 911,
         "codigo": [
             "574988"
         ],
@@ -11049,7 +11053,7 @@
     },
     {
         "id": "60801276-f51e-4f31-a1a7-8cccae721734",
-        "posição": 913,
+        "posição": 912,
         "codigo": [
             "575011"
         ],
@@ -11061,7 +11065,7 @@
     },
     {
         "id": "1f852d70-912c-4d71-ac36-424da4eaf5d0",
-        "posição": 914,
+        "posição": 913,
         "codigo": [
             "576344"
         ],
@@ -11073,7 +11077,7 @@
     },
     {
         "id": "022f7ae9-1fa6-4a23-a9e8-61f97862be6e",
-        "posição": 915,
+        "posição": 914,
         "codigo": [
             "577766"
         ],
@@ -11085,7 +11089,7 @@
     },
     {
         "id": "aedd5066-cea5-4cc0-9405-899406aa8244",
-        "posição": 916,
+        "posição": 915,
         "codigo": [
             "581801"
         ],
@@ -11097,7 +11101,7 @@
     },
     {
         "id": "05c15442-9368-4b4b-b00d-11d77e82596d",
-        "posição": 917,
+        "posição": 916,
         "codigo": [
             "58589"
         ],
@@ -11109,7 +11113,7 @@
     },
     {
         "id": "e7c1fc4f-c869-4c30-995a-b3b6acf19c60",
-        "posição": 918,
+        "posição": 917,
         "codigo": [
             "58639"
         ],
@@ -11121,7 +11125,7 @@
     },
     {
         "id": "44641575-e2a5-43d9-889d-ba0b095db8c4",
-        "posição": 919,
+        "posição": 918,
         "codigo": [
             "588156"
         ],
@@ -11134,7 +11138,7 @@
     },
     {
         "id": "389b2d41-eb3b-4964-9f6f-05df3bbe75d5",
-        "posição": 920,
+        "posição": 919,
         "codigo": [
             "588318"
         ],
@@ -11146,7 +11150,7 @@
     },
     {
         "id": "1c2b0f94-b20a-41a4-b1d7-fe450f974228",
-        "posição": 921,
+        "posição": 920,
         "codigo": [
             "58933"
         ],
@@ -11158,7 +11162,7 @@
     },
     {
         "id": "bee88801-7923-4f2e-9144-0cc9bdf05ee6",
-        "posição": 922,
+        "posição": 921,
         "codigo": [
             "591408"
         ],
@@ -11171,7 +11175,7 @@
     },
     {
         "id": "c94a4cad-22f1-4e9f-a189-c54d06c6d0b1",
-        "posição": 923,
+        "posição": 922,
         "codigo": [
             "593788"
         ],
@@ -11183,7 +11187,7 @@
     },
     {
         "id": "a8d4074c-b109-4e82-81a5-c2ab672c9836",
-        "posição": 924,
+        "posição": 923,
         "codigo": [
             "595853"
         ],
@@ -11195,7 +11199,7 @@
     },
     {
         "id": "36a841c4-7202-443c-b786-2086e75b0448",
-        "posição": 925,
+        "posição": 924,
         "codigo": [
             "60267"
         ],
@@ -11208,7 +11212,7 @@
     },
     {
         "id": "29040dc7-6d09-4410-8526-aef18043d68e",
-        "posição": 926,
+        "posição": 925,
         "codigo": [
             "602817"
         ],
@@ -11220,7 +11224,7 @@
     },
     {
         "id": "900dae71-d33e-49ac-8e47-88a573d2ed0a",
-        "posição": 927,
+        "posição": 926,
         "codigo": [
             "60739"
         ],
@@ -11232,7 +11236,7 @@
     },
     {
         "id": "f60551c1-099e-400e-aca6-8437913e711e",
-        "posição": 928,
+        "posição": 927,
         "codigo": [
             "60771"
         ],
@@ -11244,7 +11248,7 @@
     },
     {
         "id": "e47f0c36-53a5-4631-aec9-27a7814321c6",
-        "posição": 929,
+        "posição": 928,
         "codigo": [
             "61002"
         ],
@@ -11256,7 +11260,7 @@
     },
     {
         "id": "b106a9d0-51a8-40b6-9f5f-95dd8a986ab5",
-        "posição": 930,
+        "posição": 929,
         "codigo": [
             "610259"
         ],
@@ -11268,7 +11272,7 @@
     },
     {
         "id": "70efed00-9653-4545-ba53-717b4ecf4e2b",
-        "posição": 931,
+        "posição": 930,
         "codigo": [
             "610615"
         ],
@@ -11281,7 +11285,7 @@
     },
     {
         "id": "bae4d755-0a7f-4f62-870e-ed9b30f8e5eb",
-        "posição": 932,
+        "posição": 931,
         "codigo": [
             "612219"
         ],
@@ -11294,7 +11298,7 @@
     },
     {
         "id": "6e155453-5ab9-4e1e-afd7-e7f2265227ef",
-        "posição": 933,
+        "posição": 932,
         "codigo": [
             "614262"
         ],
@@ -11307,7 +11311,7 @@
     },
     {
         "id": "ad5347b4-d06a-499e-8dbd-4265b73f886a",
-        "posição": 934,
+        "posição": 933,
         "codigo": [
             "617598"
         ],
@@ -11319,7 +11323,7 @@
     },
     {
         "id": "ab8bafa2-ff2b-4fa3-ac99-e5428cee1be1",
-        "posição": 935,
+        "posição": 934,
         "codigo": [
             "62952"
         ],
@@ -11331,7 +11335,7 @@
     },
     {
         "id": "410370e5-9d67-46bb-9235-c1c0863859e1",
-        "posição": 936,
+        "posição": 935,
         "codigo": [
             "63037"
         ],
@@ -11343,7 +11347,7 @@
     },
     {
         "id": "b043c3ae-c1c8-40be-805d-29cae9db32fb",
-        "posição": 937,
+        "posição": 936,
         "codigo": [
             "63061"
         ],
@@ -11356,7 +11360,7 @@
     },
     {
         "id": "0966cd11-7db0-4f0d-b107-2f8f8d808bb1",
-        "posição": 938,
+        "posição": 937,
         "codigo": [
             "63088"
         ],
@@ -11368,7 +11372,7 @@
     },
     {
         "id": "4d6c3d28-49c4-4f74-a87d-4840eb187305",
-        "posição": 939,
+        "posição": 938,
         "codigo": [
             "63484"
         ],
@@ -11380,7 +11384,7 @@
     },
     {
         "id": "4a767a54-788f-4e17-a1e5-4ee5304c8e9f",
-        "posição": 940,
+        "posição": 939,
         "codigo": [
             "63495"
         ],
@@ -11392,7 +11396,7 @@
     },
     {
         "id": "1a22f95f-1f9a-4281-89b2-f8fe2ac41b4f",
-        "posição": 941,
+        "posição": 940,
         "codigo": [
             "63509"
         ],
@@ -11404,7 +11408,7 @@
     },
     {
         "id": "019b179d-90fe-45e9-adbc-a5ec9cdbda91",
-        "posição": 942,
+        "posição": 941,
         "codigo": [
             "637467"
         ],
@@ -11417,7 +11421,7 @@
     },
     {
         "id": "8b53098f-ec72-448f-bf0c-d89482dba3f4",
-        "posição": 943,
+        "posição": 942,
         "codigo": [
             "638684"
         ],
@@ -11429,7 +11433,7 @@
     },
     {
         "id": "6bd5e543-9a7f-4082-b55c-8c768be36ce2",
-        "posição": 944,
+        "posição": 943,
         "codigo": [
             "639257"
         ],
@@ -11441,7 +11445,7 @@
     },
     {
         "id": "d2c22c96-ad8f-4dd3-92d4-2433d591fcc2",
-        "posição": 945,
+        "posição": 944,
         "codigo": [
             "642428"
         ],
@@ -11453,7 +11457,7 @@
     },
     {
         "id": "cd3299fd-13bb-4e24-92ad-dab467a52aa8",
-        "posição": 946,
+        "posição": 945,
         "codigo": [
             "650617"
         ],
@@ -11465,7 +11469,7 @@
     },
     {
         "id": "bf3d7983-e712-4d60-91f7-741afa442d99",
-        "posição": 947,
+        "posição": 946,
         "codigo": [
             "651249"
         ],
@@ -11477,7 +11481,7 @@
     },
     {
         "id": "6c741121-194a-4b5f-9bce-b2658347fd1f",
-        "posição": 948,
+        "posição": 947,
         "codigo": [
             "652466"
         ],
@@ -11485,11 +11489,11 @@
             "4015400763697"
         ],
         "nome": "TOALHA UMED PAMPERS 48UN REGULAR",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/4015400763697"
     },
     {
         "id": "58521438-2495-4037-aba4-633f6bc187e0",
-        "posição": 949,
+        "posição": 948,
         "codigo": [
             "6587"
         ],
@@ -11502,7 +11506,7 @@
     },
     {
         "id": "e90f9ed3-21b0-4eca-919e-9a650e6ce88a",
-        "posição": 950,
+        "posição": 949,
         "codigo": [
             "659363"
         ],
@@ -11514,7 +11518,7 @@
     },
     {
         "id": "a735b76b-23ef-4a38-a730-81c2aa1abaf3",
-        "posição": 951,
+        "posição": 950,
         "codigo": [
             "66354"
         ],
@@ -11526,7 +11530,7 @@
     },
     {
         "id": "185c944d-1ae9-41a3-9eda-143257483b32",
-        "posição": 952,
+        "posição": 951,
         "codigo": [
             "66419"
         ],
@@ -11538,7 +11542,7 @@
     },
     {
         "id": "0c39835b-949f-4794-b682-eb5009f64541",
-        "posição": 953,
+        "posição": 952,
         "codigo": [
             "667692"
         ],
@@ -11551,7 +11555,7 @@
     },
     {
         "id": "5e920799-214b-4bc4-978e-e30f96460739",
-        "posição": 954,
+        "posição": 953,
         "codigo": [
             "678066"
         ],
@@ -11563,7 +11567,7 @@
     },
     {
         "id": "c58bf003-df78-454b-b294-2a18bb68a2f9",
-        "posição": 955,
+        "posição": 954,
         "codigo": [
             "683868"
         ],
@@ -11575,7 +11579,7 @@
     },
     {
         "id": "c9725ef5-f83c-4a11-8f63-92a4b7b9b3ac",
-        "posição": 956,
+        "posição": 955,
         "codigo": [
             "687189"
         ],
@@ -11587,7 +11591,7 @@
     },
     {
         "id": "8b2edc48-b219-4b59-8dc1-f2e9996b2ad1",
-        "posição": 957,
+        "posição": 956,
         "codigo": [
             "687197"
         ],
@@ -11599,7 +11603,7 @@
     },
     {
         "id": "a64ac872-7054-4d44-9ef2-0dc3ec7a0e2f",
-        "posição": 958,
+        "posição": 957,
         "codigo": [
             "687227"
         ],
@@ -11611,7 +11615,7 @@
     },
     {
         "id": "42e57ac9-dbe7-4ca2-8043-fd25b5f93af3",
-        "posição": 959,
+        "posição": 958,
         "codigo": [
             "692786"
         ],
@@ -11623,7 +11627,7 @@
     },
     {
         "id": "6f195e91-ddec-4eea-87a9-a71a89d20a25",
-        "posição": 960,
+        "posição": 959,
         "codigo": [
             "692794"
         ],
@@ -11635,7 +11639,7 @@
     },
     {
         "id": "213e82e4-fe70-4fb9-ad0d-5cebe7a4cd62",
-        "posição": 961,
+        "posição": 960,
         "codigo": [
             "69505"
         ],
@@ -11647,7 +11651,7 @@
     },
     {
         "id": "226bfb08-2a06-425f-9faf-680e8cff4055",
-        "posição": 962,
+        "posição": 961,
         "codigo": [
             "69925"
         ],
@@ -11659,7 +11663,7 @@
     },
     {
         "id": "1fe0c15e-d4c4-43ca-b413-7eb21ce6e203",
-        "posição": 963,
+        "posição": 962,
         "codigo": [
             "700495"
         ],
@@ -11671,7 +11675,7 @@
     },
     {
         "id": "4e21c902-8239-4673-b67a-cc85cc72672e",
-        "posição": 964,
+        "posição": 963,
         "codigo": [
             "70113"
         ],
@@ -11683,7 +11687,7 @@
     },
     {
         "id": "ccea486e-4017-4da0-8f96-f34ea0695374",
-        "posição": 965,
+        "posição": 964,
         "codigo": [
             "702749"
         ],
@@ -11696,7 +11700,7 @@
     },
     {
         "id": "80db777a-6814-4550-b852-a42f3336a974",
-        "posição": 966,
+        "posição": 965,
         "codigo": [
             "702757"
         ],
@@ -11709,7 +11713,7 @@
     },
     {
         "id": "588894e9-9d69-42bc-b826-7af234594fc5",
-        "posição": 967,
+        "posição": 966,
         "codigo": [
             "702765"
         ],
@@ -11722,7 +11726,7 @@
     },
     {
         "id": "ad6a7f6c-969e-4d34-84de-9b4ebe1771c3",
-        "posição": 968,
+        "posição": 967,
         "codigo": [
             "704385"
         ],
@@ -11734,7 +11738,7 @@
     },
     {
         "id": "5bf76d84-c4b3-4c17-b4cc-8abf0ea09a4c",
-        "posição": 969,
+        "posição": 968,
         "codigo": [
             "704946"
         ],
@@ -11746,7 +11750,7 @@
     },
     {
         "id": "02048b83-5e54-4da3-be77-07f70e002d1f",
-        "posição": 970,
+        "posição": 969,
         "codigo": [
             "70766"
         ],
@@ -11758,7 +11762,7 @@
     },
     {
         "id": "0e178700-55a4-4eb3-b4af-5a4f471f0e0b",
-        "posição": 971,
+        "posição": 970,
         "codigo": [
             "708623"
         ],
@@ -11770,7 +11774,7 @@
     },
     {
         "id": "0cdceaf1-8908-4ec3-ae8e-3eadc7a6caf6",
-        "posição": 972,
+        "posição": 971,
         "codigo": [
             "711616"
         ],
@@ -11782,7 +11786,7 @@
     },
     {
         "id": "b7d7403e-01e7-4e58-971f-8a6693290301",
-        "posição": 973,
+        "posição": 972,
         "codigo": [
             "712663"
         ],
@@ -11794,7 +11798,7 @@
     },
     {
         "id": "9b5ffa39-731d-4b54-a293-bc70e7aab657",
-        "posição": 974,
+        "posição": 973,
         "codigo": [
             "712671"
         ],
@@ -11806,7 +11810,7 @@
     },
     {
         "id": "3254940f-97fa-42c8-a38f-7bb1da4269e3",
-        "posição": 975,
+        "posição": 974,
         "codigo": [
             "713139"
         ],
@@ -11818,7 +11822,7 @@
     },
     {
         "id": "37962173-1d8f-4de5-a29f-61c9f0242595",
-        "posição": 976,
+        "posição": 975,
         "codigo": [
             "71404"
         ],
@@ -11830,7 +11834,7 @@
     },
     {
         "id": "6b8a7707-1df9-4cd9-8699-a311d2af06f2",
-        "posição": 977,
+        "posição": 976,
         "codigo": [
             "7162"
         ],
@@ -11842,7 +11846,7 @@
     },
     {
         "id": "c01215d1-99c0-44e8-a4a4-aaf635915d83",
-        "posição": 978,
+        "posição": 977,
         "codigo": [
             "716634"
         ],
@@ -11854,7 +11858,7 @@
     },
     {
         "id": "1a76bbc5-06b2-4b4f-bc2d-aad0dab6302f",
-        "posição": 979,
+        "posição": 978,
         "codigo": [
             "717444"
         ],
@@ -11866,7 +11870,7 @@
     },
     {
         "id": "7a804159-52ef-43ae-8b60-3422975e227b",
-        "posição": 980,
+        "posição": 979,
         "codigo": [
             "71805"
         ],
@@ -11874,11 +11878,11 @@
             "82184000328"
         ],
         "nome": "WHISKY JACK DANIELS HONEY 1L",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/82184000328"
     },
     {
         "id": "a08a1f41-7f29-417e-91ca-c9fd79ce813b",
-        "posição": 981,
+        "posição": 980,
         "codigo": [
             "718769"
         ],
@@ -11890,7 +11894,7 @@
     },
     {
         "id": "8c8a3da3-1135-4e7e-8b58-a536b79ad134",
-        "posição": 982,
+        "posição": 981,
         "codigo": [
             "724114"
         ],
@@ -11903,7 +11907,7 @@
     },
     {
         "id": "a863c4be-9c8e-44dd-ba88-08381fd55331",
-        "posição": 983,
+        "posição": 982,
         "codigo": [
             "72413"
         ],
@@ -11915,7 +11919,7 @@
     },
     {
         "id": "713e6486-205d-4811-83da-cffc88dc81d5",
-        "posição": 984,
+        "posição": 983,
         "codigo": [
             "725854"
         ],
@@ -11927,7 +11931,7 @@
     },
     {
         "id": "711264b5-3350-4be9-a08d-0e87138e88b3",
-        "posição": 985,
+        "posição": 984,
         "codigo": [
             "726052"
         ],
@@ -11940,7 +11944,7 @@
     },
     {
         "id": "643a0396-1369-46f0-8f07-0e5cce6d89a3",
-        "posição": 986,
+        "posição": 985,
         "codigo": [
             "72606"
         ],
@@ -11952,7 +11956,7 @@
     },
     {
         "id": "7c7cf7df-7f04-4ff1-b855-46bf0d549903",
-        "posição": 987,
+        "posição": 986,
         "codigo": [
             "726079"
         ],
@@ -11965,7 +11969,7 @@
     },
     {
         "id": "e9c536e2-c8e2-4697-afac-d9c7f06eb02c",
-        "posição": 988,
+        "posição": 987,
         "codigo": [
             "72878"
         ],
@@ -11977,7 +11981,7 @@
     },
     {
         "id": "5e8802a3-c421-4b74-90f4-7eff21f1ffc0",
-        "posição": 989,
+        "posição": 988,
         "codigo": [
             "731137"
         ],
@@ -11989,7 +11993,7 @@
     },
     {
         "id": "3aaeb68b-f5da-44f9-841d-0dc23ff0644e",
-        "posição": 990,
+        "posição": 989,
         "codigo": [
             "73172"
         ],
@@ -12001,7 +12005,7 @@
     },
     {
         "id": "e18ce5c6-1b92-403e-b97a-432c7b6e6ae8",
-        "posição": 991,
+        "posição": 990,
         "codigo": [
             "733342"
         ],
@@ -12014,7 +12018,7 @@
     },
     {
         "id": "6329ef83-c39e-4f71-b8bf-1ed820309050",
-        "posição": 992,
+        "posição": 991,
         "codigo": [
             "736732"
         ],
@@ -12026,7 +12030,7 @@
     },
     {
         "id": "e13f298c-d8ca-47bc-879b-2dc7ff229340",
-        "posição": 993,
+        "posição": 992,
         "codigo": [
             "739022"
         ],
@@ -12038,7 +12042,7 @@
     },
     {
         "id": "ea161a1c-4b2d-4543-9ee3-a66621fa0aa4",
-        "posição": 994,
+        "posição": 993,
         "codigo": [
             "739057"
         ],
@@ -12050,7 +12054,7 @@
     },
     {
         "id": "dfb1a86c-6778-445e-9638-3596294df465",
-        "posição": 995,
+        "posição": 994,
         "codigo": [
             "739103"
         ],
@@ -12062,7 +12066,7 @@
     },
     {
         "id": "99f4617f-9c1f-4889-9b35-84aca5f0fc0a",
-        "posição": 996,
+        "posição": 995,
         "codigo": [
             "739766"
         ],
@@ -12075,7 +12079,7 @@
     },
     {
         "id": "fca1a37a-c956-4fc5-ab81-0f78b76a06be",
-        "posição": 997,
+        "posição": 996,
         "codigo": [
             "740756"
         ],
@@ -12087,7 +12091,7 @@
     },
     {
         "id": "8014f7f7-a584-473e-b741-88e1cfba1611",
-        "posição": 998,
+        "posição": 997,
         "codigo": [
             "740764"
         ],
@@ -12099,7 +12103,7 @@
     },
     {
         "id": "14831196-50cd-4e8c-be81-138e2a9deb8f",
-        "posição": 999,
+        "posição": 998,
         "codigo": [
             "751383"
         ],
@@ -12111,7 +12115,7 @@
     },
     {
         "id": "c6b1dc1f-98ed-4d90-a413-241b643300d5",
-        "posição": 1000,
+        "posição": 999,
         "codigo": [
             "751391"
         ],
@@ -12124,7 +12128,7 @@
     },
     {
         "id": "c9b1a609-6f49-41a6-b390-22cfd16752b4",
-        "posição": 1001,
+        "posição": 1000,
         "codigo": [
             "751413"
         ],
@@ -12136,7 +12140,7 @@
     },
     {
         "id": "9617a387-384c-42e5-afd8-169db7fab96f",
-        "posição": 1002,
+        "posição": 1001,
         "codigo": [
             "751421"
         ],
@@ -12148,7 +12152,7 @@
     },
     {
         "id": "7c49e829-7966-4230-8d4d-5e3a5f695f69",
-        "posição": 1003,
+        "posição": 1002,
         "codigo": [
             "75205"
         ],
@@ -12160,7 +12164,7 @@
     },
     {
         "id": "9b825ee1-257b-4c6b-b728-eb8fc9197fb6",
-        "posição": 1004,
+        "posição": 1003,
         "codigo": [
             "75248"
         ],
@@ -12172,7 +12176,7 @@
     },
     {
         "id": "435e598c-1380-49f7-906c-d042b4bbb910",
-        "posição": 1005,
+        "posição": 1004,
         "codigo": [
             "755354"
         ],
@@ -12184,7 +12188,7 @@
     },
     {
         "id": "9a566b39-c05f-46c3-bd7d-c295d649e650",
-        "posição": 1006,
+        "posição": 1005,
         "codigo": [
             "757403"
         ],
@@ -12196,7 +12200,7 @@
     },
     {
         "id": "504908d3-0e97-4212-9e27-ca46c60f152f",
-        "posição": 1007,
+        "posição": 1006,
         "codigo": [
             "7575"
         ],
@@ -12208,7 +12212,7 @@
     },
     {
         "id": "38331540-da4a-4876-8570-4afc9c0e871c",
-        "posição": 1008,
+        "posição": 1007,
         "codigo": [
             "757594"
         ],
@@ -12220,7 +12224,7 @@
     },
     {
         "id": "ea554bf0-adbb-4838-8ef0-1aef112c3668",
-        "posição": 1009,
+        "posição": 1008,
         "codigo": [
             "76031"
         ],
@@ -12234,7 +12238,7 @@
     },
     {
         "id": "17d7019d-91eb-48a5-aac8-5cb69dc10f11",
-        "posição": 1010,
+        "posição": 1009,
         "codigo": [
             "76198"
         ],
@@ -12248,7 +12252,7 @@
     },
     {
         "id": "df4daedf-f70e-4dd1-8575-962553f72a5b",
-        "posição": 1011,
+        "posição": 1010,
         "codigo": [
             "764922"
         ],
@@ -12260,7 +12264,7 @@
     },
     {
         "id": "352e60ed-8138-48e3-acc0-7ae1ebbb2370",
-        "posição": 1012,
+        "posição": 1011,
         "codigo": [
             "765376"
         ],
@@ -12272,7 +12276,7 @@
     },
     {
         "id": "2dc975a4-e051-4a43-aa3d-dc7960af7ff6",
-        "posição": 1013,
+        "posição": 1012,
         "codigo": [
             "771961"
         ],
@@ -12284,7 +12288,7 @@
     },
     {
         "id": "3618db2d-1f8e-45c6-be24-b4618ddc1949",
-        "posição": 1014,
+        "posição": 1013,
         "codigo": [
             "77305"
         ],
@@ -12296,7 +12300,7 @@
     },
     {
         "id": "c4959377-1995-422b-bb39-2431bfaa3da2",
-        "posição": 1015,
+        "posição": 1014,
         "codigo": [
             "774065"
         ],
@@ -12308,7 +12312,7 @@
     },
     {
         "id": "10a70408-ff97-4d03-99f8-e2bd6d9fc02e",
-        "posição": 1016,
+        "posição": 1015,
         "codigo": [
             "775568"
         ],
@@ -12320,7 +12324,7 @@
     },
     {
         "id": "5b1e1c00-8e93-4d9b-a0db-de58efa7bdf2",
-        "posição": 1017,
+        "posição": 1016,
         "codigo": [
             "775827"
         ],
@@ -12332,7 +12336,7 @@
     },
     {
         "id": "d9685a17-fb12-4838-a029-1355acff80cb",
-        "posição": 1018,
+        "posição": 1017,
         "codigo": [
             "777552"
         ],
@@ -12344,7 +12348,7 @@
     },
     {
         "id": "a02b1a09-3334-4ae1-88cd-0f298eb04e98",
-        "posição": 1019,
+        "posição": 1018,
         "codigo": [
             "782122"
         ],
@@ -12356,7 +12360,7 @@
     },
     {
         "id": "771a451e-37f9-41ec-9d64-ec631288d651",
-        "posição": 1020,
+        "posição": 1019,
         "codigo": [
             "78219"
         ],
@@ -12368,7 +12372,7 @@
     },
     {
         "id": "2e8de06c-24f0-4aa8-9de6-fa5895f4b52b",
-        "posição": 1021,
+        "posição": 1020,
         "codigo": [
             "783978"
         ],
@@ -12380,7 +12384,7 @@
     },
     {
         "id": "4b51ee94-ef12-457e-b878-8de0aaedb7c0",
-        "posição": 1022,
+        "posição": 1021,
         "codigo": [
             "783986"
         ],
@@ -12392,7 +12396,7 @@
     },
     {
         "id": "b7bb7e36-3db7-48cf-9abe-0a50a16ac260",
-        "posição": 1023,
+        "posição": 1022,
         "codigo": [
             "784214"
         ],
@@ -12404,7 +12408,7 @@
     },
     {
         "id": "e07b5038-131a-45cc-a9bd-a90a1786adb8",
-        "posição": 1024,
+        "posição": 1023,
         "codigo": [
             "784869"
         ],
@@ -12416,7 +12420,7 @@
     },
     {
         "id": "3ed87c82-dcee-4552-8d89-d82de7d2d945",
-        "posição": 1025,
+        "posição": 1024,
         "codigo": [
             "792438"
         ],
@@ -12428,7 +12432,7 @@
     },
     {
         "id": "8ae4c65f-2c51-458e-bb00-ab16e97ee950",
-        "posição": 1026,
+        "posição": 1025,
         "codigo": [
             "795984"
         ],
@@ -12440,8 +12444,9 @@
     },
     {
         "id": "92964068-a6a4-490c-a43d-b24afb4e6fcf",
-        "posição": 1027,
+        "posição": 1026,
         "codigo": [
+            "1033131",
             "79952"
         ],
         "eans": [
@@ -12452,7 +12457,7 @@
     },
     {
         "id": "631a6341-7ba4-40c2-ad9e-bfc7c24d80f4",
-        "posição": 1028,
+        "posição": 1027,
         "codigo": [
             "804835"
         ],
@@ -12464,7 +12469,7 @@
     },
     {
         "id": "0a49a643-1a72-4b30-ae59-ec2dfdac8e42",
-        "posição": 1029,
+        "posição": 1028,
         "codigo": [
             "805718"
         ],
@@ -12476,7 +12481,7 @@
     },
     {
         "id": "7e3ecec4-c3c7-4a58-a0a5-5ff69567c3c7",
-        "posição": 1030,
+        "posição": 1029,
         "codigo": [
             "805726"
         ],
@@ -12488,7 +12493,7 @@
     },
     {
         "id": "e8d59c69-1c8d-45d8-a7c1-e693d5fb7b9f",
-        "posição": 1031,
+        "posição": 1030,
         "codigo": [
             "805734"
         ],
@@ -12500,7 +12505,7 @@
     },
     {
         "id": "00dcc8ff-ca93-4f6e-bb5e-ce23349da15f",
-        "posição": 1032,
+        "posição": 1031,
         "codigo": [
             "805742"
         ],
@@ -12512,7 +12517,7 @@
     },
     {
         "id": "feca43e7-b55c-4a6a-bf20-77d4b3044f37",
-        "posição": 1033,
+        "posição": 1032,
         "codigo": [
             "809187"
         ],
@@ -12524,7 +12529,7 @@
     },
     {
         "id": "397d77c8-b940-4a7b-a100-3ce3997dc78a",
-        "posição": 1034,
+        "posição": 1033,
         "codigo": [
             "81116"
         ],
@@ -12532,11 +12537,11 @@
             "8111"
         ],
         "nome": "COXA COM SOBRECOXA SEM DORSO CONGELADO KG",
-        "url": ""
+        "url": "https://ibassets.com.br/ib.item.image.big/b-89b0b6f2c8b848a595490a553b6f1f7f.png"
     },
     {
         "id": "4d8f039b-8914-48a3-a81d-822c1382b67d",
-        "posição": 1035,
+        "posição": 1034,
         "codigo": [
             "811521"
         ],
@@ -12548,7 +12553,7 @@
     },
     {
         "id": "9b306cd4-c12e-42ff-bd26-9e08965120ba",
-        "posição": 1036,
+        "posição": 1035,
         "codigo": [
             "812277"
         ],
@@ -12560,7 +12565,7 @@
     },
     {
         "id": "a1ca110a-c48d-49c1-b446-215204d46a68",
-        "posição": 1037,
+        "posição": 1036,
         "codigo": [
             "813494"
         ],
@@ -12572,7 +12577,7 @@
     },
     {
         "id": "c49bd6bb-1c66-498a-a803-25815d89d79d",
-        "posição": 1038,
+        "posição": 1037,
         "codigo": [
             "813508"
         ],
@@ -12584,7 +12589,7 @@
     },
     {
         "id": "559365a6-1d65-4c3d-9a5c-1b95d3788144",
-        "posição": 1039,
+        "posição": 1038,
         "codigo": [
             "81404"
         ],
@@ -12596,7 +12601,7 @@
     },
     {
         "id": "1bd8a115-b926-476f-8e65-c95007aa619c",
-        "posição": 1040,
+        "posição": 1039,
         "codigo": [
             "814059"
         ],
@@ -12608,7 +12613,7 @@
     },
     {
         "id": "e1051895-c27b-4b6b-a947-836185a23f31",
-        "posição": 1041,
+        "posição": 1040,
         "codigo": [
             "814075"
         ],
@@ -12620,7 +12625,7 @@
     },
     {
         "id": "46eb7388-71fc-4491-9602-39a11dc93e0e",
-        "posição": 1042,
+        "posição": 1041,
         "codigo": [
             "814105"
         ],
@@ -12632,7 +12637,7 @@
     },
     {
         "id": "0417c971-9944-4e13-b707-65ab1f38999f",
-        "posição": 1043,
+        "posição": 1042,
         "codigo": [
             "814687"
         ],
@@ -12644,7 +12649,7 @@
     },
     {
         "id": "49f6c624-ffae-4a66-9978-4857e08f3dd8",
-        "posição": 1044,
+        "posição": 1043,
         "codigo": [
             "814709"
         ],
@@ -12656,7 +12661,7 @@
     },
     {
         "id": "1bf49843-57ef-4b82-b32d-bfce2eed4d28",
-        "posição": 1045,
+        "posição": 1044,
         "codigo": [
             "818143"
         ],
@@ -12668,7 +12673,7 @@
     },
     {
         "id": "c2e93382-ce31-42d7-85fd-32d3a31adc71",
-        "posição": 1046,
+        "posição": 1045,
         "codigo": [
             "819557"
         ],
@@ -12680,7 +12685,7 @@
     },
     {
         "id": "4b77f799-b9f0-49df-bac1-94bdc2742d48",
-        "posição": 1047,
+        "posição": 1046,
         "codigo": [
             "822965"
         ],
@@ -12692,7 +12697,7 @@
     },
     {
         "id": "9b1153f5-d71e-4861-b535-b9e7644edd76",
-        "posição": 1048,
+        "posição": 1047,
         "codigo": [
             "822973"
         ],
@@ -12704,7 +12709,7 @@
     },
     {
         "id": "7e11b7e9-0f86-4fdf-8d50-068cf47b0e56",
-        "posição": 1049,
+        "posição": 1048,
         "codigo": [
             "822981"
         ],
@@ -12716,7 +12721,7 @@
     },
     {
         "id": "8c57bef0-c277-4408-a91c-85716a028c37",
-        "posição": 1050,
+        "posição": 1049,
         "codigo": [
             "826278"
         ],
@@ -12728,7 +12733,7 @@
     },
     {
         "id": "a23fc111-c47d-4792-b0e0-76db93c390d8",
-        "posição": 1051,
+        "posição": 1050,
         "codigo": [
             "826618"
         ],
@@ -12740,7 +12745,7 @@
     },
     {
         "id": "6ac03051-168e-41f0-8c5a-bd86c2eb6a69",
-        "posição": 1052,
+        "posição": 1051,
         "codigo": [
             "829412"
         ],
@@ -12754,7 +12759,7 @@
     },
     {
         "id": "33475a9f-1c68-4207-b2f5-9a7be8ad95ea",
-        "posição": 1053,
+        "posição": 1052,
         "codigo": [
             "830542"
         ],
@@ -12766,7 +12771,7 @@
     },
     {
         "id": "6b7d74c7-f48b-4784-830a-41f320065f20",
-        "posição": 1054,
+        "posição": 1053,
         "codigo": [
             "835404"
         ],
@@ -12778,7 +12783,7 @@
     },
     {
         "id": "2e752e4c-a037-457e-877f-05fb0e108ea8",
-        "posição": 1055,
+        "posição": 1054,
         "codigo": [
             "83542"
         ],
@@ -12790,7 +12795,7 @@
     },
     {
         "id": "de43c6a6-6b8e-4782-9fe7-7fbd794502db",
-        "posição": 1056,
+        "posição": 1055,
         "codigo": [
             "835439"
         ],
@@ -12802,7 +12807,7 @@
     },
     {
         "id": "b21ce524-d806-4d75-b413-cf49c4fb0b7f",
-        "posição": 1057,
+        "posição": 1056,
         "codigo": [
             "835447"
         ],
@@ -12814,7 +12819,7 @@
     },
     {
         "id": "9b61beb4-ff14-409d-9727-bcfc05297ff2",
-        "posição": 1058,
+        "posição": 1057,
         "codigo": [
             "835455"
         ],
@@ -12826,7 +12831,7 @@
     },
     {
         "id": "47cc1265-afd5-4e13-9458-0f87c61d43b9",
-        "posição": 1059,
+        "posição": 1058,
         "codigo": [
             "835471"
         ],
@@ -12838,7 +12843,7 @@
     },
     {
         "id": "a5f98944-7f7f-48be-b13c-26a7a394b3dd",
-        "posição": 1060,
+        "posição": 1059,
         "codigo": [
             "836427"
         ],
@@ -12850,7 +12855,7 @@
     },
     {
         "id": "f7c2df4e-21bd-48a5-9fd3-8a98b44e2d07",
-        "posição": 1061,
+        "posição": 1060,
         "codigo": [
             "836435"
         ],
@@ -12862,7 +12867,7 @@
     },
     {
         "id": "42b35cf4-e52c-4529-9faa-22e415ff24e3",
-        "posição": 1062,
+        "posição": 1061,
         "codigo": [
             "836583"
         ],
@@ -12874,7 +12879,7 @@
     },
     {
         "id": "e30ca776-bcc2-487d-8c7c-8bb048702d84",
-        "posição": 1063,
+        "posição": 1062,
         "codigo": [
             "836621"
         ],
@@ -12886,7 +12891,7 @@
     },
     {
         "id": "ad649e43-b109-4963-aa7b-e4a59767bc6c",
-        "posição": 1064,
+        "posição": 1063,
         "codigo": [
             "836648"
         ],
@@ -12898,7 +12903,7 @@
     },
     {
         "id": "319d1f72-2e5d-424f-9e97-f7d1ec5823a1",
-        "posição": 1065,
+        "posição": 1064,
         "codigo": [
             "83887"
         ],
@@ -12910,7 +12915,7 @@
     },
     {
         "id": "b39a1bee-db2b-4084-b563-e353d1448cb8",
-        "posição": 1066,
+        "posição": 1065,
         "codigo": [
             "840211"
         ],
@@ -12922,7 +12927,7 @@
     },
     {
         "id": "145d1590-3d9e-472f-b961-343d313d0c7b",
-        "posição": 1067,
+        "posição": 1066,
         "codigo": [
             "840548"
         ],
@@ -12934,7 +12939,7 @@
     },
     {
         "id": "74e3a7d1-e65c-40c3-ab86-dd7fe2c25f83",
-        "posição": 1068,
+        "posição": 1067,
         "codigo": [
             "845248"
         ],
@@ -12946,7 +12951,7 @@
     },
     {
         "id": "fd578bd6-ec94-4192-8ea1-fc59186b3278",
-        "posição": 1069,
+        "posição": 1068,
         "codigo": [
             "845388"
         ],
@@ -12958,7 +12963,7 @@
     },
     {
         "id": "24a43077-ba10-4ea3-b8bb-adb199639bfd",
-        "posição": 1070,
+        "posição": 1069,
         "codigo": [
             "846171"
         ],
@@ -12971,7 +12976,7 @@
     },
     {
         "id": "1ecc9f2c-4d7a-4fcb-9abc-a097462e607c",
-        "posição": 1071,
+        "posição": 1070,
         "codigo": [
             "84618"
         ],
@@ -12983,7 +12988,7 @@
     },
     {
         "id": "1a18d146-dca0-42b7-af39-4ca19eec8bf3",
-        "posição": 1072,
+        "posição": 1071,
         "codigo": [
             "848239"
         ],
@@ -12995,7 +13000,7 @@
     },
     {
         "id": "1783f6d2-b974-41c4-8467-fffc79f77c37",
-        "posição": 1073,
+        "posição": 1072,
         "codigo": [
             "848735"
         ],
@@ -13007,7 +13012,7 @@
     },
     {
         "id": "f3f75d68-0c53-4130-a28b-3ef5bad02323",
-        "posição": 1074,
+        "posição": 1073,
         "codigo": [
             "848743"
         ],
@@ -13019,7 +13024,7 @@
     },
     {
         "id": "a0312f53-48b6-4162-9601-ae276e0fac00",
-        "posição": 1075,
+        "posição": 1074,
         "codigo": [
             "84876"
         ],
@@ -13031,7 +13036,7 @@
     },
     {
         "id": "f7ef9ea9-6b00-4026-a85b-b95cac7332c5",
-        "posição": 1076,
+        "posição": 1075,
         "codigo": [
             "851388"
         ],
@@ -13043,7 +13048,7 @@
     },
     {
         "id": "818333e5-a29e-469c-a1f2-b5834c38f5af",
-        "posição": 1077,
+        "posição": 1076,
         "codigo": [
             "851922"
         ],
@@ -13055,7 +13060,7 @@
     },
     {
         "id": "33b02604-20af-4253-9536-afffaf9e3525",
-        "posição": 1078,
+        "posição": 1077,
         "codigo": [
             "851949"
         ],
@@ -13067,7 +13072,7 @@
     },
     {
         "id": "0d9e65a9-d1b5-4eb6-a933-b15ae47c2c5e",
-        "posição": 1079,
+        "posição": 1078,
         "codigo": [
             "852228"
         ],
@@ -13079,7 +13084,7 @@
     },
     {
         "id": "83c47603-de2a-48fb-abfc-1bbfcb90b002",
-        "posição": 1080,
+        "posição": 1079,
         "codigo": [
             "852252"
         ],
@@ -13091,7 +13096,7 @@
     },
     {
         "id": "933f8146-023e-49d5-8bcd-eb15b4713899",
-        "posição": 1081,
+        "posição": 1080,
         "codigo": [
             "85347"
         ],
@@ -13103,7 +13108,7 @@
     },
     {
         "id": "5d85d1ae-d4c3-4bef-a15e-3a675044bc00",
-        "posição": 1082,
+        "posição": 1081,
         "codigo": [
             "853496"
         ],
@@ -13115,7 +13120,7 @@
     },
     {
         "id": "6f9ca2bc-6952-4e10-a83e-86d55d99486e",
-        "posição": 1083,
+        "posição": 1082,
         "codigo": [
             "854077"
         ],
@@ -13127,7 +13132,7 @@
     },
     {
         "id": "23c498f8-786e-437e-95ec-170a870ae81f",
-        "posição": 1084,
+        "posição": 1083,
         "codigo": [
             "856304"
         ],
@@ -13139,7 +13144,7 @@
     },
     {
         "id": "443f3a4f-04e9-45cf-b066-aeacf273d70a",
-        "posição": 1085,
+        "posição": 1084,
         "codigo": [
             "856363"
         ],
@@ -13151,7 +13156,7 @@
     },
     {
         "id": "fa912c2b-dcde-4176-b748-9ac514adb476",
-        "posição": 1086,
+        "posição": 1085,
         "codigo": [
             "85669"
         ],
@@ -13163,7 +13168,7 @@
     },
     {
         "id": "77436ff0-7de3-4a63-9367-430d987c6cdc",
-        "posição": 1087,
+        "posição": 1086,
         "codigo": [
             "857157"
         ],
@@ -13175,7 +13180,7 @@
     },
     {
         "id": "380d79b3-7a02-4fe7-8efc-6f3208280fc1",
-        "posição": 1088,
+        "posição": 1087,
         "codigo": [
             "85873"
         ],
@@ -13187,7 +13192,7 @@
     },
     {
         "id": "d3ccba09-712c-4b3a-8404-353d3d8e4a61",
-        "posição": 1089,
+        "posição": 1088,
         "codigo": [
             "858749"
         ],
@@ -13199,7 +13204,7 @@
     },
     {
         "id": "db29548c-4820-4f84-ba31-fb0087d9fc9c",
-        "posição": 1090,
+        "posição": 1089,
         "codigo": [
             "858773"
         ],
@@ -13211,7 +13216,7 @@
     },
     {
         "id": "86239a6e-4ee0-4cd6-a4a5-22ed0ffd0677",
-        "posição": 1091,
+        "posição": 1090,
         "codigo": [
             "858781"
         ],
@@ -13223,7 +13228,7 @@
     },
     {
         "id": "7c5df0fb-1820-46ad-a5ce-eab28a5905d7",
-        "posição": 1092,
+        "posição": 1091,
         "codigo": [
             "85879"
         ],
@@ -13235,7 +13240,7 @@
     },
     {
         "id": "7a44e738-50df-4907-84cf-78268c8136d9",
-        "posição": 1093,
+        "posição": 1092,
         "codigo": [
             "858846"
         ],
@@ -13247,7 +13252,7 @@
     },
     {
         "id": "fc41b08d-693f-4e89-810d-24b1fead502f",
-        "posição": 1094,
+        "posição": 1093,
         "codigo": [
             "85887"
         ],
@@ -13259,7 +13264,7 @@
     },
     {
         "id": "233b5d63-5f54-4563-98c7-1807e3ad151e",
-        "posição": 1095,
+        "posição": 1094,
         "codigo": [
             "860336"
         ],
@@ -13271,7 +13276,7 @@
     },
     {
         "id": "b75e53ae-0f7c-437f-9195-467292e68632",
-        "posição": 1096,
+        "posição": 1095,
         "codigo": [
             "87227"
         ],
@@ -13283,19 +13288,20 @@
     },
     {
         "id": "db4e6abe-8775-47b3-b96d-ca561d19359a",
-        "posição": 1097,
+        "posição": 1096,
         "codigo": [
             "873772"
         ],
         "eans": [
-            "7896253401267"
+            "7896253401267",
+            "7896253401274"
         ],
         "nome": "BISC COOKIES RANCHEIRO 60G TRED GT CHOC",
-        "url": ""
+        "url": "https://caferancheiro.vtexassets.com/arquivos/ids/155608/MOCKUP_COOKIES-60g_1000X1000.png?v=638635745891430000"
     },
     {
         "id": "2a14bd88-b455-41fa-a8eb-43d84e1a5797",
-        "posição": 1098,
+        "posição": 1097,
         "codigo": [
             "875287"
         ],
@@ -13307,7 +13313,7 @@
     },
     {
         "id": "70fb68f8-6d11-4bda-9484-6c5317e7e274",
-        "posição": 1099,
+        "posição": 1098,
         "codigo": [
             "87678"
         ],
@@ -13319,7 +13325,7 @@
     },
     {
         "id": "c43f751a-fe1c-473a-a228-973e29ae1cc8",
-        "posição": 1100,
+        "posição": 1099,
         "codigo": [
             "877093"
         ],
@@ -13331,7 +13337,7 @@
     },
     {
         "id": "0fa1a40f-ce6d-4606-a746-5ba57c329329",
-        "posição": 1101,
+        "posição": 1100,
         "codigo": [
             "878154"
         ],
@@ -13343,7 +13349,7 @@
     },
     {
         "id": "2079a82c-b14c-4e11-9ae4-20e90426cd07",
-        "posição": 1102,
+        "posição": 1101,
         "codigo": [
             "878294"
         ],
@@ -13355,7 +13361,7 @@
     },
     {
         "id": "ea90d374-23f9-469c-8178-6fbeadacb2ae",
-        "posição": 1103,
+        "posição": 1102,
         "codigo": [
             "885177"
         ],
@@ -13367,7 +13373,7 @@
     },
     {
         "id": "ccef4191-16bf-44bf-bc6c-f8b438f97926",
-        "posição": 1104,
+        "posição": 1103,
         "codigo": [
             "885185"
         ],
@@ -13379,7 +13385,7 @@
     },
     {
         "id": "a827a1e8-18c9-4219-8f33-5cda918bdd4e",
-        "posição": 1105,
+        "posição": 1104,
         "codigo": [
             "885193"
         ],
@@ -13391,7 +13397,7 @@
     },
     {
         "id": "292c563b-2558-4d50-81c4-8a13a30b384e",
-        "posição": 1106,
+        "posição": 1105,
         "codigo": [
             "885207"
         ],
@@ -13403,7 +13409,7 @@
     },
     {
         "id": "bc20d0c3-efcd-4ebb-8a74-f5df30971ee3",
-        "posição": 1107,
+        "posição": 1106,
         "codigo": [
             "886521"
         ],
@@ -13415,7 +13421,7 @@
     },
     {
         "id": "b5da00be-b84c-41df-b1e1-dc746d9c7504",
-        "posição": 1108,
+        "posição": 1107,
         "codigo": [
             "886602"
         ],
@@ -13427,7 +13433,7 @@
     },
     {
         "id": "d9ba6f9c-7570-46c7-8654-b99e0e49a1dc",
-        "posição": 1109,
+        "posição": 1108,
         "codigo": [
             "889881"
         ],
@@ -13439,7 +13445,7 @@
     },
     {
         "id": "854d1f9a-7745-4de1-ba17-dd69c8664885",
-        "posição": 1110,
+        "posição": 1109,
         "codigo": [
             "89026"
         ],
@@ -13451,7 +13457,7 @@
     },
     {
         "id": "313ef2df-1b0e-4c7d-a14d-0a76e33bb3b9",
-        "posição": 1111,
+        "posição": 1110,
         "codigo": [
             "890278"
         ],
@@ -13463,7 +13469,7 @@
     },
     {
         "id": "0c706a9e-531d-43b0-9ce5-ae895df535cf",
-        "posição": 1112,
+        "posição": 1111,
         "codigo": [
             "890286"
         ],
@@ -13475,7 +13481,7 @@
     },
     {
         "id": "35b29f8c-0873-4073-9b60-1980d391439d",
-        "posição": 1113,
+        "posição": 1112,
         "codigo": [
             "890405"
         ],
@@ -13487,7 +13493,7 @@
     },
     {
         "id": "66e455f7-24ce-43da-8aa2-43bd68cd51ad",
-        "posição": 1114,
+        "posição": 1113,
         "codigo": [
             "890413"
         ],
@@ -13499,7 +13505,7 @@
     },
     {
         "id": "1a261992-4570-4e12-971c-191242327e29",
-        "posição": 1115,
+        "posição": 1114,
         "codigo": [
             "891339"
         ],
@@ -13511,7 +13517,7 @@
     },
     {
         "id": "374c3bb5-cf67-4e9d-8aac-9caeaf53b7e8",
-        "posição": 1116,
+        "posição": 1115,
         "codigo": [
             "893188"
         ],
@@ -13523,7 +13529,7 @@
     },
     {
         "id": "daf12d51-e3ca-480e-b09d-bd9c9e63b675",
-        "posição": 1117,
+        "posição": 1116,
         "codigo": [
             "893374"
         ],
@@ -13535,7 +13541,7 @@
     },
     {
         "id": "fd6dba0e-b1ad-434f-862e-2fdc91364248",
-        "posição": 1118,
+        "posição": 1117,
         "codigo": [
             "89365"
         ],
@@ -13547,7 +13553,7 @@
     },
     {
         "id": "2c14b941-b908-40f6-aa51-0a4884a0e472",
-        "posição": 1119,
+        "posição": 1118,
         "codigo": [
             "895067"
         ],
@@ -13560,7 +13566,7 @@
     },
     {
         "id": "490bb994-9bfe-4f16-982e-7a2fc9b18eca",
-        "posição": 1120,
+        "posição": 1119,
         "codigo": [
             "898236"
         ],
@@ -13572,7 +13578,7 @@
     },
     {
         "id": "23c623ee-bc48-4dc7-bde6-d7d11206886e",
-        "posição": 1121,
+        "posição": 1120,
         "codigo": [
             "899364"
         ],
@@ -13584,7 +13590,7 @@
     },
     {
         "id": "f17a9551-e442-41d4-b2c1-a39f112bde08",
-        "posição": 1122,
+        "posição": 1121,
         "codigo": [
             "901377"
         ],
@@ -13597,7 +13603,7 @@
     },
     {
         "id": "4ab26e25-32db-47bf-8c38-2f8d982f5752",
-        "posição": 1123,
+        "posição": 1122,
         "codigo": [
             "901385"
         ],
@@ -13609,7 +13615,7 @@
     },
     {
         "id": "ed2232d0-d33f-49b0-96fd-8b26f919d21d",
-        "posição": 1124,
+        "posição": 1123,
         "codigo": [
             "901393"
         ],
@@ -13621,7 +13627,7 @@
     },
     {
         "id": "e799081d-4f53-4ff6-9e60-5d927ed64a1e",
-        "posição": 1125,
+        "posição": 1124,
         "codigo": [
             "901962"
         ],
@@ -13633,7 +13639,7 @@
     },
     {
         "id": "fedfc901-b393-4585-a600-323f2e8af663",
-        "posição": 1126,
+        "posição": 1125,
         "codigo": [
             "90202"
         ],
@@ -13645,7 +13651,7 @@
     },
     {
         "id": "2e847abe-6e42-4f31-8108-4c8b9e1bc453",
-        "posição": 1127,
+        "posição": 1126,
         "codigo": [
             "904864"
         ],
@@ -13657,7 +13663,7 @@
     },
     {
         "id": "06050400-5240-462e-9262-3b178b846d1e",
-        "posição": 1128,
+        "posição": 1127,
         "codigo": [
             "904872"
         ],
@@ -13669,7 +13675,7 @@
     },
     {
         "id": "c22bb0c2-b280-4711-a6ba-c978b58c25a6",
-        "posição": 1129,
+        "posição": 1128,
         "codigo": [
             "906271"
         ],
@@ -13681,7 +13687,7 @@
     },
     {
         "id": "37166f2d-c40a-4884-9421-e3c7073d0a1b",
-        "posição": 1130,
+        "posição": 1129,
         "codigo": [
             "90832"
         ],
@@ -13693,7 +13699,7 @@
     },
     {
         "id": "43e59ecd-97c2-46e3-8abe-e3da2300357e",
-        "posição": 1131,
+        "posição": 1130,
         "codigo": [
             "908657"
         ],
@@ -13705,7 +13711,7 @@
     },
     {
         "id": "4429d55a-0065-4e3b-a666-00063dd0290e",
-        "posição": 1132,
+        "posição": 1131,
         "codigo": [
             "908665"
         ],
@@ -13717,7 +13723,7 @@
     },
     {
         "id": "823767be-0ef1-4129-a01d-b7beed09ce3a",
-        "posição": 1133,
+        "posição": 1132,
         "codigo": [
             "909483"
         ],
@@ -13729,7 +13735,7 @@
     },
     {
         "id": "8561e752-275a-42bc-b26a-1f94b35147ba",
-        "posição": 1134,
+        "posição": 1133,
         "codigo": [
             "909491"
         ],
@@ -13741,7 +13747,7 @@
     },
     {
         "id": "feefdbc0-80fc-4124-949c-2d949ee59ef9",
-        "posição": 1135,
+        "posição": 1134,
         "codigo": [
             "909505"
         ],
@@ -13753,7 +13759,7 @@
     },
     {
         "id": "443b9374-f16b-4317-a50b-a977be643a9e",
-        "posição": 1136,
+        "posição": 1135,
         "codigo": [
             "909513"
         ],
@@ -13765,7 +13771,7 @@
     },
     {
         "id": "edad1f93-70da-45af-bd1d-4b072e7ac98e",
-        "posição": 1137,
+        "posição": 1136,
         "codigo": [
             "90958"
         ],
@@ -13777,7 +13783,7 @@
     },
     {
         "id": "5b01f80c-056d-4f98-a023-baf91d18780c",
-        "posição": 1138,
+        "posição": 1137,
         "codigo": [
             "911461"
         ],
@@ -13785,11 +13791,11 @@
             "7891150062153"
         ],
         "nome": "LIMP CIF LV450PG360ML CREMOSO",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150062153"
     },
     {
         "id": "756ae9c2-02e9-40a0-903f-c98ab254f67a",
-        "posição": 1139,
+        "posição": 1138,
         "codigo": [
             "914312"
         ],
@@ -13801,7 +13807,7 @@
     },
     {
         "id": "b3b4e895-807f-4039-8920-2420333adda9",
-        "posição": 1140,
+        "posição": 1139,
         "codigo": [
             "91729"
         ],
@@ -13813,7 +13819,7 @@
     },
     {
         "id": "5dc804e1-a622-427d-ba5a-4045009b8555",
-        "posição": 1141,
+        "posição": 1140,
         "codigo": [
             "917303"
         ],
@@ -13825,7 +13831,7 @@
     },
     {
         "id": "e648c05c-f406-42fa-9e91-e3c0d0df99f4",
-        "posição": 1142,
+        "posição": 1141,
         "codigo": [
             "919306"
         ],
@@ -13837,7 +13843,7 @@
     },
     {
         "id": "d7a720c3-8562-4206-b90c-79c6764552c5",
-        "posição": 1143,
+        "posição": 1142,
         "codigo": [
             "919349"
         ],
@@ -13849,7 +13855,7 @@
     },
     {
         "id": "872f386e-dd0f-49fb-ab44-a6299988687f",
-        "posição": 1144,
+        "posição": 1143,
         "codigo": [
             "919713"
         ],
@@ -13861,7 +13867,7 @@
     },
     {
         "id": "3effecd5-0724-4e2c-88e2-11da2a8c9f2c",
-        "posição": 1145,
+        "posição": 1144,
         "codigo": [
             "919721"
         ],
@@ -13873,7 +13879,7 @@
     },
     {
         "id": "f15a4d7c-784f-4696-8013-7f2d7b595a35",
-        "posição": 1146,
+        "posição": 1145,
         "codigo": [
             "921009"
         ],
@@ -13885,7 +13891,7 @@
     },
     {
         "id": "13b201a5-2fb7-40bc-8e5f-fcbac95c454f",
-        "posição": 1147,
+        "posição": 1146,
         "codigo": [
             "921785"
         ],
@@ -13897,7 +13903,7 @@
     },
     {
         "id": "01b47c50-c988-4d23-a17f-71b4ce443e4e",
-        "posição": 1148,
+        "posição": 1147,
         "codigo": [
             "923125"
         ],
@@ -13909,7 +13915,7 @@
     },
     {
         "id": "838ebf2a-75e9-4393-b278-8ad8c37176f0",
-        "posição": 1149,
+        "posição": 1148,
         "codigo": [
             "923133"
         ],
@@ -13921,7 +13927,7 @@
     },
     {
         "id": "0dda679d-1ad0-44c6-a5bf-08154ddba86c",
-        "posição": 1150,
+        "posição": 1149,
         "codigo": [
             "923354"
         ],
@@ -13929,11 +13935,11 @@
             "7500435146135"
         ],
         "nome": "FRALDA DESC PAMPERS PANTS PAC P 26UN",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435146135"
     },
     {
         "id": "bfd6fe71-27b2-4028-a073-fd2d98132a50",
-        "posição": 1151,
+        "posição": 1150,
         "codigo": [
             "923362"
         ],
@@ -13941,11 +13947,11 @@
             "7500435146142"
         ],
         "nome": "FRALDA DESC PAMPERS PANTS PAC M 20UN",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435146142"
     },
     {
         "id": "4dd996d5-74e1-48d8-bd6f-5b2db74b9daf",
-        "posição": 1152,
+        "posição": 1151,
         "codigo": [
             "92337"
         ],
@@ -13953,11 +13959,11 @@
             "7500435146159"
         ],
         "nome": "FRALDA DESC PAMPERS PANTS PAC G 16UN",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435146159"
     },
     {
         "id": "89fae52f-8064-487a-9e0a-bac1d4d50fdb",
-        "posição": 1153,
+        "posição": 1152,
         "codigo": [
             "923389"
         ],
@@ -13965,11 +13971,11 @@
             "7500435146166"
         ],
         "nome": "FRALDA DESC PAMPERS PANTS PAC XG 14UN",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435146166"
     },
     {
         "id": "b417a3c0-f16a-4a7c-924b-335e9f66fbc4",
-        "posição": 1154,
+        "posição": 1153,
         "codigo": [
             "923397"
         ],
@@ -13977,11 +13983,11 @@
             "7500435146173"
         ],
         "nome": "FRALDA DESC PAMPERS PANTS PAC XXG 12UN",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435146173"
     },
     {
         "id": "805ea954-9633-4cac-bee0-fc36d4944d76",
-        "posição": 1155,
+        "posição": 1154,
         "codigo": [
             "9243"
         ],
@@ -13993,7 +13999,7 @@
     },
     {
         "id": "0fc2f3b2-e30b-4586-af8e-60cfde6b711d",
-        "posição": 1156,
+        "posição": 1155,
         "codigo": [
             "925942"
         ],
@@ -14005,7 +14011,7 @@
     },
     {
         "id": "1a35c826-1958-4726-ade2-604564fbe044",
-        "posição": 1157,
+        "posição": 1156,
         "codigo": [
             "92595"
         ],
@@ -14017,7 +14023,7 @@
     },
     {
         "id": "3e566204-1530-4e2d-9fc0-74a2f18b65c2",
-        "posição": 1158,
+        "posição": 1157,
         "codigo": [
             "929255"
         ],
@@ -14029,7 +14035,7 @@
     },
     {
         "id": "f338afd8-6749-4ff3-8304-2fde5ea01ba5",
-        "posição": 1159,
+        "posição": 1158,
         "codigo": [
             "929867"
         ],
@@ -14041,7 +14047,7 @@
     },
     {
         "id": "d83218db-a93e-42d5-bacb-34e7292bd3ff",
-        "posição": 1160,
+        "posição": 1159,
         "codigo": [
             "93018"
         ],
@@ -14053,7 +14059,7 @@
     },
     {
         "id": "eb2edca8-c353-40ee-a97a-4b1ecc7f85dc",
-        "posição": 1161,
+        "posição": 1160,
         "codigo": [
             "932337"
         ],
@@ -14065,7 +14071,7 @@
     },
     {
         "id": "44d24253-b19e-4c3f-beaa-47ecb16aeb6f",
-        "posição": 1162,
+        "posição": 1161,
         "codigo": [
             "932361"
         ],
@@ -14077,7 +14083,7 @@
     },
     {
         "id": "a49527c9-ecdf-4169-bb71-76b4875e92b0",
-        "posição": 1163,
+        "posição": 1162,
         "codigo": [
             "932388"
         ],
@@ -14089,7 +14095,7 @@
     },
     {
         "id": "faadc581-1a7b-491e-9972-dab1f85ecf37",
-        "posição": 1164,
+        "posição": 1163,
         "codigo": [
             "9324"
         ],
@@ -14101,7 +14107,7 @@
     },
     {
         "id": "04458783-2e52-45a3-98d9-13e360c8a47f",
-        "posição": 1165,
+        "posição": 1164,
         "codigo": [
             "932728"
         ],
@@ -14113,7 +14119,7 @@
     },
     {
         "id": "e5e75ca9-401a-4400-ac27-29db8c89596b",
-        "posição": 1166,
+        "posição": 1165,
         "codigo": [
             "93276"
         ],
@@ -14125,7 +14131,7 @@
     },
     {
         "id": "79530e34-91c8-414a-81b7-01601ccb1021",
-        "posição": 1167,
+        "posição": 1166,
         "codigo": [
             "932795"
         ],
@@ -14137,7 +14143,7 @@
     },
     {
         "id": "36391c9f-2905-4d00-8ed3-9d06088d1f35",
-        "posição": 1168,
+        "posição": 1167,
         "codigo": [
             "932906"
         ],
@@ -14145,11 +14151,11 @@
             "5099873006368"
         ],
         "nome": "WHISKY JACK DANIElS TENNESSEE FIRE 1L",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/5099873006368"
     },
     {
         "id": "8f930281-a14b-4978-b6b9-2cd7937f8a59",
-        "posição": 1169,
+        "posição": 1168,
         "codigo": [
             "945625"
         ],
@@ -14161,7 +14167,7 @@
     },
     {
         "id": "b2e606ee-aa89-4585-ae82-8aed06ac689a",
-        "posição": 1170,
+        "posição": 1169,
         "codigo": [
             "947318"
         ],
@@ -14173,7 +14179,7 @@
     },
     {
         "id": "384c21f9-4433-4664-a702-c226102e0fd6",
-        "posição": 1171,
+        "posição": 1170,
         "codigo": [
             "94752"
         ],
@@ -14185,7 +14191,7 @@
     },
     {
         "id": "e716d3e0-70cc-4530-ab40-5c0a1f660c18",
-        "posição": 1172,
+        "posição": 1171,
         "codigo": [
             "947539"
         ],
@@ -14197,7 +14203,7 @@
     },
     {
         "id": "b99cdd89-c84c-4313-9d9b-581f5e7f7163",
-        "posição": 1173,
+        "posição": 1172,
         "codigo": [
             "947687"
         ],
@@ -14209,7 +14215,7 @@
     },
     {
         "id": "4d39a4ba-dcb5-4764-b46d-149bd2ff6c5d",
-        "posição": 1174,
+        "posição": 1173,
         "codigo": [
             "947695"
         ],
@@ -14221,7 +14227,7 @@
     },
     {
         "id": "3b62a327-efd7-43dd-b58e-80d16b92f3a7",
-        "posição": 1175,
+        "posição": 1174,
         "codigo": [
             "947709"
         ],
@@ -14233,7 +14239,7 @@
     },
     {
         "id": "838b4f29-5192-48f1-b6c7-a3f1212a152a",
-        "posição": 1176,
+        "posição": 1175,
         "codigo": [
             "948357"
         ],
@@ -14245,7 +14251,7 @@
     },
     {
         "id": "20a58d3b-c24a-48a0-8688-da3a7b5932e2",
-        "posição": 1177,
+        "posição": 1176,
         "codigo": [
             "94856"
         ],
@@ -14257,7 +14263,7 @@
     },
     {
         "id": "4ec4fd40-9a6a-4294-a9cd-e45275df7deb",
-        "posição": 1178,
+        "posição": 1177,
         "codigo": [
             "948586"
         ],
@@ -14269,7 +14275,7 @@
     },
     {
         "id": "fa3d7bae-d75c-4ee3-a159-6457cf6047e6",
-        "posição": 1179,
+        "posição": 1178,
         "codigo": [
             "948608"
         ],
@@ -14281,7 +14287,7 @@
     },
     {
         "id": "0f267e8d-1148-407c-9957-aee3e967a5c2",
-        "posição": 1180,
+        "posição": 1179,
         "codigo": [
             "949027"
         ],
@@ -14293,7 +14299,7 @@
     },
     {
         "id": "11d440cd-a639-4c14-b411-ead06f9b1fc8",
-        "posição": 1181,
+        "posição": 1180,
         "codigo": [
             "95142"
         ],
@@ -14305,7 +14311,7 @@
     },
     {
         "id": "8ce59593-869d-46ee-842e-2dc4faf1cb19",
-        "posição": 1182,
+        "posição": 1181,
         "codigo": [
             "953881"
         ],
@@ -14317,7 +14323,7 @@
     },
     {
         "id": "f574ce98-1b1b-4b3f-9500-378df6218d43",
-        "posição": 1183,
+        "posição": 1182,
         "codigo": [
             "95439"
         ],
@@ -14329,7 +14335,7 @@
     },
     {
         "id": "7aca065a-41b9-47f5-9b10-a23b3e250b63",
-        "posição": 1184,
+        "posição": 1183,
         "codigo": [
             "954888"
         ],
@@ -14341,7 +14347,7 @@
     },
     {
         "id": "a47eb971-d11d-4513-b83d-77a449aeb0b2",
-        "posição": 1185,
+        "posição": 1184,
         "codigo": [
             "960047"
         ],
@@ -14353,7 +14359,7 @@
     },
     {
         "id": "2b20c2a6-e92f-431e-bd2c-c21a5f868c60",
-        "posição": 1186,
+        "posição": 1185,
         "codigo": [
             "962325"
         ],
@@ -14365,7 +14371,7 @@
     },
     {
         "id": "06edf126-5de1-4b90-ae44-30da3aef5aa7",
-        "posição": 1187,
+        "posição": 1186,
         "codigo": [
             "96324"
         ],
@@ -14377,7 +14383,7 @@
     },
     {
         "id": "0d067d42-19a2-4897-a822-1670d6afbbb9",
-        "posição": 1188,
+        "posição": 1187,
         "codigo": [
             "963259"
         ],
@@ -14389,7 +14395,7 @@
     },
     {
         "id": "6d478d8c-29f4-46dc-a871-18229979faa4",
-        "posição": 1189,
+        "posição": 1188,
         "codigo": [
             "963518"
         ],
@@ -14401,7 +14407,7 @@
     },
     {
         "id": "088b4b5a-e70f-46c5-b3bc-065806e2c819",
-        "posição": 1190,
+        "posição": 1189,
         "codigo": [
             "963593"
         ],
@@ -14413,7 +14419,7 @@
     },
     {
         "id": "793d7695-560c-4c4e-85b2-d26b832845f1",
-        "posição": 1191,
+        "posição": 1190,
         "codigo": [
             "964549"
         ],
@@ -14425,7 +14431,7 @@
     },
     {
         "id": "a1d9b819-8e2e-4bb9-b3b6-29b444df82f5",
-        "posição": 1192,
+        "posição": 1191,
         "codigo": [
             "965448"
         ],
@@ -14437,7 +14443,7 @@
     },
     {
         "id": "62a53637-242d-4dde-ab89-e899255c8562",
-        "posição": 1193,
+        "posição": 1192,
         "codigo": [
             "96557"
         ],
@@ -14449,7 +14455,7 @@
     },
     {
         "id": "458ffae2-308e-47c8-8e81-3310f696da00",
-        "posição": 1194,
+        "posição": 1193,
         "codigo": [
             "965901"
         ],
@@ -14461,7 +14467,7 @@
     },
     {
         "id": "037f2bf7-1a3c-4ef0-9c5c-26be533c2c44",
-        "posição": 1195,
+        "posição": 1194,
         "codigo": [
             "965928"
         ],
@@ -14473,7 +14479,7 @@
     },
     {
         "id": "6a006d31-2b68-47c5-9fc6-41d13cc1ff22",
-        "posição": 1196,
+        "posição": 1195,
         "codigo": [
             "96825"
         ],
@@ -14485,7 +14491,7 @@
     },
     {
         "id": "e315c304-36e4-4756-aeb7-62fb63aecf8a",
-        "posição": 1197,
+        "posição": 1196,
         "codigo": [
             "968463"
         ],
@@ -14497,7 +14503,7 @@
     },
     {
         "id": "f8d78bc2-ff8e-4fdd-88ea-7133d0f9e13a",
-        "posição": 1198,
+        "posição": 1197,
         "codigo": [
             "96873"
         ],
@@ -14509,7 +14515,7 @@
     },
     {
         "id": "5302572a-07cf-4dd9-bb28-96ef4707a940",
-        "posição": 1199,
+        "posição": 1198,
         "codigo": [
             "969702"
         ],
@@ -14521,7 +14527,7 @@
     },
     {
         "id": "2bde5b7b-5430-4a1c-a23b-05ad740afe74",
-        "posição": 1200,
+        "posição": 1199,
         "codigo": [
             "969974"
         ],
@@ -14533,7 +14539,7 @@
     },
     {
         "id": "70417fc2-98a5-4ddb-a0a1-ac276f81d878",
-        "posição": 1201,
+        "posição": 1200,
         "codigo": [
             "970026"
         ],
@@ -14545,7 +14551,7 @@
     },
     {
         "id": "48000311-6be2-472f-bc68-cdce6a0227d5",
-        "posição": 1202,
+        "posição": 1201,
         "codigo": [
             "97028"
         ],
@@ -14553,11 +14559,11 @@
             "7500435153164"
         ],
         "nome": "CRM DENT ORAL B 100% 70G MENTA REFRES",
-        "url": ""
+        "url": "https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fproduct-data.raiadrogasil.io%2Fimages%2F3473426.webp&w=3840&q=40"
     },
     {
         "id": "afcff6e3-8c16-4b10-a470-8c89320c2eac",
-        "posição": 1203,
+        "posição": 1202,
         "codigo": [
             "970433"
         ],
@@ -14569,7 +14575,7 @@
     },
     {
         "id": "9c028386-6dee-4c25-ad45-999d0d4e765c",
-        "posição": 1204,
+        "posição": 1203,
         "codigo": [
             "971227"
         ],
@@ -14577,11 +14583,11 @@
             "7500435148436"
         ],
         "nome": "TOALHA UMED PAMPERS 48UN LAVANDA",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435148436"
     },
     {
         "id": "ede297a7-0061-4c81-a093-05805cad5491",
-        "posição": 1205,
+        "posição": 1204,
         "codigo": [
             "971235"
         ],
@@ -14589,11 +14595,11 @@
             "7500435145244"
         ],
         "nome": "TOALHA UMED PAMPERS 48UN ALOE VERA",
-        "url": ""
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435145244"
     },
     {
         "id": "76c5ecee-1309-4c17-bd05-674dab8f4408",
-        "posição": 1206,
+        "posição": 1205,
         "codigo": [
             "971243"
         ],
@@ -14605,7 +14611,7 @@
     },
     {
         "id": "9360741b-876c-47fb-8a59-93f51f3c3d88",
-        "posição": 1207,
+        "posição": 1206,
         "codigo": [
             "971251"
         ],
@@ -14617,7 +14623,7 @@
     },
     {
         "id": "27b08e72-3cc6-4bb1-b53d-bfb2e0ecf74b",
-        "posição": 1208,
+        "posição": 1207,
         "codigo": [
             "97126"
         ],
@@ -14629,7 +14635,7 @@
     },
     {
         "id": "a6c04f81-9050-40dd-87d0-b5ff13f3e33c",
-        "posição": 1209,
+        "posição": 1208,
         "codigo": [
             "971316"
         ],
@@ -14641,7 +14647,7 @@
     },
     {
         "id": "9804f9df-0456-4019-8398-134aac9f5aba",
-        "posição": 1210,
+        "posição": 1209,
         "codigo": [
             "97327"
         ],
@@ -14653,7 +14659,7 @@
     },
     {
         "id": "aafa6323-8034-4b1b-982b-40f60e5ace33",
-        "posição": 1211,
+        "posição": 1210,
         "codigo": [
             "97336"
         ],
@@ -14665,7 +14671,7 @@
     },
     {
         "id": "840871ad-a3f1-4e9c-b990-bfa2020825cc",
-        "posição": 1212,
+        "posição": 1211,
         "codigo": [
             "974617"
         ],
@@ -14677,7 +14683,7 @@
     },
     {
         "id": "0d98b688-adb4-4795-88f4-eeec1137f3d7",
-        "posição": 1213,
+        "posição": 1212,
         "codigo": [
             "974862"
         ],
@@ -14689,7 +14695,7 @@
     },
     {
         "id": "8165a822-3967-40e2-bfdd-709035487a6a",
-        "posição": 1214,
+        "posição": 1213,
         "codigo": [
             "978272"
         ],
@@ -14701,7 +14707,7 @@
     },
     {
         "id": "d4bc8fac-0b57-4fd2-8be3-674135114a9e",
-        "posição": 1215,
+        "posição": 1214,
         "codigo": [
             "97828"
         ],
@@ -14713,7 +14719,7 @@
     },
     {
         "id": "dcc83bc2-44de-4510-a3b9-0e3fb3f58e60",
-        "posição": 1216,
+        "posição": 1215,
         "codigo": [
             "97918"
         ],
@@ -14725,7 +14731,7 @@
     },
     {
         "id": "f2d2a576-48e2-4e5a-a002-2ec2f611a2a1",
-        "posição": 1217,
+        "posição": 1216,
         "codigo": [
             "979198"
         ],
@@ -14737,7 +14743,7 @@
     },
     {
         "id": "05526454-7a0b-494a-af28-eeb80e3c0325",
-        "posição": 1218,
+        "posição": 1217,
         "codigo": [
             "97921"
         ],
@@ -14749,7 +14755,7 @@
     },
     {
         "id": "5c5ca58a-e335-437e-a3fd-15aa2d0a67b1",
-        "posição": 1219,
+        "posição": 1218,
         "codigo": [
             "979309"
         ],
@@ -14761,7 +14767,7 @@
     },
     {
         "id": "35f3b2ca-2b52-400c-b2eb-7d68b58a45b7",
-        "posição": 1220,
+        "posição": 1219,
         "codigo": [
             "979864"
         ],
@@ -14773,7 +14779,7 @@
     },
     {
         "id": "9a199473-5c1f-485d-b362-c99ac366662e",
-        "posição": 1221,
+        "posição": 1220,
         "codigo": [
             "980676"
         ],
@@ -14785,7 +14791,7 @@
     },
     {
         "id": "1452f9c5-66a5-488a-8302-266f30a0f139",
-        "posição": 1222,
+        "posição": 1221,
         "codigo": [
             "980706"
         ],
@@ -14797,7 +14803,7 @@
     },
     {
         "id": "24b56dbb-0c57-4bd4-8998-ed1ccf13b806",
-        "posição": 1223,
+        "posição": 1222,
         "codigo": [
             "980749"
         ],
@@ -14809,7 +14815,7 @@
     },
     {
         "id": "40a6024f-ef9d-4cfa-9411-cdfd19927ae3",
-        "posição": 1224,
+        "posição": 1223,
         "codigo": [
             "980757"
         ],
@@ -14821,7 +14827,7 @@
     },
     {
         "id": "20311cf5-d174-4be6-83ed-7ba9b1c7d6dd",
-        "posição": 1225,
+        "posição": 1224,
         "codigo": [
             "983497"
         ],
@@ -14833,7 +14839,7 @@
     },
     {
         "id": "c7ff5389-12e5-40c6-952e-eedc42f36ebf",
-        "posição": 1226,
+        "posição": 1225,
         "codigo": [
             "983802"
         ],
@@ -14845,7 +14851,7 @@
     },
     {
         "id": "1ab502f1-1441-4a6b-bf5c-0a65efd4a25a",
-        "posição": 1227,
+        "posição": 1226,
         "codigo": [
             "984442"
         ],
@@ -14857,7 +14863,7 @@
     },
     {
         "id": "6ac39c88-3528-4500-9823-f7bab3b7ed60",
-        "posição": 1228,
+        "posição": 1227,
         "codigo": [
             "98445"
         ],
@@ -14869,7 +14875,7 @@
     },
     {
         "id": "43e37963-5ee7-4a20-9c85-d975bc11bced",
-        "posição": 1229,
+        "posição": 1228,
         "codigo": [
             "98891"
         ],
@@ -14881,7 +14887,7 @@
     },
     {
         "id": "afcdc943-135f-4c69-9ca0-35c6eeff8ddc",
-        "posição": 1230,
+        "posição": 1229,
         "codigo": [
             "988928"
         ],
@@ -14893,7 +14899,7 @@
     },
     {
         "id": "34c7a98a-27eb-42e0-810e-d4fe00a7aa87",
-        "posição": 1231,
+        "posição": 1230,
         "codigo": [
             "989355"
         ],
@@ -14905,7 +14911,7 @@
     },
     {
         "id": "8dcc2b71-45f8-45b8-a728-d9a5053a310b",
-        "posição": 1232,
+        "posição": 1231,
         "codigo": [
             "989363"
         ],
@@ -14917,7 +14923,7 @@
     },
     {
         "id": "368b39e9-5842-43e4-85a3-58a929bf7bd3",
-        "posição": 1233,
+        "posição": 1232,
         "codigo": [
             "991392"
         ],
@@ -14929,7 +14935,7 @@
     },
     {
         "id": "0d9b2eef-f1b4-4e5f-a7a5-0cfd8c88c035",
-        "posição": 1234,
+        "posição": 1233,
         "codigo": [
             "992186"
         ],
@@ -14941,7 +14947,7 @@
     },
     {
         "id": "7e0bcc88-2a81-44b9-ba46-ce657da7da40",
-        "posição": 1235,
+        "posição": 1234,
         "codigo": [
             "992208"
         ],
@@ -14953,7 +14959,7 @@
     },
     {
         "id": "1d729935-2eb7-4623-b7cc-46cbe64febcf",
-        "posição": 1236,
+        "posição": 1235,
         "codigo": [
             "992224"
         ],
@@ -14965,7 +14971,7 @@
     },
     {
         "id": "de6754ea-1d5f-4d0b-a765-25cc843388d6",
-        "posição": 1237,
+        "posição": 1236,
         "codigo": [
             "993689"
         ],
@@ -14977,7 +14983,7 @@
     },
     {
         "id": "38fb4c7a-cbcc-485c-a90a-7baf8bae94a5",
-        "posição": 1238,
+        "posição": 1237,
         "codigo": [
             "995398"
         ],
@@ -14989,7 +14995,7 @@
     },
     {
         "id": "2b3fc26d-7383-4a35-9ce0-34cdee1f419a",
-        "posição": 1239,
+        "posição": 1238,
         "codigo": [
             "995401"
         ],
@@ -15001,7 +15007,7 @@
     },
     {
         "id": "010638a1-28c1-47cb-800a-5f44af9ec062",
-        "posição": 1240,
+        "posição": 1239,
         "codigo": [
             "996882"
         ],
@@ -15013,7 +15019,7 @@
     },
     {
         "id": "ad2a0f60-2d48-4404-925f-3067d5a57522",
-        "posição": 1241,
+        "posição": 1240,
         "codigo": [
             "997145"
         ],
@@ -15025,7 +15031,7 @@
     },
     {
         "id": "3544798b-5fa7-454c-9c18-59dadc9c9747",
-        "posição": 1242,
+        "posição": 1241,
         "codigo": [
             "9972"
         ],
@@ -15037,7 +15043,7 @@
     },
     {
         "id": "9aa8db89-478e-4247-b625-336da96e21ed",
-        "posição": 1243,
+        "posição": 1242,
         "codigo": [
             "998338"
         ],
@@ -15049,7 +15055,7 @@
     },
     {
         "id": "d44e4484-9e8d-4f4c-92dc-ba370a3b36a1",
-        "posição": 1244,
+        "posição": 1243,
         "codigo": [
             "998877"
         ],
@@ -15058,5 +15064,833 @@
         ],
         "nome": "MOSTARDA FUGINI SACHE 180G BICO",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7897517207595"
+    },
+    {
+        "id": "0d5593b2-36ae-42cb-b845-92203448a668",
+        "posição": 1244,
+        "codigo": [
+            "459003"
+        ],
+        "eans": [
+            "7896354100861"
+        ],
+        "nome": "LEITE CONDENSADO MARAJOARA 395G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896354100861"
+    },
+    {
+        "id": "228ea623-f7b6-4979-8988-92ea7db98856",
+        "posição": 1245,
+        "codigo": [
+            "1111809"
+        ],
+        "eans": [
+            "7896089060164"
+        ],
+        "nome": "CAFE PO LOR GOUMERT 250G MOGIANA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896089060164"
+    },
+    {
+        "id": "7cd95db5-78a6-4ab7-946a-221c5b900f81",
+        "posição": 1246,
+        "codigo": [
+            "1111795"
+        ],
+        "eans": [
+            "7896089060188"
+        ],
+        "nome": "CAFE PO LOR GOUMERT 250G SUL DE MINAS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896089060188"
+    },
+    {
+        "id": "5a05face-97ea-446d-b9fe-67c8c0f42871",
+        "posição": 1247,
+        "codigo": [
+            "1111752"
+        ],
+        "eans": [
+            "7896089060171"
+        ],
+        "nome": "CAFE PO LOR GOUMET 250G CERRADO MINEIRO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896089060171"
+    },
+    {
+        "id": "23ddde64-9b6b-4386-bad5-3b69b229062e",
+        "posição": 1248,
+        "codigo": [
+            "23566"
+        ],
+        "eans": [
+            "7891107101621"
+        ],
+        "nome": "OLEO SOJA SOYA 900ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891107101621"
+    },
+    {
+        "id": "be7e662e-8447-4df7-8fa1-6224678f5dd8",
+        "posição": 1249,
+        "codigo": [
+            "1087258"
+        ],
+        "eans": [
+            "7501014501390"
+        ],
+        "nome": "APAR BARB BIC SOLEIL ESCAPE 3UN LAV/EUCA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7501014501390"
+    },
+    {
+        "id": "eb2fc6a2-edd6-4eef-b82f-6d2139f2fab5",
+        "posição": 1250,
+        "codigo": [
+            "108724"
+        ],
+        "eans": [
+            "7501843503923"
+        ],
+        "nome": "APAR BARB BIC SOLEIL ESCAPE 3UN ROSA/MAG",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7501843503923"
+    },
+    {
+        "id": "f787301a-b19e-4d6a-8d71-778c78b5a292",
+        "posição": 1251,
+        "codigo": [
+            "937037"
+        ],
+        "eans": [
+            "70330742222"
+        ],
+        "nome": "APAR BARB BIC CONF3 PINK SUAVE C/2UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/70330742222"
+    },
+    {
+        "id": "9e95bbea-94cb-4ce8-8a42-4afb2d9e635c",
+        "posição": 1252,
+        "codigo": [
+            "1092855"
+        ],
+        "eans": [
+            "7894650940006"
+        ],
+        "nome": "REPELENTE LOCAO OFF FAMILY 200ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894650940006"
+    },
+    {
+        "id": "1b71c1cc-acee-4c55-b4b3-b4946b1238c3",
+        "posição": 1253,
+        "codigo": [
+            "289213"
+        ],
+        "eans": [
+            "7894650005712"
+        ],
+        "nome": "REPELENTE LOCAO OFF KIDS 200ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894650005712"
+    },
+    {
+        "id": "2d7ce727-c7fd-4a3b-b1d1-23e0e71e30d4",
+        "posição": 1254,
+        "codigo": [
+            "68127"
+        ],
+        "eans": [
+            "7898136975490"
+        ],
+        "nome": "FRANGO PASSARINHO MAURICÉA PACOTE 1KG",
+        "url": ""
+    },
+    {
+        "id": "3a5207eb-df8d-414b-8bf1-908638c4c497",
+        "posição": 1255,
+        "codigo": [
+            "18317"
+        ],
+        "eans": [
+            "1831"
+        ],
+        "nome": "PEIXE TIPO BACALHAU SAITH INTEIRO 16/20 KG",
+        "url": ""
+    },
+    {
+        "id": "7c51b4c3-50da-466d-8a71-d949da26bef4",
+        "posição": 1256,
+        "codigo": [
+            "111462"
+        ],
+        "eans": [
+            "7891097104794"
+        ],
+        "nome": "REQUEIJÃO CREMOSO PENSE ZERO 400G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891097104794"
+    },
+    {
+        "id": "4a29a826-aca0-4daf-ac8f-c6b528d73ff4",
+        "posição": 1257,
+        "codigo": [
+            "1118498"
+        ],
+        "eans": [
+            "7891097107269"
+        ],
+        "nome": "CREME PRESIDENT QUEIJO AZUL 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891097107269"
+    },
+    {
+        "id": "63ce2e0e-882c-4398-b308-0b17209f5ff8",
+        "posição": 1258,
+        "codigo": [
+            "924989"
+        ],
+        "eans": [
+            "7891097001338"
+        ],
+        "nome": "MANTEIGA PRESIDENT POTE COM SAL 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891097001338"
+    },
+    {
+        "id": "f5e132b3-6f0f-44bb-b5bf-91dcd5969ea1",
+        "posição": 1259,
+        "codigo": [
+            "1042157"
+        ],
+        "eans": [
+            "7891164017569"
+        ],
+        "nome": "COXINHA DAS ASAS TEMPERADA AURORA 800G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891164017569"
+    },
+    {
+        "id": "4e1a8ada-e6d8-4919-8e9e-e7d83a5aac91",
+        "posição": 1260,
+        "codigo": [
+            "925209"
+        ],
+        "eans": [
+            "7891164005344"
+        ],
+        "nome": "MORTADELA PEPERI 2,5KG",
+        "url": ""
+    },
+    {
+        "id": "28f0f132-8f22-4435-a405-6e6b612bddae",
+        "posição": 1261,
+        "codigo": [
+            "10841"
+        ],
+        "eans": [
+            "7891164110635"
+        ],
+        "nome": "AUROGUETS AURORA 275G CROCANTE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891164110635"
+    },
+    {
+        "id": "4b41117b-b61c-435e-a13d-297ce665b8c0",
+        "posição": 1262,
+        "codigo": [
+            "1084119"
+        ],
+        "eans": [
+            "7891164110727"
+        ],
+        "nome": "AUROGUETS AURORA 275G SAB QJO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891164110727"
+    },
+    {
+        "id": "ef4c53a3-468c-4e41-9791-1689d75f76c7",
+        "posição": 1263,
+        "codigo": [
+            "1084097"
+        ],
+        "eans": [
+            "7891164110697"
+        ],
+        "nome": "AUROGUETS AURORA 275G TRAD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891164110697"
+    },
+    {
+        "id": "f59df20c-7155-4af1-85a8-cfff5e539c4d",
+        "posição": 1264,
+        "codigo": [
+            "110769"
+        ],
+        "eans": [
+            "7891164110642"
+        ],
+        "nome": "TIRINHAS FGO AURORA EMPANADO 275G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891164110642"
+    },
+    {
+        "id": "65753aa2-a256-4e3f-aef9-be9ddaf1c107",
+        "posição": 1265,
+        "codigo": [
+            "215929"
+        ],
+        "eans": [
+            "7896002111034"
+        ],
+        "nome": "BEB 51 ICE 275ML BALADA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896002111034"
+    },
+    {
+        "id": "88608e4d-8540-4118-b977-d9049e9cc97b",
+        "posição": 1266,
+        "codigo": [
+            "834467"
+        ],
+        "eans": [
+            "7896002111508"
+        ],
+        "nome": "BEB 51 ICE 275ML FRUIT MIX MGO + LARANJA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896002111508"
+    },
+    {
+        "id": "94383ece-6263-40b8-b36a-2bdff02b0a82",
+        "posição": 1267,
+        "codigo": [
+            "215902"
+        ],
+        "eans": [
+            "7896002110983"
+        ],
+        "nome": "BEB 51 ICE 275ML KIWI",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896002110983"
+    },
+    {
+        "id": "9a5f4123-a25d-4ad9-8af3-91f186b8ae2f",
+        "posição": 1268,
+        "codigo": [
+            "215856"
+        ],
+        "eans": [
+            "7896002110419"
+        ],
+        "nome": "BEB 51 ICE 275ML LIMAO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896002110419"
+    },
+    {
+        "id": "27523d99-34a8-4654-90a9-d3b2d407c159",
+        "posição": 1269,
+        "codigo": [
+            "1119869"
+        ],
+        "eans": [
+            "7898080664563"
+        ],
+        "nome": "ENERG BALY PET 2L MACA VERDE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898080664563"
+    },
+    {
+        "id": "40608f1a-476b-4cdf-9ca6-74a5aa1da0c7",
+        "posição": 1270,
+        "codigo": [
+            "1119877"
+        ],
+        "eans": [
+            "7898080664389"
+        ],
+        "nome": "ENERG BALY PET 2L MELANCIA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898080664389"
+    },
+    {
+        "id": "3efac37b-b3f7-4949-898c-4b492c5b97b6",
+        "posição": 1271,
+        "codigo": [
+            "1119966"
+        ],
+        "eans": [
+            "7898080665010"
+        ],
+        "nome": "ENERG BALY PET 2L MORANGO E PESSEGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898080665010"
+    },
+    {
+        "id": "da8eee55-94c8-4285-a1c2-1d21c3ef7e99",
+        "posição": 1272,
+        "codigo": [
+            "111985"
+        ],
+        "eans": [
+            "7898080662668"
+        ],
+        "nome": "ENERG BALY PET 2L TRADICIONAL",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898080662668"
+    },
+    {
+        "id": "9880f93c-96cc-4079-9812-b0bf3804611f",
+        "posição": 1273,
+        "codigo": [
+            "929778"
+        ],
+        "eans": [
+            "7891125160457"
+        ],
+        "nome": "VODKA NATASHA 900ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891125160457"
+    },
+    {
+        "id": "a7e3f074-15ee-4856-ba26-eb3063b48a0b",
+        "posição": 1274,
+        "codigo": [
+            "40982"
+        ],
+        "eans": [
+            "7897517206284"
+        ],
+        "nome": "EXTRATO TOM FUGINI 300G STAND UP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897517206284"
+    },
+    {
+        "id": "f499a506-168c-4699-a7a8-eee69a097e41",
+        "posição": 1275,
+        "codigo": [
+            "1084569"
+        ],
+        "eans": [
+            "7896036001219"
+        ],
+        "nome": "EXTRATO TOM POMODORO CICA TP 265G TRAD",
+        "url": ""
+    },
+    {
+        "id": "d1035e6a-93db-4e44-b594-753f85b8eb0c",
+        "posição": 1276,
+        "codigo": [
+            "233099"
+        ],
+        "eans": [
+            "7896025802308"
+        ],
+        "nome": "MOSTARDA AMARELA CEPERA SQUEEZE 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896025802308"
+    },
+    {
+        "id": "90a09e1b-1f70-45a2-b81b-0c00ba63e368",
+        "posição": 1277,
+        "codigo": [
+            "234206"
+        ],
+        "eans": [
+            "7896004400075"
+        ],
+        "nome": "LEITE COCO SOCOCO VD 200ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896004400075"
+    },
+    {
+        "id": "eadddeb5-7822-4ce3-96f5-beb0c8e48c6f",
+        "posição": 1278,
+        "codigo": [
+            "1011065"
+        ],
+        "eans": [
+            "7896036098813"
+        ],
+        "nome": "MOLHO SALADA VINAGRETE LIZA PT 234ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896036098813"
+    },
+    {
+        "id": "b6c6e733-73b3-4ab2-ba3e-bee319148184",
+        "posição": 1279,
+        "codigo": [
+            "202428"
+        ],
+        "eans": [
+            "7896036090879"
+        ],
+        "nome": "MOLHO SALADA LIZA 234ML CASEIRO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896036090879"
+    },
+    {
+        "id": "482c1eac-56a3-442c-9c50-7b21e4c84538",
+        "posição": 1280,
+        "codigo": [
+            "202592"
+        ],
+        "eans": [
+            "7896036090909"
+        ],
+        "nome": "MOLHO SALADA LIZA 234ML ROSE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896036090909"
+    },
+    {
+        "id": "3adc29eb-4fa9-4992-9289-5783bb6e1858",
+        "posição": 1281,
+        "codigo": [
+            "588547"
+        ],
+        "eans": [
+            "7896036097458"
+        ],
+        "nome": "MOLHO SALADA LIZA 234ML CEASAR",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896036097458"
+    },
+    {
+        "id": "7b6219e1-ad48-464b-8f25-6edf60b3f008",
+        "posição": 1282,
+        "codigo": [
+            "10989"
+        ],
+        "eans": [
+            "7892840822026"
+        ],
+        "nome": "BATATA ELMA CH RUFFLES ONDA100G S CREAM",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7892840822026"
+    },
+    {
+        "id": "2c4299e8-fc20-4e27-940b-dfe63f86a6ed",
+        "posição": 1283,
+        "codigo": [
+            "1098896"
+        ],
+        "eans": [
+            "7892840822040"
+        ],
+        "nome": "BATATA ELMA CH RUFFLES ONDA100G ORIG",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7892840822040"
+    },
+    {
+        "id": "f43f7fb6-2d50-4fdb-9e79-4600b5ddb209",
+        "posição": 1284,
+        "codigo": [
+            "1121146"
+        ],
+        "eans": [
+            "7891150104273"
+        ],
+        "nome": "LAVA ROUPA OMO CICLO RAP 750ML ACAO TOTA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150104273"
+    },
+    {
+        "id": "da31f640-cfc1-40ac-9ad1-c071c2e2fb5a",
+        "posição": 1285,
+        "codigo": [
+            "112112"
+        ],
+        "eans": [
+            "7891150104280"
+        ],
+        "nome": "LAVA ROUPA OMO CICLO RAPIDO 750ML ANTIOD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150104280"
+    },
+    {
+        "id": "9bc2f4f6-3251-4ef6-a470-bbb1d1062ddd",
+        "posição": 1286,
+        "codigo": [
+            "1121138"
+        ],
+        "eans": [
+            "7891150104266"
+        ],
+        "nome": "LAVA ROUPA OMO CICLO RAPIDO 750ML CUIDAD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150104266"
+    },
+    {
+        "id": "7b1b36c6-3e3f-4a78-8328-6f8d778ac0a3",
+        "posição": 1287,
+        "codigo": [
+            "924911"
+        ],
+        "eans": [
+            "7894650938188"
+        ],
+        "nome": "INSET AER RAID BS AGUA LV+PG- 420ML AG/P",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894650938188"
+    },
+    {
+        "id": "330b374c-75b6-4c10-8031-ff2032ed6682",
+        "posição": 1288,
+        "codigo": [
+            "106151"
+        ],
+        "eans": [
+            "7894650003848"
+        ],
+        "nome": "INSET AER RAID BS AGUA LV+PG- 420ML EUCA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894650003848"
+    },
+    {
+        "id": "a981d9c2-573a-4edf-8d42-7846a3ce435f",
+        "posição": 1289,
+        "codigo": [
+            "302384"
+        ],
+        "eans": [
+            "7894650005569"
+        ],
+        "nome": "INSET AER RAID BS AGUA LV+PG- 420ML MT B",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894650005569"
+    },
+    {
+        "id": "de128cee-8502-47e0-b3ef-0fd7772285f6",
+        "posição": 1290,
+        "codigo": [
+            "10566"
+        ],
+        "eans": [
+            "7894650003879"
+        ],
+        "nome": "INSET AER RAID BS AGUA LV+PG- 420ML S/CH",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894650003879"
+    },
+    {
+        "id": "43944050-daa1-44f3-a621-7327ef15136a",
+        "posição": 1291,
+        "codigo": [
+            "1041185"
+        ],
+        "eans": [
+            "7896029082447"
+        ],
+        "nome": "RACAO PEDIGREE 900G AD RP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029082447"
+    },
+    {
+        "id": "5874eba0-bc7e-4e25-ae97-597585b07e61",
+        "posição": 1292,
+        "codigo": [
+            "1041177"
+        ],
+        "eans": [
+            "7896029083482"
+        ],
+        "nome": "RACAO PEDIGREE 900G FILHOTES",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029083482"
+    },
+    {
+        "id": "7547bd54-ddd6-497b-8d0b-172d9d1faae1",
+        "posição": 1293,
+        "codigo": [
+            "1041193"
+        ],
+        "eans": [
+            "7896029082416"
+        ],
+        "nome": "RACAO PEDIGREE 900G CARNE VEGETAIS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029082416"
+    },
+    {
+        "id": "28e04a0e-eb2d-446c-be04-53c8885c9927",
+        "posição": 1294,
+        "codigo": [
+            "1073214"
+        ],
+        "eans": [
+            "7896029091906"
+        ],
+        "nome": "RACAO WHISKAS 900G CARNE AD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029091906"
+    },
+    {
+        "id": "760b23d5-9897-4c86-95c0-9ee25397b1e7",
+        "posição": 1295,
+        "codigo": [
+            "1044141"
+        ],
+        "eans": [
+            "7896029092224"
+        ],
+        "nome": "RACAO WHISKAS 900G FRANGO AD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029092224"
+    },
+    {
+        "id": "1a4c10b2-8cec-4133-80f6-41693046aea0",
+        "posição": 1296,
+        "codigo": [
+            "1073222"
+        ],
+        "eans": [
+            "7896029092347"
+        ],
+        "nome": "RACAO WHISKAS 900G PEIXE AD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029092347"
+    },
+    {
+        "id": "cc67c216-79fe-41c0-8d9d-e5802696f52a",
+        "posição": 1297,
+        "codigo": [
+            "1073141"
+        ],
+        "eans": [
+            "7896029018057"
+        ],
+        "nome": "ALIM GATO KITEKAT SCH 70G AD CARNE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029018057"
+    },
+    {
+        "id": "75424b15-750e-4deb-8990-22617caf0bc5",
+        "posição": 1298,
+        "codigo": [
+            "107315"
+        ],
+        "eans": [
+            "7896029018101"
+        ],
+        "nome": "ALIM GATO KITEKAT SCH 70G AD PEIXE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029018101"
+    },
+    {
+        "id": "47e9bf56-8d0b-4a6d-bb3c-131306226335",
+        "posição": 1299,
+        "codigo": [
+            "1073168"
+        ],
+        "eans": [
+            "7896029056394"
+        ],
+        "nome": "ALIM CAES CHAMP SCH 85G AD CARNE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029056394"
+    },
+    {
+        "id": "8c12d7f6-ab80-4987-b31c-5a8d5400a7d8",
+        "posição": 1300,
+        "codigo": [
+            "1073184"
+        ],
+        "eans": [
+            "7896029056400"
+        ],
+        "nome": "ALIM CAES CHAMP SCH 85G AD FRANGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029056400"
+    },
+    {
+        "id": "06fbb4f2-3d39-4777-b71b-367820207c1e",
+        "posição": 1301,
+        "codigo": [
+            "383945"
+        ],
+        "eans": [
+            "40232801792"
+        ],
+        "nome": "PAPEL TOALHA ABSOLUTO 2UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/40232801792"
+    },
+    {
+        "id": "d42f84c7-b934-42c4-b918-1a5d86a7e77b",
+        "posição": 1302,
+        "codigo": [
+            "587508"
+        ],
+        "eans": [
+            "7898969564298"
+        ],
+        "nome": "PAPEL TOALHA ABSOLUTO 2UN DECORADO",
+        "url": ""
+    },
+    {
+        "id": "3e6d3e74-fe45-4d21-afc5-41c56b117e40",
+        "posição": 1303,
+        "codigo": [
+            "1038036"
+        ],
+        "eans": [
+            "7896532701576"
+        ],
+        "nome": "ESPAG COMUM PETYAN 400G",
+        "url": ""
+    },
+    {
+        "id": "aa8d3c06-dd7a-4636-aa59-befffe70c774",
+        "posição": 1304,
+        "codigo": [
+            "22529"
+        ],
+        "eans": [
+            "7896532700258"
+        ],
+        "nome": "BISC COQUINHO PETYAN 400G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896532700258"
+    },
+    {
+        "id": "f5b44b43-d251-4ea1-948b-c927c180624d",
+        "posição": 1305,
+        "codigo": [
+            "227358"
+        ],
+        "eans": [
+            "7896532700265"
+        ],
+        "nome": "BISC DOCE PETYAN 400G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896532700265"
+    },
+    {
+        "id": "856bae04-32dd-4fbd-bab6-dd4731d361f5",
+        "posição": 1306,
+        "codigo": [
+            "1084003"
+        ],
+        "eans": [
+            "7891000395509"
+        ],
+        "nome": "CHOC TRIO GAROTO 90G MORANGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000395509"
+    },
+    {
+        "id": "25746bd5-b143-4297-a737-b9e632ab7baa",
+        "posição": 1307,
+        "codigo": [
+            "1083996"
+        ],
+        "eans": [
+            "7891000395417"
+        ],
+        "nome": "CHOC TRIO GAROTO 90G NEGRESCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000395417"
+    },
+    {
+        "id": "7867b83b-92b8-40ce-9315-a21041db2a76",
+        "posição": 1308,
+        "codigo": [
+            "1103407"
+        ],
+        "eans": [
+            "7891000409640"
+        ],
+        "nome": "CHOC TRIO GAROTO 90G PRESTIGIO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000409640"
+    },
+    {
+        "id": "60a2c3cd-00e0-47f6-a286-88359c01cc62",
+        "posição": 1309,
+        "codigo": [
+            "937649"
+        ],
+        "eans": [
+            "7891008116632"
+        ],
+        "nome": "BOMBOM GAROTO CAIXA 250G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891008116632"
+    },
+    {
+        "id": "6a9fa7e7-8067-4480-83f0-15204f2d7338",
+        "posição": 1310,
+        "codigo": [
+            "726567"
+        ],
+        "eans": [
+            "7896532700210"
+        ],
+        "nome": "BISC COQUINHO PETYAN 2KG",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896532700210"
+    },
+    {
+        "id": "4c9184e3-6914-4394-b12c-d3de2b2b59c7",
+        "posição": 1311,
+        "codigo": [
+            "225312"
+        ],
+        "eans": [
+            "7896532700272"
+        ],
+        "nome": "BISC COQUINHO PETYAN 750G",
+        "url": ""
+    },
+    {
+        "id": "230ae0ef-38fa-434f-8076-f62d8a95eef5",
+        "posição": 1312,
+        "codigo": [
+            "225215"
+        ],
+        "eans": [
+            "7896532700289"
+        ],
+        "nome": "BISC DOCE PETYAN 750G",
+        "url": ""
     }
 ]

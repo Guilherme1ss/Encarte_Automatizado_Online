@@ -4,7 +4,7 @@ import streamlit as st
 def load_config():
     """Carrega configurações do arquivo JSON"""
     try:
-        with open("config.json", "r", encoding="utf-8") as f:
+        with open("./data/config.json", "r", encoding="utf-8") as f:
             config = json.load(f)
         return (
             config["required_columns"],

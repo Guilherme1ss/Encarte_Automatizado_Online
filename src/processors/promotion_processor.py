@@ -102,7 +102,7 @@ def process_promotions(uploaded_file, ean_file, link_file, use_default_url, star
     if use_link_file:
         if use_default_url:
             try:
-                link_map = load_links_json("default_url.json")
+                link_map = load_links_json("./data/default_url.json")
             except FileNotFoundError:
                 st.error("Repositório de links não encontrado no diretório do projeto.")
         elif link_file:

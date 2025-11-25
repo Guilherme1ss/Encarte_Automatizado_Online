@@ -65,6 +65,7 @@ def process_promotions(uploaded_file, ean_file, link_file, use_default_url, star
         df_base['código'] = df_base['código'].apply(fix_if_date)
     if 'ean' in df_base.columns:
         df_base['ean'] = df_base['ean'].apply(fix_if_date)
+        df_base['ean'] = df_base['ean'].fillna("").replace("nan", "")
 
     df_base['ean_original_encarte'] = df_base['ean']
     df_base["preço de:"] = df_base["preço de:"].apply(clean_price_value)

@@ -40,6 +40,7 @@ dist/
 *.egg-info/
 .eggs/
 *.spec
+data/setup_db.py
 
 # ======================
 # Configurações de IDEs

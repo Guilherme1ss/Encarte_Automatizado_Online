@@ -18,9 +18,23 @@ def remove_suffix(text):
     """Remove sufixos como _sell out, _faturamento e tudo que vier depois."""
     if pd.isna(text):
         return ""
-    keywords = ['sell out', 'faturamento', 'sell in']
-    pattern = r'_(' + '|'.join(keywords) + r').*$'
-    return re.sub(pattern, '', str(text), flags=re.IGNORECASE).strip()
+
+    raw = str(text)
+    norm = normalize_text(raw)
+
+    keywords = ["sell out", "sell in", "faturamento"]
+
+    # Procura onde aparece o sufixo
+    for kw in keywords:
+        pos = norm.find(kw)
+        if pos != -1:
+            # Posição equivalente no texto original
+            original_pos = raw.lower().find(kw)
+            # Corta antes do sufixo
+            cleaned = raw[:original_pos].rstrip(" _-").strip()
+            return cleaned
+
+    return raw.strip()
 
 def correct_product_name(name, corrections_dict):
     """Corrige o nome do produto com base no dicionário de correções, retornando em maiúsculo."""

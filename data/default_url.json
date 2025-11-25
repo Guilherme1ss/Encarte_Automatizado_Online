@@ -2014,7 +2014,7 @@
         "eans": [
             "7891025124160"
         ],
-        "nome": "IOGURTE CORPUS DANONE VITAMINA DE FRUTAS  800G _ Sell out de R$1,00",
+        "nome": "IOGURTE CORPUS DANONE VITAMINA DE FRUTAS  800G",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7891025124160"
     },
     {
@@ -2026,7 +2026,7 @@
         "eans": [
             "7891025124177"
         ],
-        "nome": "IOGURTE CORPUS DANONE MORANGO 800G _Sell out de R$1,00",
+        "nome": "IOGURTE CORPUS DANONE MORANGO 800G",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7891025124177"
     },
     {
@@ -2038,7 +2038,7 @@
         "eans": [
             "7891025124184"
         ],
-        "nome": "IOGURTE CORPUS DANONE AMORA E MARACUJÁ 800G _Sell out de R$1,00",
+        "nome": "IOGURTE CORPUS DANONE AMORA E MARACUJÁ 800G",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/7891025124184"
     },
     {
@@ -3297,7 +3297,8 @@
         "id": "f77b8def-55c9-411f-a590-71bd1a281dab",
         "posição": 274,
         "codigo": [
-            "1089633"
+            "1089633",
+            "1117912"
         ],
         "eans": [
             "7891025124627",
@@ -5634,7 +5635,6 @@
             "1116312"
         ],
         "eans": [
-            "-",
             "4006000104164"
         ],
         "nome": "DESOD AER NIVEA DEEP 150ML SPORT",
@@ -6877,7 +6877,8 @@
         "id": "93ea4ebd-dd01-41cd-84e1-02e22347151a",
         "posição": 570,
         "codigo": [
-            "13889"
+            "13889",
+            "896152"
         ],
         "eans": [
             "1388"
@@ -11226,7 +11227,8 @@
         "id": "900dae71-d33e-49ac-8e47-88a573d2ed0a",
         "posição": 926,
         "codigo": [
-            "60739"
+            "60739",
+            "923567"
         ],
         "eans": [
             "6073"
@@ -15892,5 +15894,3802 @@
         ],
         "nome": "BISC DOCE PETYAN 750G",
         "url": "https://petyan.com.br/fotos/f19ad79c702798ecef3db93e948939e1.png"
+    },
+    {
+        "id": "c2834710-2495-47b0-8e0e-3b59f5eaa29e",
+        "posição": 1313,
+        "codigo": [
+            "41157"
+        ],
+        "eans": [
+            "4115"
+        ],
+        "nome": "ALHO A GRANEL KG",
+        "url": ""
+    },
+    {
+        "id": "1fe80d60-728c-4bad-b262-f67b4d0b1010",
+        "posição": 1314,
+        "codigo": [
+            "81051"
+        ],
+        "eans": [
+            "8105"
+        ],
+        "nome": "AVE KIDELLI KINATALE TEMPERADA KG",
+        "url": ""
+    },
+    {
+        "id": "b3f7b221-ae41-4907-99c7-6f7f5a815f13",
+        "posição": 1315,
+        "codigo": [
+            "27367"
+        ],
+        "eans": [
+            "2736"
+        ],
+        "nome": "PERNIL SEARA COM OSSO KG",
+        "url": ""
+    },
+    {
+        "id": "1a83899c-5b2c-47b1-a46a-10872b6ab84f",
+        "posição": 1316,
+        "codigo": [
+            "291498"
+        ],
+        "eans": [
+            "7894904003495"
+        ],
+        "nome": "STEAK SEARA FRANGO 100G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904003495"
+    },
+    {
+        "id": "8e31c156-9e9a-4d0f-ada7-ace58de9c1c6",
+        "posição": 1317,
+        "codigo": [
+            "72959"
+        ],
+        "eans": [
+            "7891025109884"
+        ],
+        "nome": "PETIT SUISSE DANONINHO MORANGO/MAÇÃ/BANANA 320G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891025109884"
+    },
+    {
+        "id": "01a3d394-5794-4193-8a67-26c425b25309",
+        "posição": 1318,
+        "codigo": [
+            "729914"
+        ],
+        "eans": [
+            "7891025109891"
+        ],
+        "nome": "PETIT SUISSE DANONINHO MORANGO 320G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891025109891"
+    },
+    {
+        "id": "b2d09a0f-4421-43e3-b8c6-141aaa1d4dd6",
+        "posição": 1319,
+        "codigo": [
+            "988766"
+        ],
+        "eans": [
+            "7891097102592"
+        ],
+        "nome": "REQUEIJÃO CREMOSO POÇOS DE CALDAS TRADICIONAL 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891097102592"
+    },
+    {
+        "id": "a6923f7e-938d-4289-a600-53d0b4815575",
+        "posição": 1320,
+        "codigo": [
+            "988758"
+        ],
+        "eans": [
+            "7891097102585"
+        ],
+        "nome": "REQUEIJÃO CREMOSO POÇOS DE CALDAS LIGHT 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891097102585"
+    },
+    {
+        "id": "4f7ec848-2fa7-4e38-873d-55e4de307906",
+        "posição": 1321,
+        "codigo": [
+            "212881"
+        ],
+        "eans": [
+            "7896010004007"
+        ],
+        "nome": "VODKA SKYY 980ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896010004007"
+    },
+    {
+        "id": "8fad3330-726d-4877-92e1-4d9c2a813389",
+        "posição": 1322,
+        "codigo": [
+            "1078127"
+        ],
+        "eans": [
+            "7898738660107"
+        ],
+        "nome": "CERV IMPERIO LAGER LN 330ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898738660107"
+    },
+    {
+        "id": "82f606f6-52df-4a34-804b-d9e64a1538b0",
+        "posição": 1323,
+        "codigo": [
+            "1091425"
+        ],
+        "eans": [
+            "7894900184075"
+        ],
+        "nome": "SCHWEPPES MIXED LT 269ML GIN TONICA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900184075"
+    },
+    {
+        "id": "e14480a4-21a9-490e-b046-fa0c9f5a1ec2",
+        "posição": 1324,
+        "codigo": [
+            "1091433"
+        ],
+        "eans": [
+            "7894900184174"
+        ],
+        "nome": "SCHWEPPES MIXED LT 269ML GIN TONICA  PIN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900184174"
+    },
+    {
+        "id": "d206c64d-0784-419d-aba8-df3cae75b593",
+        "posição": 1325,
+        "codigo": [
+            "1091441"
+        ],
+        "eans": [
+            "7894900184372"
+        ],
+        "nome": "SCHWEPPES MIXED LT 269ML SPRITZ",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900184372"
+    },
+    {
+        "id": "4e9ac96a-249c-4239-9bf3-65d76cd9caca",
+        "posição": 1326,
+        "codigo": [
+            "1091417"
+        ],
+        "eans": [
+            "7894900184273"
+        ],
+        "nome": "SCHWEPPES MIXED LT 269ML VODKA CITRUS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900184273"
+    },
+    {
+        "id": "bd1eab76-7834-4b6b-8b9c-fbdd7cc9581d",
+        "posição": 1327,
+        "codigo": [
+            "1111051"
+        ],
+        "eans": [
+            "7898942775321"
+        ],
+        "nome": "SUCO OQ INTEGRAL 1,5L UVA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898942775321"
+    },
+    {
+        "id": "daacf2d1-c65d-4958-9782-8b0603ae3804",
+        "posição": 1328,
+        "codigo": [
+            "307394"
+        ],
+        "eans": [
+            "7804320303178"
+        ],
+        "nome": "VINHO CASIL DEL DIAB CAB SAUVG 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320303178"
+    },
+    {
+        "id": "cac87f71-9297-49f8-92c5-5d8e00c2bfd9",
+        "posição": 1329,
+        "codigo": [
+            "307815"
+        ],
+        "eans": [
+            "7804320087016"
+        ],
+        "nome": "VINHO CASIL DEL DIAB CARMEN TTO SEC 750",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320087016"
+    },
+    {
+        "id": "4bcb960f-4324-4060-9655-bde0e526a900",
+        "posição": 1330,
+        "codigo": [
+            "568198"
+        ],
+        "eans": [
+            "7804320256900"
+        ],
+        "nome": "VINHO CASIL DEL DIAB CHARDON 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320256900"
+    },
+    {
+        "id": "e326558f-39c5-4f5c-9f67-8dd360313849",
+        "posição": 1331,
+        "codigo": [
+            "838098"
+        ],
+        "eans": [
+            "7804320561431"
+        ],
+        "nome": "VINHO CASIL  DEL DIAB DEVIL'S 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320561431"
+    },
+    {
+        "id": "109b0674-9eb2-4903-b48c-57547fb7c063",
+        "posição": 1332,
+        "codigo": [
+            "307858"
+        ],
+        "eans": [
+            "7804320510187"
+        ],
+        "nome": "VINHO CASIL DEL DIAB MALBEC 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320510187"
+    },
+    {
+        "id": "1bbc0511-efa8-4529-b96e-64f327a1a441",
+        "posição": 1333,
+        "codigo": [
+            "307882"
+        ],
+        "eans": [
+            "7804320985633"
+        ],
+        "nome": "VINHO CASIL DEL DIAB MERLOT  TTO SEC 750",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320985633"
+    },
+    {
+        "id": "6ea2f861-efd9-4277-9a24-d5c8fccbbc26",
+        "posição": 1334,
+        "codigo": [
+            "1110209"
+        ],
+        "eans": [
+            "7804320756820"
+        ],
+        "nome": "VHO CAS DEL DIAB  RED BELIGH BLANC S 750",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320756820"
+    },
+    {
+        "id": "5c9bd4d9-551a-4541-89c8-6ffb635b35ba",
+        "posição": 1335,
+        "codigo": [
+            "1110365"
+        ],
+        "eans": [
+            "7804320760131"
+        ],
+        "nome": "VHO TT CARNAVAL FANTASTIC SWEET 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320760131"
+    },
+    {
+        "id": "5721afab-520e-4c37-b04b-5af9fb738edc",
+        "posição": 1336,
+        "codigo": [
+            "1014935"
+        ],
+        "eans": [
+            "7804320746555"
+        ],
+        "nome": "VINHO CASIL DEL DIAB R BLEND TTO M S 750",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320746555"
+    },
+    {
+        "id": "2414d636-82bf-4717-8c7f-b067e5153002",
+        "posição": 1337,
+        "codigo": [
+            "1109413"
+        ],
+        "eans": [
+            "7804320761909"
+        ],
+        "nome": "VINHO CASIL DEL DIAB RED BELIGH 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320761909"
+    },
+    {
+        "id": "1fea00b6-d00e-4d3a-92dc-e9ae130a3eba",
+        "posição": 1338,
+        "codigo": [
+            "818305"
+        ],
+        "eans": [
+            "7804320131344"
+        ],
+        "nome": "VINHO CASIL DEL DIAB ROSE SEC 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320131344"
+    },
+    {
+        "id": "2abd5359-9ca8-4b39-8761-a8d3bd11f381",
+        "posição": 1339,
+        "codigo": [
+            "271195"
+        ],
+        "eans": [
+            "7804320301174"
+        ],
+        "nome": "VINHO CASIL DEL DIAB SAUVG BLANC 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7804320301174"
+    },
+    {
+        "id": "c5dab2ac-e8d1-4737-91ec-081f932ae7ba",
+        "posição": 1340,
+        "codigo": [
+            "240893"
+        ],
+        "eans": [
+            "7896445490116"
+        ],
+        "nome": "AGUA MINERAL INDAIA PET 1,5L S/GAS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896445490116"
+    },
+    {
+        "id": "f7c4294d-04ca-42a9-8865-9ba844d4be2e",
+        "posição": 1341,
+        "codigo": [
+            "110593"
+        ],
+        "eans": [
+            "4005900916129"
+        ],
+        "nome": "SAB BARRA NIVEA 85G ANTIBAC 3EM1",
+        "url": "https://go-upc.s3.amazonaws.com/images/354101071.png"
+    },
+    {
+        "id": "17f33c80-a6ef-4236-8d25-052d6483245a",
+        "posição": 1342,
+        "codigo": [
+            "886858"
+        ],
+        "eans": [
+            "4005900521897"
+        ],
+        "nome": "SAB BARRA NIVEA 85G AVEIA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/4005900521897"
+    },
+    {
+        "id": "6ae24bfa-46d4-44e7-840e-2adb3de2edb5",
+        "posição": 1343,
+        "codigo": [
+            "856401"
+        ],
+        "eans": [
+            "4005900521934"
+        ],
+        "nome": "SAB BARRA NIVEA 85G ERVA DOCE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/4005900521934"
+    },
+    {
+        "id": "c0d6becf-e64f-41d9-924f-edb8fbcf387f",
+        "posição": 1344,
+        "codigo": [
+            "85638"
+        ],
+        "eans": [
+            "4005900521972"
+        ],
+        "nome": "SAB BARRA NIVEA 85G LAVANDA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/4005900521972"
+    },
+    {
+        "id": "a2e9cdb4-52f7-4ec9-9e8c-c36ce82d03c0",
+        "posição": 1345,
+        "codigo": [
+            "865214"
+        ],
+        "eans": [
+            "4005900521910"
+        ],
+        "nome": "SAB BARRA NIVEA 85G LEITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/4005900521910"
+    },
+    {
+        "id": "50cadd62-243a-4626-82dc-e79704dc7e66",
+        "posição": 1346,
+        "codigo": [
+            "856398"
+        ],
+        "eans": [
+            "4005900522016"
+        ],
+        "nome": "SAB BARRA NIVEA 85G ORQUIDEAS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/4005900522016"
+    },
+    {
+        "id": "ea5aece9-a902-4240-a9f5-1fc62b6eab73",
+        "posição": 1347,
+        "codigo": [
+            "923656"
+        ],
+        "eans": [
+            "4005900527073"
+        ],
+        "nome": "SAB BARRA NIVEA 85G TOQ BAUNILHA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/4005900527073"
+    },
+    {
+        "id": "8b93d78d-8a58-4caf-90b0-f43fc3b02ccd",
+        "posição": 1348,
+        "codigo": [
+            "108562"
+        ],
+        "eans": [
+            "7908324405132"
+        ],
+        "nome": "COND OX 240ML VITA GLOW",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7908324405132"
+    },
+    {
+        "id": "d86a34e3-2eb5-4fb7-bb6a-b1a8cdbd66a9",
+        "posição": 1349,
+        "codigo": [
+            "1085662"
+        ],
+        "eans": [
+            "7908324405095"
+        ],
+        "nome": "OLEO REPARADOR OX 60ML VITA GLOW",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7908324405095"
+    },
+    {
+        "id": "d70dc25f-481e-40f3-917d-07b01aeda80d",
+        "posição": 1350,
+        "codigo": [
+            "1085697"
+        ],
+        "eans": [
+            "7908324405125"
+        ],
+        "nome": "SHAMP OX 240ML VITA GLOW",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7908324405125"
+    },
+    {
+        "id": "97fe17f7-d830-4dab-bfd3-450b9c6a853e",
+        "posição": 1351,
+        "codigo": [
+            "118672"
+        ],
+        "eans": [
+            "7891050004307"
+        ],
+        "nome": "RUM MONTILLA BRANCA 1LT",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891050004307"
+    },
+    {
+        "id": "5b728efa-05f0-49b8-92b6-da014abec69c",
+        "posição": 1352,
+        "codigo": [
+            "119563"
+        ],
+        "eans": [
+            "7891050004406"
+        ],
+        "nome": "RUM MONTILLA CRISTAL 1L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891050004406"
+    },
+    {
+        "id": "017cf515-3778-4d1f-9793-1cc80febc63d",
+        "posição": 1353,
+        "codigo": [
+            "11868"
+        ],
+        "eans": [
+            "7891050004208"
+        ],
+        "nome": "RUM MONTILLA OURO 1LT",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891050004208"
+    },
+    {
+        "id": "d507fac1-3fe9-4559-a929-f308048d9e05",
+        "posição": 1354,
+        "codigo": [
+            "1026097"
+        ],
+        "eans": [
+            "7896005030356"
+        ],
+        "nome": "BISC CRM CRACKER PILAR 350G PREMIUM",
+        "url": "https://go-upc.s3.amazonaws.com/images/148033474.png"
+    },
+    {
+        "id": "bf37d779-3635-4432-a382-e9ce700bb9fd",
+        "posição": 1355,
+        "codigo": [
+            "1094076"
+        ],
+        "eans": [
+            "7898230897667"
+        ],
+        "nome": "ESPAG COMUM  BONSABOR 400G",
+        "url": "https://go-upc.s3.amazonaws.com/images/225607724.jpeg"
+    },
+    {
+        "id": "370a52c8-06ff-4453-8830-b0be3c2d30bd",
+        "posição": 1356,
+        "codigo": [
+            "1067915"
+        ],
+        "eans": [
+            "7896005223390"
+        ],
+        "nome": "BISC MARIA BRANDINI 350G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005223390"
+    },
+    {
+        "id": "2975b81c-9fb7-4234-910f-aa96576223bd",
+        "posição": 1357,
+        "codigo": [
+            "1067923"
+        ],
+        "eans": [
+            "7896005223406"
+        ],
+        "nome": "BISC MAISENA BRANDINI 350G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005223406"
+    },
+    {
+        "id": "c9c2250e-02f7-4c3b-a713-1912174c7092",
+        "posição": 1358,
+        "codigo": [
+            "1067931"
+        ],
+        "eans": [
+            "7896005223352"
+        ],
+        "nome": "BISC BRANDINI 350G LEITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005223352"
+    },
+    {
+        "id": "e1822c85-6b6e-44e8-8397-6a1889aa18ab",
+        "posição": 1359,
+        "codigo": [
+            "106794"
+        ],
+        "eans": [
+            "7896005223369"
+        ],
+        "nome": "BISC BRANDINI 350G COCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005223369"
+    },
+    {
+        "id": "4b66df71-d6b8-4129-a062-20c6064b5a38",
+        "posição": 1360,
+        "codigo": [
+            "1036092"
+        ],
+        "eans": [
+            "7896213005955"
+        ],
+        "nome": "BISC RECH TRELOSO 120G MGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896213005955"
+    },
+    {
+        "id": "0d980039-4703-47b2-8b0f-725f8a235684",
+        "posição": 1361,
+        "codigo": [
+            "1036084"
+        ],
+        "eans": [
+            "7896213005948"
+        ],
+        "nome": "BISC RECH TRELOSO 120G FLOC",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896213005948"
+    },
+    {
+        "id": "a6820e71-3d5b-45fa-8827-5fdd2e9cd3ea",
+        "posição": 1362,
+        "codigo": [
+            "1036076"
+        ],
+        "eans": [
+            "7896213005924"
+        ],
+        "nome": "BISC RECH TRELOSO 120G CHOCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896213005924"
+    },
+    {
+        "id": "31defcb6-f326-40d6-b69e-87703b6494a1",
+        "posição": 1363,
+        "codigo": [
+            "1036068"
+        ],
+        "eans": [
+            "7896213005917"
+        ],
+        "nome": "BISC RECH TRELOSO 120G CHOC MGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896213005917"
+    },
+    {
+        "id": "18ade895-a9c7-4083-88f9-c6b2a5dc1fed",
+        "posição": 1364,
+        "codigo": [
+            "1036106"
+        ],
+        "eans": [
+            "7896213005962"
+        ],
+        "nome": "BISC RECH TRELOSO 120G BRIG",
+        "url": "https://go-upc.s3.amazonaws.com/images/373542903.png"
+    },
+    {
+        "id": "c3e30047-b8b2-4aa8-b2e9-549df112d21a",
+        "posição": 1365,
+        "codigo": [
+            "1036041"
+        ],
+        "eans": [
+            "7896213005894"
+        ],
+        "nome": "BISC RECH CHOCORESCO 120G CHOC",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896213005894"
+    },
+    {
+        "id": "03bc4634-72c1-446d-997b-98955617eb2d",
+        "posição": 1366,
+        "codigo": [
+            "1036033"
+        ],
+        "eans": [
+            "7896213005887"
+        ],
+        "nome": "BISC RECH CHOCORESCO 120G BAUN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896213005887"
+    },
+    {
+        "id": "793d5599-6c1a-47a0-bd1b-59f87f7bab2e",
+        "posição": 1367,
+        "codigo": [
+            "1092111"
+        ],
+        "eans": [
+            "7891000402979"
+        ],
+        "nome": "BISC CHOC BISCUIT NESTLE 78G AO LEITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000402979"
+    },
+    {
+        "id": "a97da320-4ccf-4a10-bb9e-74625099812f",
+        "posição": 1368,
+        "codigo": [
+            "1104853"
+        ],
+        "eans": [
+            "7730430004509"
+        ],
+        "nome": "MASSA GRANO DURO LAS ACAC 400G MANJERICA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7730430004509"
+    },
+    {
+        "id": "8d472a37-93c0-47fb-915a-f27f93971224",
+        "posição": 1369,
+        "codigo": [
+            "1067966"
+        ],
+        "eans": [
+            "7896005224281"
+        ],
+        "nome": "MASSA TAGLIATELLE PETYBON 500G GR DURO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005224281"
+    },
+    {
+        "id": "0cd22e6f-ffbe-4b75-808a-2b7b46bce842",
+        "posição": 1370,
+        "codigo": [
+            "1067958"
+        ],
+        "eans": [
+            "7896005224243"
+        ],
+        "nome": "MASSA RIGATONI PETYBON 500G GRANO DURO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005224243"
+    },
+    {
+        "id": "439f8377-d1a7-481f-84c1-da9696715c81",
+        "posição": 1371,
+        "codigo": [
+            "236918"
+        ],
+        "eans": [
+            "7897721411283"
+        ],
+        "nome": "MASSA PENNE PETYBON 500G G DURO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897721411283"
+    },
+    {
+        "id": "f18cfc56-0230-4f58-bb98-d8b0fa9962b0",
+        "posição": 1372,
+        "codigo": [
+            "237825"
+        ],
+        "eans": [
+            "7897721411498"
+        ],
+        "nome": "MASSA FETTUCCINE PETYBON 500G G DURO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897721411498"
+    },
+    {
+        "id": "73e26237-46ac-44c9-9459-e0529282ec8b",
+        "posição": 1373,
+        "codigo": [
+            "236969"
+        ],
+        "eans": [
+            "7897721411252"
+        ],
+        "nome": "ESPAG GRANO DURO PETYBON 500G",
+        "url": "https://go-upc.s3.amazonaws.com/images/229024810.jpeg"
+    },
+    {
+        "id": "1f22eb43-aa7c-4f9e-b2a0-5daa503458c0",
+        "posição": 1374,
+        "codigo": [
+            "1121642"
+        ],
+        "eans": [
+            "7891242811232"
+        ],
+        "nome": "AMAC ROUPA UAU CONC 450ML CHA BRANCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242811232"
+    },
+    {
+        "id": "c289dac3-94c2-4ddc-8fd8-771dbe8fdebd",
+        "posição": 1375,
+        "codigo": [
+            "1121634"
+        ],
+        "eans": [
+            "7891242811225"
+        ],
+        "nome": "LAVA ROUPA LIQ UAU 2,7L CHA BRANCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242811225"
+    },
+    {
+        "id": "c5535f98-b4de-449c-a793-2f687be10b35",
+        "posição": 1376,
+        "codigo": [
+            "112165"
+        ],
+        "eans": [
+            "7891242811263"
+        ],
+        "nome": "LIMP MULTI UAU 480ML CHA BRANCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242811263"
+    },
+    {
+        "id": "596d9cf8-93a3-4068-881b-a0a3655d6c3e",
+        "posição": 1377,
+        "codigo": [
+            "1121669"
+        ],
+        "eans": [
+            "7891242811270"
+        ],
+        "nome": "LIMP PERF UAU 500ML CHA BRANCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242811270"
+    },
+    {
+        "id": "3e942b5a-fd69-46eb-a9b1-6f4e5e366271",
+        "posição": 1378,
+        "codigo": [
+            "1121677"
+        ],
+        "eans": [
+            "7891242811294"
+        ],
+        "nome": "LIMP PERF UAU LV1L PG800M CHA BRANCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242811294"
+    },
+    {
+        "id": "f490ce0b-7ffe-46d7-8a31-82070f4f76ed",
+        "posição": 1379,
+        "codigo": [
+            "214914"
+        ],
+        "eans": [
+            "7896098902400"
+        ],
+        "nome": "AMAC ROUPA YPE 2L ACONCHEGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896098902400"
+    },
+    {
+        "id": "d91d1ead-e4e7-4170-b48a-0421e9fa10fd",
+        "posição": 1380,
+        "codigo": [
+            "21509"
+        ],
+        "eans": [
+            "7896098903032"
+        ],
+        "nome": "AMAC ROUPA YPE 2L INTENSO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896098903032"
+    },
+    {
+        "id": "1bbf52c3-1622-463a-bdf8-ea1a115901dd",
+        "posição": 1381,
+        "codigo": [
+            "1121383"
+        ],
+        "eans": [
+            "7898024270218"
+        ],
+        "nome": "PAPEL HIGIÊNICO CONFOFEX FOLHA DULPA LEVE 12 PAGUE 11",
+        "url": ""
+    },
+    {
+        "id": "05011a2a-bd36-4abf-a4d1-3ae587297181",
+        "posição": 1382,
+        "codigo": [
+            "902268"
+        ],
+        "eans": [
+            "7891150064553"
+        ],
+        "nome": "LAVA ROUPA PO OMO SCH 1,6KG LAV PERFEITA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150064553"
+    },
+    {
+        "id": "fb166328-68c5-4982-ae24-24d5c623b719",
+        "posição": 1383,
+        "codigo": [
+            "997374"
+        ],
+        "eans": [
+            "7898962794265"
+        ],
+        "nome": "PAPEL HIG FT MIMMO 20M L12P11 NEUTRO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898962794265"
+    },
+    {
+        "id": "c33f2dd3-af4a-4871-8f21-31de9e43de91",
+        "posição": 1384,
+        "codigo": [
+            "1029762"
+        ],
+        "eans": [
+            "7891150086425"
+        ],
+        "nome": "LAVA ROUPA PO BRILH SCH L1,6 P1,450 L TO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150086425"
+    },
+    {
+        "id": "a279e391-3faa-4c75-b930-e109c6e816b0",
+        "posição": 1385,
+        "codigo": [
+            "1078704"
+        ],
+        "eans": [
+            "7896013100171"
+        ],
+        "nome": "AGUA SANITARIA BRILUX LV2LPG1,6L",
+        "url": ""
+    },
+    {
+        "id": "ca2604b5-2339-465d-9309-1b069378ab02",
+        "posição": 1386,
+        "codigo": [
+            "85095"
+        ],
+        "eans": [
+            "7896098902042"
+        ],
+        "nome": "DETERG LIQ YPE 500ML CAPIM LIMAO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896098902042"
+    },
+    {
+        "id": "3210af1b-7b99-4706-b4d7-7a03a3232b1f",
+        "posição": 1387,
+        "codigo": [
+            "2156"
+        ],
+        "eans": [
+            "7896098900253"
+        ],
+        "nome": "DETERG LIQ YPE 500ML CLEAR",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896098900253"
+    },
+    {
+        "id": "4d34b168-5cd7-4476-a690-bcbeed31dc07",
+        "posição": 1388,
+        "codigo": [
+            "215619"
+        ],
+        "eans": [
+            "7896098900277"
+        ],
+        "nome": "DETERG LIQ YPE 500ML CLEAR CARE",
+        "url": "https://go-upc.s3.amazonaws.com/images/228927533.jpeg"
+    },
+    {
+        "id": "7145dbfb-61bb-4b5e-b3a4-af34a2122c58",
+        "posição": 1389,
+        "codigo": [
+            "215589"
+        ],
+        "eans": [
+            "7896098900239"
+        ],
+        "nome": "DETERG LIQ YPE 500ML COCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896098900239"
+    },
+    {
+        "id": "7d930285-d3b9-4ae5-bc08-4fca39c5a8ce",
+        "posição": 1390,
+        "codigo": [
+            "215635"
+        ],
+        "eans": [
+            "7896098900222"
+        ],
+        "nome": "DETERG LIQ YPE 500ML LIMAO",
+        "url": "https://go-upc.s3.amazonaws.com/images/228928213.jpeg"
+    },
+    {
+        "id": "cfe39883-aee4-493a-8d39-b28c5840415f",
+        "posição": 1391,
+        "codigo": [
+            "215643"
+        ],
+        "eans": [
+            "7896098900215"
+        ],
+        "nome": "DETERG LIQ YPE 500ML MACA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896098900215"
+    },
+    {
+        "id": "15b77359-715c-4b99-a4e6-b1ffd46766a2",
+        "posição": 1392,
+        "codigo": [
+            "215651"
+        ],
+        "eans": [
+            "7896098900208"
+        ],
+        "nome": "DETERG LIQ YPE 500ML NEUTRO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896098900208"
+    },
+    {
+        "id": "68f20f3c-6fc4-4768-8dbc-84e9c2d98888",
+        "posição": 1393,
+        "codigo": [
+            "962333"
+        ],
+        "eans": [
+            "7891150071704"
+        ],
+        "nome": "DESENG CIF SPRAY 25%DESC 500ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150071704"
+    },
+    {
+        "id": "805bb0f1-89c3-4372-84b4-c3449a8320ba",
+        "posição": 1394,
+        "codigo": [
+            "975966"
+        ],
+        "eans": [
+            "7891242151680"
+        ],
+        "nome": "DESINF PINHO TROP 500ML 10%DES LAVANDA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242151680"
+    },
+    {
+        "id": "dff0aafa-d661-4bb5-a769-dfc1f4c0edd3",
+        "posição": 1395,
+        "codigo": [
+            "970042"
+        ],
+        "eans": [
+            "7891242151673"
+        ],
+        "nome": "DESINF PINHO TROP 500ML 10%DES PINHO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242151673"
+    },
+    {
+        "id": "e2e17815-2e68-4909-bf01-a9ae5dcdbeb8",
+        "posição": 1396,
+        "codigo": [
+            "537888"
+        ],
+        "eans": [
+            "7896006400011"
+        ],
+        "nome": "GUARDANAPO SCALA 22CMX20CM",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896006400011"
+    },
+    {
+        "id": "2edb8bb9-9027-47dc-8fa3-01611c7a3073",
+        "posição": 1397,
+        "codigo": [
+            "1001345"
+        ],
+        "eans": [
+            "7898962794289"
+        ],
+        "nome": "PAPEL TOALHA SCALA PLUS 120 FOLHAS 2UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898962794289"
+    },
+    {
+        "id": "b72e9f99-9203-4ac2-bb75-cdd5e67fd2a6",
+        "posição": 1398,
+        "codigo": [
+            "216674"
+        ],
+        "eans": [
+            "7896013102335"
+        ],
+        "nome": "ALVEJ LIQ BRILUX 500ML MULTI",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896013102335"
+    },
+    {
+        "id": "917a5fd3-2e07-494f-8c34-f2fcde2e0aea",
+        "posição": 1399,
+        "codigo": [
+            "253219"
+        ],
+        "eans": [
+            "7896029022276"
+        ],
+        "nome": "ALIM CAES PEDIGREE SCH 100G AD CORD RP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029022276"
+    },
+    {
+        "id": "112e660f-c626-4a97-b3ae-78b6c7c723a7",
+        "posição": 1400,
+        "codigo": [
+            "672491"
+        ],
+        "eans": [
+            "7896029019009"
+        ],
+        "nome": "ALIM CAES PEDIGREE SCH 100G AD FGO RMG",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029019009"
+    },
+    {
+        "id": "1f94e2df-97bc-43af-a645-a93f7f5e2000",
+        "posição": 1401,
+        "codigo": [
+            "253286"
+        ],
+        "eans": [
+            "7896029022269"
+        ],
+        "nome": "ALIM CAES PEDIGREE SCH 100G AD FGO RP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029022269"
+    },
+    {
+        "id": "be6f2988-88ed-4298-8dff-18f6de1d3a12",
+        "posição": 1402,
+        "codigo": [
+            "652563"
+        ],
+        "eans": [
+            "7896029015001"
+        ],
+        "nome": "ALIM CAES PEDIGREE SCH 100G FHT CARNE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029015001"
+    },
+    {
+        "id": "108df8db-663c-477c-895f-46b9e3b7fb00",
+        "posição": 1403,
+        "codigo": [
+            "253294"
+        ],
+        "eans": [
+            "7896029022252"
+        ],
+        "nome": "ALIM CAES PEDIGREE SCH 100G JR FGO MOLH",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029022252"
+    },
+    {
+        "id": "b38e622c-a536-4dbb-bb40-2cbe5e917b61",
+        "posição": 1404,
+        "codigo": [
+            "2838"
+        ],
+        "eans": [
+            "7896029018958"
+        ],
+        "nome": "ALIM CAES PEDIGREE SCH100G AD CARNE MOLH",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029018958"
+    },
+    {
+        "id": "005ca25e-1d7e-4b8c-979f-2d969b45a48e",
+        "posição": 1405,
+        "codigo": [
+            "1073206"
+        ],
+        "eans": [
+            "7896029082027"
+        ],
+        "nome": "ALIM CAES PEDIGREE HP SCH 85G AD CAR/FGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029082027"
+    },
+    {
+        "id": "c30faf20-99d0-4d0c-9d2e-4b91a383c227",
+        "posição": 1406,
+        "codigo": [
+            "89602"
+        ],
+        "eans": [
+            "7896029046562"
+        ],
+        "nome": "ALIM GATO WHISKAS SCH 85G AD ATUM",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029046562"
+    },
+    {
+        "id": "226dc9e6-b126-496e-805a-bf112416d283",
+        "posição": 1407,
+        "codigo": [
+            "896055"
+        ],
+        "eans": [
+            "7896029046173"
+        ],
+        "nome": "ALIM GATO WHISKAS SCH 85G AD FRANGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029046173"
+    },
+    {
+        "id": "300ddd21-e422-4d1f-a7ab-da4d4bf1e431",
+        "posição": 1408,
+        "codigo": [
+            "896063"
+        ],
+        "eans": [
+            "7896029046296"
+        ],
+        "nome": "ALIM GATO WHISKAS SCH 85G AD SALMAO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029046296"
+    },
+    {
+        "id": "de8004e6-b330-4987-9bc4-15843af4cb65",
+        "posição": 1409,
+        "codigo": [
+            "896071"
+        ],
+        "eans": [
+            "7896029047101"
+        ],
+        "nome": "ALIM GATO WHISKAS SCH 85G FHT CARNE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029047101"
+    },
+    {
+        "id": "6a707099-9a08-4286-9d0f-437e7fab78b8",
+        "posição": 1410,
+        "codigo": [
+            "283894"
+        ],
+        "eans": [
+            "7896029046616"
+        ],
+        "nome": "ALIM GATO WHISKAS SCH 85G JEL AD CARNE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029046616"
+    },
+    {
+        "id": "593531c3-ec02-439f-b214-4c323019618f",
+        "posição": 1411,
+        "codigo": [
+            "896039"
+        ],
+        "eans": [
+            "7896029046609"
+        ],
+        "nome": "ALIM GATOS WHISKAS SCH 85G AD CARNE MOLH",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029046609"
+    },
+    {
+        "id": "d7d90edd-ec50-481f-b799-8457edff612a",
+        "posição": 1412,
+        "codigo": [
+            "89608"
+        ],
+        "eans": [
+            "7896029047279"
+        ],
+        "nome": "ALIM GATOS WHISKAS SCH 85G FHT FRANGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029047279"
+    },
+    {
+        "id": "d84c4db6-8c67-418d-9656-af2f17e7b3d6",
+        "posição": 1413,
+        "codigo": [
+            "896756"
+        ],
+        "eans": [
+            "7896029046555"
+        ],
+        "nome": "ALIM GATOS WHISKAS SCH 85G PEIXE",
+        "url": "https://go-upc.s3.amazonaws.com/images/347851566.png"
+    },
+    {
+        "id": "342c8703-4de4-4d79-970d-ac3babcb525c",
+        "posição": 1414,
+        "codigo": [
+            "1044087"
+        ],
+        "eans": [
+            "7896029081112"
+        ],
+        "nome": "RACAO PEDIGREE 900G CARNE AO LEITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029081112"
+    },
+    {
+        "id": "42611ed3-3ea1-4409-97cc-acd6dadc10b5",
+        "posição": 1415,
+        "codigo": [
+            "253405"
+        ],
+        "eans": [
+            "7896029007013"
+        ],
+        "nome": "RACAO WHISKAS 500G CARNE AD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029007013"
+    },
+    {
+        "id": "4d8cc39e-265e-4ef3-95ef-8e5e30ff5900",
+        "posição": 1416,
+        "codigo": [
+            "253456"
+        ],
+        "eans": [
+            "7896029086995"
+        ],
+        "nome": "RACAO WHISKAS 500G CARNE CASTRADOS",
+        "url": "https://go-upc.s3.amazonaws.com/images/355019838.jpeg"
+    },
+    {
+        "id": "ad424ab2-f083-42b9-8024-cc1489db319a",
+        "posição": 1417,
+        "codigo": [
+            "253537"
+        ],
+        "eans": [
+            "7896029007020"
+        ],
+        "nome": "RACAO WHISKAS 500G PEIXE AD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896029007020"
+    },
+    {
+        "id": "ddd9688f-bd91-45c8-b10a-5b9218547069",
+        "posição": 1418,
+        "codigo": [
+            "532738"
+        ],
+        "eans": [
+            "7898287990052"
+        ],
+        "nome": "PRATO DESC MARATA 15CM 10UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898287990052"
+    },
+    {
+        "id": "dbee8670-5dfc-4199-b504-fcba9ed3c740",
+        "posição": 1419,
+        "codigo": [
+            "360686"
+        ],
+        "eans": [
+            "7898287990069"
+        ],
+        "nome": "PRATO DESC MARATA 17CM 10UN",
+        "url": "https://go-upc.s3.amazonaws.com/images/240568914.jpeg"
+    },
+    {
+        "id": "34e7bac5-2a4b-407a-9710-0b6a5ebf4663",
+        "posição": 1420,
+        "codigo": [
+            "572012"
+        ],
+        "eans": [
+            "7898287990076"
+        ],
+        "nome": "PRATO DESC MARATA 21CM 10UN",
+        "url": "https://go-upc.s3.amazonaws.com/images/240565521.jpeg"
+    },
+    {
+        "id": "66cc441c-82db-4589-bdc2-27f57f43127c",
+        "posição": 1421,
+        "codigo": [
+            "221961"
+        ],
+        "eans": [
+            "7898287990120"
+        ],
+        "nome": "COPO DESC MARATA 200ML BRANCO 100UN",
+        "url": "https://go-upc.s3.amazonaws.com/images/240657380.jpeg"
+    },
+    {
+        "id": "78b3ebf9-c1cb-466e-8f5e-095256a755d5",
+        "posição": 1422,
+        "codigo": [
+            "222208"
+        ],
+        "eans": [
+            "7898287990441"
+        ],
+        "nome": "COPO DESC MARATA 200ML TRANSP 100UN",
+        "url": "https://go-upc.s3.amazonaws.com/images/240566374.jpeg"
+    },
+    {
+        "id": "947a1028-b74e-4185-880e-de5db181d890",
+        "posição": 1423,
+        "codigo": [
+            "497398"
+        ],
+        "eans": [
+            "7891021007313"
+        ],
+        "nome": "CAFE CAPPUCCINO MELITTA LT 140G ZERO ACU",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891021007313"
+    },
+    {
+        "id": "f920c243-1e08-4b39-8156-e27e2abb7d16",
+        "posição": 1424,
+        "codigo": [
+            "1097881"
+        ],
+        "eans": [
+            "7891095911639"
+        ],
+        "nome": "FAROFA PRONTA YOKI 200G TRADICIONAL",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891095911639"
+    },
+    {
+        "id": "7211b31e-575d-4754-afe2-f55d5c60d2da",
+        "posição": 1425,
+        "codigo": [
+            "112917"
+        ],
+        "eans": [
+            "7891021006071"
+        ],
+        "nome": "CAFE PO MELITTA VACUO 250G TRAD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891021006071"
+    },
+    {
+        "id": "c1cbc59a-76a8-42b5-8942-1ee203208160",
+        "posição": 1426,
+        "codigo": [
+            "105516"
+        ],
+        "eans": [
+            "7896005809495"
+        ],
+        "nome": "BEB LAC 3 CORACOES CAPPUC 260ML BALANCE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005809495"
+    },
+    {
+        "id": "eba287ac-bfaf-43a0-b3c0-081ffe076ecb",
+        "posição": 1427,
+        "codigo": [
+            "1121243"
+        ],
+        "eans": [
+            "7896045113675"
+        ],
+        "nome": "BEB LAC 3 CORACOES CAPPUC 260ML CARAM SA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896045113675"
+    },
+    {
+        "id": "df904a6d-29df-4406-bead-118b25f8f17e",
+        "posição": 1428,
+        "codigo": [
+            "1055178"
+        ],
+        "eans": [
+            "7896005809501"
+        ],
+        "nome": "BEB LAC 3 CORACOES CAPPUC 260ML CHOCOLAT",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005809501"
+    },
+    {
+        "id": "c6c79a3f-eae3-4f55-8d64-7fc3331d7b98",
+        "posição": 1429,
+        "codigo": [
+            "1055186"
+        ],
+        "eans": [
+            "7896005809518"
+        ],
+        "nome": "BEB LAC 3 CORACOES CAPPUC 260ML CLASSICO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896005809518"
+    },
+    {
+        "id": "4afa65be-5225-4956-83b9-fb4035684b1c",
+        "posição": 1430,
+        "codigo": [
+            "1119524"
+        ],
+        "eans": [
+            "7896045113668"
+        ],
+        "nome": "BEB LAC 3 CORACOES CAPPUC 260ML COOKIES",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896045113668"
+    },
+    {
+        "id": "b4729646-5c98-4ea4-af78-87e2aa79cdec",
+        "posição": 1431,
+        "codigo": [
+            "1055208"
+        ],
+        "eans": [
+            "7896045104499"
+        ],
+        "nome": "BEB LAC 3 CORACOES CAPPUC 260ML WHEY",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896045104499"
+    },
+    {
+        "id": "329e63f6-8127-428d-b143-9e14902c902c",
+        "posição": 1432,
+        "codigo": [
+            "220493"
+        ],
+        "eans": [
+            "7898378180331"
+        ],
+        "nome": "BEB LACTEA MARATINHO 200ML CHOCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180331"
+    },
+    {
+        "id": "1a22de37-885d-49da-862b-829e97b20424",
+        "posição": 1433,
+        "codigo": [
+            "244147"
+        ],
+        "eans": [
+            "7898929966056"
+        ],
+        "nome": "LEITE PO CCGL SCH 200G INTEGRAL",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898929966056"
+    },
+    {
+        "id": "6638ce35-c4c1-4301-8f53-5b6a72575887",
+        "posição": 1434,
+        "codigo": [
+            "110991"
+        ],
+        "eans": [
+            "7891000417348"
+        ],
+        "nome": "SUPL ALIM NESCAFE 270ML 15G P CAP CANELA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000417348"
+    },
+    {
+        "id": "7bd5c81a-35df-4e8f-883b-7d752e6051f7",
+        "posição": 1435,
+        "codigo": [
+            "1109928"
+        ],
+        "eans": [
+            "7891000417331"
+        ],
+        "nome": "SUPL ALIM NESCAFE 270ML 15G P CAP CLASSI",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000417331"
+    },
+    {
+        "id": "28673aef-f578-4f4b-9d04-785be32a04d5",
+        "posição": 1436,
+        "codigo": [
+            "1109936"
+        ],
+        "eans": [
+            "7891000417409"
+        ],
+        "nome": "SUPL ALIM NESCAFE 270ML 15G P CHOCOCINO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000417409"
+    },
+    {
+        "id": "25219e16-fdae-494c-83e2-136893672a93",
+        "posição": 1437,
+        "codigo": [
+            "5397"
+        ],
+        "eans": [
+            "5397"
+        ],
+        "nome": "QUEIJO REINO TINA&ROLF KG",
+        "url": ""
+    },
+    {
+        "id": "d7e3f4d1-3cfc-49e1-987f-719279efa70e",
+        "posição": 1438,
+        "codigo": [
+            "1095714"
+        ],
+        "eans": [
+            "7897542800037",
+            "7897542830638"
+        ],
+        "nome": "OVOS BRANCOS GRANDE PLACA COM 30 UNDS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897542800037"
+    },
+    {
+        "id": "6abd34c7-a4ab-438b-bf1d-32cb22c28b20",
+        "posição": 1439,
+        "codigo": [
+            "81132"
+        ],
+        "eans": [
+            "8113"
+        ],
+        "nome": "QUEIJO MUSSRELA TOURINHO KG _ Inteiro e Pedaço",
+        "url": ""
+    },
+    {
+        "id": "2aa6d222-9106-45bd-a389-d043b9a5c3be",
+        "posição": 1440,
+        "codigo": [
+            "100543"
+        ],
+        "eans": [
+            "7899975801957"
+        ],
+        "nome": "SORVETE NOBRELLI DUO CHOC/NATA 1,3L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7899975801957"
+    },
+    {
+        "id": "12e229c1-2f3f-4f1e-ab54-f0c6b85a4db6",
+        "posição": 1441,
+        "codigo": [
+            "1005464"
+        ],
+        "eans": [
+            "7899975801940"
+        ],
+        "nome": "SORVETE NOBRELLI DUO MGO/BAUNILHA 1,3L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7899975801940"
+    },
+    {
+        "id": "8d80078b-ccf0-4a72-818e-d6ec34c695de",
+        "posição": 1442,
+        "codigo": [
+            "234419"
+        ],
+        "eans": [
+            "7898133620553"
+        ],
+        "nome": "MANTEIGA TOURINHO COM SAL 200G",
+        "url": "https://go-upc.s3.amazonaws.com/images/147034841.jpeg"
+    },
+    {
+        "id": "2229826d-f20b-4dc1-8db9-dfc89305361a",
+        "posição": 1443,
+        "codigo": [
+            "112554"
+        ],
+        "eans": [
+            "7898133621659"
+        ],
+        "nome": "MANTEIGA TOURINHO COM SAL ZERO LACTOSE 200G",
+        "url": ""
+    },
+    {
+        "id": "239b798c-4b1b-45aa-9ce4-55304e288b97",
+        "posição": 1444,
+        "codigo": [
+            "1082922"
+        ],
+        "eans": [
+            "7896074606933"
+        ],
+        "nome": "CHIPA FORNO DE MINAS 800G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896074606933"
+    },
+    {
+        "id": "b68c0ea0-baed-48ca-80aa-c68e66f1994e",
+        "posição": 1445,
+        "codigo": [
+            "1044524"
+        ],
+        "eans": [
+            "7898964675128"
+        ],
+        "nome": "FRALDA DESC FOFURA BABY MEGA G 32UN",
+        "url": "https://go-upc.s3.amazonaws.com/images/244541136.jpeg"
+    },
+    {
+        "id": "42dbf34c-e092-48be-8064-98c2f74aaf81",
+        "posição": 1446,
+        "codigo": [
+            "1044516"
+        ],
+        "eans": [
+            "7898964675111"
+        ],
+        "nome": "FRALDA DESC FOFURA BABY MEGA M 36UN",
+        "url": ""
+    },
+    {
+        "id": "b45a75a7-483e-486c-b70a-0823ca95f1fa",
+        "posição": 1447,
+        "codigo": [
+            "104454"
+        ],
+        "eans": [
+            "7898964675135"
+        ],
+        "nome": "FRALDA DESC FOFURA BABY MEGA XG 30UN",
+        "url": ""
+    },
+    {
+        "id": "e30c1f2f-fc36-4816-8956-d8d722987b5f",
+        "posição": 1448,
+        "codigo": [
+            "1078119"
+        ],
+        "eans": [
+            "7501843503350"
+        ],
+        "nome": "APAR BARB BIC FLEX 3 AZUL BL 2UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7501843503350"
+    },
+    {
+        "id": "5ed442fd-1e62-44be-94cd-40fe87526303",
+        "posição": 1449,
+        "codigo": [
+            "791423"
+        ],
+        "eans": [
+            "7896007544042"
+        ],
+        "nome": "ABS C/ABAS INTIMUS GEL 32UN SVE",
+        "url": "https://go-upc.s3.amazonaws.com/images/349310743.png"
+    },
+    {
+        "id": "595a0a05-71b3-4f8d-b7c7-4f82cc42c4e8",
+        "posição": 1450,
+        "codigo": [
+            "895474"
+        ],
+        "eans": [
+            "7896007549689"
+        ],
+        "nome": "FRALDA DESC HUGGIES PANTS PROT G30UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896007549689"
+    },
+    {
+        "id": "41577420-2ea9-4030-9fa8-715294b316c2",
+        "posição": 1451,
+        "codigo": [
+            "895466"
+        ],
+        "eans": [
+            "7896007549672"
+        ],
+        "nome": "FRALDA DESC HUGGIES PANTS PROT M36UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896007549672"
+    },
+    {
+        "id": "8a487212-2bc7-4117-a933-b01132f0931b",
+        "posição": 1452,
+        "codigo": [
+            "895482"
+        ],
+        "eans": [
+            "7896007549696"
+        ],
+        "nome": "FRALDA DESC HUGGIES PANTS PROT XG24UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896007549696"
+    },
+    {
+        "id": "d653c98f-2b98-4105-b461-50e1c47ea694",
+        "posição": 1453,
+        "codigo": [
+            "89549"
+        ],
+        "eans": [
+            "7896007549702"
+        ],
+        "nome": "FRALDA DESC HUGGIES PANTS PROT XXG24UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896007549702"
+    },
+    {
+        "id": "2b16cb18-a761-4673-8904-7ec7dc225a47",
+        "posição": 1454,
+        "codigo": [
+            "1045504"
+        ],
+        "eans": [
+            "7898966448119"
+        ],
+        "nome": "TOALHA UMED BEBE LIMPINHO 140UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898966448119"
+    },
+    {
+        "id": "cb32517d-db19-4980-9bda-52666ecdfede",
+        "posição": 1455,
+        "codigo": [
+            "858854"
+        ],
+        "eans": [
+            "7891150060241"
+        ],
+        "nome": "SAB LIQ LUX 200ML RFL BUQUE JASMIM",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150060241"
+    },
+    {
+        "id": "9d4ffed5-c161-44d5-8db4-027ed6f09e06",
+        "posição": 1456,
+        "codigo": [
+            "858889"
+        ],
+        "eans": [
+            "7891150060234"
+        ],
+        "nome": "SAB LIQ LUX 200ML RFL ROSAS FRANCESAS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150060234"
+    },
+    {
+        "id": "ef329ca7-18d0-4aaa-8b8f-676ce6397e5a",
+        "posição": 1457,
+        "codigo": [
+            "129771"
+        ],
+        "eans": [
+            "7506295388487"
+        ],
+        "nome": "CRM DENT ORAL B 70G 3D WHITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7506295388487"
+    },
+    {
+        "id": "7511e265-7fc4-4f4c-83ba-5a9b22327c4f",
+        "posição": 1458,
+        "codigo": [
+            "850314"
+        ],
+        "eans": [
+            "7500435014359"
+        ],
+        "nome": "ESC DENT ORAL B 123 L3P2UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435014359"
+    },
+    {
+        "id": "345b9971-df67-479d-8c67-21f79d6ebf64",
+        "posição": 1459,
+        "codigo": [
+            "9733"
+        ],
+        "eans": [
+            "7898915949209"
+        ],
+        "nome": "CERV IMPERIO PURO MALTE PILSEN LT 350ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898915949209"
+    },
+    {
+        "id": "962ec4fe-a125-4127-a6e5-df695caf7156",
+        "posição": 1460,
+        "codigo": [
+            "757616"
+        ],
+        "eans": [
+            "7898251890982"
+        ],
+        "nome": "SUCO TERRA SOL 1L INTEG",
+        "url": ""
+    },
+    {
+        "id": "0e60916d-467f-41b6-9eb5-7032c97041e1",
+        "posição": 1461,
+        "codigo": [
+            "564265"
+        ],
+        "eans": [
+            "500029102070"
+        ],
+        "nome": "GIN LONDON DRY TANQUERAY IMPORTADO 750ML",
+        "url": "https://go-upc.s3.amazonaws.com/images/81337030.jpeg"
+    },
+    {
+        "id": "6503d74c-4f31-4a39-8190-0db40e916e35",
+        "posição": 1462,
+        "codigo": [
+            "288861"
+        ],
+        "eans": [
+            "5000267107776"
+        ],
+        "nome": "WHISKY J W GOLDEN LABEL RESERV 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/5000267107776"
+    },
+    {
+        "id": "2100d73c-967b-4b36-8d57-71d030df19d9",
+        "posição": 1463,
+        "codigo": [
+            "993514"
+        ],
+        "eans": [
+            "5000267024011"
+        ],
+        "nome": "WHISKY J WALKER BLACK LABEL 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/5000267024011"
+    },
+    {
+        "id": "678285e8-2535-4716-af58-0633b565eb80",
+        "posição": 1464,
+        "codigo": [
+            "846902"
+        ],
+        "eans": [
+            "5000267014005"
+        ],
+        "nome": "WHISKY J WALKER RED LABEL 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/5000267014005"
+    },
+    {
+        "id": "f1249f39-c2e4-4347-a183-ef8834cfe5e2",
+        "posição": 1465,
+        "codigo": [
+            "271756"
+        ],
+        "eans": [
+            "5000281004020"
+        ],
+        "nome": "WHISKY OLD PARR 12 ANOS 1L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/5000281004020"
+    },
+    {
+        "id": "178f8275-d4bb-4c03-8c99-65b4c47e16d2",
+        "posição": 1466,
+        "codigo": [
+            "926728"
+        ],
+        "eans": [
+            "5000281003160"
+        ],
+        "nome": "WHISKY OLD PARR 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/5000281003160"
+    },
+    {
+        "id": "939cd06c-895b-4892-94fc-0ad993c110ed",
+        "posição": 1467,
+        "codigo": [
+            "1049135"
+        ],
+        "eans": [
+            "7798353193137"
+        ],
+        "nome": "ESPUM C CON PIEL LB BLC DEM SEC BR 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7798353193137"
+    },
+    {
+        "id": "3306f48f-7b7e-4c19-aed1-bca0348ad0dd",
+        "posição": 1468,
+        "codigo": [
+            "1049127"
+        ],
+        "eans": [
+            "7798353193151"
+        ],
+        "nome": "ESPUM COR CON PIEL LB BLC BRUT 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7798353193151"
+    },
+    {
+        "id": "94733510-79d1-425c-9a3f-2a23223ebbf7",
+        "posição": 1469,
+        "codigo": [
+            "1049143"
+        ],
+        "eans": [
+            "7798353192246"
+        ],
+        "nome": "ESPUM COR CON PIEL LB BLC DULCE 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7798353192246"
+    },
+    {
+        "id": "b06858fd-7752-4c70-a42f-23155f3f2f18",
+        "posição": 1470,
+        "codigo": [
+            "1097253"
+        ],
+        "eans": [
+            "7894900184006"
+        ],
+        "nome": "BEB MISTA SCHWEPPES MIXED LN 250ML GIN T",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900184006"
+    },
+    {
+        "id": "dec3a326-c46e-4ce8-ab0d-d439912af48d",
+        "posição": 1471,
+        "codigo": [
+            "109721"
+        ],
+        "eans": [
+            "7894900184303"
+        ],
+        "nome": "BEB MISTA SCHWEPPES MIXED LN 250ML SPRIT",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900184303"
+    },
+    {
+        "id": "f76a9c30-bbb3-4cef-a083-e88ae7638123",
+        "posição": 1472,
+        "codigo": [
+            "1097237"
+        ],
+        "eans": [
+            "7894900184204"
+        ],
+        "nome": "BEB MISTA SCHWEPPES MIXED LN 250ML VOD C",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900184204"
+    },
+    {
+        "id": "abb82fa3-650b-4b3f-951c-e07b45bd279c",
+        "posição": 1473,
+        "codigo": [
+            "1121537"
+        ],
+        "eans": [
+            "7894900011005"
+        ],
+        "nome": "COCA COLA ORIGINAL LT 473ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894900011005"
+    },
+    {
+        "id": "a7590cf3-50c6-430a-b893-a7ffb5a27032",
+        "posição": 1474,
+        "codigo": [
+            "1120832"
+        ],
+        "eans": [
+            "7894900701005"
+        ],
+        "nome": "COCA COLA ZERO ACUCAR LT 473ML",
+        "url": ""
+    },
+    {
+        "id": "edc3dd34-106d-4eeb-a34f-d92c86a49795",
+        "posição": 1475,
+        "codigo": [
+            "1055275"
+        ],
+        "eans": [
+            "7898377661695"
+        ],
+        "nome": "ISOTONICO TNT PET 500ML LARANJA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898377661695"
+    },
+    {
+        "id": "19b34771-d8e6-4d36-884e-cb9f68fef0c5",
+        "posição": 1476,
+        "codigo": [
+            "1055348"
+        ],
+        "eans": [
+            "7898377661718"
+        ],
+        "nome": "ISOTONICO TNT PET 500ML LIMAO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898377661718"
+    },
+    {
+        "id": "c8fd14a7-9c41-40b1-a655-2dac17992079",
+        "posição": 1477,
+        "codigo": [
+            "1055356"
+        ],
+        "eans": [
+            "7898377661732"
+        ],
+        "nome": "ISOTONICO TNT PET 500ML TANG",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898377661732"
+    },
+    {
+        "id": "994a9bf7-63ad-46b1-ac70-2a8268c15215",
+        "posição": 1478,
+        "codigo": [
+            "1055364"
+        ],
+        "eans": [
+            "7898377661756"
+        ],
+        "nome": "ISOTONICO TNT PET 500ML UVA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898377661756"
+    },
+    {
+        "id": "85bd7c37-0f51-4230-9b03-1c4642fb4c87",
+        "posição": 1479,
+        "codigo": [
+            "1126164"
+        ],
+        "eans": [
+            "7899916918720"
+        ],
+        "nome": "SUCO INT NAT ONE 1,3L LARANJA/MACA AMB",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7899916918720"
+    },
+    {
+        "id": "24f969ee-466d-4413-b49d-e03acc8afe2b",
+        "posição": 1480,
+        "codigo": [
+            "1126156"
+        ],
+        "eans": [
+            "7899916918645"
+        ],
+        "nome": "SUCO INT NAT ONE 1,3L UVA/MACA AMB",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7899916918645"
+    },
+    {
+        "id": "6ed08086-9728-4b5a-94e7-0d3da12a902b",
+        "posição": 1481,
+        "codigo": [
+            "98132"
+        ],
+        "eans": [
+            "7899916906055"
+        ],
+        "nome": "SUCO NAT ONE  180ML MACA AMB",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7899916906055"
+    },
+    {
+        "id": "008d370d-fa4c-4bb2-b76e-8db3380d712a",
+        "posição": 1482,
+        "codigo": [
+            "108285"
+        ],
+        "eans": [
+            "7899916917150"
+        ],
+        "nome": "SUCO NAT ONE 180ML LARANJA MACA AMB",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7899916917150"
+    },
+    {
+        "id": "40647665-3ad1-4373-aece-9002d63a22fe",
+        "posição": 1483,
+        "codigo": [
+            "981338"
+        ],
+        "eans": [
+            "7899916906031"
+        ],
+        "nome": "SUCO NAT ONE 180ML UVA/MACA AMB",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7899916906031"
+    },
+    {
+        "id": "06fa23c6-0185-4dfa-a599-e427d3756e6b",
+        "posição": 1484,
+        "codigo": [
+            "271721"
+        ],
+        "eans": [
+            "80432400432"
+        ],
+        "nome": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/80432400432"
+    },
+    {
+        "id": "9d6d2bf3-b6c1-42d4-91d7-44f5dff1d500",
+        "posição": 1485,
+        "codigo": [
+            "862169"
+        ],
+        "eans": [
+            "7898377660032"
+        ],
+        "nome": "CERV LOKAL BIER LT 350ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898377660032"
+    },
+    {
+        "id": "fbca0e36-12e3-4da2-ae00-82dc57fd78f8",
+        "posição": 1486,
+        "codigo": [
+            "262544"
+        ],
+        "eans": [
+            "7897395060107"
+        ],
+        "nome": "CERV CRYSTAL LT 350ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897395060107"
+    },
+    {
+        "id": "ac89d3eb-5826-4961-acf0-07a8efa6cccc",
+        "posição": 1487,
+        "codigo": [
+            "989592"
+        ],
+        "eans": [
+            "7898377661848"
+        ],
+        "nome": "BEB ICE CABARE 275ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898377661848"
+    },
+    {
+        "id": "a184a961-7f64-4bda-98e1-53cdb61cfc80",
+        "posição": 1488,
+        "codigo": [
+            "1033204"
+        ],
+        "eans": [
+            "7897395000479"
+        ],
+        "nome": "BEB ICE CABARE 275ML FTS AMARELAS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897395000479"
+    },
+    {
+        "id": "e77d88a3-ce5d-4876-a528-556e2b40ea8a",
+        "posição": 1489,
+        "codigo": [
+            "1033212"
+        ],
+        "eans": [
+            "7897395000509"
+        ],
+        "nome": "BEB ICE CABARE 275ML FTS VERM",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7897395000509"
+    },
+    {
+        "id": "fa02a646-0818-415e-98c5-4fa6592e8daf",
+        "posição": 1490,
+        "codigo": [
+            "618705"
+        ],
+        "eans": [
+            "7896756802653"
+        ],
+        "nome": "ESPUM TERRA NOVA BRUT ROSE 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756802653"
+    },
+    {
+        "id": "fb4014ec-1a73-48ae-89ce-a054b9da5194",
+        "posição": 1491,
+        "codigo": [
+            "593249"
+        ],
+        "eans": [
+            "7896756801557"
+        ],
+        "nome": "ESPULMANTE BCO TERRANOVA DEMI SEC 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756801557"
+    },
+    {
+        "id": "3a039e8d-c1dd-4536-bd6b-1f7024e49b29",
+        "posição": 1492,
+        "codigo": [
+            "13622"
+        ],
+        "eans": [
+            "7896756801540"
+        ],
+        "nome": "ESPUMANTE TERRANOVA BRUT 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756801540"
+    },
+    {
+        "id": "eff82c9c-1142-4483-974f-8851300493d1",
+        "posição": 1493,
+        "codigo": [
+            "287105"
+        ],
+        "eans": [
+            "7896756800178"
+        ],
+        "nome": "ESPUMANTE TERRANOVA MOSCATEL 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756800178"
+    },
+    {
+        "id": "09d30da9-396b-43ec-ab1a-fa362e40bc74",
+        "posição": 1494,
+        "codigo": [
+            "92578"
+        ],
+        "eans": [
+            "7896756804886"
+        ],
+        "nome": "ESPUMANTE ALMADEN BRUT 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756804886"
+    },
+    {
+        "id": "a5c986b6-9be1-4a12-a281-5f9e5ea19398",
+        "posição": 1495,
+        "codigo": [
+            "925802"
+        ],
+        "eans": [
+            "7896756804909"
+        ],
+        "nome": "ESPUMANTE ALMADEN BRUT ROSE 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756804909"
+    },
+    {
+        "id": "1abf1953-3a14-4642-afdc-43ddda8622e9",
+        "posição": 1496,
+        "codigo": [
+            "925799"
+        ],
+        "eans": [
+            "7896756804893"
+        ],
+        "nome": "ESPUMANTE ALMADEN DEMI SECO 750ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756804893"
+    },
+    {
+        "id": "5ae5bd60-6c1d-43cc-a011-deca881b001b",
+        "posição": 1497,
+        "codigo": [
+            "1003003"
+        ],
+        "eans": [
+            "7896756805227"
+        ],
+        "nome": "VINHO ALMADEN MOSCATEL FRISA 750ML BLANC",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756805227"
+    },
+    {
+        "id": "046fdb8d-adcd-4fde-af14-40a39ea8c213",
+        "posição": 1498,
+        "codigo": [
+            "1003011"
+        ],
+        "eans": [
+            "7896756805234"
+        ],
+        "nome": "VINHO ALMADEN MOSCATEL FRISA 750ML ROSÉ",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896756805234"
+    },
+    {
+        "id": "25a5ee6a-f5be-4edc-a0da-1fa2c4d199cc",
+        "posição": 1499,
+        "codigo": [
+            "205508"
+        ],
+        "eans": [
+            "7896102509434"
+        ],
+        "nome": "MAIONESE QUERO SCH 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896102509434"
+    },
+    {
+        "id": "107917c6-1066-43a6-89d5-49f6b665321b",
+        "posição": 1500,
+        "codigo": [
+            "98244"
+        ],
+        "eans": [
+            "7891095031139"
+        ],
+        "nome": "BATATA PALHA YOKI 70G TRADICIONAL",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891095031139"
+    },
+    {
+        "id": "35ec0c7f-78bc-415c-944d-8b6c36c2dff6",
+        "posição": 1501,
+        "codigo": [
+            "1114239"
+        ],
+        "eans": [
+            "7896221600289"
+        ],
+        "nome": "AMAC ROUPA DRAGÃO 2L ACONCHEGO",
+        "url": "https://go-upc.s3.amazonaws.com/images/240563316.jpeg"
+    },
+    {
+        "id": "d3ecab77-e403-4ca4-b6b0-c8c2255fea13",
+        "posição": 1502,
+        "codigo": [
+            "1114247"
+        ],
+        "eans": [
+            "7896221600296"
+        ],
+        "nome": "AMAC ROUPA DRAGÃO 2L CARINHOSO",
+        "url": "https://go-upc.s3.amazonaws.com/images/240732267.jpeg"
+    },
+    {
+        "id": "a7b7e05e-1eb1-48ca-a23b-bcc2a4ea783c",
+        "posição": 1503,
+        "codigo": [
+            "1064967"
+        ],
+        "eans": [
+            "7891150090460"
+        ],
+        "nome": "AMAC ROUPA CONC COMFORT 500ML C/OL LAVAN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150090460"
+    },
+    {
+        "id": "28594c1b-c2e3-45d4-917f-a6b7b3719856",
+        "posição": 1504,
+        "codigo": [
+            "723169"
+        ],
+        "eans": [
+            "7891150045460"
+        ],
+        "nome": "AMAC ROUPA CONC COMFORT 500ML FIBER PROT",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150045460"
+    },
+    {
+        "id": "6b20e337-4f62-4a58-b824-dbcebdb32ba1",
+        "posição": 1505,
+        "codigo": [
+            "275964"
+        ],
+        "eans": [
+            "7891150025288"
+        ],
+        "nome": "AMAC ROUPA CONC COMFORT 500ML HYDR SERUM",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150025288"
+    },
+    {
+        "id": "7be028a4-eeb3-4fef-a90a-af0c7a583dda",
+        "posição": 1506,
+        "codigo": [
+            "40187"
+        ],
+        "eans": [
+            "7891150039001"
+        ],
+        "nome": "AMAC ROUPA CONC COMFORT 500ML PR CUIDADO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150039001"
+    },
+    {
+        "id": "6285ac67-e5ff-4300-8de0-7af45a4ffa1e",
+        "posição": 1507,
+        "codigo": [
+            "105872"
+        ],
+        "eans": [
+            "7896067200162"
+        ],
+        "nome": "PILHA PANASONIC ALC POWER AA 2UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896067200162"
+    },
+    {
+        "id": "bf6a1502-8439-4078-93fe-351e80735780",
+        "posição": 1508,
+        "codigo": [
+            "10591"
+        ],
+        "eans": [
+            "7896067200186"
+        ],
+        "nome": "PILHA PANASONIC ALC POWER AAA 2UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896067200186"
+    },
+    {
+        "id": "e3b4f346-7ed7-44ef-b341-40a215a13799",
+        "posição": 1509,
+        "codigo": [
+            "701696"
+        ],
+        "eans": [
+            "7622300992293"
+        ],
+        "nome": "BISC INT CLUB SOCIAL 144G TRAD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622300992293"
+    },
+    {
+        "id": "0d78a419-4ea1-4bdc-8dc8-40465c88e19e",
+        "posição": 1510,
+        "codigo": [
+            "737933"
+        ],
+        "eans": [
+            "7622210661609"
+        ],
+        "nome": "BISC RECH CLUB SOCIAL 106G QUEIJO TOM",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622210661609"
+    },
+    {
+        "id": "3870588a-ca0b-480d-b883-f0836f38f52a",
+        "posição": 1511,
+        "codigo": [
+            "703648"
+        ],
+        "eans": [
+            "7622210641151"
+        ],
+        "nome": "BISC SALG CLUB SOCIAL 141G PIZZA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622210641151"
+    },
+    {
+        "id": "a24c6a91-7828-4e7e-93cd-ac8723160ca9",
+        "posição": 1512,
+        "codigo": [
+            "70072"
+        ],
+        "eans": [
+            "7622210641632"
+        ],
+        "nome": "BISC SALG CLUB SOCIAL 141G PRESUNTO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622210641632"
+    },
+    {
+        "id": "03398d87-7639-4afa-b933-6d1bca5511f6",
+        "posição": 1513,
+        "codigo": [
+            "696838"
+        ],
+        "eans": [
+            "7622210644534"
+        ],
+        "nome": "BISC SALG CLUB SOCIAL 141G QUEIJO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622210644534"
+    },
+    {
+        "id": "f0ee7b68-cc6d-4c75-841f-62efe83d1d51",
+        "posição": 1514,
+        "codigo": [
+            "702374"
+        ],
+        "eans": [
+            "7622300990701"
+        ],
+        "nome": "BISC SALG CLUB SOCIAL 144G ORIG",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622300990701"
+    },
+    {
+        "id": "252f1ae3-ca81-4ec4-9a2f-1da37e1c6491",
+        "posição": 1515,
+        "codigo": [
+            "45091"
+        ],
+        "eans": [
+            "7622300830151"
+        ],
+        "nome": "BISC RECH OREO 90G BAUN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622300830151"
+    },
+    {
+        "id": "8fe55fcb-39b4-45f2-b072-909e7f16577b",
+        "posição": 1516,
+        "codigo": [
+            "585874"
+        ],
+        "eans": [
+            "7622300873554"
+        ],
+        "nome": "BISC RECH OREO 90G CHOCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622300873554"
+    },
+    {
+        "id": "1001c967-7a5d-4583-825c-78e4eab69588",
+        "posição": 1517,
+        "codigo": [
+            "1112163"
+        ],
+        "eans": [
+            "7622202323614"
+        ],
+        "nome": "BISC RECH OREO SELENA GOMES 90G CANELA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7622202323614"
+    },
+    {
+        "id": "df22b077-a574-477a-81cc-d6072d2adef8",
+        "posição": 1518,
+        "codigo": [
+            "95318"
+        ],
+        "eans": [
+            "7891000325131"
+        ],
+        "nome": "BOMBOM NESTLE ESPECIALIDADES CAIXA 251G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000325131"
+    },
+    {
+        "id": "4dd2101b-8873-4927-8564-a994cde3313e",
+        "posição": 1519,
+        "codigo": [
+            "1043854"
+        ],
+        "eans": [
+            "7891008123975"
+        ],
+        "nome": "CHOC GAROTO 80G AO LEITE",
+        "url": "https://go-upc.s3.amazonaws.com/images/153853205.jpeg"
+    },
+    {
+        "id": "dd2cdc20-7034-457a-9819-783ff9001bb9",
+        "posição": 1520,
+        "codigo": [
+            "1045369"
+        ],
+        "eans": [
+            "7891008125214"
+        ],
+        "nome": "CHOC GAROTO 80G BRANCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891008125214"
+    },
+    {
+        "id": "26b8d9b8-18c7-4334-9aed-3467f26063b1",
+        "posição": 1521,
+        "codigo": [
+            "1045334"
+        ],
+        "eans": [
+            "7891008124170"
+        ],
+        "nome": "CHOC GAROTO 80G CAST CAJU",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891008124170"
+    },
+    {
+        "id": "37fa988b-04d0-42a0-b69b-5ac7526c9dff",
+        "posição": 1522,
+        "codigo": [
+            "104535"
+        ],
+        "eans": [
+            "7891008124828"
+        ],
+        "nome": "CHOC GAROTO 80G CAST CAJU PASSAS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891008124828"
+    },
+    {
+        "id": "81bcf59a-bc84-4e32-ac42-916720a9d93b",
+        "posição": 1523,
+        "codigo": [
+            "1045318"
+        ],
+        "eans": [
+            "7891008124071"
+        ],
+        "nome": "CHOC GAROTO 80G CROCANTE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891008124071"
+    },
+    {
+        "id": "9eee487b-94b0-41b8-aa18-beddb9cc9aba",
+        "posição": 1524,
+        "codigo": [
+            "10453"
+        ],
+        "eans": [
+            "7891008124026"
+        ],
+        "nome": "CHOC GAROTO 80G MEIO AMARGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891008124026"
+    },
+    {
+        "id": "3c0ab8f5-1e72-4783-b7e6-5c10abf5e612",
+        "posição": 1525,
+        "codigo": [
+            "1045326"
+        ],
+        "eans": [
+            "7891008124477"
+        ],
+        "nome": "CHOC GAROTO 80G NEGRESCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891008124477"
+    },
+    {
+        "id": "a3c61206-ced8-46b9-98bc-a12c38663e31",
+        "posição": 1526,
+        "codigo": [
+            "1045245"
+        ],
+        "eans": [
+            "7891000369098"
+        ],
+        "nome": "CHOC NESTLE CLASSIC 80G AO LEITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000369098"
+    },
+    {
+        "id": "59670f67-d430-41ab-8bc8-71cd5c11e39d",
+        "posição": 1527,
+        "codigo": [
+            "1045253"
+        ],
+        "eans": [
+            "7891000368992"
+        ],
+        "nome": "CHOC NESTLE CLASSIC 80G DUO CHOCOLATE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000368992"
+    },
+    {
+        "id": "8d3f9853-9c1c-41f1-aa77-f4bb06bf8c6b",
+        "posição": 1528,
+        "codigo": [
+            "1045199"
+        ],
+        "eans": [
+            "7891000368572"
+        ],
+        "nome": "CHOC NESTLE CLASSIC 80G MEIO AMARGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000368572"
+    },
+    {
+        "id": "84f2dbde-92d9-48a1-adc0-c3e267edcea3",
+        "posição": 1529,
+        "codigo": [
+            "1046659"
+        ],
+        "eans": [
+            "7891000369371"
+        ],
+        "nome": "CHOC NESTLE 80G CRUNCH",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000369371"
+    },
+    {
+        "id": "8ac55a4d-c376-41cc-994f-62ccdee58c9f",
+        "posição": 1530,
+        "codigo": [
+            "1046667"
+        ],
+        "eans": [
+            "7891000368626"
+        ],
+        "nome": "CHOC NESTLE 80G GALAK",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000368626"
+    },
+    {
+        "id": "d47a69c8-42ac-4d30-8104-f5ec5c4da0f5",
+        "posição": 1531,
+        "codigo": [
+            "1045261"
+        ],
+        "eans": [
+            "7891000368947"
+        ],
+        "nome": "CHOC NESTLE CLASSIC 80G PRESTIGIO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000368947"
+    },
+    {
+        "id": "9bcff773-4603-41d5-ae56-cda84b1c489e",
+        "posição": 1532,
+        "codigo": [
+            "821047"
+        ],
+        "eans": [
+            "7891000248768"
+        ],
+        "nome": "CHOC KIT KAT 41,5G AO LEITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000248768"
+    },
+    {
+        "id": "5b3b7296-b824-4260-b8ee-4189dde1cd9b",
+        "posição": 1533,
+        "codigo": [
+            "857491"
+        ],
+        "eans": [
+            "7891000249239"
+        ],
+        "nome": "CHOC KIT KAT 41,5G BRANCO",
+        "url": "https://go-upc.s3.amazonaws.com/images/380323922.jpeg"
+    },
+    {
+        "id": "85150f22-54ba-48ef-ae3d-84e94145d242",
+        "posição": 1534,
+        "codigo": [
+            "83377"
+        ],
+        "eans": [
+            "7891000248829"
+        ],
+        "nome": "CHOC KIT KAT 41,5G DARK",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891000248829"
+    },
+    {
+        "id": "13ff7200-6a54-473d-bfe5-432fb986eca2",
+        "posição": 1535,
+        "codigo": [
+            "1071009"
+        ],
+        "eans": [
+            "7896003739671"
+        ],
+        "nome": "BISC RECH PIT STOP 91G MISTO QUENTE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896003739671"
+    },
+    {
+        "id": "85311de7-64b7-4cd3-91c6-0fab65e97aed",
+        "posição": 1536,
+        "codigo": [
+            "1071017"
+        ],
+        "eans": [
+            "7896003739664"
+        ],
+        "nome": "BISC RECH PIT STOP 91G PEITO PERU",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896003739664"
+    },
+    {
+        "id": "06490be5-2bca-41b3-b249-ee74ab5d9f09",
+        "posição": 1537,
+        "codigo": [
+            "1071025"
+        ],
+        "eans": [
+            "7896003739657"
+        ],
+        "nome": "BISC RECH PIT STOP 98G CHOCOLATE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896003739657"
+    },
+    {
+        "id": "53e7cad6-1b4a-45e7-843d-63d262269bdc",
+        "posição": 1538,
+        "codigo": [
+            "1111922"
+        ],
+        "eans": [
+            "7896003739817"
+        ],
+        "nome": "BISC RECH PIT STOP 98G TRUFADO CHOCOLATE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896003739817"
+    },
+    {
+        "id": "4864c98a-a596-42df-920d-c3bb2a26748a",
+        "posição": 1539,
+        "codigo": [
+            "1070983"
+        ],
+        "eans": [
+            "7896003739404"
+        ],
+        "nome": "BISC SALG PIT STOP 137G ORIG",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896003739404"
+    },
+    {
+        "id": "a9c22d63-f180-44c8-9b59-b518b7dd331c",
+        "posição": 1540,
+        "codigo": [
+            "1070959"
+        ],
+        "eans": [
+            "7896003739435"
+        ],
+        "nome": "BISC SALG PIT STOP 137G PIZZA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896003739435"
+    },
+    {
+        "id": "807d29c2-f236-4c1b-a6df-370a16409096",
+        "posição": 1541,
+        "codigo": [
+            "107094"
+        ],
+        "eans": [
+            "7896003739442"
+        ],
+        "nome": "BISC SALG PIT STOP 137G PRESUNTO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896003739442"
+    },
+    {
+        "id": "da5e7322-4672-418a-bfa6-10d49e7b1725",
+        "posição": 1542,
+        "codigo": [
+            "1000497"
+        ],
+        "eans": [
+            "7898115754405"
+        ],
+        "nome": "BISC COOKIES INT TIA SONIA 120G CAST PAR",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898115754405"
+    },
+    {
+        "id": "4bd3b1cb-224f-47b8-9084-b1db9fb93218",
+        "posição": 1543,
+        "codigo": [
+            "974013"
+        ],
+        "eans": [
+            "7898115754429"
+        ],
+        "nome": "BISC COOKIES INT TIA SONIA 120G GRANOLA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898115754429"
+    },
+    {
+        "id": "109f8bb6-3a2f-4303-af90-e8a97ccf956c",
+        "posição": 1544,
+        "codigo": [
+            "1098969"
+        ],
+        "eans": [
+            "7898115758250"
+        ],
+        "nome": "BISC COOKIES TIA SONIA 100G GOT DE CHOC",
+        "url": ""
+    },
+    {
+        "id": "aa6f3af8-db14-4599-9551-a48e33fc17c7",
+        "posição": 1545,
+        "codigo": [
+            "1041037"
+        ],
+        "eans": [
+            "7896253401489"
+        ],
+        "nome": "BISC CREAM CRACKER  RANCHEIRO 300G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896253401489"
+    },
+    {
+        "id": "e8043b8f-ed8a-4f1a-a073-7fefd2c08274",
+        "posição": 1546,
+        "codigo": [
+            "1104632"
+        ],
+        "eans": [
+            "7896004009957"
+        ],
+        "nome": "BISC WAFER MINUETO 73G MGO",
+        "url": ""
+    },
+    {
+        "id": "71bc60ce-f1e3-4db7-a9f8-9f1ebda4f272",
+        "posição": 1547,
+        "codigo": [
+            "1104624"
+        ],
+        "eans": [
+            "7896004010069"
+        ],
+        "nome": "BISC WAFER MINUETO 73G LIMAO",
+        "url": ""
+    },
+    {
+        "id": "c5ad3c83-beec-496f-9a1c-c5941e10d565",
+        "posição": 1548,
+        "codigo": [
+            "1104608"
+        ],
+        "eans": [
+            "7896004009940"
+        ],
+        "nome": "BISC WAFER MINUETO 73G CHOC",
+        "url": ""
+    },
+    {
+        "id": "9689e777-6a01-4986-b8da-787de410cebb",
+        "posição": 1549,
+        "codigo": [
+            "1104616"
+        ],
+        "eans": [
+            "7896004009964"
+        ],
+        "nome": "BISC WAFER MINUETO 73G BRIG",
+        "url": ""
+    },
+    {
+        "id": "503e331b-602a-4af1-bfb6-d2165dac4945",
+        "posição": 1550,
+        "codigo": [
+            "1112988"
+        ],
+        "eans": [
+            "7896833800411"
+        ],
+        "nome": "BISC COQUINHO FLOR DO VALE 300G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896833800411"
+    },
+    {
+        "id": "4e2f2917-20fb-456e-9cf2-25fe601f69a9",
+        "posição": 1551,
+        "codigo": [
+            "962236"
+        ],
+        "eans": [
+            "7896022203870"
+        ],
+        "nome": "MASSA LASANHA PRE COZ GALO SEMOLA 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896022203870"
+    },
+    {
+        "id": "9e8f8a6d-4326-4d8a-9a60-caaf99db04cf",
+        "posição": 1552,
+        "codigo": [
+            "461415"
+        ],
+        "eans": [
+            "7896089016291"
+        ],
+        "nome": "CAFE PO PILAO VACUO 250G EXT FORT",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896089016291"
+    },
+    {
+        "id": "c97ee337-74ef-415c-b4d9-9a0d793a3a14",
+        "posição": 1553,
+        "codigo": [
+            "216062"
+        ],
+        "eans": [
+            "7896089012637"
+        ],
+        "nome": "CAFE PO PILAO VACUO 250G TRAD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896089012637"
+    },
+    {
+        "id": "033d1528-a86f-4c61-a2a5-bd5c431e3515",
+        "posição": 1554,
+        "codigo": [
+            "1106317"
+        ],
+        "eans": [
+            "7898957925254"
+        ],
+        "nome": "ARROZ PARBO SUPER OURO 1KG",
+        "url": ""
+    },
+    {
+        "id": "d14f6534-e54d-4df8-a75a-58d2789f7829",
+        "posição": 1555,
+        "codigo": [
+            "211508"
+        ],
+        "eans": [
+            "7898215151784"
+        ],
+        "nome": "CRM LEITE PIRACANJUBA TP 200G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898215151784"
+    },
+    {
+        "id": "112f68e3-be1a-46eb-a4d5-6e49fa042c54",
+        "posição": 1556,
+        "codigo": [
+            "251275"
+        ],
+        "eans": [
+            "7898215151708"
+        ],
+        "nome": "LEITE LIQ PIRACANJUBA 1L INTEG C/TP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898215151708"
+    },
+    {
+        "id": "59c66f08-175c-4403-8620-3d3daef890fd",
+        "posição": 1557,
+        "codigo": [
+            "211656"
+        ],
+        "eans": [
+            "7898215151722"
+        ],
+        "nome": "LEITE LIQ PIRACANJUBA 1L DESN C/TP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898215151722"
+    },
+    {
+        "id": "b66571e4-f3f3-41f6-b8b4-b6dcc149b383",
+        "posição": 1558,
+        "codigo": [
+            "21177"
+        ],
+        "eans": [
+            "7898215152811"
+        ],
+        "nome": "LEITE LIQ PIRACANJUBA 1L SEMIDESN Z LACT",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898215152811"
+    },
+    {
+        "id": "00f0f232-5241-4e33-a535-00980874e22b",
+        "posição": 1559,
+        "codigo": [
+            "619744"
+        ],
+        "eans": [
+            "7898215151760"
+        ],
+        "nome": "LEITE LIQ PIRACANJUBA 1L SEMIDESN C/TP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898215151760"
+    },
+    {
+        "id": "751986bf-07c4-466a-949e-29743db2ca83",
+        "posição": 1560,
+        "codigo": [
+            "1056468"
+        ],
+        "eans": [
+            "7898215157786"
+        ],
+        "nome": "LEITE LIQ PIRACANJUBA 1L SEMIDESN A2",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898215157786"
+    },
+    {
+        "id": "2411d93d-1180-4e6b-8fa8-81bd0fffd879",
+        "posição": 1561,
+        "codigo": [
+            "1056484"
+        ],
+        "eans": [
+            "7898215157816"
+        ],
+        "nome": "LEITE LIQ PIRACANJUBA 1L DESN +CALC",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898215157816"
+    },
+    {
+        "id": "ef8c1e41-f9cf-4d0c-b9db-8a0390aae5ec",
+        "posição": 1562,
+        "codigo": [
+            "1080059"
+        ],
+        "eans": [
+            "7891032016960"
+        ],
+        "nome": "AMEIXA CALDA OLE LT 130G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891032016960"
+    },
+    {
+        "id": "5ccf5cb1-d681-4f1f-becd-d2b8b9db0a3a",
+        "posição": 1563,
+        "codigo": [
+            "128015"
+        ],
+        "eans": [
+            "7898024395232"
+        ],
+        "nome": "CRM NUTELLA PT 140G AVELA/CACAU",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898024395232"
+    },
+    {
+        "id": "520fa06a-dc6a-4b35-bd07-ea6b51f1814c",
+        "posição": 1564,
+        "codigo": [
+            "937533"
+        ],
+        "eans": [
+            "7891962056500"
+        ],
+        "nome": "BISC CHO BISCUIT BAUDUCCO 80G AO LEITE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891962056500"
+    },
+    {
+        "id": "cf0a5816-66f0-40e9-a634-d2a62c35ccd6",
+        "posição": 1565,
+        "codigo": [
+            "20273"
+        ],
+        "eans": [],
+        "nome": "AVE SPECIALE MAURICÉA KG",
+        "url": ""
+    },
+    {
+        "id": "585e60a1-8463-4db5-b28d-c12768d0a52d",
+        "posição": 1566,
+        "codigo": [
+            "917427"
+        ],
+        "eans": [
+            "7894904203420"
+        ],
+        "nome": "BACON SEARA FATIADO 250G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904203420"
+    },
+    {
+        "id": "4ff4fa65-0dba-4278-b942-e388b95377a8",
+        "posição": 1567,
+        "codigo": [
+            "1093029"
+        ],
+        "eans": [
+            "7894904268511"
+        ],
+        "nome": "PRESUNTO SEARA FATIADO 180G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904268511"
+    },
+    {
+        "id": "3da42f3b-a50b-4efd-a393-252d92d073f5",
+        "posição": 1568,
+        "codigo": [
+            "24863"
+        ],
+        "eans": [
+            "7894904082704"
+        ],
+        "nome": "LASANHA SEARA BOLONHESA 600G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904082704"
+    },
+    {
+        "id": "fd71ef55-6fe4-402b-bd36-7f151af8e159",
+        "posição": 1569,
+        "codigo": [
+            "21873"
+        ],
+        "eans": [
+            "2187"
+        ],
+        "nome": "PEITO DE FRANGO DEFUMADO SEARA KG_ Inteiro, Pedaço ou Fatiado",
+        "url": ""
+    },
+    {
+        "id": "abc8916b-4c34-4e63-98af-48660648d38e",
+        "posição": 1570,
+        "codigo": [
+            "1117491"
+        ],
+        "eans": [
+            "7894904605095"
+        ],
+        "nome": "LINGUIÇA TOSCANA FRANGO SEARA 600G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904605095"
+    },
+    {
+        "id": "91c80637-12f2-4848-bd03-a637b24000d2",
+        "posição": 1571,
+        "codigo": [
+            "1117513"
+        ],
+        "eans": [
+            "7894904605071"
+        ],
+        "nome": "LINGUIÇA TOSCANA SUÍNA SEARA 600G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904605071"
+    },
+    {
+        "id": "383f0772-544a-4aba-82ec-c85f94d57287",
+        "posição": 1572,
+        "codigo": [
+            "1106341"
+        ],
+        "eans": [
+            "7894904603633"
+        ],
+        "nome": "PIPOQUINHA DE FRANGO SEARA NETFLIX 275G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904603633"
+    },
+    {
+        "id": "1f5e7724-5430-40be-94a1-3609b5b54791",
+        "posição": 1573,
+        "codigo": [
+            "1127233"
+        ],
+        "eans": [
+            "7894904603756"
+        ],
+        "nome": "BOLINHO DE CARNE SEARA NETFLIX 270G",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7894904603756"
+    },
+    {
+        "id": "0de9e1c7-ace0-4d8d-a329-b7f10b32b71b",
+        "posição": 1574,
+        "codigo": [
+            "10669"
+        ],
+        "eans": [],
+        "nome": "CHESTER PERDIGÃO KG",
+        "url": ""
+    },
+    {
+        "id": "2701ba3b-dc00-4ccb-a287-ceb51a7b6912",
+        "posição": 1575,
+        "codigo": [
+            "18856"
+        ],
+        "eans": [],
+        "nome": "CHESTER C/AZEITE ERVAS KG",
+        "url": ""
+    },
+    {
+        "id": "0c3cdf1c-aff4-4b9f-8880-7fb0a7a67a9c",
+        "posição": 1576,
+        "codigo": [
+            "18929",
+            "4015"
+        ],
+        "eans": [],
+        "nome": "PERU SADIA CONG KG",
+        "url": ""
+    },
+    {
+        "id": "bb45a411-315c-4724-82e8-6e12a6d8df77",
+        "posição": 1577,
+        "codigo": [
+            "20648",
+            "40134"
+        ],
+        "eans": [],
+        "nome": "PERU PERDIGAO TEMPERADO KG",
+        "url": ""
+    },
+    {
+        "id": "ccc81473-0007-40c9-bc38-0cce634834d2",
+        "posição": 1578,
+        "codigo": [
+            "22028"
+        ],
+        "eans": [
+            "9002490209346"
+        ],
+        "nome": "ENERG RED BULL LT 355ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/9002490209346"
+    },
+    {
+        "id": "d1bcdcfa-b301-4659-b29b-09eb4dc9d83d",
+        "posição": 1579,
+        "codigo": [
+            "925527"
+        ],
+        "eans": [
+            "9002490243678"
+        ],
+        "nome": "ENERG RED BULL LT 355ML SUGAR FREE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/9002490243678"
+    },
+    {
+        "id": "2cb0437d-6b2a-4ffc-8c8a-4e58698f9734",
+        "posição": 1580,
+        "codigo": [
+            "1045032"
+        ],
+        "eans": [
+            "7898377661060"
+        ],
+        "nome": "CERV BLACK PRINC PM GOLD LT 350ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898377661060"
+    },
+    {
+        "id": "9c9bde3d-6b86-4a15-ba84-22a59daa9cd2",
+        "posição": 1581,
+        "codigo": [
+            "263265"
+        ],
+        "eans": [
+            "7896336806347"
+        ],
+        "nome": "ICE SYN 300ML APPLE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896336806347"
+    },
+    {
+        "id": "afd721c5-fbe1-4583-bf09-bb036a215d2f",
+        "posição": 1582,
+        "codigo": [
+            "1027425"
+        ],
+        "eans": [
+            "7896336809973"
+        ],
+        "nome": "ICE SYN 300ML KIWI",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896336809973"
+    },
+    {
+        "id": "99cd490b-83fd-4041-9899-a9356a0f8de1",
+        "posição": 1583,
+        "codigo": [
+            "263249"
+        ],
+        "eans": [
+            "7896336802264"
+        ],
+        "nome": "ICE SYN 300ML LEMON",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896336802264"
+    },
+    {
+        "id": "24291109-0842-4ada-b2e7-91b5df006aea",
+        "posição": 1584,
+        "codigo": [
+            "1027433"
+        ],
+        "eans": [
+            "7896336810009"
+        ],
+        "nome": "ICE SYN 300ML PINK LEMONAD",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896336810009"
+    },
+    {
+        "id": "3c4887fb-279a-42bd-8f93-2f05323dc55d",
+        "posição": 1585,
+        "codigo": [
+            "1052918"
+        ],
+        "eans": [
+            "7896336810528"
+        ],
+        "nome": "ICE SYN 300ML TROPICAL",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896336810528"
+    },
+    {
+        "id": "7e7ad5f7-05b6-40c7-b015-07478aac2661",
+        "posição": 1586,
+        "codigo": [
+            "541745"
+        ],
+        "eans": [
+            "7898378180843"
+        ],
+        "nome": "SUCO MARATA 200ML CAJA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180843"
+    },
+    {
+        "id": "217dc32e-241f-42c7-9356-aa3415a93b63",
+        "posição": 1587,
+        "codigo": [
+            "220795"
+        ],
+        "eans": [
+            "7898378180171"
+        ],
+        "nome": "SUCO MARATA 200ML CAJU",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180171"
+    },
+    {
+        "id": "095debe4-19e2-4b59-9cdc-5ab07b51c183",
+        "posição": 1588,
+        "codigo": [
+            "220809"
+        ],
+        "eans": [
+            "7898378180164"
+        ],
+        "nome": "SUCO MARATA 200ML GOIABA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180164"
+    },
+    {
+        "id": "fa7cb4c8-5841-4409-90a7-b68b710b94a3",
+        "posição": 1589,
+        "codigo": [
+            "220531"
+        ],
+        "eans": [
+            "7898378180133"
+        ],
+        "nome": "SUCO MARATA 200ML LARANJA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180133"
+    },
+    {
+        "id": "ea22448a-0a42-4cbd-8a56-29c09550355e",
+        "posição": 1590,
+        "codigo": [
+            "220787"
+        ],
+        "eans": [
+            "7898378180157"
+        ],
+        "nome": "SUCO MARATA 200ML MANGA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180157"
+    },
+    {
+        "id": "b7ad3965-a081-4188-a582-949a2f658ede",
+        "posição": 1591,
+        "codigo": [
+            "220779"
+        ],
+        "eans": [
+            "7898378180447"
+        ],
+        "nome": "SUCO MARATA 200ML MARACUJA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180447"
+    },
+    {
+        "id": "34d28f0c-f8cd-47de-ad5e-8eb698381bc6",
+        "posição": 1592,
+        "codigo": [
+            "220728"
+        ],
+        "eans": [
+            "7898378180188"
+        ],
+        "nome": "SUCO MARATA 200ML PESSEGO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180188"
+    },
+    {
+        "id": "4e523373-bd86-4e3a-92d3-24b423a85b41",
+        "posição": 1593,
+        "codigo": [
+            "243582"
+        ],
+        "eans": [
+            "7898378180461"
+        ],
+        "nome": "SUCO MARATA 200ML TANGERINA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180461"
+    },
+    {
+        "id": "92ad5bcd-bdcc-4936-b886-3e2834d4dde1",
+        "posição": 1594,
+        "codigo": [
+            "220523"
+        ],
+        "eans": [
+            "7898378180140"
+        ],
+        "nome": "SUCO MARATA 200ML UVA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898378180140"
+    },
+    {
+        "id": "7795d189-b82a-4197-88ae-27b5e67425f0",
+        "posição": 1595,
+        "codigo": [
+            "104401"
+        ],
+        "eans": [
+            "7898154171713"
+        ],
+        "nome": "SUCO UVA INTEG VINHEDOS DO VALE 1,5L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898154171713"
+    },
+    {
+        "id": "d7c7cd0b-8aba-4904-884b-31b579ddef26",
+        "posição": 1596,
+        "codigo": [
+            "1043978"
+        ],
+        "eans": [
+            "7898154171966"
+        ],
+        "nome": "VINHO BCO FRIS VINHEDOS DO VALE 750M",
+        "url": ""
+    },
+    {
+        "id": "6fff286b-99e6-4366-84f9-54f9cebbeab4",
+        "posição": 1597,
+        "codigo": [
+            "104396"
+        ],
+        "eans": [
+            "7898154171959"
+        ],
+        "nome": "VINHO ROSE FRIS VINHEDOS DO VALE 750M",
+        "url": ""
+    },
+    {
+        "id": "24ac1ea5-46c5-4e10-84e7-09afea1cdf03",
+        "posição": 1598,
+        "codigo": [
+            "10633"
+        ],
+        "eans": [
+            "7896093013507"
+        ],
+        "nome": "DEO COLONIA SV ALFAZEMA 118ML LAVANDA EX",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896093013507"
+    },
+    {
+        "id": "4970a02e-4bef-4d5f-a5e2-f142efb95a10",
+        "posição": 1599,
+        "codigo": [
+            "222755"
+        ],
+        "eans": [
+            "7896090400010"
+        ],
+        "nome": "SAB BARRA FRANCIS 90G CLASSICO BRANCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896090400010"
+    },
+    {
+        "id": "c5febeb0-29e6-4ee4-aee9-fb64d4387f09",
+        "posição": 1600,
+        "codigo": [
+            "222771"
+        ],
+        "eans": [
+            "7896090400034"
+        ],
+        "nome": "SAB BARRA FRANCIS 90G CLASSICO LARANJA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896090400034"
+    },
+    {
+        "id": "594d91bc-6e54-452d-90e2-fe35fb987403",
+        "posição": 1601,
+        "codigo": [
+            "222763"
+        ],
+        "eans": [
+            "7896090400041"
+        ],
+        "nome": "SAB BARRA FRANCIS 90G CLASSICO LILAS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896090400041"
+    },
+    {
+        "id": "baa793c2-6258-4067-ad8b-a77d3c89fced",
+        "posição": 1602,
+        "codigo": [
+            "1117173"
+        ],
+        "eans": [
+            "7896018750814"
+        ],
+        "nome": "COND KIDS HUGGIES 360ML CAC PODER",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018750814"
+    },
+    {
+        "id": "7d12f3a4-2b41-4e25-b27e-36b3aabcb156",
+        "posição": 1603,
+        "codigo": [
+            "1117262"
+        ],
+        "eans": [
+            "7896018750876"
+        ],
+        "nome": "COND KIDS HUGGIES 360ML NUT FORCA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018750876"
+    },
+    {
+        "id": "cf750c3a-8943-4c2e-9a3e-da8cab731868",
+        "posição": 1604,
+        "codigo": [
+            "1117297"
+        ],
+        "eans": [
+            "7896018751040"
+        ],
+        "nome": "COND KIDS HUGGIES 360ML SUP CRESPINHOS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018751040"
+    },
+    {
+        "id": "66cdeaf5-7ced-43a4-9ef2-9061d208c4ee",
+        "posição": 1605,
+        "codigo": [
+            "1117181"
+        ],
+        "eans": [
+            "7896018750821"
+        ],
+        "nome": "CRM PENT KIDS HUGGIES 360ML CAC PODER",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018750821"
+    },
+    {
+        "id": "4348136e-dadd-4b7e-a594-2be71c9b4378",
+        "posição": 1606,
+        "codigo": [
+            "11173"
+        ],
+        "eans": [
+            "7896018751057"
+        ],
+        "nome": "CRM PENT KIDS HUGGIES 360ML SUP CRESP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018751057"
+    },
+    {
+        "id": "fcc4eeb6-875b-4e6f-aa81-8a89a66864c5",
+        "posição": 1607,
+        "codigo": [
+            "1117165"
+        ],
+        "eans": [
+            "7896018750807"
+        ],
+        "nome": "SHAMP KIDS HUGGIES 360ML CAC PODER",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018750807"
+    },
+    {
+        "id": "05b2f9b7-4cdd-463a-b644-f882e31b915a",
+        "posição": 1608,
+        "codigo": [
+            "1117254"
+        ],
+        "eans": [
+            "7896018750968"
+        ],
+        "nome": "SHAMP KIDS HUGGIES 360ML HULK NUT FORCA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018750968"
+    },
+    {
+        "id": "81be7fb2-bdfb-422f-a495-edc3b1a8f820",
+        "posição": 1609,
+        "codigo": [
+            "111727"
+        ],
+        "eans": [
+            "7896018750869"
+        ],
+        "nome": "SHAMP KIDS HUGGIES 360ML NUT FORCA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018750869"
+    },
+    {
+        "id": "77b53a59-0a62-48a1-85e7-d1d823415889",
+        "posição": 1610,
+        "codigo": [
+            "1117289"
+        ],
+        "eans": [
+            "7896018751033"
+        ],
+        "nome": "SHAMP KIDS HUGGIES 360ML SUP CRESPINHOS",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896018751033"
+    },
+    {
+        "id": "97182b97-a565-49d1-a570-d753eb28f258",
+        "posição": 1611,
+        "codigo": [
+            "279986"
+        ],
+        "eans": [
+            "78929388"
+        ],
+        "nome": "DESOD ROLLON REXONA 30ML COMPACT ACTIVE",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/78929388"
+    },
+    {
+        "id": "1f9e5949-0926-473c-ba22-44f1f4296c5b",
+        "posição": 1612,
+        "codigo": [
+            "280003"
+        ],
+        "eans": [
+            "78924239"
+        ],
+        "nome": "DESOD ROLLON REXONA 30ML POWDER",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/78924239"
+    },
+    {
+        "id": "763aec59-2af6-47d5-aacf-cd8c4d6ec555",
+        "posição": 1613,
+        "codigo": [
+            "844837"
+        ],
+        "eans": [
+            "75063559"
+        ],
+        "nome": "DESOD ROLLON REXONA 30ML S FRESH BAMBOO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/75063559"
+    },
+    {
+        "id": "66fcb443-e2fb-46de-8f66-ac3a1d6c4c04",
+        "posição": 1614,
+        "codigo": [
+            "280011"
+        ],
+        "eans": [
+            "78930841"
+        ],
+        "nome": "DESOD ROLLON REXONA 30ML V8",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/78930841"
+    },
+    {
+        "id": "6dbd22e2-78f1-405d-a91f-5ed0f2576e38",
+        "posição": 1615,
+        "codigo": [
+            "279854"
+        ],
+        "eans": [
+            "78924529"
+        ],
+        "nome": "DESOD ROLLON DOVE 50ML INVISIBLE DRY",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/78924529"
+    },
+    {
+        "id": "0dee5590-9cfd-4a0b-8e04-885f8e068bea",
+        "posição": 1616,
+        "codigo": [
+            "279889"
+        ],
+        "eans": [
+            "78924468"
+        ],
+        "nome": "DESOD ROLLON DOVE 50ML ORIGINAL",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/78924468"
+    },
+    {
+        "id": "74c952d7-7847-42a0-abb2-7a05e6405fad",
+        "posição": 1617,
+        "codigo": [
+            "732877"
+        ],
+        "eans": [
+            "78935068"
+        ],
+        "nome": "DESOD ROLLON DOVE 50ML ROMA VERBENA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/78935068"
+    },
+    {
+        "id": "5d5c0256-7472-442e-ae3b-bff5d5a09c47",
+        "posição": 1618,
+        "codigo": [
+            "108433"
+        ],
+        "eans": [
+            "7896007552955"
+        ],
+        "nome": "FRALDA GER PLENITUDE ROUP CLASSIC P/M 8U",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896007552955"
+    },
+    {
+        "id": "e1ffb13c-ffcc-4952-a9ae-f3ad981ab7d9",
+        "posição": 1619,
+        "codigo": [
+            "1007491"
+        ],
+        "eans": [
+            "7891242459182"
+        ],
+        "nome": "LIMP PERFUM UAU FL VERM SE L 2L P 1,6L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242459182"
+    },
+    {
+        "id": "1dbb7f2f-f69f-4670-a3fa-d4c7edf9a248",
+        "posição": 1620,
+        "codigo": [
+            "1007483"
+        ],
+        "eans": [
+            "7891242459199"
+        ],
+        "nome": "LIMP PERFUM UAU LAV E CONF L 2L P 1,6L",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242459199"
+    },
+    {
+        "id": "e60bd179-ecbb-4409-81be-a038157faf11",
+        "posição": 1621,
+        "codigo": [
+            "1121375"
+        ],
+        "eans": [
+            "7500435259552"
+        ],
+        "nome": "AMAC ROUPA CONC DOWNY 500ML V TROP",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7500435259552"
+    },
+    {
+        "id": "e1f5bcb5-75bf-4b05-8e87-7e0e8bda2dcf",
+        "posição": 1622,
+        "codigo": [
+            "263974"
+        ],
+        "eans": [
+            "7896001016712"
+        ],
+        "nome": "VASSOURA C/CABO NOVICA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7896001016712"
+    },
+    {
+        "id": "198ca0c4-2eca-47b0-ac6f-f7f6b45458a2",
+        "posição": 1623,
+        "codigo": [
+            "276391"
+        ],
+        "eans": [
+            "7891150025332"
+        ],
+        "nome": "DESENG CIF ULTRA RAPIDO 500ML GTL",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150025332"
+    },
+    {
+        "id": "0aa15b1f-374f-4ffb-ae4e-056115bfa738",
+        "posição": 1624,
+        "codigo": [
+            "962341"
+        ],
+        "eans": [
+            "7891150071735"
+        ],
+        "nome": "TIRA LIMO CIF SPRAY 500ML",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150071735"
+    },
+    {
+        "id": "d9870dfa-a57b-47f4-836b-55ce97fcfa5e",
+        "posição": 1625,
+        "codigo": [
+            "93934"
+        ],
+        "eans": [
+            "7891242261754"
+        ],
+        "nome": "LIMPADOR UAU AU 2L NEUTRAL ODORES",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891242261754"
+    },
+    {
+        "id": "3a949912-b27e-4b32-978d-dedfa26bd261",
+        "posição": 1626,
+        "codigo": [
+            "961884"
+        ],
+        "eans": [
+            "7891150071117"
+        ],
+        "nome": "LAVA ROUPA LIQ ALA 3L COCO",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150071117"
+    },
+    {
+        "id": "e303eec0-71f1-4432-ada7-5110411de78c",
+        "posição": 1627,
+        "codigo": [
+            "961876"
+        ],
+        "eans": [
+            "7891150071100"
+        ],
+        "nome": "LAVA ROUPA LIQ ALA 3L LAVANDA",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7891150071100"
+    },
+    {
+        "id": "f1dec642-c6aa-4084-9bb5-5e98254e98f1",
+        "posição": 1628,
+        "codigo": [
+            "27643"
+        ],
+        "eans": [
+            "7891150025356"
+        ],
+        "nome": "LIMP VIDRO CIF 500ML GATILHO",
+        "url": ""
+    },
+    {
+        "id": "48c8ace4-c57e-4eb1-8e88-ae1786448469",
+        "posição": 1629,
+        "codigo": [
+            "1001477"
+        ],
+        "eans": [
+            "7898962794302"
+        ],
+        "nome": "PAPEL TOALHA SCALA PLUS 360 FOLHAS 3UN",
+        "url": "https://cdn-cosmos.bluesoft.com.br/products/7898962794302"
     }
 ]

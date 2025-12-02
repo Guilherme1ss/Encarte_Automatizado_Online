@@ -399,7 +399,7 @@ Os arquivos Excel gerados por perfil de loja incluem as seguintes colunas:
 
 ### Classificação de EAN
 
-- **Interno + Quilograma**: Se contém "/" ou < 10 dígitos
+- **Interno + Quilograma**:  < 10 dígitos
 
 - **EAN + Unidade**: Caso contrário
 

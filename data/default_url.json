@@ -4011,6 +4011,7 @@
             "109975"
         ],
         "eans": [
+            "3000001099758",
             "4005900036728"
         ],
         "nome": "DESOD AER NIVEA 150ML MEN B W INVIS",
@@ -6053,6 +6054,7 @@
             "113425"
         ],
         "eans": [
+            "4005805471358",
             "57791969016024",
             "7791969016029"
         ],
@@ -7602,6 +7604,7 @@
         "id": "6b32a7fa-d204-4fea-ab07-f3bca65099dc",
         "posição": 629,
         "codigo": [
+            "131214",
             "22594"
         ],
         "eans": [
@@ -12415,6 +12418,7 @@
             "784869"
         ],
         "eans": [
+            "4005805471334",
             "4005900396938"
         ],
         "nome": "DESOD AER NIVEA 150ML MEN ORIGINAL PROT",
@@ -12533,6 +12537,7 @@
         "id": "397d77c8-b940-4a7b-a100-3ce3997dc78a",
         "posição": 1033,
         "codigo": [
+            "2268674",
             "81116"
         ],
         "eans": [
@@ -73946,5 +73951,245 @@
         ],
         "nome": "WHISKYBLACK & WHITE 700ML",
         "url": "https://cdn-cosmos.bluesoft.com.br/products/50196135"
+    },
+    {
+        "id": "56401c7f-f87e-45f5-9c18-0737df0a9f07",
+        "posição": 6151,
+        "codigo": [
+            "1058428"
+        ],
+        "eans": [
+            "1220000250222"
+        ],
+        "nome": "ENERGETICO MONSTER 473ML MELANCIA S/ACUC",
+        "url": ""
+    },
+    {
+        "id": "e1405ba2-3572-4498-8cb2-dc3c0da17dee",
+        "posição": 6152,
+        "codigo": [
+            "1041045"
+        ],
+        "eans": [
+            "1220000250031"
+        ],
+        "nome": "ENERGETICO MONSTER 473ML PACIFIC PUNCH",
+        "url": ""
+    },
+    {
+        "id": "87c5a325-0c5a-42c1-a1b3-498a1269c026",
+        "posição": 6153,
+        "codigo": [
+            "1098667"
+        ],
+        "eans": [
+            "7898938890090"
+        ],
+        "nome": "ENERGETICO MONSTER 473ML ULT PEACHY KEEN",
+        "url": ""
+    },
+    {
+        "id": "2e592bcb-0c7c-4391-b130-889df620faac",
+        "posição": 6154,
+        "codigo": [
+            "982539"
+        ],
+        "eans": [
+            "1220000250000"
+        ],
+        "nome": "ENERGETICO MONSTER 473ML ULTRA PARADISE",
+        "url": ""
+    },
+    {
+        "id": "23e70d87-5ea1-4295-a6ce-dde18ef93f6d",
+        "posição": 6155,
+        "codigo": [
+            "955833"
+        ],
+        "eans": [
+            "70847034803"
+        ],
+        "nome": "ENERGETICO MONSTER ENER LT 473ML ICE TEA",
+        "url": ""
+    },
+    {
+        "id": "a7f10349-a965-4dae-b9f3-6b15400eda40",
+        "posição": 6156,
+        "codigo": [
+            "107032"
+        ],
+        "eans": [
+            "1220000250147"
+        ],
+        "nome": "ENERGETICO MONSTER ENER LT 473ML KHAOTIC",
+        "url": ""
+    },
+    {
+        "id": "1cecb61e-9f4c-435f-8e70-94e68b555966",
+        "posição": 6157,
+        "codigo": [
+            "635553"
+        ],
+        "eans": [
+            "70847022015"
+        ],
+        "nome": "ENERGETICO MONSTER ENERGY LT 473ML",
+        "url": ""
+    },
+    {
+        "id": "a195471f-51c7-4594-80bd-5f9d9b4a18e4",
+        "posição": 6158,
+        "codigo": [
+            "1109316"
+        ],
+        "eans": [
+            "7898938890113"
+        ],
+        "nome": "ENERGETICO MONSTER LT 473ML FIESTA MANGO",
+        "url": ""
+    },
+    {
+        "id": "1d227ba7-968e-4353-a30d-6338082440f4",
+        "posição": 6159,
+        "codigo": [
+            "914851"
+        ],
+        "eans": [
+            "70847033301"
+        ],
+        "nome": "ENERGETICO MONSTER LT 473ML MANGO",
+        "url": ""
+    },
+    {
+        "id": "0deabc07-f986-40cb-9cde-0e966bd33261",
+        "posição": 6160,
+        "codigo": [
+            "108061"
+        ],
+        "eans": [
+            "7898938890045"
+        ],
+        "nome": "ENERGETICO MONSTER LT 473ML PIPELINE PUN",
+        "url": ""
+    },
+    {
+        "id": "33792aac-019f-4ee4-97a4-c547a37c019c",
+        "posição": 6161,
+        "codigo": [
+            "745715"
+        ],
+        "eans": [
+            "70847022206"
+        ],
+        "nome": "ENERGETICO MONSTER LT 473ML ULTRA",
+        "url": ""
+    },
+    {
+        "id": "ca4f5fc6-cbae-401a-b355-ab616ace0e83",
+        "posição": 6162,
+        "codigo": [
+            "91754"
+        ],
+        "eans": [
+            "70847033929"
+        ],
+        "nome": "ENERGETICO MONSTER LT 473ML ULTRA VIOLET",
+        "url": ""
+    },
+    {
+        "id": "21ef2b29-701f-4835-9c5f-e141ef139779",
+        "posição": 6163,
+        "codigo": [
+            "1090178"
+        ],
+        "eans": [
+            "7898938890076"
+        ],
+        "nome": "ENERGETICO MONSTER LT 473ML ZRO SUGAR",
+        "url": ""
+    },
+    {
+        "id": "1f19a3b8-9412-4079-971e-deafcc89de7e",
+        "posição": 6164,
+        "codigo": [
+            "112093"
+        ],
+        "eans": [
+            "7898938890120"
+        ],
+        "nome": "ENERGETICO MONSTER RIO PUNCH LT 473ML",
+        "url": ""
+    },
+    {
+        "id": "75cd630a-cf4c-4880-8755-fc16e7856690",
+        "posição": 6165,
+        "codigo": [
+            "1121588"
+        ],
+        "eans": [
+            "7896756805302"
+        ],
+        "nome": "SUCO UVA BRANCO INTEG SUNNY DAYS 1L",
+        "url": ""
+    },
+    {
+        "id": "66b5d8d1-a809-438f-958d-5583bbb41473",
+        "posição": 6166,
+        "codigo": [
+            "11216"
+        ],
+        "eans": [
+            "7896756805289"
+        ],
+        "nome": "SUCO UVA ROSE INTEG SUNNY DAYS 1L",
+        "url": ""
+    },
+    {
+        "id": "b471c1b2-2659-42a9-b28e-a80e6a1a7404",
+        "posição": 6167,
+        "codigo": [
+            "72341"
+        ],
+        "eans": [
+            "7896756804411"
+        ],
+        "nome": "SUCO UVA TTO SUNNY DAYS 1L",
+        "url": ""
+    },
+    {
+        "id": "fca5d63d-79e9-444f-82fd-a63cd5a7d52a",
+        "posição": 6168,
+        "codigo": [
+            "123382"
+        ],
+        "eans": [
+            "7896014400195"
+        ],
+        "nome": "POLPA BRASFRUT 100G ABACAXI",
+        "url": ""
+    },
+    {
+        "id": "5f9da2a1-c111-4316-86af-0d4f056015e5",
+        "posição": 6169,
+        "codigo": [
+            "733695"
+        ],
+        "eans": [
+            "7896014400331"
+        ],
+        "nome": "POLPA BRASFRUT 100G ABACAXI C/HORTELA",
+        "url": ""
+    },
+    {
+        "id": "09c3c66b-1dfc-430e-9db6-ccc223608472",
+        "posição": 6170,
+        "codigo": [
+            "1018795"
+        ],
+        "eans": [
+            "7898921567275"
+        ],
+        "nome": "BATATA BEM BRASIL CARINHAS 400G",
+        "url": ""
     }
 ]

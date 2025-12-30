@@ -39,7 +39,6 @@ def export_to_excel(df_final, filepath):
         ):
             ean_cell.fill = red_fill
 
-        # ---------- LÓGICA ORIGINAL (NADA FOI EXCLUÍDO) ----------
         preco_cell = ws.cell(row=row_idx, column=preco_col)
         preco_promo_cell = ws.cell(row=row_idx, column=preco_promo_col)
         unidade_cell = ws.cell(row=row_idx, column=unidade_col)

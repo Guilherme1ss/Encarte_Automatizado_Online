@@ -56,6 +56,8 @@
         "\\brefrig\\b": "REFRIGERANTE",
         "\\nescafe\\b": "NESCAFÉ",
         "\\bamac roupa\\b": "AMACIANTE DE ROUPA",
-        "\\bdesod aer\\b": "DESODORANTE AER"
+        "\\bdesod aer\\b": "DESODORANTE AER",
+        "\\bshamp\\b": "SHAMPOO",
+        "\\VINHO TT\\b": "VINHO TINTO"
     }
 }

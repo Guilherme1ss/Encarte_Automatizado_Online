@@ -58,6 +58,6 @@
         "\\bamac roupa\\b": "AMACIANTE DE ROUPA",
         "\\bdesod aer\\b": "DESODORANTE AER",
         "\\bshamp\\b": "SHAMPOO",
-        "\\VINHO TT\\b": "VINHO TINTO"
+        "\\bvinho tt\\b": "VINHO TINTO"
     }
 }
